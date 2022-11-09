@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 # Attest with a Schema
-Once you are on 
+Attesting with a Schema allows you to verify the conditions are met on a Schema. 
 
 ## The Attestation Contract 📄
 
