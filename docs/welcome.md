@@ -12,7 +12,7 @@ There are several existing tailor-made on-chain solutions for identity, verifica
 
 EAS introduces and serves as the base layer where all attestors and innovators can coordinate, create, register, and compose unique attestation schemas.
 
-![EAS Stack](/img/EAS-Stack-Legos-transparent.png)
+![EAS Stack](/img/eas-stack-v1.png)
 
 ## ✨ Community Purpose
 
