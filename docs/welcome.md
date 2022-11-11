@@ -41,8 +41,8 @@ In addition, we provide a resolver contract for advanced use cases, such as on-c
 
 #### [#1] Register a new schema
 
-``` jsx showLineNumbers title="/contracts/EAS.sol"
-function struct Attestation {
+``` solidity showLineNumbers title="/contracts/EAS.sol"
+struct Attestation {
       // A unique identifier of the attestation.
       bytes32 uuid
       // A unique identifier of the schema.
