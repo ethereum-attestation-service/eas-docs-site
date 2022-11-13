@@ -8,13 +8,13 @@ sidebar_position: 2
 **Attestations** /ˌaˌteˈstāSH(ə)n; are any and all types of certifications, claims, verifications, evidence, declarations, and proof that something exists or is the case. 
 :::
 
-We see and experience attestations all around us in our everyday lives. Anytime we must prove our identity, credentials, ownership, credit scores, nationality, eligibility, reputation, boarding a plane, like or review something on the internet, and even buying tickets to access your favorite concert are all examples of attestations at work. 
+We see and experience attestations all around us in our everyday lives. Anytime we must prove our identity, credentials, ownership, credit scores, nationality, eligibility, reputation, boarding a plane, like or review something on the internet, and even buying tickets to access your favorite concert, we are seeing attestations at work. 
 
 ### ✅ Attestation examples:
 Take a look at our  [Use Cases Docs](/docs/category/use-cases) for some inspiration on what EAS can solve for. 
 ```bash
 - Identity
-- Trust Scores
+- Reputation/Trust Scores
 - Likes/Dislikes
 - Goodness Scores
 - Credit Scores
@@ -26,7 +26,7 @@ Take a look at our  [Use Cases Docs](/docs/category/use-cases) for some inspirat
 - KYC Services
 - Uncollateralized Lending / Borrowing
 - Voting
-- Oracles (who can be atomically paid for making attestations inside the protocol)
+- Oracles
 - Content Filtering
 ```
 
@@ -35,7 +35,7 @@ Take a look at our  [Use Cases Docs](/docs/category/use-cases) for some inspirat
 
 **On-chain attestations** in Web3 are often called decentralized identifiers (DIDs), verifications, claims, proofs, and badges. 
 
-Some of the popular EVM on-chain attestation providers today that can register a schema  on EAS are:
+Some of the popular EVM on-chain attestation providers today that can register a schema on EAS are:
 ```bash
 - Gitcoin Passport
 - Proof of Humanity
