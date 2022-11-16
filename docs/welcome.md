@@ -14,6 +14,8 @@ EAS helps people verify things in a trustless way. There are a lot of different 
 ### 🌎 The Global Registry for Attestations
 There are several existing tailor-made on-chain solutions for identity, verifications, claims, and cryptographic proofs. Each of these innovations are essential building blocks for specific use cases and communities, but each tailor-made protocol increases fragmentation and limits composability. 
 
+Interoperability and composability between existing DID, verifiable credentials, and independent 3rd party solutions do not exist. This means that the different parts of the global attestation layer are not able to work together smoothly and that new parts cannot be easily added in. This limits how well the attestation layer can grow and change over time. EAS is solving this.
+
 EAS introduces and serves as the base layer where all attestors and innovators can coordinate, create, register, and compose unique attestation schemas.
 
 
@@ -27,10 +29,11 @@ EAS is built by the community and for the community while holding the original p
 - **decentralized**, meaning it is not owned by any one person or company, but supported by the ETH community.
 - **tokenless**, as all transactions are settled with Ethereum.
 - a **public good**, meaning it is free to use and created for the greater good of the Ethereum ecosystem.
-- **composable**, meaning attestations can be built like lego blocks on top of each other and with each other.
+- **interoperable**, meaning different parts of the attestation layer can work together smoothly.
+- **composable**, meaning attestations can be added and built like lego blocks on top of each other and with each other.
 - **permissionless**, meaning you do not need permission from a centralized entity, person, or group to use EAS. 
 
-### 🧱 EAS does not presuppose anything.
+### 🧱 EAS does not presuppose anything
 EAS is a primitive base layer. It does not presuppose anything such as the correct schema structure for a use case. It is designed to be a foundation that can be used to build more specific and complex systems on top of it and can be tailored to fit the needs of different users. This primitive layer will enable the freedom to create and reinforce the **right schemas** and attestations for the **right use cases** for the **right users** overtime. 
 
 
@@ -51,6 +54,6 @@ Our `mission` is to bring as many attestations on-chain.
 
 We `stand` for the early promises and values of blockchain. EAS will always be open-source, permissionless, tokenless, composable, transparent, and community-owned.
 
-Join the [**EAS community**](docs/technical--docs/contracts) and help build a greater tomorrow, one attestation at a time.
+Join the [**EAS community**](https://twitter.com/eas_eth) and help build a greater tomorrow, one attestation at a time.
 
 
