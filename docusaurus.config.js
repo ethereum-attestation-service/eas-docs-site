@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Ethereum Attestation Service',
   tagline: 'Ethereum Attestation Service is the global base layer for on/offchain generic attestations.',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://attest.sh',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ethereum-attestation-service/eas-docs-site',
         },
         blog: {
           showReadingTime: true,

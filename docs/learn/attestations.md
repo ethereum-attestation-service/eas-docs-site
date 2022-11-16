@@ -58,7 +58,7 @@ Take a look at our [**Use Cases Docs**](/docs/category/use-cases) for some inspi
 
 **On-chain attestations** in Web3 are often called decentralized identifiers (DIDs), verifications, claims, proofs, and badges. 
 
-Some of the popular EVM on-chain attestation providers today that can register a schema  on EAS are:
+Some of the popular EVM on-chain attestation providers today that can register a schema on EAS are:
 ```bash
 - Gitcoin Passport
 - Proof of Humanity
