@@ -8,7 +8,7 @@ sidebar_position: 2
 **Attestations** /ˌaˌteˈstāSH(ə)n; are any and all types of certifications, claims, verifications, evidence, declarations, and proof that something exists or is the case. 
 :::
 
-EAS is a system for registering, verifying, and revoking attestations. Attestations are information that can be used to prove something about a person or thing. EAS makes it possible to register attestations on the Ethereum blockchain, which is a public ledger. This means that anyone can verify the attestation and it cannot be changed. 
+EAS is a system for registering, verifying, and revoking attestations. EAS makes it possible to register attestations on the Ethereum blockchain, which is a public ledger. This means that anyone can verify the attestation and it cannot be changed. 
 
 ### Attestations happen all around us.
 We **see** and **experience** attestations all around us in our everyday lives. Attestations happen every time you need to prove your or someone else's:
