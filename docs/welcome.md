@@ -2,14 +2,14 @@
 sidebar_position: 1
 ---
 # Welcome to EAS 
-![EAS Banner](/img/eas-twitter-banner-v1.png)
+![EAS Banner](/img/eas-twitter-banner-v2.png)
 
 ## 👋 Introduction
 **Ethereum Attestation Service (EAS)** is the global base layer for registering and creating [Attestations](/docs/learn/attestations). EAS is a free open-source, decentralized, composable, permissionless, tokenless, **public good** built on Ethereum.
 
 EAS helps people verify things in a trustless way. There are a lot of different ways to prove who you are, what you have, and what you know. Each one is good for different things, but attestations typically don't work together or can be verified in a trustless way. EAS is a way to make all attestations work together so that you can use them for anything you need.
 
- ``` "Not your keys, not your attestation". ``` 
+
 
 ### 🌎 The Global Registry for Attestations
 There are several existing tailor-made on-chain solutions for identity, verifications, claims, and cryptographic proofs. Each of these innovations are essential building blocks for specific use cases and communities, but each tailor-made protocol increases fragmentation and limits composability. 
@@ -19,7 +19,7 @@ Interoperability and composability between existing DID, verifiable credentials,
 EAS introduces and serves as the base layer where all attestors and innovators can coordinate, create, register, and compose unique attestation schemas.
 
 
-![EAS Stack](/img/eas-stack-v2.png)
+![EAS Stack](/img/eas-stack-v3.png)
 
 
 ### 🔓 EAS is an open-source, free, and permissonless public good

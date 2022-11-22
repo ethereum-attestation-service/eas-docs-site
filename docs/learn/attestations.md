@@ -8,7 +8,7 @@ sidebar_position: 2
 **Attestations** /ˌaˌteˈstāSH(ə)n; are any and all types of certifications, claims, verifications, evidence, declarations, and proof that something exists or is the case. 
 :::
 
-EAS is a system for registering, verifying, and revoking attestations. EAS makes it possible to register attestations on the Ethereum blockchain, which is a public ledger. This means that anyone can verify the attestation and it cannot be changed. 
+EAS is a protocol for registering, verifying, and revoking attestations. EAS makes it possible to register attestations on the Ethereum blockchain, which is a public ledger. This means that anyone can verify the attestation and it cannot be changed. 
 
 ### 🙌 Attestations happen all around us.
 We **see** and **experience** attestations all around us in our everyday lives. Attestations happen every time you need to prove your or someone else's:
@@ -84,7 +84,7 @@ And more …
 
 An off-chain attestation is an attestation that is not stored in the blockchain. An off-chain attestation can be public or private. Off-chain attestations carry the entire attestation data and digital signature required to verify and validate the authenticity of itself. Off-chain attestations can be used for things like ticketing, drivers licenses, passports, votes, and tweets. Almost anything that can be done on-chain can be done off-chain, but you can't retain privacy as well on-chain.
 
-We’re exposed to off-chain attestations all the time. Some of the most popular examples of off-chain attestations that can be recorded on EAS and are:
+We’re exposed to off-chain attestations all the time. Some of the most popular examples of off-chain attestations that can be recorded with EAS and are:
 
 - Identification cards
 - Your passport
