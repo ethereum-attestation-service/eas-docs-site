@@ -6,19 +6,22 @@ sidebar_position: 1
 Schemas are the building blocks to all attestations. They establish the rules and conditions you want to attest with. 
 
 :::tip Tip
-Double check the `SchemaRegistry` to see if there is already a Schema for your attestation need.
+Double check the [Schemas](https://easscan.com/schemas) on the EAS Explorer to see if there is already a Schema for your attestation need.
 :::
 
 
 ## Schema Fields ✔️
-Schemas follow the Ethereum ABI for acceptable fields. Below is a list of current field types.
+Schemas follow the **Solidity ABI** for acceptable types. Below is a list of current elementary types: 
 
-- `address` An address can be any ethereum address or contract address
+- `address` An address can be any ethereum address or contract address. Equivalent to unit160, except for the assumed interpretation and language typing.
 - `string` A string can be any text of arbitrary length
-- `bool` A bool can either be on or off
+- `bool` A bool can either be on or off. Equivalent to uint8 resitricted to the values of 0 and 1.
 - `bytes32` A bytes32 is a 32 byte value. Useful for unique identifiers or small data.
 - `bytes` A bytes value is an arbitrary byte value.
+- `<type>[]`  A variable-length array of elements of the given type.
 - `uints` uint values can be from uint8 -> uint256.
+
+Have questions about acceptable types? Learn more about [Solidity ABI types](https://docs.soliditylang.org/en/v0.8.16/abi-spec.html).
 
 ## The Schema Contract 📄
 

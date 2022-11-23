@@ -2,8 +2,11 @@
 sidebar_position: 2
 ---
 
-# Attest with a Schema
-Attesting with a Schema allows you to verify the conditions are met on a Schema. 
+# Make an attestation
+Making an attestation allows anyone to attest with any [Attestation Schema](https://easscan.com/schemas) registered with EAS. You can make attestations using the API or the UI builder on the [EASScan website](https://easscan.com/attestation/create).
+
+:::tip You must have a wallet connected to use the Make Attestation UI 
+:::
 
 ## The Attestation Contract 📄
 

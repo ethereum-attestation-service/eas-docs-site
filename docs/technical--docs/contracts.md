@@ -3,14 +3,15 @@ sidebar_position: 2
 ---
 
 # EAS Contracts
-EAS runs primarily on two simple smart contracts. One to register an attestation schema, and another to make attestations on Schemas. Elegantly simple. Limitless possibility.
+EAS runs primarily on two simple smart contracts. One to register an attestation schema, and another to make attestations on Schemas. There is an optional resolver contract . Elegantly simple. Limitless possibility.
 
 **Primary Contracts**
-- `EAS.sol` [View on github](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/EAS.sol).
-- `SchemaRegistry.sol` [View on github](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/EAS.sol).
+- `EAS.sol` For making attestations. [Github](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/EAS.sol).
+- `SchemaRegistry.sol` For registering schemas. [Github](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/EAS.sol).
+- `SchemaResolver.sol` For an optional schema resolver. [Github](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/resolver/SchemaResolver.sol).
 
 :::tip Explore the master contracts repository on github
-[Take me to github](https://github.com/ethereum-attestation-service/eas-contracts/tree/master/contracts). 
+[https://github.com/ethereum-attestation-service/eas-contracts/tree/master/contracts](https://github.com/ethereum-attestation-service/eas-contracts/tree/master/contracts). 
 :::
 
 ### Make Attestations on Schemas

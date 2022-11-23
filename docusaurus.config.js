@@ -76,7 +76,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://attest.sh/',
             label: 'EAS Website',
             position: 'right',
           },

@@ -2,11 +2,13 @@
 sidebar_position: 1
 ---
 # EAS Scan
-Scanner is EAS's transaction explorer and application. It provides transparency and access to the latest attestations and schemas running on EAS. Use this service to easily find, inspect, and verify any attestations.
+Scanner is EAS's transaction explorer. It provides transparency and access to the latest attestations and schemas running on EAS. Use this service to easily find, inspect, and verify any attestations.
 
-[insert an image of the scanner]
+[https://easscan.com/](https://easscan.com/)
 
-### Use EAS Scan for:
+![Easscan Website](/img/eas-scan.png)
+
+### Use EAS Scan to:
 
 ```bash
 - Search for attestation schemas 
@@ -20,6 +22,5 @@ Scanner is EAS's transaction explorer and application. It provides transparency 
 
 ### Tips
 
-[short list]
-
-Look under the hood ->
+:::tip You can also use the [API](https://easscan.com/) to query for attestations and schemas.
+:::
