@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# Make an attestation
+# Make an Attestation
 Making an attestation allows anyone to attest with any [Attestation Schema](https://easscan.com/schemas) registered with EAS. You can make attestations using the API or the UI builder on the [EASScan website](https://easscan.com/attestation/create).
 
 :::tip You must have a wallet connected to use the Make Attestation UI 

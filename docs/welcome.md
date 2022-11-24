@@ -23,7 +23,7 @@ EAS introduces and serves as the base layer where all attestors and innovators c
 
 
 ### 🔓 EAS is an open-source, free, and permissonless public good
-EAS is built by the community and for the community while holding the original promsises of blockchain true:
+EAS is built by the community and for the community while holding the original promises of blockchain true:
 
 - **open-source**, meaning anyone can use it.
 - **decentralized**, meaning it is not owned by any one person or company, but supported by the ETH community.
@@ -34,7 +34,7 @@ EAS is built by the community and for the community while holding the original p
 - **permissionless**, meaning you do not need permission from a centralized entity, person, or group to use EAS. 
 
 ### 🧱 EAS does not presuppose anything
-EAS is a primitive base layer. It does not presuppose anything such as the correct schema structure for a use case. It is designed to be a foundation that can be used to build more specific and complex systems on top of it and can be tailored to fit the needs of different users. This primitive layer will enable the freedom to create and reinforce the **right schemas** and attestations for the **right use cases** for the **right users** overtime. 
+EAS is a primitive base layer. It does not presuppose anything such as how it will be used or the correct schema structure for a use case. It is designed to be a foundation that can be used to build more specific and complex systems on top of it and can be tailored to fit the needs of different users. This primitive layer will enable the freedom to create and reinforce the **right schemas** and attestations for the **right use cases** for the **right users** overtime. 
 
 
 ### 🚄 Elegantly simple smart contracts

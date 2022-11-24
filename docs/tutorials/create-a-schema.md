@@ -3,12 +3,11 @@ sidebar_position: 1
 ---
 
 # Create a Schema
-Schemas are the building blocks to all attestations. They establish the rules and conditions you want to attest with. 
+A schema is a way of organizing data. Schemas are the building blocks to all attestations. They establish the rules and conditions you want to attest with. You can create schemas about anything, and they are completely customizable. This means that you can choose preexisting schemas that meet your needs or compose new ones with more fields or different naming conventions. 
 
 :::tip Tip
 Double check the [Schemas](https://easscan.com/schemas) on the EAS Explorer to see if there is already a Schema for your attestation need.
 :::
-
 
 ## Schema Fields ✔️
 Schemas follow the **Solidity ABI** for acceptable types. Below is a list of current elementary types: 
