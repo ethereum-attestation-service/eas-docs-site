@@ -8,7 +8,7 @@ A unique `attestation record` is created each time an attestation is made using 
 
 ## Understanding the Attestation Record
 Each attestation record has the following fields:
-- `Attestation UUID` - this is an incremental number automatically assigned to the Schema. It is not a unique identifier.
+- `Attestation UUID` - this is a universal unique identification number for the attestation.
 - `Schema` - the schema used to make the attestation.
 - `Attestor` - the address that made the attesation.
 - `Recipient` - an **optional** recipient of the attestation that was made.

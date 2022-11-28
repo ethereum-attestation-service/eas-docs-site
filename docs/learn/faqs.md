@@ -31,13 +31,7 @@ EAS can be used to make on/off-chain attestations and registering new schemas to
 
 <details>
 <summary>How is EAS a public good?</summary>
-EAS is not owned by a centralized business or team. Ethereum Attestation Service is a free, permisionless, and open-source project built on Ethereum for the Ethereum Community. Anyone can use it for their own use cases and contribute to the growth and adoption of EAS.
-</details>
-
-
-<details>
-<summary> What is EAS?</summary>
-EAS is an open-source public good built on Ethereum for registering composable attestation schemas for anything and enables anyone to make on/off-chain attestations.
+EAS is not owned by a centralized business or team. Ethereum Attestation Service is a free, permisionless, and open-source project built on Ethereum for the Ethereum community to help the Ethereum ecosystem grow. Anyone can use it for their own use cases and contribute to the growth and adoption of EAS.
 </details>
 
 
@@ -47,7 +41,7 @@ EAS does not pressupose anything, is permissionless, and composable.
 
 Existing DIDs, verifiable credentials, and claim protocols are just attestations built for specific use cases and communities. EAS serves as the base registry for these attestation providers to help make the ecosystem more composable and interoperable.
 
-- EAS is does not define which schemas are best for the specific use case (identity).
+- EAS is does not define which schemas are best for the specific use case.
 - EAS is completely open-source and not walled-off by centralized teams.
 - EAS is a base layer you can build & integrate DIDs, credentials, claims, proofs and more on top of. 
 - EAS is an agreed upon format and standard to attest about anything.
@@ -56,7 +50,7 @@ Existing DIDs, verifiable credentials, and claim protocols are just attestations
 
 
 <details>
-<summary>Does EAS have defined schemas?</summary>
+<summary>Does EAS have pre-defined schemas?</summary>
 No. EAS does not pressupose any schema for the use case. This allows more freedom from the community to create the RIGHT schemas for the RIGHT users overtime.
 
 </details>
