@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Verified Voter Identification and Eligibility
+# Voter ID and Eligibility
 
 ## Problem
 In order to ensure the integrity and transparency of voting systems, it is important to verify the identity and eligibility of voters. Traditional methods of verification, such as paper-based voter registration and manual processes for checking voter eligibility, can be slow, error-prone, and vulnerable to fraud and manipulation.
