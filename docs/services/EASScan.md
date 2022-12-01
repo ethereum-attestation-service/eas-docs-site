@@ -15,7 +15,7 @@ Scanner is EAS's transaction explorer. It provides transparency and access to th
 - Create new Schemas using the UI
 - Verify off-chain attestations
 - Create schemas
-- Create attestations
+- Make attestations
 - View attestation transaction data
 ```
 

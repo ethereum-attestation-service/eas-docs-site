@@ -7,6 +7,9 @@ In today's digital world, trust and reputation are increasingly important for in
 ## Solution
 Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying claims about an individual's, business's, or organization's trust and reputation. With EAS, anyone can create and verify attested claims about their trustworthiness and reputation, providing a secure and transparent way to establish and maintain trust and reputation online.
 
+## Example
+
+
 ## Example schema
 Example
 

@@ -8,6 +8,13 @@ The mortgage loan process can be complex, time-consuming, and vulnerable to frau
 ## Solution
 Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying claims about a borrower's creditworthiness, income, and other factors that are relevant to their loan application. With EAS, lenders and borrowers can create and verify attested claims about these factors, providing a secure and transparent way to verify the information and streamline the loan application process.
 
+## Example
+One way that attestations could be used is by creating an attestation schema that defines the data fields and types that are relevant to mortgage applications, such as income, credit score, and employment history.
+
+Individuals who are applying for a mortgage could then use the attestation service to create an attestation with this schema and provide the necessary data. The attestation could be cryptographically signed and stored on the Ethereum blockchain, providing a secure and verifiable record of the applicant's information.
+
+When the applicant submits their mortgage application, they could include the attestation along with their other supporting documents. The lender could then use the attestation service to verify the attestation and check the data contained in it against the data on the blockchain. This process could help the lender to quickly and efficiently verify the applicant's information and make a decision on the mortgage application.
+
 
 ## Example schema
 Example

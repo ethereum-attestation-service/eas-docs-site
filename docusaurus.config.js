@@ -146,7 +146,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ethereum Attestation Service. Built by the ETH community.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ethereum Attestation Service. Built by the Ethereum Community.`,
       },
       prism: {
         theme: require('prism-react-renderer/themes/dracula'),

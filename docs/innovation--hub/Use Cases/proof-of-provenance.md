@@ -10,6 +10,13 @@ Supply chains are complex and global networks that involve multiple stakeholders
 ## Solution
 Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying claims about the provenance of goods and products. With EAS, manufacturers, retailers, and consumers can create and verify attested claims about the origin, composition, and history of a product, providing a secure and transparent way to verify its authenticity and provenance.
 
+## Example
+Alice is a manager at a clothing company that needs to verify the provenance of a batch of shirts that will be sold to Bob's department store. Using EAS, Alice can create an attested claim about the provenance of the shirts, which includes information such as the origin of the raw materials, the location of the manufacturing facility, and the dates of production and packaging.
+
+Alice can then share this attested claim with Bob, who can easily and securely verify the provenance of the shirts using the EAS platform. This allows Bob to ensure that the shirts meet his standards for quality and transparency, and that they were produced in an ethical and sustainable manner.
+
+Additionally, because the attested claim is stored on the Ethereum blockchain, it is transparent and verifiable by anyone who has access to the platform. This provides a secure and immutable record of the product's provenance, ensuring the integrity of the supply chain and the trustworthiness of the parties involved.
+
 ## Example schema 
 [Sample schema]
 

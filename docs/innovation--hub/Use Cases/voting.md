@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Voter ID and Eligibility
+# Voter ID and Eligibility 🗳️
 
 ## Problem
 In order to ensure the integrity and transparency of voting systems, it is important to verify the identity and eligibility of voters. Traditional methods of verification, such as paper-based voter registration and manual processes for checking voter eligibility, can be slow, error-prone, and vulnerable to fraud and manipulation.
@@ -10,8 +10,15 @@ In order to ensure the integrity and transparency of voting systems, it is impor
 ## Solution
 Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying claims about a voter's identity and eligibility. With EAS, election officials can request and verify attested claims about a voter's identity, residence, and citizenship, providing a secure and transparent way to verify their eligibility to vote.
 
-## Example schema 
-[Sample schema]
+## Example 
+Alice is a voter who needs to verify her eligibility to vote in an upcoming election. Using EAS, Alice can create an attested claim about her identity and eligibility, which includes information such as her name, date of birth, and proof of citizenship.
+
+Alice can then share this attested claim with the election officials, who can easily and securely verify her eligibility using the EAS platform. This allows the officials to quickly and accurately confirm Alice's eligibility to vote, without the need for manual verification or paper documents.
+
+Additionally, because the attested claim is stored on the Ethereum blockchain, it is transparent and verifiable by anyone who has access to the platform. This provides a secure and immutable record of the voter's eligibility, ensuring the integrity of the election and the trustworthiness of the parties involved.
+
+## Example schema
+```name, dateOfBirth, proofOfCitizenship```
 
 ## Example attestation
 [Sample attestation]
@@ -23,7 +30,7 @@ For example, EAS could be integrated with decentralized storage systems, such as
 
 Additionally, EAS could be integrated with smart contracts and blockchain-based voting systems to enable more automated and transparent verification of a voter's eligibility. For example, a smart contract could be used to automatically verify a voter's attested claims and determine their eligibility to vote in a specific election. This could be used to enable more efficient and secure voting, while also providing a transparent and verifiable record of the voter's eligibility.
 
-## Example way to build a voting system
+## Example way to build a voting system 
 Ethereum Attestation Service (EAS) can help to reduce the risk of voter fraud in elections by providing a decentralized and secure solution for verifying the identity and eligibility of voters. With EAS, election officials can request and verify attested claims about a voter's identity, residence, and citizenship, providing a transparent and verifiable way to ensure that only eligible voters are able to participate in the election.
 
 To launch a voting system using EAS, the first steps would be to:
