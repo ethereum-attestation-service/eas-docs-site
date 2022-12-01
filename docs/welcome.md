@@ -5,19 +5,18 @@ sidebar_position: 1
 ![EAS Banner](/img/eas-twitter-banner-v2.png)
 
 ## 👋 Introduction
-**Ethereum Attestation Service (EAS)** is the global base layer for registering and creating [Attestations](/docs/learn/attestations). EAS is a free open-source, decentralized, composable, permissionless, tokenless, **public good** built on Ethereum. 
+**Ethereum Attestation Service (EAS)** is the global base layer for [Attestations](/docs/learn/attestations). EAS is a free open-source, decentralized, composable, permissionless, tokenless, **public good** built on Ethereum. 
 
-Attestations are digital records that verify the authenticity of information, such as a person's identity or credentials. EAS allows for interoperability and composability between different attestation protocols and solutions, enabling the attestation layer to grow and change over time. Whether you need to prove your identity, credentials, or other information, EAS allows you to do so in a flexible and simple way. 
+EAS enables anyone to create and register unique attestation schemas and attest with them. These schemas define the structure and rules for creating attestations, allowing for interoperability and composability between different attestation protocols and solutions.
 
-EAS offers endless possibilities for entrepreneurs and developers to verify and compose attestations in a trustless manner by making it possible for different attestation schemas to work together and be used for a wide range of applications. EAS includes a built-in attestation service and a registry of attestation schemas, allowing anyone to create and use attestations for any purpose. 
+With EAS, users can easily make and verify attestations for any use case, such as attesting to a person's identity or proving ownership of an asset. This flexibility and simplicity make EAS a powerful tool for entrepreneurs and developers to build and use attestations for a wide range of applications.
 
 ### 🌎 The Global Registry for Attestations
 EAS serves as the base layer where all attestors and innovators can coordinate, create, register, and compose unique attestation schemas. This enables interoperability and composability between different attestation protocols and solutions, allowing the attestation layer to grow and change over time.
 
-There are several existing tailor-made on-chain solutions for identity, verifications, claims, and cryptographic proofs. Each of these innovations are essential building blocks for specific use cases and communities, but each tailor-made protocol increases fragmentation and limits composability. 
+There are several existing tailor-made on-chain solutions for identity, verifications, claims, and cryptographic proofs. Each of these innovations are essential building blocks for specific use cases and communities, but each tailor-made protocol increases fragmentation and limits composability. EAS brings them together.
 
 ![EAS Stack](/img/eas-stack-v3.png)
-
 
 ### 🔓 Free, open-source and permissionless.
 EAS is an open-source and permissionless platform, meaning anyone can use it and contribute to its development. EAS is built by the community and for the community, holding the original promises of blockchain true:
@@ -39,8 +38,7 @@ EAS runs on two elegant and simple smart contracts. One for [**registering attes
 In addition, we provide a resolver contract for advanced use cases, such as on-chain verification of attestation data, and also attaching payments to attestations (which makes a new suite of powerful web3 applications possible).
 
 ### 💡What you can build with EAS.
-EAS allows for a wide range of possibilities for entrepreneurs and developers to build applications that make use of attestations. Some examples of things that can be built with EAS include. 
-
+EAS allows for a wide range of possibilities for entrepreneurs and developers to build applications that make use of attestations. Some examples of things that can be built with EAS include:
 1. **Identity verification systems** that use attestations to prove the authenticity of a person's identity, credentials, or other information. This could be used for things like online voting systems, access control systems, or even building a decentralized version of a traditional identity verification system like a passport.
 2. **Reputation systems** that use attestations to verify the reputation or trustworthiness of individuals, organizations, or businesses. This could be used for things like peer-to-peer lending platforms, online marketplaces, or even a decentralized version of a traditional credit scoring system.
 3. **Certification systems** that use attestations to verify the authenticity of a person's skills, qualifications, or experience. This could be used for things like online education platforms, job application systems, or even a decentralized version of a traditional certification system like a college degree.

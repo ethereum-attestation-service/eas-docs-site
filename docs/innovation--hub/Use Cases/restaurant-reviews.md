@@ -6,10 +6,10 @@ sidebar_position: 9
 Ethereum Attestation Service (EAS) could be used to create verified reputation systems for restaurants, allowing customers to easily and securely share their attested claims about their experiences at a restaurant.
 
 ## Problem
-Problem
+Currently, online review platforms for restaurants are vulnerable to fake or biased reviews, which can make it difficult for customers to trust the information they are reading.
 
 ## Solution
-Solution
+EAS enables the creation of verified reputation systems for restaurants, where customers can share attested claims about their experiences at a restaurant. This provides a more secure and trustworthy way for customers to share their opinions and feedback, while also enabling restaurants to improve their reputation and trustworthiness.
 
 ## Example
 A restaurant could request and verify attested claims about a customer's satisfaction with the food, service, and overall experience at the restaurant. This could be done using a schema that includes information such as the customer's rating of the food, service, and overall experience, as well as any comments or feedback they may have.

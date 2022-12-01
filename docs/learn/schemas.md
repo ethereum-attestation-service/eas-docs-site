@@ -2,26 +2,14 @@
 sidebar_position: 2
 ---
 # Schemas
-
-## Introduction
 Ethereum Attestation Service (EAS) enables anyone to create and register unique attestation schemas that can be used to verify and attest to the authenticity of information. These schemas are the building blocks of attestations, and they define the structure and rules for creating attestations.
 
 EAS allows anyone to create and register their own schemas for any use case. This enables interoperability and composability between different attestation protocols and solutions, allowing the attestation layer to grow and change over time.
 
 ## What are Schemas?
-A schema is a predefined structure for creating and verifying attestations. It defines the data types, format, and composition of an attestation, which allows different attestations to be composed and verified in a trustless manner.
+A schema is a predefined structure for creating and verifying attestations. It defines the data types, format, and composition of an attestation. EAS uses Ethereum ABI types as acceptable fields for schemas.
 
-EAS uses Ethereum ABI types as acceptable fields for schemas. In other words, schemas can be thought of as blueprints that define the format, composition, and data types of an attestation. Schemas are essential for creating and using attestations on EAS, as they provide a common format and structure for attestation data both on and off-chain.
-
-For example, a schema for a driver's license might include fields for the person's name, date of birth, license number, expiration date, and a photo of the person. This schema allows anyone to create and verify driver's license attestations, ensuring that the data included in the attestation is valid and accurate.
-
-:::info EAS uses Ethereum ABI types as acceptable fields
-:::
-
-Consider schemas as blueprints that define the format, composition, and data types of an attestation. Schemas are essential for creating and using attestations on Ethereum Attestation Service (EAS), as they provide a common format and structure for attestation data both on or off-chain.
-
-For example, a schema for a driver's license might include fields for the person's name, date of birth, license number, expiration date, and a photo of the person. This schema allows anyone to create and verify driver's license attestations, ensuring that the data included in the attestation is valid and accurate.
-
+Think of schemas as blueprints for attestations. They provide a common format and structure for attestation data on and off-chain, making it easy to create and verify attestations for any use case.
 
 ## Why are Schemas important?
 Schemas are crucial for creating and using attestations on EAS because they provide a common format and structure for attestation data. This allows different attestations to be composed and verified in a trustless manner, enabling interoperability and composability between different attestation protocols and solutions.

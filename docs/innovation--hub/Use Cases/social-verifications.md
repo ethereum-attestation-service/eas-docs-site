@@ -12,6 +12,9 @@ Ethereum Attestation Service (EAS) provides a decentralized solution for securel
 
 By requiring verified user profiles, social networks can increase user trust and reduce the presence of fake or spammy profiles on the network.
 
+## Example
+
+
 ## Example schema 
 [Sample schema]
 

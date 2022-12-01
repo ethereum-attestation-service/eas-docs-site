@@ -11,10 +11,16 @@ In today's digital world, trust and reputation are increasingly important for in
 Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying claims about an individual's, business's, or organization's trust and reputation. With EAS, anyone can create and verify attested claims about their trustworthiness and reputation, providing a secure and transparent way to establish and maintain trust and reputation online.
 
 ## Example
-Sample
+Imagine a network of individuals who want to create a more transparent and trustworthy reputation system. Each member of the network can create and verify attested claims about the trustworthiness of others in the network, using a schema that includes information such as the individual's level of trustworthiness, the number of attested claims made about them, and any comments or feedback from other members of the network.
+
+The network could then use this information to create a reputation score for each individual, based on the number and quality of the attested claims made about them. This score could be used to determine an individual's level of trust and reputation within the network, and could be displayed on the network's website or app, or integrated with existing online reputation platforms.
+
+Additionally, the network could use EAS to create and verify attested claims about its own trustworthiness and reputation, such as its commitment to transparency, privacy, and security. This could provide members of the network with more detailed and transparent information about the network, enabling them to make more informed decisions about their participation and engagement in the network.
 
 ## Example schema
-Example
+- Trustworthiness: A numerical score between 0 and 100, representing the individual's level of trustworthiness within the network.
+- Number of attested claims: The total number of attested claims made about the individual within the network.
+- Feedback: Any comments or feedback provided by other members
 
 ## Example attestation
 Example
@@ -26,4 +32,4 @@ For example, EAS could be integrated with decentralized identity (DID) providers
 
 Additionally, EAS could be integrated with blockchain-based reputation platforms, such as Trustology or Reputation.com, to enable more transparent and secure management of trust and reputation. For example, a smart contract could be used to automatically verify and update attested claims about an individual's, business's, or organization's trust and reputation, based on their online activities and interactions. This could be used to create more efficient and secure trust and reputation systems, while also providing a transparent and verifiable record of the information.
 
-Overall, the future composability of EAS for trust and reputation systems online could unlock a wide range of possibilities for establishing and maintaining trust and reputation online, enabling more secure, efficient, and transparent solutions for verifying and managing this important information. This could ultimately benefit individuals, businesses, and organizations
+Overall, the future composability of EAS for trust and reputation systems online could unlock a wide range of possibilities for establishing and maintaining trust and reputation online, enabling more secure, efficient, and transparent solutions for verifying and managing this important information. This could ultimately benefit individuals, businesses, and organizations.
