@@ -3,8 +3,7 @@ sidebar_position: 4
 ---
 
 # The Attestation Record
-A unique `attestation record` is created each time an attestation is made using EAS and is verifable on EAS's explorer. Learn more about the attestation record below.
-
+A unique `attestation record` is created each time an attestation is made using EAS and can be verified on EAS's explorer. The attestation record contains important information about the attestation, including the schema used, the attestor, the recipient (if specified), the expiration time (if specified), and more.
 
 ## Understanding the Attestation Record
 Each attestation record has the following fields:

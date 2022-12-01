@@ -17,13 +17,14 @@ Speedrun your EAS understanding with a few common FAQs.
 :::info  FAQs
 <details>
 <summary> What is EAS?</summary>
-EAS is an open-source public good built on Ethereum for registering composable attestation schemas for anything and enables anyone to make on/off-chain attestations.
+Ethereum Attestation Service (EAS) is free, open-source, and permissionless platform built on Ethereum that enables anyone to verify and create digital records known as attestations. Attestations verify the authenticity of information, such as a person's identity or credentials. EAS allows for interoperability and composability between different attestation protocols and solutions, enabling the attestation layer to grow and change over time.
+
 </details>
 
 <details>
 <summary>What can I use EAS for?</summary>
+EAS includes a built-in attestation service and a registry of attestation schemas, enabling anyone to create and use attestations for a wide range of applications. Whether you need to prove your identity, credentials, or other information, EAS allows you to do so in a flexible and trustless manner.
 
-EAS can be used to make on/off-chain attestations and registering new schemas to attest with. 
 - Developers can use EAS to register new schemas for their use case or compose more complex schemas.
 - Users can use EAS to attest to anything (statements, their identity, what they own, and more).
 
@@ -31,20 +32,20 @@ EAS can be used to make on/off-chain attestations and registering new schemas to
 
 <details>
 <summary>How is EAS a public good?</summary>
-EAS is not owned by a centralized business or team. Ethereum Attestation Service is a free, permisionless, and open-source project built on Ethereum for the Ethereum community to help the Ethereum ecosystem grow. Anyone can use it for their own use cases and contribute to the growth and adoption of EAS.
+EAS is not owned by a centralized business or team. It is an open-source project built on Ethereum for the Ethereum community to help the Ethereum ecosystem grow. Anyone can use it for their own use cases and contribute to the growth and adoption of EAS.
 </details>
 
 
  <details>
  <summary>How is EAS different from existing DIDs, verifiable credentials, and claim protocols?</summary>
-EAS does not pressupose anything, is permissionless, and composable. 
+EAS is permissionless and composable, and does not pressupose anything. 
+Existing DIDs, verifiable credentials, and claim protocols are attestations built for specific use cases and communities. EAS serves as the base registry for these attestation providers to help make the ecosystem more composable and interoperable.
 
-Existing DIDs, verifiable credentials, and claim protocols are just attestations built for specific use cases and communities. EAS serves as the base registry for these attestation providers to help make the ecosystem more composable and interoperable.
-
-- EAS is does not define which schemas are best for the specific use case.
-- EAS is completely open-source and not walled-off by centralized teams.
-- EAS is a base layer you can build & integrate DIDs, credentials, claims, proofs and more on top of. 
-- EAS is an agreed upon format and standard to attest about anything.
+- EAS does not define which schemas are best for a specific use case.
+- EAS is completely open-source and not controlled by centralized teams.
+- EAS is a base layer that can be used to build and integrate DIDs, credentials, claims, proofs, and more.
+- EAS is an agreed upon format and standard for attesting about anything.
+- EAS is tokenless.
 
 </details>
 
@@ -65,8 +66,13 @@ Attestations is a funky word, but we attest it's easy to learn.
 
 <details><summary>What are attestations?</summary>
 
-Attestations are found all around us in our everyday lives.
-Attestations are evidence or proof that something exists or is the case. It can be as something as simple as using your ID in an application or buying a ticket to access your favorite concert. In Web3 they are often referred to as claims, proofs, verifiable credentials, and decentralized identifiers.
+Attestations are digital records that verify the authenticity of information. They can be used in a wide range of applications, such as verifying a person's identity or credentials.
+
+For example, if you need to prove that you have a certain degree or certification, you can use an attestation to provide evidence of this. This can be useful in a variety of situations, such as applying for a job or trying to access certain services.
+
+Attestations are useful because they provide a way to verify the authenticity of information in a trustless manner. This means that you don't need to rely on a centralized authority to verify the information, which can be useful in situations where it's difficult or impossible to do so.
+
+Ethereum Attestation Service (EAS) is a platform that allows anyone to create and use attestations. 
 
 </details>
 

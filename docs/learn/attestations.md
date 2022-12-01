@@ -8,10 +8,12 @@ sidebar_position: 2
 **Attestations** /ˌaˌteˈstāSH(ə)n; are any and all types of certifications, claims, verifications, evidence, declarations, and proof that something exists or is the case. 
 :::
 
-EAS is a protocol for registering, verifying, and revoking attestations. EAS makes it possible to register attestations on the Ethereum blockchain, which is a public ledger. This means that anyone can verify the attestation and it cannot be changed. 
+Overall, attestations can play a crucial role in verifying the identity and credentials of individuals, organizations, and other entities, which can be important for a wide range of applications.
+
+Ethereum Attestation Service (EAS) is a protocol for registering, verifying, and revoking attestations on the Ethereum blockchain. EAS allows for interoperability and composability between different attestation protocols and solutions, enabling the attestation layer to grow and change over time. Whether you need to prove your identity, credentials, or other information, EAS allows you to do so in a flexible and simple way.
 
 ### 🙌 Attestations happen all around us.
-We **see** and **experience** attestations all around us in our everyday lives. Attestations happen every time you need to prove your or someone else's:
+Attestations happen every time you need to prove your or someone else's:
 - `identity` (who they are), 
 - `credentials` (their skills & credibility), 
 - `ownership` (what they own), 
