@@ -1,14 +1,31 @@
 ---
 sidebar_position: 1
 ---
-
 # Getting Started
-Explore and get familiar with how to use EAS
+Here, you'll find everything you need to get started with building on the EAS platform.
 
+## Prerequisites
+Before you start building with EAS, you'll need the following tools and resources:
 
-## 🔑 Requirements
+- A development environment with the [Ethereum](https://ethereum.org/developers/) and [Solidity](https://solidity.readthedocs.io/en/v0.8.0/) tools installed
+- Familiarity with [smart contract development](https://ethereum.org/developers/#smart-contract-development)
+- Access to an Ethereum testnet or mainnet for deploying your contracts
+- The latest version of the [EAS contracts](https://github.com/ethereum-attestation-service/eas-contracts)
+- Setting up your development environment
 
-Release a version 1.0 of your project:
+To get started with EAS, you'll need to set up a development environment with the tools mentioned above. If you're new to Ethereum and smart contract development, we recommend following the [Ethereum Developer Guide](https://ethereum.org/developers/) to set up your development environment and learn the basics.
+
+Once you've set up your development environment, you can download the latest version of the EAS contracts from the [GitHub repository](https://github.com/ethereum-attestation-service/eas-contracts).
+
+## Installing the EAS contracts
+To install the EAS contracts, run the following command:
+
+``` bash 
+yarn install @ethereum-attestation-service/eas-contracts 
+```
+
+This will install the EAS contracts and their dependencies, and make them available for use in your project. The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+
 
 ## 🛳️ Deployments
 :::tip Mainnet Launch Q1-2023
@@ -30,16 +47,6 @@ We're making a few final changes and will be launching on Ethereum Mainnet in ea
 - **Contract:** [0xC8B0998Cf1e0541a108C0901099F4a9Deb8F84B1](https://goerli.etherscan.io/address/0xC8B0998Cf1e0541a108C0901099F4a9Deb8F84B1)
 - **Deployment & ABI:** [EIP712Verifier.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/goerli/EIP712Verifier.json)
 :::
-
-
-## 🏃Installation
-
-```bash
-yarn install @ethereum-attestation-service/eas-contracts
-```
-
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
-
 
 ## 🧪 Testing
 
