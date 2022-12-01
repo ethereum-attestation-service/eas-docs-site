@@ -1,5 +1,8 @@
+---
+sidebar_position: 10
+---
 
-# Reputation Systems
+# 🤩 Reputation Systems 
 
 ## Problem
 In today's digital world, trust and reputation are increasingly important for individuals, businesses, and organizations to establish and maintain. Traditional methods of building trust and reputation, such as personal relationships and word-of-mouth referrals, can be slow and limited in scope. Online, trust and reputation are often based on subjective and unverifiable information, such as online reviews and social media posts, which can be manipulated and unreliable.
@@ -8,7 +11,7 @@ In today's digital world, trust and reputation are increasingly important for in
 Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying claims about an individual's, business's, or organization's trust and reputation. With EAS, anyone can create and verify attested claims about their trustworthiness and reputation, providing a secure and transparent way to establish and maintain trust and reputation online.
 
 ## Example
-
+Sample
 
 ## Example schema
 Example

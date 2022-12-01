@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Access to Healthcare Services 🏥
+# 🏥 Access to Healthcare Services 
 
 ## Problem
 Access to healthcare services often requires the verification of personal and medical information, such as a user's identity, medical history, and insurance coverage. Traditional methods of verification, such as paper records and manual processes, can be slow, error-prone, and vulnerable to fraud and data breaches.

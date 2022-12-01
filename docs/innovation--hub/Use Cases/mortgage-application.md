@@ -1,6 +1,8 @@
+---
+sidebar_position: 11
+---
 
-
-# Mortgage applications.
+# 🏠 Mortgage applications 
 
 ## Problem
 The mortgage loan process can be complex, time-consuming, and vulnerable to fraud and errors. Traditional methods of verifying a borrower's creditworthiness, income, and other factors that are relevant to their loan application often involve manual processes and physical documentation, which can be slow and prone to errors.

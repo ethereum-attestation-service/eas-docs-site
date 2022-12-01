@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Decentralized Identity 🥸
+# 🥸 Decentralized Identity
 
 ## Problem
 Traditionally, online identity verification has relied on centralized systems and authorities, such as government-issued ID cards and utility bills. These systems can be slow, expensive, and vulnerable to fraud and identity theft.

@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Supply Chain Provenance
+#  📍Supply Chain Provenance
 
 ## Problem
 Supply chains are complex and global networks that involve multiple stakeholders and intermediaries. Ensuring the provenance and authenticity of goods and materials in these supply chains can be challenging, and is often reliant on manual processes and third-party certifications.

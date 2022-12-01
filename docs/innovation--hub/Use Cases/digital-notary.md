@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 ---
-# Digital Notarization Services
+# 👀 Digital Notarization Services 
 Ethereum Attestation Service (EAS) could be used to create a digital notarization system, allowing individuals and businesses to securely and easily verify the authenticity of documents.
 
 ## Problem

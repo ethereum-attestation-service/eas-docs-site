@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Social Networks
+# 🐦 Decentralized Social Networks
 
 ## Problem
 Social networks often have a problem with fake or spammy user profiles, which can damage the reputation of the network and decrease user trust. These fake profiles can be used for a variety of nefarious purposes, such as spreading misinformation or engaging in phishing attacks.

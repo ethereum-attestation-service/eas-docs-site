@@ -2,10 +2,11 @@
 sidebar_position: 6
 ---
 
-# Voter ID and Eligibility 🗳️
+# 🗳️ Voter ID and Eligibility 
+Ethereum Attestation Service (EAS) could be used to create a voter identification and eligibility system, allowing governments to securely and easily verify the identity and eligibility of voters.
 
 ## Problem
-In order to ensure the integrity and transparency of voting systems, it is important to verify the identity and eligibility of voters. Traditional methods of verification, such as paper-based voter registration and manual processes for checking voter eligibility, can be slow, error-prone, and vulnerable to fraud and manipulation.
+In traditional voting systems, it can be difficult to verify the identity and eligibility of voters, as the process often involves manual verification and verification of paper documents. This can lead to issues such as fraud, voter suppression, and long wait times, resulting in low voter turnout and mistrust in the electoral process.
 
 ## Solution
 Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying claims about a voter's identity and eligibility. With EAS, election officials can request and verify attested claims about a voter's identity, residence, and citizenship, providing a secure and transparent way to verify their eligibility to vote.
