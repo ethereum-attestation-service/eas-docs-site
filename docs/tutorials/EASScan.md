@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 ---
 # EAS Scan
 Scanner is EAS's transaction explorer. It provides transparency and access to the latest attestations and schemas running on EAS. Use this service to easily find, inspect, and verify any attestations.
@@ -18,7 +18,6 @@ Scanner is EAS's transaction explorer. It provides transparency and access to th
 - Make attestations
 - View attestation transaction data
 ```
-
 
 ### Tips
 
