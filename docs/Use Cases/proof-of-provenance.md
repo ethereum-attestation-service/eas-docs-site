@@ -18,10 +18,30 @@ Alice can then share this attested claim with Bob, who can easily and securely v
 Additionally, because the attested claim is stored on the Ethereum blockchain, it is transparent and verifiable by anyone who has access to the platform. This provides a secure and immutable record of the product's provenance, ensuring the integrity of the supply chain and the trustworthiness of the parties involved.
 
 ## Example schema 
-[Sample schema]
+```
+bytes32 productName;
+bytes32 productSKU;
+bytes origin;
+bytes manufacturer;
+uint256 productionDate;
+uint256 expirationDate;
+bytes32 rawMaterialHash;
+address certifier;
+
+```
 
 ## Example attestation
-[Sample attestation]
+```
+productName: "Organic Cotton T-Shirt"
+productSKU: "123456"
+origin: "India"
+manufacturer: "Fair Trade Certified Facility"
+productionDate: 1546300800
+expirationDate: 1607068800
+rawMaterialHash: 0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+certifier: 0x1234567890abcdef1234567890abcdef12345678
+
+```
 
 
 ## Future composability

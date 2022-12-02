@@ -26,6 +26,15 @@ Each attestation record has the following fields:
 ## The EAS.sol contract for making attestations.
 Explore the current code for the [EAS.sol contract](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/EAS.sol) that makes attestations possible. 
 
+Here's an overview of the contract: 
+1. The contract is initialized with the addresses of a global schema registry and an EIP-712 verifier.
+2. Users can use the contract's `attest()` function to create an attestation. This function takes several arguments, including the optional recipient of the attestation, the schema of the attestation data, the optional expiration time of the attestation, and the data to be attested to. The function also takes a `refUUID` argument, which allows the attestation to reference another attestation.
+3. Users can also use the contract's `attestByDelegation()` function, which is similar to `attest()` but allows the user to delegate the attestation process to another address. This function takes additional arguments for the delegated attester's address and a signed message.
+4. Once created, an attestation can be retrieved by its unique identifier (UUID) using the contract's `getAttestation()` function.
+5. Attestations can be revoked using the contract's `revoke()` and `revokeByDelegation()` functions. These functions work similarly to the `attest()` and `attestByDelegation()` functions, respectively.
+6. The contract also provides several error-checking functions, such as `isValidAttestation()` and `isRevoked()`, which can be used to verify the validity and revocation status of an attestation.
+7. The contract also allows users to check the addresses of the global schema registry and the EIP-712 verifier using the `getSchemaRegistry()` and `getEIP712Verifier()` functions.
+
 ```jsx
 // SPDX-License-Identifier: MIT
 

@@ -5,16 +5,14 @@ sidebar_position: 1
 ![EAS Banner](/img/eas-twitter-banner-v2.png)
 
 ## 👋 Introduction
-**Ethereum Attestation Service (EAS)** is the global base layer for [Attestations](/docs/learn/attestations). EAS is a free open-source, decentralized, composable, permissionless, tokenless, **public good** built on Ethereum. 
+**Ethereum Attestation Service (EAS)** is the global base layer for [Attestations](/docs/learn/attestations) on the Ethereum blockchain. EAS is a free, open-source, decentralized, composable, permissionless, tokenless, and pulic good that enables anyone to create and register unique attestation schemas and use them to make attestations about anything.
 
-EAS enables anyone to create and register unique attestation schemas and attest with them. These schemas define the structure and rules for creating attestations, allowing for interoperability and composability between different attestation protocols and solutions.
-
-With EAS, users can easily make and verify attestations for any use case, such as attesting to a person's identity or proving ownership of an asset. This flexibility and simplicity make EAS a powerful tool for entrepreneurs and developers to build and use attestations for a wide range of applications.
+Whether you need to prove your identity, verify your credentials, or prove ownership of an asset, EAS makes it easy to create and verify attestations in a trustless, secure, and transparent way. With EAS, developers can build applications that make use of attestations for a wide range of purposes, from identity verification to supply chain management and beyond.
 
 ### 🌎 The Global Registry for Attestations
-EAS serves as the base layer where all attestors and innovators can coordinate, create, register, and compose unique attestation schemas. This enables interoperability and composability between different attestation protocols and solutions, allowing the attestation layer to grow and change over time.
+EAS serves as the base layer where all attestors and innovators can coordinate, create, register, and compose unique attestation schemas. This enables interoperability and composability between different attestation protocols and solutions, allowing the attestation layer to grow and evolve over time.
 
-There are several existing tailor-made on-chain solutions for identity, verifications, claims, and cryptographic proofs. Each of these innovations are essential building blocks for specific use cases and communities, but each tailor-made protocol increases fragmentation and limits composability. EAS brings them together.
+There are many existing on-chain solutions for identity, verifications, claims, and cryptographic proofs, but each of these protocols is tailored to specific use cases and communities. This fragmentation and lack of composability limit the potential of these solutions. EAS brings these protocols together, enabling them to work together smoothly and allowing for the creation of new, more powerful attestation solutions.
 
 ![EAS Stack](/img/eas-stack-v3.png)
 

@@ -10,7 +10,16 @@ Traditionally, online identity verification has relied on centralized systems an
 ## Solution
 Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying claims about a user's identity. With EAS, users can create and manage their own digital identity, attesting to claims about their identity using the Ethereum blockchain. These attested claims can be easily verified by any interested party, providing a secure and transparent way to prove the user's identity.
 
-## Example use cases
+## Example
+Alice wants to create a digital identity for herself using EAS. She creates a decentralized identity (DID) for herself using a UI built on EAS, and then creates attested claims about her identity, such as her name, date of birth, and address. These attested claims are then cryptographically signed and added to the blockchain, where they can be easily verified by others.
+
+Alice can then use her digital identity to securely and transparently prove her identity to others. For example, she can use her digital identity to log in to online accounts, such as her email and social media accounts, without having to remember multiple passwords. She can also use her digital identity to securely share her personal information with others, such as her employer or doctor, without having to worry about her information being mishandled or misused.
+
+Additionally, Alice's digital identity can be easily verified by others using EAS. For example, her employer can use EAS to verify the authenticity and accuracy of her attested claims, ensuring that they are dealing with the real Alice and not an imposter. This can help to prevent identity theft and fraud, and can also improve the efficiency and security of digital interactions.
+
+Overall, the use of EAS can improve the digital identity experience for Alice and others by providing a secure and transparent way to create, store, and manage digital identities, and by enabling others to easily and securely verify these identities. This can help to improve the security and trustworthiness of digital interactions, and can also give individuals greater control over their personal information.
+
+## Example use cases to solve for
 1. Verifying the identity of users on online platforms and services, such as online banks, social networks, and e-commerce websites. EAS allows these platforms to request and verify attested claims about a user's identity, providing a secure and transparent way to verify the user's identity.
 
 2. Creating and managing digital identity credentials, such as government-issued ID cards, driver's licenses, and passports. EAS allows users to create and manage their own digital identity, attesting to claims about their identity using the Ethereum blockchain.

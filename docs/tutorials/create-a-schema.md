@@ -26,26 +26,14 @@ Have questions about acceptable types? Learn more about [Solidity ABI types](htt
 
 `Schemas` are registered using the `SchemaRegistry.SOL` contract. [View the entire contract on github](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/SchemaRegistry.sol).
 
-```jsx title="/contracts/SchemaRegistry.sol"
+This contract allows users to register a schema that defines the data format for a specific type of attestation, along with a schema resolver contract that can be used to verify the data. Here is a step-by-step explanation of what the contract does:
 
-    function register(string calldata schema, ISchemaResolver resolver) external returns (bytes32) {
-        SchemaRecord memory schemaRecord = SchemaRecord({ uuid: EMPTY_UUID, schema: schema, resolver: resolver });
-
-        bytes32 uuid = _getUUID(schemaRecord);
-        if (_registry[uuid].uuid != EMPTY_UUID) {
-            revert AlreadyExists();
-        }
-
-        schemaRecord.uuid = uuid;
-        _registry[uuid] = schemaRecord;
-
-        emit Registered(uuid, msg.sender);
-
-        return uuid;
-    }
-```
-
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+1. The contract is initialized with the `ISchemaRegistry` and `ISchemaResolver` interfaces.
+2. Users can use the contract's `register()` function to register a schema. This function takes two arguments: the schema itself, which is a string representing the JSON object, and the address of the schema resolver contract.
+3. The `register()` function calculates a unique identifier (UUID) for the schema using the `_getUUID()` private function, which hashes the schema and schema resolver address.
+4. The function then checks if a schema with the same UUID has already been registered by checking the `_registry mapping`. If a schema with the same UUID exists, the function will revert with the `AlreadyExists()` error.
+5. If the schema is unique, the function will add it to the `_registry` mapping and emit a `Registered()` event.
+6. Users can retrieve a registered schema by its UUID using the contract's `getSchema()` function. This function returns the schema record, which contains the schema and schema resolver address.
 
 ## Create a Schema on the EAS Website 🧙
 

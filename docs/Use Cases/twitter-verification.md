@@ -10,6 +10,13 @@ Twitter account ownership can be difficult to verify, making it vulnerable to id
 ## Solution
 Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying claims about a Twitter account's ownership. With EAS, Twitter users can create attested claims about their identity, which can then be verified by Twitter and other users. This provides a secure and transparent way to verify the ownership of a Twitter account, and can help to prevent identity theft and spam.
 
+## Example
+Alice wants to verify her Twitter account @alice, so she creates a digital identity on the blockchain using EAS. She then creates an attestation of her identity, which includes her name, email, and Twitter handle. This attestation is cryptographically signed and added to the blockchain, where it can be verified by Twitter and other users.
+
+Bob, a trusted entity that is responsible for verifying the identity of Twitter users, receives a request from Twitter to verify Alice's attestation. Bob uses EAS to verify the attestation, checking that it is properly signed and that the information it contains matches Alice's known identity. If the attestation is valid, Bob signs it with his own cryptographic key, adding his own attestation to the blockchain.
+
+Twitter, which is also a trusted entity in this system, receives Bob's attestation and uses EAS to verify it. If the attestation is valid, Twitter grants Alice the verified badge on her Twitter account, indicating that her identity has been verified. Alice can now use her verified account to share information and interact with other users on Twitter, knowing that her identity has been verified and that her account is authentic.
+
 ## Example schema 
 [Sample schema]
 
@@ -28,7 +35,7 @@ Additionally, EAS could be integrated with smart contracts and decentralized sto
 
 1. Define the schema for the attested claims that will be used to verify a user's identity and ownership of their Twitter account. This would typically include information such as the user's name, email, and Twitter handle.
 
-2. Create a decentralized identity (DID) for each Twitter user, which will be used to securely store and manage their attested claims. This can be done using a DID provider, or by creating a custom DID solution using EAS schemas.
+2. Create a decentralized identifier (DID) for each Twitter user, which will be used to securely store and manage their attested claims. This can be done using a DID provider, or by creating a custom DID solution using EAS schemas.
 
 3. Develop the system for requesting and verifying attested claims about a user's identity and ownership of their Twitter account. This could involve the use of smart contracts and other decentralized technologies to automate the verification process and ensure its integrity and transparency.
 

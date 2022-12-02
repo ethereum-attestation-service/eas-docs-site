@@ -6,10 +6,16 @@ sidebar_position: 8
 
 
 ## Problem
-The ticketing industry is plagued by issues such as fraud, scalping, and counterfeiting, which can lead to lost revenue, frustrated customers, and a lack of trust in the ticketing system. Traditional methods of verifying the authenticity of tickets, such as barcodes and holograms, can be easily copied or counterfeited, making it difficult to prevent fraud and ensure that only legitimate tickets are used.
+Ticket scalping and fraud are major issues in the event ticketing industry. Scalpers often buy large quantities of tickets and resell them at inflated prices, while fraudulent tickets can be easily copied or counterfeited, leading to lost revenue and disappointed customers. Traditional methods of ticket verification, such as QR codes and barcodes, can be easily forged or copied, making it difficult to ensure the authenticity of a ticket.
 
 ## Solution
-Ethereum Attestation Service (EAS) provides a decentralized solution to verify attested claims about the authenticity of tickets. With EAS, event organizers and ticket sellers can create and verify attested claims about the legitimacy of tickets, providing a secure and transparent way to verify the authenticity of tickets and prevent fraud.
+Ethereum Attestation Service (EAS) can be used to create a secure and transparent system for verifying the authenticity of event tickets. By leveraging the immutability and decentralization of the blockchain, EAS can allow event organizers to create cryptographically signed attestations of their tickets, which can then be verified by attendees and ticketing platforms. This provides a more robust and secure way to verify the authenticity of tickets, and can help to prevent scalping and fraud.
+
+## Example
+An event organizer can create attested claims for each ticket they sell, which will be cryptographically signed and added to the blockchain.
+
+For example, let's say that the organizer of the "Summer Music Festival" wants to sell 100 tickets for their event. They create a decentralized identity for themselves using a UI built on EAS, and then create 100 attested claims, each representing a valid ticket for the festival. These attested claims are then cryptographically signed and added to the blockchain, where they can be easily verified by ticket holders and event staff.
+
 
 ### Here's a few example ticketing applications that could be built:
 1. A **decentralized ticketing platform** that allows event organizers and ticket sellers to create, issue, and verify attested tickets using EAS. This platform could be integrated with existing ticketing systems to provide a secure and transparent way to verify the authenticity of tickets and prevent fraud.
@@ -20,11 +26,18 @@ Ethereum Attestation Service (EAS) provides a decentralized solution to verify a
 
 
 ## Example schema
-`documentHash, notaryAddress, timeStamp`
+1. `eventName`: The name of the event that the ticket is for.
+2. `ticketNumber`: The unique number of the ticket.
+3. `ticketHolder`: The name of the ticket holder.
 
 ## Example attestation
-Sample
-
+```jsx
+{
+  "eventName": "Summer Music Festival",
+  "ticketNumber": "1234",
+  "ticketHolder": "Jane Doe"
+}
+```
 
 
 ## Future composability
