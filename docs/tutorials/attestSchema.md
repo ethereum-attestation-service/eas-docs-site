@@ -77,31 +77,72 @@ Here's an overview of the contract:
 6. The contract also provides several error-checking functions, such as `isValidAttestation()` and `isRevoked()`, which can be used to verify the validity and revocation status of an attestation.
 7. The contract also allows users to check the addresses of the global schema registry and the EIP-712 verifier using the `getSchemaRegistry()` and `getEIP712Verifier()` functions.
 
-```jsx title="/contracts/SchemaRegistry.sol"
+### Example code snippet for creating an attestation using the EAS.sol contract.
 
-    function register(string calldata schema, ISchemaResolver resolver) external returns (bytes32) {
-        SchemaRecord memory schemaRecord = SchemaRecord({ uuid: EMPTY_UUID, schema: schema, resolver: resolver });
+```jsx 
 
-        bytes32 uuid = _getUUID(schemaRecord);
-        if (_registry[uuid].uuid != EMPTY_UUID) {
-            revert AlreadyExists();
-        }
+pragma solidity ^0.8.17;
+import "https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/EAS.sol";
 
-        schemaRecord.uuid = uuid;
-        _registry[uuid] = schemaRecord;
+contract MyContract {
+  EAS private _eas;
 
-        emit Registered(uuid, msg.sender);
+  constructor(EAS eas) {
+    _eas = eas;
+  }
 
-        return uuid;
-    }
+  function createAttestation(
+    address recipient,
+    bytes32 schema,
+    uint32 expirationTime,
+    bool revocable,
+    bytes32 refUUID,
+    bytes memory data
+  ) public {
+    _eas.attest(recipient, schema, expirationTime, revocable, refUUID, data);
+  }
+}
 ```
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+Here is an example for creating an attestation with a signature (using the EAS.sol contract):
 
-## Create a Schema on the EAS Website 🧙
+``` jsx
+pragma solidity ^0.8.17;
+import "https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/EAS.sol";
+import "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-712.md";
 
-Go to => [https://easscan.com/schemas](https://easscan.com/schemas): 
+contract MyContract {
+  EAS private _eas;
 
-:::tip Tip
-Make sure you've connected your wallet to EAS.
-:::
+  constructor(EAS eas) {
+    _eas = eas;
+  }
+
+  function createAttestation(
+    address recipient,
+    bytes32 schema,
+    uint32 expirationTime,
+    bool revocable,
+    bytes32 refUUID,
+    bytes memory data,
+    address attester,
+    uint8 v,
+    bytes32 r,
+    bytes32 s
+  ) public {
+    _eas.attestByDelegation(
+      recipient,
+      schema,
+      expirationTime,
+      revocable,
+      refUUID,
+      data,
+      attester,
+      v,
+      r,
+      s
+    );
+  }
+}
+```
+The `attest` and `attestByDelegation` functions will create a new attestation record on the Ethereum blockchain. The data fields will be encoded according to the provided schema and the attester will be the address that calls the function. The attestation `UUID` can be obtained by calling the `attest` or `attestByDelegation` functions and using the returned value.

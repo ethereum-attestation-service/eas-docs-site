@@ -9,6 +9,16 @@ A schema is a way of organizing data. Schemas are the building blocks to all att
 Double check the [Schemas](https://easscan.com/schemas) on the EAS Explorer to see if there is already a Schema for your attestation need.
 :::
 
+
+## Create a Schema on the EAS Website 🧙
+
+Go to => [https://easscan.com/schemas](https://easscan.com/schemas): 
+
+:::tip Tip
+Make sure you've connected your wallet to EAS.
+:::
+
+
 ## Schema Fields ✔️
 Schemas follow the **Solidity ABI** for acceptable types. Below is a list of current elementary types: 
 
@@ -22,7 +32,49 @@ Schemas follow the **Solidity ABI** for acceptable types. Below is a list of cur
 
 Have questions about acceptable types? Learn more about [Solidity ABI types](https://docs.soliditylang.org/en/v0.8.16/abi-spec.html).
 
-## 1. Learn about the The Schema Contract 📄
+## Using the SchemaRegistry.sol Contract
+To create a schema using the SchemaRegistry.sol contract, you will need to have access to the contract and have some familiarity with Solidity. Here are the steps to create a schema using the contract:
+
+1. Import the SchemaRegistry.sol contract and the ISchemaResolver interface into your Solidity project.
+2. Define the fields of your schema, including the name and type of each field.
+3. Create a new instance of the `SchemaRecord` struct, which is used to store the schema in the contract.
+4. Initialize the fields of the `SchemaRecord` instance with the values from your schema.
+5. Use the `register()` function of the `SchemaRegistry.sol` contract to register your schema, passing in the SchemaRecord instance as an argument.
+6. Verify that your schema has been successfully registered by calling the `getSchema()` function of the contract and passing in the `UUID` of your schema.
+
+## Example
+To create a schema for a digital identity, you can use the `register()` function in the `SchemaRegistry.sol` contract. Here is an example of how to do that:
+
+```jsx
+import { SchemaRegistry } from "./SchemaRegistry.sol";
+
+// Define the fields of your schema
+struct DigitalIdentity {
+    bytes32 firstName;
+    bytes32 lastName;
+    bytes32 dateOfBirth;
+    bytes32 address;
+}
+
+// Create a new instance of the SchemaRegistry contract
+const schemaRegistry = new SchemaRegistry();
+
+// Generate the Solidity ABI for your schema
+const digitalIdentityAbi = abi.encode(DigitalIdentity);
+
+// Register your schema with the SchemaRegistry contract
+const digitalIdentitySchemaUuid = schemaRegistry.register(
+    digitalIdentityAbi,  // The ABI for your schema
+    true,  // Set this to true if you want the schema to be revocable
+    {from: "0x..."}  // The address of the account registering the schema
+);
+
+// The `digitalIdentitySchemaUuid` variable will now contain the unique identifier for the registered schema
+```
+
+The `register()` function in the `SchemaRegistry.sol` contract will return a unique identifier (`UUID`) for the registered schema, which can be used to make attestations with that schema. The `schema UUID` can also be used to retrieve the schema details from the contract.
+
+## Learn about the The Schema Contract 📄
 
 `Schemas` are registered using the `SchemaRegistry.SOL` contract. [View the entire contract on github](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/SchemaRegistry.sol).
 
@@ -35,47 +87,7 @@ This contract allows users to register a schema that defines the data format for
 5. If the schema is unique, the function will add it to the `_registry` mapping and emit a `Registered()` event.
 6. Users can retrieve a registered schema by its UUID using the contract's `getSchema()` function. This function returns the schema record, which contains the schema and schema resolver address.
 
-## Create a Schema on the EAS Website 🧙
 
-Go to => [https://easscan.com/schemas](https://easscan.com/schemas): 
-
-:::tip Tip
-Make sure you've connected your wallet to EAS.
-:::
-
-### `#1` Click on the `Create Schema` button 
-Navigate to the Schema's page and click on `Create Schema`. This will trigger the modal wizard to start the process. 
-
-![CreateSchema Step 1](./img/CreateSchema-1.png)
-
-### `#2` Add your Schema field types. 
-Click on the `Add Type` button which will allow you to add your Schema fields. You can add as many fields as you need for your Schema use case.
-
-![CreateSchema Step 2](./img/CreateSchema-2.png)
-
-
-### `#3` Name your Schema fields. 
-It's best practice to use camelCase when labeling your Schema. 
-
-![CreateSchema Step 3](./img/CreateSchema-4.png)
-
-
-### `#4` Click `Create Schema` and sign the transaction. 
-Once you click `Create Schema` it will trigger an Ethereum transaction with your connected wallet. 
-- Review the signature and sign.
-- Once you sign, the transaction will start processing.
-
-![CreateSchema Step 5](./img/CreateSchema-5.1.png)
-
-### `#5` Find your Schema in the Registry. 
-The Schema will be automatically assigned an Schema ID#. Once it generates, feel free to click it and inspect the Schema Details.
-
-![CreateSchema Step 6](./img/CreateSchema-6.png)
-
-### `#6` Open your schema. 
-The Schema will be automatically assigned an Schema ID#. Once it generates, feel free to click it and inspect the Schema Details.
-
-![CreateSchema Step 6](./img/CreateSchema-7.png)
 
 
 
