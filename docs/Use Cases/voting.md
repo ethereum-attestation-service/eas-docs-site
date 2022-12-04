@@ -19,10 +19,21 @@ Alice can then share this attested claim with the election officials, who can ea
 Additionally, because the attested claim is stored on the Ethereum blockchain, it is transparent and verifiable by anyone who has access to the platform. This provides a secure and immutable record of the voter's eligibility, ensuring the integrity of the election and the trustworthiness of the parties involved.
 
 ## Example schema
-```name, dateOfBirth, proofOfCitizenship```
+```bash
+bytes32 fullName;
+bytes32 address;
+bytes32 dateOfBirth;
+bytes32 citizenshipStatus;
+```
 
 ## Example attestation
-[Sample attestation]
+``` bash
+fullName: "Alice Smith"
+address: "123 Main Street, Anytown USA"
+dateOfBirth: "01/01/1970"
+citizenshipStatus: "US citizen"
+
+```
 
 ## Future composability
 In the future, the composability of Ethereum Attestation Service (EAS) with other decentralized technologies could enable more advanced and flexible solutions for verified voter identification and eligibility.

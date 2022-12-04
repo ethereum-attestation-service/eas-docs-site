@@ -18,10 +18,27 @@ Bob, a trusted entity that is responsible for verifying the identity of Twitter 
 Twitter, which is also a trusted entity in this system, receives Bob's attestation and uses EAS to verify it. If the attestation is valid, Twitter grants Alice the verified badge on her Twitter account, indicating that her identity has been verified. Alice can now use her verified account to share information and interact with other users on Twitter, knowing that her identity has been verified and that her account is authentic.
 
 ## Example schema 
-[Sample schema]
+``` 
+string name; // the user's name
+string email; // the user's email address
+string twitterHandle; // the user's Twitter handle
+bytes32 id; // a unique identifier for the attestation
+bytes32 sig; // the cryptographic signature of the attestation
+
+```
 
 ## Example attestation
-[Sample attestation]
+``` jsx
+{
+    "schemaId": "0x9827f982f982f982f982f982f982f982f982f982",
+    "data": {
+        "username": "alice",
+        "email": "alice@example.com",
+        "twitterHandle": "@alice"
+    },
+    "signature": "0x982f982f982f982f982f982f982f982f982f982f982f982f982f982f982f982f"
+}
+```
 
 
 ## Future composability

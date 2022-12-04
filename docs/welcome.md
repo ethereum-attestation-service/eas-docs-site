@@ -37,6 +37,7 @@ In addition, we provide a resolver contract for advanced use cases, such as on-c
 
 ### 💡What you can build with EAS.
 EAS allows for a wide range of possibilities for entrepreneurs and developers to build applications that make use of attestations. Some examples of things that can be built with EAS include:
+
 1. **Identity verification systems** that use attestations to prove the authenticity of a person's identity, credentials, or other information. This could be used for things like online voting systems, access control systems, or even building a decentralized version of a traditional identity verification system like a passport.
 2. **Reputation systems** that use attestations to verify the reputation or trustworthiness of individuals, organizations, or businesses. This could be used for things like peer-to-peer lending platforms, online marketplaces, or even a decentralized version of a traditional credit scoring system.
 3. **Certification systems** that use attestations to verify the authenticity of a person's skills, qualifications, or experience. This could be used for things like online education platforms, job application systems, or even a decentralized version of a traditional certification system like a college degree.
@@ -44,13 +45,15 @@ EAS allows for a wide range of possibilities for entrepreneurs and developers to
 
 These are just a few examples of the many things that can be built with EAS. Ultimately, the possibilities are limited only by the imagination of entrepreneurs and developers who want to build applications that make use of attestations.
 
+Check out this [**ever-growing list of use cases**](/docs/category/use-cases) that can be built with EAS. 
+
 ## ✨ Why EAS exists.
 EAS exists to be the global base layer where anything and everything can be attested to. Our vision is to create a world where trust is restored and increased through a global, open, and interoperable attestation layer.
 
 We believe that by creating a free and open-source platform for attestations, we can foster innovation and enable people to verify and trust each other in a more efficient and transparent way. Join us and help build the global attestation layer for the Ethereum ecosystem.
 
 ## 🎬 Getting Started
-To get started with EAS, you can:
+We're excited to see what you build with EAS. Let's get started!
 
 1. Read the documentation to [**learn more about attestations**](https://twitter.com/eas_eth) and how to use EAS.
 2. Explore the [**registry of attestation schemas**](https://twitter.com/eas_eth) and see what is available.
@@ -63,3 +66,5 @@ EAS is built by the community and for the community. You can join the community 
 1. Joining the EAS telegram channel for discussions and support.
 2. Submitting issues or pull requests on the [**EAS GitHub**](https://twitter.com/eas_eth) repository.
 3. Following for updates and announcements.
+
+

@@ -2,28 +2,58 @@
 sidebar_position: 2
 ---
 
-# 🐦 Decentralized Social Networks
+# 💬 Social Networks
 
 ## Problem
-Social networks often have a problem with fake or spammy user profiles, which can damage the reputation of the network and decrease user trust. These fake profiles can be used for a variety of nefarious purposes, such as spreading misinformation or engaging in phishing attacks.
+Social networks have become an integral part of our daily lives, but they have also faced challenges related to privacy, security, and trust. Traditional social networks often rely on centralized systems and algorithms to manage user data and interactions, which can lead to data breaches, censorship, and manipulation.
 
 ## Solution
-Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying claims about a user's identity. With EAS, social networks can request and verify non-transferrable attested claims about a user's identity, such as their name, proof of account ownership, and email address. These attested claims are stored on the Ethereum blockchain, providing a tamper-proof and transparent record of the user's identity.
+Ethereum Attestation Service (EAS) provides a decentralized solution for managing user data and interactions on social networks. With EAS, social network owners and users can create and verify attested claims about their identity, interests, and relationships, providing a secure and transparent way to manage user data and interactions.
 
-By requiring verified user profiles, social networks can increase user trust and reduce the presence of fake or spammy profiles on the network.
 
 ## Example
+Alice is a user of a social network that uses EAS to manage user data. She creates attested claims about her personal information, such as her name, age, and location. She can also create attested claims about her content, such as her posts, comments, and likes.
+
+These attested claims are cryptographically signed and added to the Ethereum blockchain, where they can be easily verified by others. This provides a secure and transparent way for Alice to manage and share her data on the social network, and also enables others to verify the authenticity and accuracy of this data.
+
+Additionally, Alice can use her digital identity to securely and transparently interact with other users on the social network. For example, she can use her digital identity to authenticate her identity when logging in to the platform, and she can also use it to securely share her personal information and content with others. This can help to improve the security and trustworthiness of digital interactions on the social network.
+
+Furthermore, the use of EAS on the social network can enable new and innovative use cases, such as verified user profiles, content moderation, and community governance. For example, users who have verified their identity and content using EAS could have a verified badge on their profile, indicating that their data has been attested and verified on the Ethereum blockchain. This could help to improve the quality and trustworthiness of the content on the social network, and could also enable new features and services that require verified user data.
 
 
 ## Example schema 
-[Sample schema]
+``` bash
+bytes32 userName;
+bytes32 profilePicture;
+bytes32 location;
+bytes32 birthday;
+bool isVerified;
+bytes32[] interests;
+
+```
 
 ## Example attestation
-[Sample attestation]
+``` bash
+userName: "Alice"
+profilePicture: 0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+location: "San Francisco, CA"
+birthday: "01/01/1990"
+isVerified: true
+interests: ["photography", "cooking", "travel"]
 
+```
+
+## Example applications to start
+1. **TweetVerify** - an app that allows users to securely store and verify the authenticity of their Twitter posts using EAS.
+2. **LinkedInVerify** - an app that allows users to verify their LinkedIn profile and credentials using EAS, providing employers and recruiters with a more secure and reliable way to verify a candidate's qualifications.
+3. **YouVerify** - an app that allows YouTubers to verify the authenticity of their videos and content using EAS, providing viewers with a more trustworthy and reliable way to consume content.
 
 ## Future composability
-EAS allows for the creation of attested claims about a wide range of identity-related information, such as educational qualifications, employment history, and interests. These claims can be composed and verified in combination with other attested claims to provide a more complete and accurate view of a user's identity on social networks.
+In the future, the composability of EAS with other decentralized solutions could enable more advanced and flexible solutions for improving the trust and security of social networks.
+
+For example, a decentralized reputation system could be used to track and verify users' interactions and contributions on a social network, providing a transparent and verifiable record of their reputation. This reputation system could be integrated with EAS to allow users to attest to claims about their reputation, providing a more complete view of their trustworthiness and credibility.
+
+Additionally, EAS could be integrated with decentralized storage systems, such as IPFS (InterPlanetary File System), to enable social network owners and users to securely store and manage their attested claims in a decentralized and transparent way. This would allow for the creation of a decentralized and verifiable record of users' identities, enabling social network owners and users to easily verify the authenticity and accuracy of these identities.
 
 
 

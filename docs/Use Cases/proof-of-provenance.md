@@ -42,7 +42,13 @@ rawMaterialHash: 0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abc
 certifier: 0x1234567890abcdef1234567890abcdef12345678
 
 ```
+## Example business ideas
 
+1. "ChainVerify": A supply chain verification service that uses EAS to create attested claims about the provenance and quality of goods, enabling consumers to make informed purchasing decisions.
+2. "ProvenanceX": A blockchain-based supply chain management platform that uses EAS to track and verify the origin, authenticity, and quality of goods, enabling businesses to improve the transparency and trustworthiness of their supply chain.
+3. "TrueTrack": A supply chain tracking and verification service that uses EAS to create attested claims about the movement and condition of goods, enabling businesses to improve the efficiency and visibility of their supply chain operations.
+4. "SupplySecure": A supply chain security and compliance platform that uses EAS to create attested claims about the compliance and sustainability of goods, enabling businesses to meet regulatory requirements and reduce their environmental impact.
+5. "TrustChain": A supply chain consortium that uses EAS to create attested claims about the quality and sustainability of goods, enabling businesses to differentiate their products and build trust with consumers.
 
 ## Future composability
 In the future, the composability of EAS with other decentralized supply chain solutions could enable more advanced and flexible solutions for supply chain provenance verification.

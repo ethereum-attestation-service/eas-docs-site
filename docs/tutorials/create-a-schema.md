@@ -22,7 +22,7 @@ Schemas follow the **Solidity ABI** for acceptable types. Below is a list of cur
 
 Have questions about acceptable types? Learn more about [Solidity ABI types](https://docs.soliditylang.org/en/v0.8.16/abi-spec.html).
 
-## The Schema Contract 📄
+## 1. Learn about the The Schema Contract 📄
 
 `Schemas` are registered using the `SchemaRegistry.SOL` contract. [View the entire contract on github](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/SchemaRegistry.sol).
 

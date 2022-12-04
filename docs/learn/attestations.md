@@ -8,7 +8,7 @@ sidebar_position: 2
 **Attestations** /ˌaˌteˈstāSH(ə)n; are any and all types of certifications, claims, verifications, evidence, declarations, and proof that something exists or is the case. 
 :::
 
-Overall, attestations can play a crucial role in verifying the identity and credentials of individuals, organizations, and other entities, which can be important for a wide range of applications.
+Attestations are a type of proof or certification that something exists or is the case. They can be used to verify the identity, credentials, or other information of individuals, organizations, and other entities. This can be useful for a wide range of applications, such as proving ownership, verifying credit scores, or verifying the trustworthiness of an individual or entity.
 
 Ethereum Attestation Service (EAS) is a protocol for registering, verifying, and revoking attestations on the Ethereum blockchain. EAS allows for interoperability and composability between different attestation protocols and solutions, enabling the attestation layer to grow and change over time. Whether you need to prove your identity, credentials, or other information, EAS allows you to do so in a flexible and simple way.
 
@@ -59,7 +59,7 @@ The opportunities are endless. Anytime you need to trust & verify is a time when
 
 ## On & Off-Chain Attestations
 
-EAS allows you to create and attest on & off chain attestations. 
+Attestations can be either on-chain or off-chain, depending on whether they are published on the blockchain or not. On-chain attestations are transparent and can be easily verified, while off-chain attestations are not as transparent and may require additional steps to verify. In this section, we will discuss the differences between on-chain and off-chain attestations in more detail.
 
 ### 🔗 On-Chain Attestations 
 

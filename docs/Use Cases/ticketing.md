@@ -39,6 +39,12 @@ For example, let's say that the organizer of the "Summer Music Festival" wants t
 }
 ```
 
+## Example business ideas
+1. **TicketBop** - a platform that uses EAS to verify and authenticate event tickets, reducing fraud and providing a secure, transparent ticketing process for event organizers and attendees.
+2. **FastPass** - a mobile app that leverages EAS to enable users to quickly and easily access event venues and venues, eliminating the need for physical tickets and reducing line wait times.
+3. **TicketScan** - a service that uses EAS to provide real-time tracking and verification of ticket sales and transfers, helping event organizers to monitor and control their ticket distribution.
+4. **TicketChain** - a blockchain-based platform that uses EAS to create a transparent, verifiable record of ticket ownership, enabling event organizers and attendees to securely and easily transfer tickets.
+5. **TicketShield** - a service that uses EAS to provide insurance for event tickets, protecting attendees from unexpected cancellations and other unforeseen events.
 
 ## Future composability
 The future composability of Ethereum Attestation Service (EAS) in the ticketing industry could enable a wide range of innovative and flexible solutions for verifying the authenticity of tickets.

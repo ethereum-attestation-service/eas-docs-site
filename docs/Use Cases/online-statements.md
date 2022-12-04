@@ -30,21 +30,30 @@ Once the statement and any supporting or refuting claims have been added to the 
 
 
 ## Example schema
-1. `statement`: The statement that is being attested, represented as a string of Unicode text.
-2. `timestamp`: The time at which the statement was made, represented as a 256-bit unsigned integer in Unix time format.
-3. `signature`: The digital signature of the user who made the statement, represented as a byte array.
+- `id`: a unique identifier for the attestation, represented as a 256-bit integer
+- `statement`: the statement being attested, represented as a string
+- `author`: the author of the statement, represented as an Ethereum address
+- `timestamp`: the timestamp of the attestation, represented as a Unix timestamp
+- `signature`: the digital signature of the author, generated using their Ethereum private key
 
-This schema can be used to create attested claims that can be cryptographically signed and added to the blockchain, allowing others to easily and transparently verify the authenticity and accuracy of the statement.
 
 ## Example attestation
-```jsx
+``` jsx
 {
-  "statement": "The new discovery in my field is revolutionary.",
-  "timestamp": 1606954800,
-  "signature": "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+  "id": 123456,
+  "statement": "The new discovery in my field is groundbreaking and will revolutionize the industry.",
+  "author": "0x1234abcd...",
+  "timestamp": 1623456789,
+  "signature": "0x5678efgh..."
 }
 ```
 
+## Example business ideas
+1. **TruthCheck**: A social platform that uses EAS to verify and authenticate users' statements, providing a trustworthy space for discussions and debates.
+2. **HonestBooth**: A service that allows individuals and organizations to make and verify verified statements, reducing the spread of misinformation and fraud.
+3. **FactBlock**: A blockchain-based system that uses EAS to verify and store verified statements, providing a transparent and secure way to fact-check online content.
+4. **TruthMeter**: A mobile app that uses EAS to verify users' statements and provide a score based on their accuracy and reliability.
+5. **VerifyMe**: A service that allows individuals and organizations to create and verify verified statements, providing a convenient and secure way to authenticate their claims.
 
 ## Future composability
 The composability of Ethereum Attestation Service (EAS) could enable a wide range of innovative and flexible solutions for verifying the authenticity and accuracy of statements that are made online.

@@ -18,18 +18,29 @@ The network could then use this information to create a reputation score for eac
 Additionally, the network could use EAS to create and verify attested claims about its own trustworthiness and reputation, such as its commitment to transparency, privacy, and security. This could provide members of the network with more detailed and transparent information about the network, enabling them to make more informed decisions about their participation and engagement in the network.
 
 ## Example schema
-- Trustworthiness: A numerical score between 0 and 100, representing the individual's level of trustworthiness within the network.
-- Number of attested claims: The total number of attested claims made about the individual within the network.
-- Feedback: Any comments or feedback provided by other members
+
+``` bash
+bytes32 userID;
+bytes32 attesterID;
+uint256 trustScore;
+uint256 timestamp;
+
+```
 
 ## Example attestation
-Example
+``` bash
+userID: 0x1234567890abcdef1234567890abcdef12345678
+attesterID: 0xabcdef1234567890abcdef1234567890abcdef12
+trustScore: 7
+timestamp: 1546300800
+
+```
 
 ## Future composability
-In the future, the composability and interoperability of Ethereum Attestation Service (EAS) could enable more advanced and flexible solutions for trust and reputation systems online.
+In the future, the composability of EAS with other decentralized reputation systems could enable more advanced and flexible solutions for trust and reputation verification.
 
-For example, EAS could be integrated with decentralized identity (DID) providers, such as uPort or Civic, to enable individuals, businesses, and organizations to securely manage their own attested claims about their trust and reputation. This would allow them to easily and securely share their attested claims with others, enabling more convenient and efficient verification of the information.
+For example, a decentralized reputation system could be integrated with EAS to allow users to attest to the trustworthiness of other users and relationships. This could enable users to create a more complete and verifiable picture of their trustworthiness, as attested to by multiple sources.
 
-Additionally, EAS could be integrated with blockchain-based reputation platforms, such as Trustology or Reputation.com, to enable more transparent and secure management of trust and reputation. For example, a smart contract could be used to automatically verify and update attested claims about an individual's, business's, or organization's trust and reputation, based on their online activities and interactions. This could be used to create more efficient and secure trust and reputation systems, while also providing a transparent and verifiable record of the information.
+Additionally, EAS could be integrated with blockchain-based reputation platforms to enable more transparent and secure management of trust and reputation. For example, a smart contract could be used to automatically verify and update attested claims about an individual's, business's, or organization's trust and reputation, based on their online activities and interactions. This could be used to create more efficient and secure trust and reputation systems, while also providing a transparent and verifiable record of the information.
 
 Overall, the future composability of EAS for trust and reputation systems online could unlock a wide range of possibilities for establishing and maintaining trust and reputation online, enabling more secure, efficient, and transparent solutions for verifying and managing this important information. This could ultimately benefit individuals, businesses, and organizations.

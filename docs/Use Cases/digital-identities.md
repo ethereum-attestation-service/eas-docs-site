@@ -2,7 +2,8 @@
 sidebar_position: 3
 ---
 
-# 🥸 Decentralized Identity
+# 🥸 Digital Identitiy
+Create and manage your own digital identity, attesting to claims about your identity on the Ethereum blockchain. This provides a secure and transparent way to prove your identity, and can be verified by anyone.
 
 ## Problem
 Traditionally, online identity verification has relied on centralized systems and authorities, such as government-issued ID cards and utility bills. These systems can be slow, expensive, and vulnerable to fraud and identity theft.
@@ -17,7 +18,31 @@ Alice can then use her digital identity to securely and transparently prove her 
 
 Additionally, Alice's digital identity can be easily verified by others using EAS. For example, her employer can use EAS to verify the authenticity and accuracy of her attested claims, ensuring that they are dealing with the real Alice and not an imposter. This can help to prevent identity theft and fraud, and can also improve the efficiency and security of digital interactions.
 
-Overall, the use of EAS can improve the digital identity experience for Alice and others by providing a secure and transparent way to create, store, and manage digital identities, and by enabling others to easily and securely verify these identities. This can help to improve the security and trustworthiness of digital interactions, and can also give individuals greater control over their personal information.
+## Example schema 
+``` bash
+bytes32 name;
+bytes32 dob;
+bytes32 address;
+bytes32 phone;
+bytes32 email;
+bytes32 employer;
+bytes32 occupation;
+bytes32 salary;
+
+```
+
+## Example attestation
+```
+name: "Alice Smith"
+dob: "01/01/1980"
+address: "123 Main St, Anytown USA"
+phone: "123-456-7890"
+email: "alice@example.com"
+employer: "Acme Corporation"
+occupation: "Software Engineer"
+salary: "$100,000"
+
+```
 
 ## Example use cases to solve for
 1. Verifying the identity of users on online platforms and services, such as online banks, social networks, and e-commerce websites. EAS allows these platforms to request and verify attested claims about a user's identity, providing a secure and transparent way to verify the user's identity.
@@ -30,11 +55,17 @@ Overall, the use of EAS can improve the digital identity experience for Alice an
 
 5. Verifying the identity of participants in online transactions, such as peer-to-peer lending, crowdfunding, and auction websites. EAS allows these transactions to be securely and transparently verified using attested claims about the participants' identity.
 
-## Example schema 
-[Sample schema]
+## Example app ideas
+1. **IDVerify**: An online identity verification service that uses EAS to create and verify attested claims about a user's identity. IDVerify allows online platforms and services to easily and securely verify the identity of their users, providing a more secure and transparent online experience.
 
-## Example attestation
-[Sample attestation]
+2. **MyID**: A digital identity management platform that uses EAS to enable users to create and manage their own digital identity. MyID allows users to create and store their own attested claims about their identity, and to easily share these claims with others who need to verify their identity.
+
+3. **DocVerify**: A document verification service that uses EAS to create and verify attested claims about the authenticity of physical documents. DocVerify allows users to easily verify the authenticity of important documents, such as birth certificates and professional licenses, providing a secure and transparent way to confirm their validity.
+
+4. **GovID**: A digital identity solution for governments that uses EAS to securely store and verify attested claims about a user's identity. GovID allows governments to provide efficient and secure services to their citizens, such as voting, taxation, and social benefits, using a decentralized and transparent platform.
+
+5. **TrustFlow**: An online trust and reputation platform that uses EAS to create and verify attested claims about a user's identity, credentials, and history. TrustFlow allows users to build a trusted online reputation, and to easily verify the trustworthiness of other users, enabling more secure and transparent online interactions.
+
 
 
 ## Future composability

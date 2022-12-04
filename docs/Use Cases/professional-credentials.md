@@ -41,6 +41,16 @@ transcriptHash: 0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcd
 
 ```
 
+## Example business ideas
+1. **CertChain** - A decentralized platform that allows professionals to securely store and manage their credentials and certifications on the blockchain, enabling them to easily share their verified credentials with employers and clients.
+
+2. **CredCheck** - A digital credentialing service that uses EAS to verify the authenticity of professional credentials and certifications, providing a convenient and reliable way for employers to verify the qualifications of job applicants.
+
+3. **CertSpot** - A marketplace for professional certifications, where individuals can earn and showcase their verified credentials to potential employers and clients.
+
+4. **ProveIt** - A web-based application that uses EAS to verify the authenticity of professional credentials and certifications, providing a convenient and secure way for individuals to prove their qualifications.
+
+5. **CredVerify** - A mobile app that allows individuals to quickly and easily verify the authenticity of their professional credentials and certifications using EAS, enabling them to confidently share their verified credentials with employers and clients.
 
 ## Future composability
 In the future, the composability of EAS with other decentralized credential verification solutions could enable more advanced and flexible solutions for verifying the credentials of individuals.

@@ -5,17 +5,36 @@ sidebar_position: 12
 #  📄 Sign Documents
 
 ## Problem
-Managing digital signatures and verifying the authenticity of signed documents can be a challenging and time-consuming task. Traditional methods of signing documents, such as using password-protected PDFs or handwritten signatures, can be insecure and prone to tampering or fraud. This can create risks for organizations that need to sign and manage large numbers of documents, such as contracts, agreements, or legal documents.
+Digital signatures have become an increasingly important part of the way we do business and interact online. However, traditional digital signature systems can be slow, expensive, and vulnerable to fraud and forgery.
 
 ## Solution
-Ethereum Attestation Service (EAS) provides a decentralized solution for securely signing and verifying documents. By leveraging the immutability and decentralization of the blockchain, EAS allows organizations to create and manage digital signatures for their documents, which can then be verified by other parties. This provides a more secure and transparent way to sign and verify documents, and can help to prevent fraud and tampering.
+With EAS, users can create and manage digital signatures for their documents, attesting to the authenticity and integrity of the document using the Ethereum blockchain. These attested signatures can be easily verified by any interested party, providing a secure and transparent way to prove the document's authenticity and integrity.
 
 ## Example
-To use EAS for signing an employment agreement, the employer and employee can create attested claims for the agreement, which will be cryptographically signed and added to the blockchain.
+Alice is an HR manager at a company who needs to create and sign an employment contract with a new employee, Bob. Using EAS, Alice can create a digital signature for the contract using a UI built on EAS, and then attests to the authenticity and integrity of the contract using the Ethereum blockchain. This attested signature is then cryptographically signed and added to the blockchain, where it can be easily verified by Bob and others.
 
-For example, let's say that John is starting a new job at XYZ Corporation. The employer creates an attestation of the employment agreement, which includes the agreement's details and their digital signature. This attestation is cryptographically signed and added to the blockchain, where it can be verified by John and any other parties involved in the employment process. Similarly, John can create an attestation of the employment agreement that includes his digital signature, and this attestation can also be added to the blockchain.
+Bob can then easily and securely verify the authenticity and integrity of the contract using EAS. This allows Bob to trust that the contract is valid and has not been altered in any way, and also allows Alice to prove that she has signed the contract and is bound by its terms. Additionally, because the attested signature is stored on the Ethereum blockchain, it is transparent and verifiable by anyone who has access to the platform. This provides a secure and immutable record of the contract's authenticity and integrity, ensuring the trustworthiness of the parties involved.
 
-Once the employment agreement has been signed by both the employer and John, the attested claims on the blockchain can be used to verify the authenticity of the agreement and the signatures of both parties. This provides a secure and transparent way to manage the signing of the employment agreement, and can help to prevent fraud or tampering.
+Overall, the use of EAS can improve the digital document signing experience for Alice, Bob, and others by providing a secure and transparent way to create, store, and manage digital signatures, and by enabling others to easily and securely verify these signatures. 
+
+## Example schema
+``` bash
+bytes32 documentName;
+bytes32 documentHash;
+bytes32 signerAddress;
+bytes32 signerName;
+uint256 signingDate;
+
+```
+
+## Example attestation
+```bash 
+documentName: "Employment Contract"
+documentHash: 0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+signerAddress: 0x1234567890abcdef1234567890abcdef12345678
+signerName: "Bob"
+signingDate: 1617838098
+```
 
 
 ### Here's a few example ticketing applications that could be built:
@@ -30,30 +49,10 @@ Once the employment agreement has been signed by both the employer and John, the
 5. A **medical record signing platform** that uses EAS to securely sign and verify medical records and other health-related documents. This platform could be used by healthcare providers and patients to manage the signing of medical documents, and provide a secure and transparent way to verify the authenticity of the documents and signatures.
 
 
-## Example schema
-1. `documentName`: The name of the document being signed.
-2. `documentHash`: The cryptographic hash of the document's content.
-3. `signature`: The digital signature of the document.
 
-## Example attestation
-```jsx
-{
-  "documentName": "Contract for Legal Services",
-  "documentHash": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
-  "signature": "0x9a8b7c6d5e4f3g2h1i9j8k7l6m5n4o3p2q1r0s"
-}
-```
 
 
 ## Future composability
-The future composability of Ethereum Attestation Service (EAS) in the ticketing industry could enable a wide range of innovative and flexible solutions for verifying the authenticity of tickets.
+The future composability of attestations could improve the digital signing process by enabling the creation of attested claims about a wide range of information related to the signing process, such as the identity of the signer, the date and time of the signing, and the contents of the signed document. 
 
-For example, EAS could be used to create and verify multiple types of attestations for tickets, such as attested claims about a ticket's origin, authenticity, and transfer history. These different types of attestations could be used together in various ways to create a greater ticketing ecosystem, with each attestation serving a different purpose and providing a unique layer of trust and transparency.
-
-One potential application of this composability is the use of origin attestations to verify the source of a ticket. This could be used to prevent the sale of counterfeit or fraudulent tickets, as event organizers could create origin attestations for their tickets and require that these attestations be present in order for a ticket to be considered valid. This could be done using smart contracts and other decentralized technologies to automatically verify the origin attestations and ensure their integrity.
-
-Another potential application of composability is the use of authenticity attestations to verify the legitimacy of a ticket. This could be used to prevent the use of copied or duplicated tickets, as event organizers could create authenticity attestations for their tickets and require that these attestations be present in order for a ticket to be considered valid. This could be done using advanced cryptographic techniques and other decentralized technologies to securely and transparently verify the authenticity attestations.
-
-Finally, the use of transfer attestations could enable a more transparent and secure way to transfer tickets between ticket holders. This could be used to prevent the resale of tickets at inflated prices, as event organizers could create transfer attestations that limit the number of times a ticket can be transferred and require that these attestations be present in order for a ticket to be considered valid. This could be done using smart contracts and other decentralized technologies to automatically verify the transfer attestations and ensure their integrity.
-
-Overall, the future composability of EAS for ticketing could enable a wide range of innovative and flexible solutions for verifying the authenticity of tickets, providing greater trust and transparency in the ticketing ecosystem.
+These attested claims could be composed and linked together in various ways, allowing for more complex and sophisticated verification processes. For example, attested claims about the signer's identity could be linked to attested claims about their legal authority to sign the document, and attested claims about the document's contents could be linked to attested claims about its integrity and authenticity. This could provide a more secure and transparent way to verify the validity of digital signatures, and could also help to prevent fraud and identity theft.

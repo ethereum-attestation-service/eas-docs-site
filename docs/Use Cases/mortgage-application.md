@@ -19,17 +19,29 @@ When the applicant submits their mortgage application, they could include the at
 
 
 ## Example schema
-Example
+``` bash
+bytes32 fullName;
+bytes32 address;
+uint256 income;
+uint256 creditScore;
+
+```
 
 ## Example attestation
-Example
+``` bash
+fullName: "Alice Smith"
+address: "123 Main Street, Anytown USA"
+income: 50000
+creditScore: 720
+
+```
 
 ## Future composability
 In the future, the composability and interoperability of Ethereum Attestation Service (EAS) could enable more advanced and flexible solutions for verified mortgage applications.
 
-For example, EAS could be integrated with decentralized storage systems, such as IPFS (InterPlanetary File System), to enable borrowers to securely store and manage their attested claims about their creditworthiness, income, and other factors relevant to their loan application. This would allow borrowers to easily and securely share their attested claims with lenders, enabling more convenient and efficient verification of the information.
+Additionally, EAS could be integrated with decentralized reputation systems, such as DRep (Decentralized Reputation) and DRA (Decentralized Rating Agency), to enable users to build and maintain a trusted and verifiable reputation on the Ethereum blockchain. This could be used to verify the credibility and reliability of users and organizations, and to enable more efficient and trust-based interactions on the Ethereum network.
 
-Additionally, EAS could be integrated with smart contracts and blockchain-based lending platforms to enable more automated and transparent verification of a borrower's creditworthiness and income. For example, a smart contract could be used to automatically verify a borrower's attested claims and determine their eligibility for a specific mortgage loan product. This could be used to enable more efficient and secure lending, while also providing a transparent and verifiable record of the loan application process.
+EAS could be integrated with smart contracts and blockchain-based lending platforms to enable more automated and transparent verification of a borrower's creditworthiness and income. For example, a smart contract could be used to automatically verify a borrower's attested claims and determine their eligibility for a specific mortgage loan product. This could be used to enable more efficient and secure lending, while also providing a transparent and verifiable record of the loan application process.
 
 
 ## How to get started
