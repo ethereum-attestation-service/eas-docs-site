@@ -51,6 +51,12 @@ In addition, the hospital can use the attestation service to add its own attesta
 
 ```
 
+## Example business ideas
+1. **HealthCheckr**: A platform that connects patients with healthcare providers, using EAS to verify insurance coverage and medical history.
+2. **MedToken**: A secure, decentralized healthcare wallet that uses EAS to store and verify medical records, insurance information, and eligibility for services.
+3. **DoctorVerify**: A service that uses EAS to verify the credentials and qualifications of healthcare providers, helping patients to make informed decisions about their care.
+4. **ClaimChain**: A blockchain-based platform that uses EAS to securely store and verify healthcare claims and payments, reducing the risk of fraud and improving the efficiency of the healthcare system.
+
 ## Future composability
 
 EAS allows for the creation of attested claims about a wide range of healthcare-related information, such as medical conditions, treatments, and prescriptions. These claims can be composed and verified in combination with other attested claims to provide a comprehensive view of a user's healthcare information.

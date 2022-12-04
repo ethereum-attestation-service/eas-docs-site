@@ -35,6 +35,12 @@ income: 50000
 creditScore: 720
 
 ```
+## Example business ideas
+1. **LendEasy** - A fintech company that uses EAS to streamline the mortgage application process by securely verifying a borrower's identity and financial information.
+2. **HomeSafe** - A mortgage lender that uses EAS to provide transparent and secure attestation of a borrower's credit score and income information.
+3. **MortgageGenius** - A mortgage broker that uses EAS to easily share a borrower's verified employment history and asset information with multiple lenders.
+4. **LoanClear** - A mortgage underwriting company that uses EAS to quickly and accurately verify a borrower's property ownership and income tax records.
+5. **MortgageBrite** - A mortgage servicing company that uses EAS to securely track and verify a borrower's payment history and creditworthiness over time.
 
 ## Future composability
 In the future, the composability and interoperability of Ethereum Attestation Service (EAS) could enable more advanced and flexible solutions for verified mortgage applications.

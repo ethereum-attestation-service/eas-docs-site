@@ -40,6 +40,10 @@ If you plot this polygon on a map you’ll see the piece of land it encloses. An
 
 ![Land Registry Sample](./img/land-registry-sample.jpg)
 
+## Example business ideas
+1. **LandChain** - a decentralized land registry service that uses EAS to securely store and verify land ownership and transfer information. This helps to prevent fraud, streamline the land registration process, and provide secure access to land ownership records.
+2. **SmartPlots** - a platform that uses EAS to verify and track the ownership, zoning, and development history of land parcels. This helps buyers, sellers, and regulators to make informed decisions about land transactions and development.
+3. **Propr** - Propr is a smart contract platform that uses EAS to create and verify attestations of land ownership, property titles, and other legal documents. With Propr, users can easily and securely create, manage, and transfer ownership of land and property on the Ethereum blockchain. Propr also offers a range of tools and services to help users manage their property, including property appraisals, legal advice, and insurance. Propr is a simple and secure way to manage property on the blockchain.
 
 
 ## Future composability

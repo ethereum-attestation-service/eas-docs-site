@@ -35,6 +35,13 @@ citizenshipStatus: "US citizen"
 
 ```
 
+## Example business ideas
+1. **VeriVote** - a platform that allows voters to securely and easily verify their eligibility to vote using EAS. VeriVote helps prevent voter fraud and ensures that only eligible voters are able to participate in elections.
+2. **ID-U-Sure** - a digital ID verification service that uses EAS to attest to the validity of users' identification documents. ID-U-Sure helps organizations quickly and securely verify users' identities online.
+3. **TrustTheVote** - a decentralized voting platform that uses EAS to securely and transparently manage the voting process. TrustTheVote helps ensure the integrity of elections and allows voters to easily verify their votes were counted accurately.
+4. **CivicSign** - a digital signing platform that uses EAS to securely and easily verify the identity of signers. CivicSign helps businesses and individuals securely sign and manage their digital documents.
+5. **eBallotBox** - an online voting platform that uses EAS to securely and transparently manage the voting process. eBallotBox helps organizations conduct elections and allows voters to easily verify their votes were counted accurately.
+
 ## Future composability
 In the future, the composability of Ethereum Attestation Service (EAS) with other decentralized technologies could enable more advanced and flexible solutions for verified voter identification and eligibility.
 

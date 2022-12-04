@@ -30,6 +30,13 @@ expirationDate: 1620982400
 
 ```
 
+## Example business ideas
+1. **SafeSpace** - a service that uses EAS to verify and grant access to shared office spaces for remote workers.
+2. **FitPass** - a gym membership service that uses EAS to verify member eligibility and grant access to fitness facilities.
+3. **DrivingTrust** - a car rental company that uses EAS to verify driver eligibility and grant access to rental vehicles.
+4. **TicketGuard** - a ticketing service that uses EAS to verify event attendees and grant access to live events.
+5. **TrustPass**: A digital identity and access management solution that uses EAS to verify the identities and eligibility of employees, contractors, and visitors, allowing businesses to grant secure access to their facilities.
+
 ## How to get started
 1. Define an attestation schema that includes the data fields and types that are relevant to physical access and identity, such as the user's name, access permissions, and expiration date.
 

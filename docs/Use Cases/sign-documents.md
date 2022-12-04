@@ -48,10 +48,6 @@ signingDate: 1617838098
 
 5. A **medical record signing platform** that uses EAS to securely sign and verify medical records and other health-related documents. This platform could be used by healthcare providers and patients to manage the signing of medical documents, and provide a secure and transparent way to verify the authenticity of the documents and signatures.
 
-
-
-
-
 ## Future composability
 The future composability of attestations could improve the digital signing process by enabling the creation of attested claims about a wide range of information related to the signing process, such as the identity of the signer, the date and time of the signing, and the contents of the signed document. 
 

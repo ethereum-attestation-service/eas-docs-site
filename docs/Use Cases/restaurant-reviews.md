@@ -42,7 +42,6 @@ struct RestaurantReview {
   }
 }
 ```
-
 ## Example use cases to solve for
 1. **Verifying the identity of reviewers**: By requiring reviewers to provide attested claims about their identity, restaurant owners can be more confident that the reviews they are reading are from real people, rather than fake or anonymous accounts.
 

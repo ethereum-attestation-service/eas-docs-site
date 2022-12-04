@@ -35,6 +35,14 @@ trustScore: 7
 timestamp: 1546300800
 
 ```
+## Example business ideas
+1. **TrustyBiz** - a reputation network for businesses to verify their trustworthiness and credibility. TrustyBiz solves the problem of consumers not knowing who to trust in the marketplace.
+2. **Accreditr** - a platform for professionals and businesses to showcase their verified credentials and expertise to potential clients and customers.
+3. **Vouch** - a peer-to-peer recommendation network that connects individuals with trusted service providers in their local communities.
+4. **ReferMe** - a marketplace for businesses to exchange and purchase high-quality referrals from other trusted companies.
+5. **RepX** - a reputation network for verifying the quality and reliability of products and services. RepX solves the problem of consumers not knowing if a product or service is worth their time and money.
+
+
 
 ## Future composability
 In the future, the composability of EAS with other decentralized reputation systems could enable more advanced and flexible solutions for trust and reputation verification.

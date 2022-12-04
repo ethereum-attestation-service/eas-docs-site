@@ -7,7 +7,9 @@ Ethereum Attestation Service (EAS) enables anyone to create and register unique 
 EAS allows anyone to create and register their own schemas for any use case. This enables interoperability and composability between different attestation protocols and solutions, allowing the attestation layer to grow and change over time.
 
 ## What are Schemas?
-A schema is a predefined structure for creating and verifying attestations. It defines the data types, format, and composition of an attestation. EAS uses Solidity ABI types as acceptable fields for schemas.
+:::info Schemas are
+Predefined structures for creating and verifying attestations. It defines the data types, format, and composition of an attestation. EAS uses Solidity ABI types as acceptable fields for schemas.
+::::
 
 Think of schemas as blueprints for attestations. They provide a common format and structure for attestation data on and off-chain, making it easy to create and verify attestations for any use case.
 

@@ -40,6 +40,13 @@ bytes32 sig; // the cryptographic signature of the attestation
 }
 ```
 
+## Example business ideas
+1. **TweetSafe** - A platform that verifies the identity of Twitter users and enables them to create signed statements to establish their online reputation and credibility.
+2. **VeriTweet** - A service that uses EAS to verify the identities of Twitter influencers and celebrities, providing a trust layer for their followers and advertisers.
+3. **TweetProof** - A tool that allows Twitter users to create and share verified attestations of their accomplishments and achievements, increasing their visibility and credibility on the platform.
+4. **TweetVerify** - A service that uses EAS to verify the identities of Twitter users and the authenticity of their statements and claims, helping to combat misinformation and fake news.
+5. **TweetTrust** - A platform that uses EAS to provide a trust layer for Twitter users, enabling them to establish and maintain their online reputation and credibility.
+
 
 ## Future composability
 In the future, the composability of Ethereum Attestation Service (EAS) with other decentralized technologies could enable more advanced and flexible solutions for verified Twitter account ownership.
