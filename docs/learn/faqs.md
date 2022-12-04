@@ -25,8 +25,39 @@ Ethereum Attestation Service (EAS) is free, open-source, and permissionless plat
 <summary>What can I use EAS for?</summary>
 EAS includes a built-in attestation service and a registry of attestation schemas, enabling anyone to create and use attestations for a wide range of applications. Whether you need to prove your identity, credentials, or other information, EAS allows you to do so in a flexible and trustless manner.
 
-- Developers can use EAS to register new schemas for their use case or compose more complex schemas.
-- Users can use EAS to attest to anything (statements, their identity, what they own, and more).
+- **Create and register attestation schemas**: If you have a specific use case that requires attestations, you can create and register an attestation schema on EAS. This will enable you and others to use that schema to make attestations about your use case.
+- **Make attestations**: If you have an attested claim that you want to make, you can use EAS to create and store that attestation on the Ethereum blockchain. This will enable you to securely and transparently prove the authenticity of your claim, and will also provide a tamper-proof and immutable record of that claim.
+- **Verify attestations**: If you have received an attestation and want to verify its authenticity, you can use EAS to verify that attestation. This will enable you to ensure that the attestation is genuine, and will also allow you to access any additional information or data that may be included in the attestation.
+- **Build applications**: If you are a developer, you can use EAS to build applications and solutions that make use of attestations. This will enable you to create powerful and innovative applications that leverage the security and transparency of the Ethereum blockchain, and that can be tailored to fit the needs of your users and customers.
+
+</details>
+
+<details>
+<summary>Why should you use EAS?</summary>
+There are many reasons to use EAS, depending on your needs and goals. Here are a few key benefits of using EAS:
+
+- **Decentralized**: EAS is a decentralized platform, meaning that it is not owned or controlled by any one person or organization. This means that EAS is not subject to the risks and vulnerabilities of centralized systems, and that it is supported by the global Ethereum community.
+
+- **Open-source**: EAS is an open-source platform, meaning that the source code is freely available and can be reviewed and improved by anyone. This means that EAS is transparent and accountable, and that it benefits from the contributions and insights of a global community of developers and users.
+
+- **Interoperable**: EAS is interoperable with other decentralized protocols and solutions, meaning that it can work seamlessly with other protocols and solutions to create more powerful and flexible solutions. This means that EAS can be used as a foundation for building more complex and specialized applications and solutions.
+
+- **Composable**: EAS is composable, meaning that attestations can be added and combined like lego blocks to create more complex and specialized solutions. This means that EAS allows for the creation of new and innovative solutions that can be tailored to fit the needs of different users and communities.
+
+</details>
+
+
+<details>
+<summary>How does EAS work?</summary>
+EAS is runs on the Ethereum blockchain. It is built on two simple smart contracts: one for registering attestation schemas, and another for creating and verifying attestations.
+
+To use EAS, you will need to have an Ethereum wallet and some ETH to pay for gas fees. You can then create and register attestation schemas, create attestations, and verify attestations using the EAS platform.
+
+To create and register an attestation schema, you will need to provide a schema that defines the data that the attestation will include. Once the schema is registered, it can be used to create and verify attestations.
+
+To create an attestation, you will need to provide the data that the attestation will include, as well as the schema that the attestation will follow. The attestation will be cryptographically signed and added to the Ethereum blockchain, where it can be securely stored and verified. Attestations can also be stored off-chain.
+
+To verify an attestation, you can use the EAS platform to retrieve the attestation from the Ethereum blockchain and verify its authenticity and integrity. This can be done by checking the cryptographic signature and verifying that the attestation follows the rules and constraints defined in the schema.
 
 </details>
 
@@ -55,6 +86,16 @@ Existing DIDs, verifiable credentials, and claim protocols are attestations buil
 No. EAS does not pressupose any schema for the use case. This allows more freedom from the community to create the RIGHT schemas for the RIGHT users overtime.
 
 </details>
+
+<details>
+<summary>What is the global registry for attestations?</summary>
+The global registry for attestations is a decentralized database where anyone can register and share unique attestation schemas. This registry enables interoperability and composability between different attestation protocols and solutions, allowing the attestation layer to grow and evolve over time.
+</details>
+
+
+
+
+
 
 :::
 

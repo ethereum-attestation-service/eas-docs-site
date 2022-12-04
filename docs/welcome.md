@@ -9,6 +9,10 @@ sidebar_position: 1
 
 Whether you need to prove your identity, verify your credentials, or prove ownership of an asset, EAS makes it easy to create and verify attestations in a trustless, secure, and transparent way. With EAS, developers can build applications that make use of attestations for a wide range of purposes, from identity verification to supply chain management and beyond.
 
+Our comprehensive developer documentation will help you get started with EAS, from setting up your environment to creating and using attestations. We also provide examples and tutorials to help you understand how EAS works and how you can use it in your own projects.
+
+We're excited to see what you'll build with EAS, and we can't wait to see how you'll use attestations to create a more trustful and transparent world. 
+
 ### 🌎 The Global Registry for Attestations
 EAS serves as the base layer where all attestors and innovators can coordinate, create, register, and compose unique attestation schemas. This enables interoperability and composability between different attestation protocols and solutions, allowing the attestation layer to grow and evolve over time.
 

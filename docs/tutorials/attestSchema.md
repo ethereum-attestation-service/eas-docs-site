@@ -5,11 +5,67 @@ sidebar_position: 3
 # Make an Attestation
 Making an attestation allows anyone to attest with any [Attestation Schema](https://easscan.com/schemas) registered with EAS. You can make attestations using the API or the UI builder on the [EASScan website](https://easscan.com/attestation/create).
 
-:::tip You must have a wallet connected to use the Make Attestation UI 
+Here's an overview of how to make an attestation:
+1. Register a schema with the global schema registry, which defines the data fields that can be included in an attestation.
+2. Use the EAS contract to create an attestation, which includes the data fields and values defined in the schema.
+3. Sign the attestation using the Ethereum wallet of the user who is making the attestation.
+
+## Create an Attestation on the EAS Website 🧙
+
+Go to => [https://easscan.com/schemas](https://easscan.com/schemas): 
+
+:::tip Tip
+Make sure you've connected your wallet to EAS.
 :::
 
-## The Attestation Contract 📄
+## Making Attestations using the contracts 📄
+In order to make attestations with EAS, you will need to:
 
+#### 1.Register a schema with the global schema registry. 
+This defines the data fields and structure of the attested claims that you will be making. You can also use an existing schema if the fields match your use case need.
+
+
+#### 2. Use the `attest` or `attestByDelegation` functions of the EAS contract to make attested claims. 
+These functions take the following parameters:
+
+- `recipient`: The optional address of the user for whom you are making the attested claims.
+- `schema`: The ID of the schema that defines the data fields and structure of the attested claims.
+- `expirationTime`: The optional time at which the attested claims will expire and no longer be considered valid.
+- `revocable`: A boolean value indicating whether the attested claims can be revoked by the attester.
+- `refUUID`: The UUID of an existing attestation that this attestation is referencing. This can be used to create a chain of attested claims.
+- `data`: The attested claims, encoded as a byte array using the EIP712 encoding format.
+- `attester`: (optional) The address of the attester who is making the attested claims. This is only used for attestByDelegation and should be the address of the signer of the EIP712 signature.
+- `v`: (optional) The v component of the EIP712 signature. This is only used for attestByDelegation.
+- `r`: (optional) The r component of the EIP712 signature. This is only used for attestByDelegation.
+- `s`: (optional) The s component of the EIP712 signature. This is only used for attestByDelegation.
+
+#### 3. Use the `getAttestation` function of the EAS contract to retrieve the attested claims that you have made. 
+This function takes the UUID of the attested claims as a parameter and returns a Attestation struct containing the following fields:
+- `recipient`: The address of the user for whom the attested claims were made.
+- `schema`: The ID of the schema that defines the data fields and structure of the attested claims.
+- `expirationTime`: The time at which the attested claims will expire and no longer be considered valid.
+- `revocable`: A boolean value indicating whether the attested claims can be revoked by the attester.
+- `refUUID`: The UUID of the attestation that this attestation is referencing.
+- `data`: The attested claims, encoded as a byte array using the EIP712 encoding format.
+- `attester`: The address of the attester who made the attested claims.
+- `uuid`: The UUID of the attested claims.
+- `revoked`: A boolean value indicating whether the attested claims have been revoked.
+
+#### 4. Verify the attestation using the `verify` function in the EAS contract. 
+This function takes the following parameters:
+- `uuid`: The UUID of the attestation that you want to verify.
+- `recipient`: The address of the user whose identity the attestation is about.
+- `schema`: The ID of the schema that was used to make the attestation.
+- `expirationTime`: The time at which the attestation will expire and can no longer be verified.
+- `revocable`: A boolean value that indicates whether the attestation can be revoked by the attester.
+- `refUUID`: A reference UUID for the attestation, which can be used to link the attestation to other related attestations.
+- `data`: The data that was included in the attestation, encoded as a byte array.
+
+##### 5. (Optional) Use the `revoke` or `revokeByDelegation` functions.
+These will revoke attested claims that you have made.
+
+
+## The Attestation Contract 📄
 `Attest` with `Schemas` using the `EAS.SOL` contract. [View the entire contract on github](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/SchemaRegistry.sol).
 
 Here's an overview of the contract: 
@@ -49,37 +105,3 @@ Go to => [https://easscan.com/schemas](https://easscan.com/schemas):
 :::tip Tip
 Make sure you've connected your wallet to EAS.
 :::
-
-### `#1` Click on the `Create Schema` button 
-Navigate to the Schema's page and click on `Create Schema`. This will trigger the modal wizard to start the process. 
-
-![CreateSchema Step 1](./img/CreateSchema-1.png)
-
-### `#2` Add your Schema field types. 
-Click on the `Add Type` button which will allow you to add your Schema fields. You can add as many fields as you need for your Schema use case.
-
-![CreateSchema Step 2](./img/CreateSchema-2.png)
-
-
-### `#3` Name your Schema fields. 
-It's best practice to use camelCase when labeling your Schema. 
-
-![CreateSchema Step 3](./img/CreateSchema-4.png)
-
-
-### `#4` Click `Create Schema` and sign the transaction. 
-Once you click `Create Schema` it will trigger an Ethereum transaction with your connected wallet. 
-- Review the signature and sign.
-- Once you sign, the transaction will start processing.
-
-![CreateSchema Step 5](./img/CreateSchema-5.1.png)
-
-### `#5` Find your Schema in the Registry. 
-The Schema will be automatically assigned an Schema ID#. Once it generates, feel free to click it and inspect the Schema Details.
-
-![CreateSchema Step 6](./img/CreateSchema-6.png)
-
-### `#6` Open your schema. 
-The Schema will be automatically assigned an Schema ID#. Once it generates, feel free to click it and inspect the Schema Details.
-
-![CreateSchema Step 6](./img/CreateSchema-7.png)
