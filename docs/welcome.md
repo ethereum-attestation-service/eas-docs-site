@@ -39,7 +39,7 @@ EAS runs on two elegant and simple smart contracts. One for [**registering attes
 
 In addition, we provide a resolver contract for advanced use cases, such as on-chain verification of attestation data, and also attaching payments to attestations (which makes a new suite of powerful web3 applications possible).
 
-### 💡What you can build with EAS.
+## 💡What you can build with EAS.
 EAS allows for a wide range of possibilities for entrepreneurs and developers to build applications that make use of attestations. Some examples of things that can be built with EAS include:
 
 1. **Identity verification systems** that use attestations to prove the authenticity of a person's identity, credentials, or other information. This could be used for things like online voting systems, access control systems, or even building a decentralized version of a traditional identity verification system like a passport.

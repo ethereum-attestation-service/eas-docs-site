@@ -23,9 +23,9 @@ Furthermore, the use of EAS on the social network can enable new and innovative 
 
 ## Example schema 
 ``` bash
-bytes32 userName;
-bytes32 profilePicture;
-bytes32 location;
+string userName;
+string profilePicture;
+string location;
 bytes32 birthday;
 bool isVerified;
 bytes32[] interests;

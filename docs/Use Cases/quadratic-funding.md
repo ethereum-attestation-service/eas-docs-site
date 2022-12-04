@@ -16,7 +16,7 @@ When the applicant submits their funding request, they can include the attestati
 
 ## Example schema
 ``` bash
-bytes32 applicantName;
+string applicantName;
 address applicantAddress;
 bool isRegisteredNonProfit;
 uint256 communitySupportScore;

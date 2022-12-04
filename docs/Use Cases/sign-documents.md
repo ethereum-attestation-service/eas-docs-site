@@ -19,10 +19,10 @@ Overall, the use of EAS can improve the digital document signing experience for 
 
 ## Example schema
 ``` bash
-bytes32 documentName;
+string documentName;
 bytes32 documentHash;
 bytes32 signerAddress;
-bytes32 signerName;
+string signerName;
 uint256 signingDate;
 
 ```

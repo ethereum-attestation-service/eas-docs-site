@@ -20,14 +20,14 @@ Additionally, Alice's digital identity can be easily verified by others using EA
 
 ## Example schema 
 ``` bash
-bytes32 name;
+string name;
 bytes32 dob;
-bytes32 address;
+string address;
 bytes32 phone;
-bytes32 email;
-bytes32 employer;
-bytes32 occupation;
-bytes32 salary;
+string email;
+string employer;
+string occupation;
+unit256 salary;
 
 ```
 
@@ -40,7 +40,7 @@ phone: "123-456-7890"
 email: "alice@example.com"
 employer: "Acme Corporation"
 occupation: "Software Engineer"
-salary: "$100,000"
+salary: 100000
 
 ```
 

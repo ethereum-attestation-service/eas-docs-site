@@ -19,10 +19,10 @@ Additionally, because the attested claim is stored on the Ethereum blockchain, i
 
 ## Example schema 
 ```
-bytes32 productName;
+string productName;
 bytes32 productSKU;
-bytes origin;
-bytes manufacturer;
+string origin;
+string manufacturer;
 uint256 productionDate;
 uint256 expirationDate;
 bytes32 rawMaterialHash;

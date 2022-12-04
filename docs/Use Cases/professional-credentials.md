@@ -19,11 +19,11 @@ Additionally, because the attested claim is stored on the Ethereum blockchain, i
 
 ## Example schema 
 ```
-bytes32 name;
-bytes32 degree;
-bytes32 major;
-bytes32 minor;
-bytes32 institution;
+string name;
+string degree;
+string major;
+string minor;
+string institution;
 uint256 graduationYear;
 bytes32 transcriptHash;
 

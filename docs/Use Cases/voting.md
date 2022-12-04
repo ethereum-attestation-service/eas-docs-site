@@ -20,8 +20,8 @@ Additionally, because the attested claim is stored on the Ethereum blockchain, i
 
 ## Example schema
 ```bash
-bytes32 fullName;
-bytes32 address;
+string fullName;
+string address;
 bytes32 dateOfBirth;
 bytes32 citizenshipStatus;
 ```

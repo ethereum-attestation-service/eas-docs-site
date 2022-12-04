@@ -20,9 +20,9 @@ When the smart contract requests data from the oracle, it could include the atte
 
 ## Example schema
 ``` bash
-bytes32 stockName;
+bytes32 stockTicker;
 uint256 stockPrice;
-bytes32 currencyName;
+bytes32 currencyID;
 uint256 exchangeRate;
 
 ```

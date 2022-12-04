@@ -20,8 +20,8 @@ When the applicant submits their mortgage application, they could include the at
 
 ## Example schema
 ``` bash
-bytes32 fullName;
-bytes32 address;
+string fullName;
+string address;
 uint256 income;
 uint256 creditScore;
 
