@@ -4,7 +4,6 @@ sidebar_position: 8
 
 #  🎟️ Verified Ticketing
 
-
 ## Problem
 Ticket scalping and fraud are major issues in the event ticketing industry. Scalpers often buy large quantities of tickets and resell them at inflated prices, while fraudulent tickets can be easily copied or counterfeited, leading to lost revenue and disappointed customers. Traditional methods of ticket verification, such as QR codes and barcodes, can be easily forged or copied, making it difficult to ensure the authenticity of a ticket.
 
@@ -12,10 +11,11 @@ Ticket scalping and fraud are major issues in the event ticketing industry. Scal
 Ethereum Attestation Service (EAS) can be used to create a secure and transparent system for verifying the authenticity of event tickets. By leveraging the immutability and decentralization of the blockchain, EAS can allow event organizers to create cryptographically signed attestations of their tickets, which can then be verified by attendees and ticketing platforms. This provides a more robust and secure way to verify the authenticity of tickets, and can help to prevent scalping and fraud.
 
 ## Example
-An event organizer can create attested claims for each ticket they sell, which will be cryptographically signed and added to the blockchain.
+An event organizer can create attestations for each ticket they sell, which will be cryptographically signed and added to the blockchain.
 
-For example, let's say that the organizer of the "Summer Music Festival" wants to sell 100 tickets for their event. They create a decentralized identity for themselves using a UI built on EAS, and then create 100 attested claims, each representing a valid ticket for the festival. These attested claims are then cryptographically signed and added to the blockchain, where they can be easily verified by ticket holders and event staff.
+For example, let's say that the organizer of the "Summer Music Festival" wants to sell 100 tickets for their event. They create 100 attestations, each representing a valid ticket for the festival. These attestations are then cryptographically signed and added to the blockchain, where they can be easily verified by ticket holders and event staff.
 
+The ticket holder could present their attested ticket in a number of ways, such as displaying it on their mobile device or printing it out. The event staff or ticket sellers would then be able to verify the authenticity of the ticket by checking the attestation on the blockchain. This process would provide a secure and transparent way for event organizers and attendees to verify the authenticity of tickets and prevent fraud.
 
 ### Here's a few example ticketing applications that could be built:
 1. A **decentralized ticketing platform** that allows event organizers and ticket sellers to create, issue, and verify attested tickets using EAS. This platform could be integrated with existing ticketing systems to provide a secure and transparent way to verify the authenticity of tickets and prevent fraud.
@@ -47,14 +47,10 @@ For example, let's say that the organizer of the "Summer Music Festival" wants t
 5. **TicketShield** - a service that uses EAS to provide insurance for event tickets, protecting attendees from unexpected cancellations and other unforeseen events.
 
 ## Future composability
-The future composability of Ethereum Attestation Service (EAS) in the ticketing industry could enable a wide range of innovative and flexible solutions for verifying the authenticity of tickets.
+The use of EAS in the ticketing industry has the potential to enable a wide range of innovative and flexible solutions for verifying the authenticity of tickets.
 
-For example, EAS could be used to create and verify multiple types of attestations for tickets, such as attested claims about a ticket's origin, authenticity, and transfer history. These different types of attestations could be used together in various ways to create a greater ticketing ecosystem, with each attestation serving a different purpose and providing a unique layer of trust and transparency.
+For example, EAS could be used to create and verify multiple types of tickets, such as VIP tickets, early bird tickets, and discount tickets, each with their own unique attributes and verification requirements. This would provide event organizers with more control and flexibility in managing their ticket sales and distribution.
 
-One potential application of this composability is the use of origin attestations to verify the source of a ticket. This could be used to prevent the sale of counterfeit or fraudulent tickets, as event organizers could create origin attestations for their tickets and require that these attestations be present in order for a ticket to be considered valid. This could be done using smart contracts and other decentralized technologies to automatically verify the origin attestations and ensure their integrity.
+In addition, EAS could be integrated with other blockchain-based platforms and services to enable more advanced functionality and functionality, such as automated ticket refunds, resale markets, and insurance services. This could provide attendees with more options and protections when purchasing and using event tickets, and could also help to further prevent scalping and fraud.
 
-Another potential application of composability is the use of authenticity attestations to verify the legitimacy of a ticket. This could be used to prevent the use of copied or duplicated tickets, as event organizers could create authenticity attestations for their tickets and require that these attestations be present in order for a ticket to be considered valid. This could be done using advanced cryptographic techniques and other decentralized technologies to securely and transparently verify the authenticity attestations.
-
-Finally, the use of transfer attestations could enable a more transparent and secure way to transfer tickets between ticket holders. This could be used to prevent the resale of tickets at inflated prices, as event organizers could create transfer attestations that limit the number of times a ticket can be transferred and require that these attestations be present in order for a ticket to be considered valid. This could be done using smart contracts and other decentralized technologies to automatically verify the transfer attestations and ensure their integrity.
-
-Overall, the future composability of EAS for ticketing could enable a wide range of innovative and flexible solutions for verifying the authenticity of tickets, providing greater trust and transparency in the ticketing ecosystem.
+Overall, the future composability of EAS in the ticketing industry has the potential to improve the security, transparency, and efficiency of the event ticketing process, benefiting both organizers and attendees alike.

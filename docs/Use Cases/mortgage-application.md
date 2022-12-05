@@ -2,37 +2,42 @@
 sidebar_position: 11
 ---
 
-# 🏠 Mortgage applications 
+# 🏠 Mortgage loans
 
 ## Problem
 The mortgage loan process can be complex, time-consuming, and vulnerable to fraud and errors. Traditional methods of verifying a borrower's creditworthiness, income, and other factors that are relevant to their loan application often involve manual processes and physical documentation, which can be slow and prone to errors.
 
 ## Solution
-Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying claims about a borrower's creditworthiness, income, and other factors that are relevant to their loan application. With EAS, lenders and borrowers can create and verify attested claims about these factors, providing a secure and transparent way to verify the information and streamline the loan application process.
+EAS can streamline the mortgage loan process. With EAS, the various parties involved in the process can make attestations about the status of the application, providing a secure and transparent way to track and verify the progress of the application.
 
 ## Example
-One way that attestations could be used is by creating an attestation schema that defines the data fields and types that are relevant to mortgage applications, such as income, credit score, and employment history.
+Alice is applying for a mortgage to buy a house. She uses EAS to manage the mortgage application process, and receives attestations from the various parties involved in the process. For example, her credit score provider may make an attestation about her credit score, her employer may make an attestation about her income and employment status, and the property appraiser may make an attestation about the value of the property.
 
-Individuals who are applying for a mortgage could then use the attestation service to create an attestation with this schema and provide the necessary data. The attestation could be cryptographically signed and stored on the Ethereum blockchain, providing a secure and verifiable record of the applicant's information.
+These attestations are cryptographically signed and added to the Ethereum blockchain, where they can be easily verified by the mortgage provider. The mortgage provider can then use these attestations to quickly and securely verify the information in Alice's application, and make an informed decision about whether to approve her mortgage.
 
-When the applicant submits their mortgage application, they could include the attestation along with their other supporting documents. The lender could then use the attestation service to verify the attestation and check the data contained in it against the data on the blockchain. This process could help the lender to quickly and efficiently verify the applicant's information and make a decision on the mortgage application.
-
+Additionally, the use of EAS in the mortgage application process can enable new and innovative use cases, such as real-time application tracking, automated underwriting, and digital closing. For example, Alice could use EAS to track the progress of her mortgage application in real-time, and receive notifications when new attestations are made by the various parties involved in the process. This could provide her with greater transparency and control over the application process, and could also enable new features and services that require verified mortgage information.
 
 ## Example schema
 ``` bash
-string fullName;
-string address;
-uint256 income;
-uint256 creditScore;
+string applicantName;
+bytes32 creditScore;
+string employmentStatus;
+unit256 income;
+string propertyAddress;
+unit256 propertyValue;
+string mortgageAmount;
 
 ```
 
 ## Example attestation
 ``` bash
-fullName: "Alice Smith"
-address: "123 Main Street, Anytown USA"
-income: 50000
-creditScore: 720
+applicantName: "Alice Smith"
+creditScore: 750
+employmentStatus: "Full-time"
+income: 100000
+propertyAddress: "123 Main St, Anytown USA"
+propertyValue: 500000
+mortgageAmount: 400000
 
 ```
 ## Example business ideas
@@ -42,23 +47,10 @@ creditScore: 720
 4. **LoanClear** - A mortgage underwriting company that uses EAS to quickly and accurately verify a borrower's property ownership and income tax records.
 5. **MortgageBrite** - A mortgage servicing company that uses EAS to securely track and verify a borrower's payment history and creditworthiness over time.
 
+
 ## Future composability
 In the future, the composability and interoperability of Ethereum Attestation Service (EAS) could enable more advanced and flexible solutions for verified mortgage applications.
 
 Additionally, EAS could be integrated with decentralized reputation systems, such as DRep (Decentralized Reputation) and DRA (Decentralized Rating Agency), to enable users to build and maintain a trusted and verifiable reputation on the Ethereum blockchain. This could be used to verify the credibility and reliability of users and organizations, and to enable more efficient and trust-based interactions on the Ethereum network.
 
-EAS could be integrated with smart contracts and blockchain-based lending platforms to enable more automated and transparent verification of a borrower's creditworthiness and income. For example, a smart contract could be used to automatically verify a borrower's attested claims and determine their eligibility for a specific mortgage loan product. This could be used to enable more efficient and secure lending, while also providing a transparent and verifiable record of the loan application process.
-
-
-## How to get started
-In order to use Ethereum Attestation Service (EAS) for more verified mortgage loan applications, a mortgage company would need to take the following steps:
-
-1. Define the schema for the attested claims that will be used to verify a borrower's creditworthiness and income. This would typically include information such as the borrower's credit score, income, employment status, and employment history.
-
-2. Create a decentralized identity (DID) for each borrower, which will be used to securely store and manage their attested claims. This can be done using a DID provider or by creating a custom DID solution.
-
-3. Develop the system for requesting and verifying attested claims about a borrower's creditworthiness and income. This could involve the use of smart contracts and other decentralized technologies to automate the verification process and ensure its integrity and transparency.
-
-4. Test the system and refine it based on the results of the testing. This would involve conducting pilot loan applications and gathering feedback from borrowers and lenders to ensure that the system is user-friendly and effective.
-
-Overall, the process of using EAS for more verified mortgage loan applications would involve the development and implementation of a decentralized and secure solution for verifying borrower creditworthiness and income. This would enable more transparent and secure lending, while also providing a verifiable and immutable record of the loan application process.
+EAS could be integrated with smart contracts and blockchain-based lending platforms to enable more automated and transparent verification of a borrower's creditworthiness and income. For example, a smart contract could be used to automatically verify a borrower's attestations and determine their eligibility for a specific mortgage loan product. This could be used to enable more efficient and secure lending, while also providing a transparent and verifiable record of the loan application process.

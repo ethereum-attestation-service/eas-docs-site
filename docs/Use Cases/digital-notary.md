@@ -8,7 +8,7 @@ Ethereum Attestation Service (EAS) could be used to create a digital notarizatio
 Traditional notarization processes can be time-consuming, costly, and inconvenient, requiring individuals to physically visit a notary and provide physical documentation. This can be a barrier for individuals who need to have documents notarized but are unable to do so easily due to location, availability, or other factors.
 
 ## Solution
-Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying attested claims about the authenticity of digital documents. With EAS, individuals can easily create and verify digital notarizations, providing a convenient and secure way to verify the authenticity of their documents.
+EAS provides a decentralized solution for securely storing and verifying attested claims about the authenticity of digital documents. With EAS, individuals can easily create and verify digital notarizations, providing a convenient and secure way to verify the authenticity of their documents.
 
 ## Example
 One way that attestations could be used is by creating an attestation schema that defines the data fields and types that are relevant to digital notarization, such as the document's hash, the date and time of notarization, and the signature of the notary.

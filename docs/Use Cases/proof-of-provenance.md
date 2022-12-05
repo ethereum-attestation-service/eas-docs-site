@@ -8,14 +8,12 @@ sidebar_position: 5
 Supply chains are complex and global networks that involve multiple stakeholders and intermediaries. Ensuring the provenance and authenticity of goods and materials in these supply chains can be challenging, and is often reliant on manual processes and third-party certifications.
 
 ## Solution
-Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying claims about the provenance of goods and products. With EAS, manufacturers, retailers, and consumers can create and verify attested claims about the origin, composition, and history of a product, providing a secure and transparent way to verify its authenticity and provenance.
+EAS provides a decentralized solution for securely storing and verifying attestations about the provenance of goods and products. With EAS, manufacturers, retailers, and consumers can create and verify attestations about the origin, composition, and history of a product, providing a secure and transparent way to verify its authenticity and provenance.
 
 ## Example
-Alice is a manager at a clothing company that needs to verify the provenance of a batch of shirts that will be sold to Bob's department store. Using EAS, Alice can create an attested claim about the provenance of the shirts, which includes information such as the origin of the raw materials, the location of the manufacturing facility, and the dates of production and packaging.
+A clothing company could use EAS to create and verify attestations about the materials and labor used in the production of its clothing, as well as the transportation and distribution of its products. This could be done using schemas that include information such as the origin of the materials, the ethical and environmental standards used in production, and the certification and safety standards of the transportation and distribution process.
 
-Alice can then share this attested claim with Bob, who can easily and securely verify the provenance of the shirts using the EAS platform. This allows Bob to ensure that the shirts meet his standards for quality and transparency, and that they were produced in an ethical and sustainable manner.
-
-Additionally, because the attested claim is stored on the Ethereum blockchain, it is transparent and verifiable by anyone who has access to the platform. This provides a secure and immutable record of the product's provenance, ensuring the integrity of the supply chain and the trustworthiness of the parties involved.
+The company could then use this information to enhance the trustworthiness and transparency of its supply chain, and provide customers with more detailed and accurate information about the products they are purchasing. This could be done by displaying the attestations on the company's website or social media channels, or by integrating the information with existing supply chain management systems.
 
 ## Example schema 
 ```

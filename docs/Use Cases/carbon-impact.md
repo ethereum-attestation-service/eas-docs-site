@@ -8,10 +8,10 @@ sidebar_position: 15
 Consumers are becoming increasingly concerned about the environmental impact of the products and services they use. However, it can be difficult for consumers to accurately assess the carbon footprint and other environmental impacts of the products and services they purchase. This lack of transparency can lead to the purchase of products and services with a high environmental impact, contributing to climate change and other environmental problems.
 
 ## Solution
-Ethereum Attestation Service (EAS) can be used to create and verify attested claims about the environmental impact of products and services. By creating a schema that defines the data fields and types relevant to environmental impact, such as carbon footprint, energy usage, and waste generation, companies can create attestations that provide transparent and verifiable information about the environmental impact of their products and services.
+EAS can be used to make attestations about the environmental impact of products and services. By creating a schema that defines the data fields and types relevant to environmental impact, such as carbon footprint, energy usage, and waste generation, companies can create attestations that provide transparent and verifiable information about the environmental impact of their products and services.
 
 ## Example
-Alice is a consumer who is looking to purchase a new television. She wants to make sure that the television she chooses has a low environmental impact, so she uses EAS to search for attestations about the environmental impact of different television models. She finds that the model she is considering has an attestation that provides detailed information about its carbon footprint, energy usage, and waste generation.
+Alice is a consumer who is looking to purchase a new television. She wants to make sure that the television she chooses has a low environmental impact, so she uses an application powered by EAS to search for attestations about the environmental impact of different television models. She finds that the model she is considering has an attestation that provides detailed information about its carbon footprint, energy usage, and waste generation.
 
 Alice reviews the attestation and is satisfied with the information it provides. She decides to purchase the television, knowing that its environmental impact has been transparently and verifiably disclosed.
 
@@ -45,8 +45,8 @@ uint256 wasteGeneration;
 10. **EcoAudit** - An auditing service that uses EAS to evaluate and certify the sustainability of products and services.
 
 ## Future composability
-In the future, the composability of Ethereum Attestation Service (EAS) with other decentralized technologies could enable more advanced and flexible solutions for certifying the environmental impact of products and services.
+In the future, the composability of EAS with other decentralized technologies could enable more advanced and flexible solutions for certifying the environmental impact of products and services.
 
 For example, EAS could be integrated with decentralized finance (DeFi) platforms to enable consumers to invest in products and services with low environmental impact. This could involve the creation of DeFi products that are backed by environmental impact attestations, allowing consumers to invest in sustainable products and earn returns based on their environmental performance.
 
-Additionally, EAS could be integrated with smart contracts and decentralized storage systems, such as IPFS, to enable more automated and transparent verification of environmental impact claims. For example, a smart contract could be used to automatically verify the accuracy of environmental impact attestations and determine the eligibility of products and services for sustainability certifications
+Additionally, EAS could be integrated with smart contracts to enable more automated and transparent verification of environmental impact attestations. For example, a smart contract could be used to automatically verify the accuracy of environmental impact attestations and determine the eligibility of products and services for sustainability certifications.

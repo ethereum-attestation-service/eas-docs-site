@@ -8,13 +8,13 @@ sidebar_position: 2
 Social networks have become an integral part of our daily lives, but they have also faced challenges related to privacy, security, and trust. Traditional social networks often rely on centralized systems and algorithms to manage user data and interactions, which can lead to data breaches, censorship, and manipulation.
 
 ## Solution
-Ethereum Attestation Service (EAS) provides a decentralized solution for managing user data and interactions on social networks. With EAS, social network owners and users can create and verify attested claims about their identity, interests, and relationships, providing a secure and transparent way to manage user data and interactions.
+Ethereum Attestation Service (EAS) provides a decentralized solution for managing user data and interactions on social networks. With EAS, social network owners and users can create and verify attestations about their identity, interests, and relationships, providing a secure and transparent way to manage user data and interactions.
 
 
 ## Example
-Alice is a user of a social network that uses EAS to manage user data. She creates attested claims about her personal information, such as her name, age, and location. She can also create attested claims about her content, such as her posts, comments, and likes.
+Alice is a user of a social network that uses EAS to verify users from bots. She creates attestations about her personal information, such as her name, age, and location. She can also create attestations about her content, such as her posts, comments, and likes.
 
-These attested claims are cryptographically signed and added to the Ethereum blockchain, where they can be easily verified by others. This provides a secure and transparent way for Alice to manage and share her data on the social network, and also enables others to verify the authenticity and accuracy of this data.
+These attestations are cryptographically signed and added to the Ethereum blockchain, where they can be easily verified by others. This provides a secure and transparent way for Alice to manage and share her data on the social network, and also enables others to verify the authenticity and accuracy of this data.
 
 Additionally, Alice can use her digital identity to securely and transparently interact with other users on the social network. For example, she can use her digital identity to authenticate her identity when logging in to the platform, and she can also use it to securely share her personal information and content with others. This can help to improve the security and trustworthiness of digital interactions on the social network.
 
@@ -51,9 +51,7 @@ interests: ["photography", "cooking", "travel"]
 ## Future composability
 In the future, the composability of EAS with other decentralized solutions could enable more advanced and flexible solutions for improving the trust and security of social networks.
 
-For example, a decentralized reputation system could be used to track and verify users' interactions and contributions on a social network, providing a transparent and verifiable record of their reputation. This reputation system could be integrated with EAS to allow users to attest to claims about their reputation, providing a more complete view of their trustworthiness and credibility.
-
-Additionally, EAS could be integrated with decentralized storage systems, such as IPFS (InterPlanetary File System), to enable social network owners and users to securely store and manage their attested claims in a decentralized and transparent way. This would allow for the creation of a decentralized and verifiable record of users' identities, enabling social network owners and users to easily verify the authenticity and accuracy of these identities.
+For example, a decentralized reputation system could be used to track and verify users' interactions and contributions on a social network, providing a transparent and verifiable record of their reputation. This reputation system could be integrated with EAS to allow users to attest their reputation, providing a more complete view of their trustworthiness and credibility.
 
 
 
