@@ -9,7 +9,7 @@ EAS can be used to create verified reputation systems for online reviews, allowi
 Currently, online review platforms are vulnerable to fake or biased reviews, which can make it difficult for customers to trust the information they are reading.
 
 ## Solution
-EAS enables the creation of verified reputation systems for online reviews, where customers can share attestations about their experiences with a product or service. This provides a more secure and trustworthy way for customers to share their opinions and feedback, while also enabling companies to improve their reputation and trustworthiness.
+EAS provides a decentralized solution for securely creating, storing, and verifying attestations of verified reputation systems for online reviews. This would enable customers to share attestations about their experiences with a product or service providing a more secure and trustworthy way for customers to share their opinions and feedback, while also enabling companies to improve their reputation and trustworthiness.
 
 ## Example
 A customer could create attestations about their satisfaction with a product or service. This could be done using a schema that includes information such as the customer's rating of the product or service, as well as any comments or feedback they may have.

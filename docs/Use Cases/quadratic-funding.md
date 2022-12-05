@@ -7,7 +7,7 @@ sidebar_position: 17
 Quadratic funding is a system for allocating funds to public goods or projects based on the preferences of the individuals or organizations contributing to the funding pool. However, traditional quadratic funding systems can be difficult to administer and can be vulnerable to fraud or manipulation.
 
 ## Solution
-With EAS, funding pool administrators and applicants can create and verify attestations about their eligibility, providing a secure and transparent way to verify the information and streamline the funding allocation process.
+EAS provides a decentralized solution for securely creating, storing, and verifying attestations about the eligibility of quadratic funding applicants. With EAS, funding pool administrators and applicants can create and verify attestations about their eligibility, providing a secure and transparent way to verify the information and streamline the funding allocation process.
 
 ## Example
 An attestation schema can be created that defines the criteria for eligibility to receive funding from a quadratic funding pool, such as being a registered non-profit organization or having a certain level of support from the community. An applicant seeking funding from the pool can then use the attestation service to create an attestation with this schema and provide the necessary information to demonstrate their eligibility. The attestation could be cryptographically signed and stored on the Ethereum blockchain, providing a secure and verifiable record of the applicant's eligibility.

@@ -8,7 +8,7 @@ sidebar_position: 2
 Social networks have become an integral part of our daily lives, but they have also faced challenges related to privacy, security, and trust. Traditional social networks often rely on centralized systems and algorithms to manage user data and interactions, which can lead to data breaches, censorship, and manipulation.
 
 ## Solution
-Ethereum Attestation Service (EAS) provides a decentralized solution for managing user data and interactions on social networks. With EAS, social network owners and users can create and verify attestations about their identity, interests, and relationships, providing a secure and transparent way to manage user data and interactions.
+Ethereum Attestation Service (EAS) provides a decentralized solution for securely creating, storing, and verifying attestations to manage user data and interactions on social networks. With EAS, social network owners and users can create and verify attestations about their identity, interests, and relationships, providing a secure and transparent way to manage user data and interactions.
 
 
 ## Example

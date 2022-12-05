@@ -26,9 +26,9 @@ uint256 wasteGeneration;
 ## Example attestation
 ``` jsx
 {
-  "carbon footprint": "500 kg CO2/year",
-  "energy usage": "150 kWh/year",
-  "waste generation": "1 kg/year"
+  carbonFootPrint: "500 kg CO2/year",
+  energyUsage: "150 kWh/year",
+  wasteGeneration: "1 kg/year"
 }
 ```
 

@@ -36,7 +36,6 @@ signerName: "Bob"
 signingDate: 1617838098
 ```
 
-
 ### Here's a few example ticketing applications that could be built:
 1. A **decentralized document signing platform** that allows organizations and individuals to create, sign, and verify attested documents using EAS. This platform could be integrated with existing document management systems to provide a secure and transparent way to sign and verify documents, and prevent fraud and tampering.
 
