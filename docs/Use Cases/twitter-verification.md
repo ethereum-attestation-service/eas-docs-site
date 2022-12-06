@@ -8,7 +8,7 @@ sidebar_position: 7
 Twitter account ownership can be difficult to verify, making it vulnerable to identity theft and spam. Traditional methods of verification, such as email and phone number verification, can be easily faked or hacked, making it difficult to ensure the authenticity of a Twitter account. This can lead to the spread of misinformation and harmful content, and can undermine the credibility and integrity of Twitter as a platform.
 
 ## Solution
-Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying the identity of Twitter users. With EAS, Twitter users can create attestations about their identity, which can then be verified by trusted entities and other users. This provides a secure and transparent way to verify the ownership of a Twitter account, and can help to prevent identity theft and spam.
+Ethereum Attestation Service (EAS) provides a decentralized solution for securely creating, storing, and verifying attestations about the identity of Twitter users. With EAS, Twitter users can create attestations about their identity, which can then be verified by trusted entities and other users. This provides a secure and transparent way to verify the ownership of a Twitter account, and can help to prevent identity theft and spam.
 
 ## Example
 Alice wants to verify her Twitter account @alice, so she creates a digital identity on the blockchain using EAS. She then creates an attestation of her identity, which includes her name, email, and Twitter handle. This attestation is cryptographically signed and added to the blockchain, where it can be verified by Twitter and other users.

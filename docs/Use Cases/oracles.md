@@ -7,7 +7,7 @@ sidebar_position: 18
 Oracles are essential for enabling smart contracts to access and use real-world data from financial markets. However, the security and reliability of oracles is a critical concern, as the integrity of the data that oracles provide directly affects the security and reliability of the smart contracts that use it.
 
 ## Solution
-Ethereum Attestation Service (EAS) provides a decentralized solution for securely storing and verifying the integrity of the data that oracles provide to smart contracts. With EAS, oracles can create and sign attestations that provide a cryptographically secure and verifiable record of the data they are providing to a smart contract.
+EAS provides a decentralized solution for securely creating, storing, and verifying attestations of the integrity of the data that oracles provide to smart contracts. With EAS, oracles can create and sign attestations that provide a cryptographically secure and verifiable record of the data they are providing to a smart contract.
 
 This attestation can be used by the smart contract to verify the integrity of the data and ensure that it has not been tampered with. This can help to increase the security and reliability of the smart contracts that use data from oracles, providing a more transparent and trustless way to access financial market data.
 

@@ -8,7 +8,7 @@ sidebar_position: 14
 Verifying the authenticity of an individual's educational and professional credentials can be challenging, and is often reliant on manual processes and third-party certifications. This can be time-consuming and prone to errors, and can also create barriers to the trust and transparency that are essential for the credibility of credentials.
 
 ## Solution
-With EAS, credentialing organizations can issue and manage professional credentials and certifications using the Ethereum blockchain. These credentials and certifications can be easily verified by any interested party, providing a secure and transparent way to prove the user's qualifications and skills.
+With EAS, credentialing organizations can issue and manage professional credentials and certifications using the Ethereum blockchain. These credentials and certifications can be easily create, stored, and verified by any interested party, providing a secure and transparent way to prove the user's qualifications and skills.
 
 ## Example
 Alice is a professional who has earned a certification from the XYZ Professional Organization. The XYZ Organization uses EAS to issue and manage Alice's certification, attesting to the fact that she has successfully completed the certification requirements. This attestation is cryptographically signed and added to the blockchain, where it can be easily verified by others.
