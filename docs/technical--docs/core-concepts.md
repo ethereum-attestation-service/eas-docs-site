@@ -15,7 +15,7 @@ Smart contracts on the EAS platform are written in Solidity, a high-level progra
 ## Blockchain and distributed ledger technology
 EAS is built on the Ethereum blockchain, which is a decentralized, distributed ledger that allows for the creation and execution of smart contracts. A blockchain is a type of database that is shared across a network of computers, known as nodes. Each node maintains a copy of the ledger, and new transactions or data are added to the ledger through a consensus mechanism.
 
-This decentralized, distributed nature of blockchain technology allows for trustless, secure, and transparent transactions and data storage. It also enables the creation of smart contracts, which are self-executing pieces of code that can enforce the terms of a contract without the need for intermediaries.
+This decentralized, distributed nature of blockchain technology allows for trustless, secure, and transparent transactions and data storage.
 
 ## Attestations
 Attestations are digital records that verify the authenticity of information. They can be used in a wide range of applications, such as verifying a person's identity or credentials.
