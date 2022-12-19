@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# 🤩 Reputation Systems 
+# Reputation Systems 
 
 ## Problem
 In today's digital world, trust and reputation are increasingly important for individuals, businesses, and organizations to establish and maintain. Traditional methods of building trust and reputation, such as personal relationships and word-of-mouth referrals, can be slow and limited in scope. Online, trust and reputation are often based on subjective and unverifiable information, such as online reviews and social media posts, which can be manipulated and unreliable.

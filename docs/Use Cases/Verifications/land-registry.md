@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 🏡 Land Registry 
+# Land Registry 
 
 ## Problem
 :::caution Land registeries are antiquated

@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# 🏥 Healthcare Services 
+# Healthcare Services 
 
 ## Problem
 Traditionally, healthcare information has been stored and managed by centralized systems, such as electronic medical records (EMR) systems. These systems can be slow, expensive, and vulnerable to data breaches and privacy violations. Additionally, patients often have limited control over their own healthcare data, and may have difficulty accessing and sharing their information with healthcare providers.

@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# 🐦 Twitter Verification
+#Twitter Verification
 
 ## Problem
 Twitter account ownership can be difficult to verify, making it vulnerable to identity theft and spam. Traditional methods of verification, such as email and phone number verification, can be easily faked or hacked, making it difficult to ensure the authenticity of a Twitter account. This can lead to the spread of misinformation and harmful content, and can undermine the credibility and integrity of Twitter as a platform.

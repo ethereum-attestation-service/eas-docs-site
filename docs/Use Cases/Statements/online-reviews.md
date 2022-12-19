@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-#  🌟 Online Reviews
+# Online Reviews
 EAS can be used to create verified reputation systems for online reviews, allowing customers to easily and securely share their attestations about their experiences with a product or service.
 
 ## Problem

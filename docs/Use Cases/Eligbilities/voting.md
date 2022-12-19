@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# 🗳️ Voter ID and Eligibility 
+# Voter Eligibility 
 Ethereum Attestation Service (EAS) could be used to create a voter identification and eligibility system, allowing governments to securely and easily verify the identity and eligibility of voters.
 
 ## Problem

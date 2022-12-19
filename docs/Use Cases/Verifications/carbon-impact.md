@@ -2,7 +2,7 @@
 sidebar_position: 15
 ---
 
-# 🌱 Certifying Carbon Impact
+# Certifying Carbon Impact
 
 ## Problem
 Consumers are becoming increasingly concerned about the environmental impact of the products and services they use. However, it can be difficult for consumers to accurately assess the carbon footprint and other environmental impacts of the products and services they purchase. This lack of transparency can lead to the purchase of products and services with a high environmental impact, contributing to climate change and other environmental problems.

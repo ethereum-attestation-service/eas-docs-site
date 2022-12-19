@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 💬 Social Networks
+# Social Networks
 
 ## Problem
 Social networks have become an integral part of our daily lives, but they have also faced challenges related to privacy, security, and trust. Traditional social networks often rely on centralized systems and algorithms to manage user data and interactions, which can lead to data breaches, censorship, and manipulation.

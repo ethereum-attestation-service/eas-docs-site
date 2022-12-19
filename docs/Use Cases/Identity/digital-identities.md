@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 🥸 Digital Identitiy
+# Digital Identitiy
 Create and manage your own digital identity, attesting to information about your identity on the Ethereum. This provides a secure and transparent way to prove your identity, and can be verified by anyone.
 
 ## Problem

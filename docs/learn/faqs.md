@@ -113,6 +113,8 @@ For example, if you need to prove that you have a certain degree or certificatio
 
 Attestations are useful because they provide a way to verify the authenticity of information in a trustless manner. This means that you don't need to rely on a centralized authority to verify the information, which can be useful in situations where it's difficult or impossible to do so.
 
+Tip! Remember that the value of an attestation comes from the person making the attestation or verifing it. An attestation for your credit score that comes from your friend is not going to hold much weight. However, an attestation from a credit bureau will. 
+
 Ethereum Attestation Service (EAS) is a platform that allows anyone to create and use attestations. 
 
 </details>

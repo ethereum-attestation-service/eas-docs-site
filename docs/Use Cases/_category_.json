@@ -1,6 +1,6 @@
 {
   "label": "Use Cases",
-  "position": 4,
+  "position": 5,
   "link": {
     "type": "generated-index",
     "description": " EAS has many potential use cases, including verifying a user's identity for social media accounts, providing proof of education or employment, and enabling access to healthcare services. It can also be used to verify the provenance of physical goods, such as art or luxury items, and to enable secure and verifiable voting in elections. Below is a list of on-going use cases to help inspire builders:"

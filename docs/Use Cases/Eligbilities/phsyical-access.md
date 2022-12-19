@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-#  🔑 Physical Access
+# Physical Access
 
 ## Problem
 Traditionally, physical access to buildings and other restricted areas has been granted using physical keys or badges. This approach has several drawbacks, including the potential for keys to be lost or stolen, and the inconvenience of having to carry around physical keys or badges. In addition, the process of issuing and revoking access can be time-consuming and error-prone.

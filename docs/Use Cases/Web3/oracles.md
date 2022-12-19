@@ -1,7 +1,7 @@
 ---
 sidebar_position: 18
 ---
-# 🔮 Oracles
+# Oracles
 
 ## Problem
 Oracles are essential for enabling smart contracts to access and use real-world data from financial markets. However, the security and reliability of oracles is a critical concern, as the integrity of the data that oracles provide directly affects the security and reliability of the smart contracts that use it.

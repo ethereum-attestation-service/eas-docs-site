@@ -2,7 +2,7 @@
 sidebar_position: 13
 ---
 
-# 🗣️ Making Statements
+# Making Statements
 
 
 ## Problem

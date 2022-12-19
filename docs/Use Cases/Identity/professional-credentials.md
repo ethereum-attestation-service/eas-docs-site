@@ -2,7 +2,7 @@
 sidebar_position: 14
 ---
 
-#  🧑‍🎓 Professional credentials
+# Professional credentials
 
 ## Problem
 Verifying the authenticity of an individual's educational and professional credentials can be challenging, and is often reliant on manual processes and third-party certifications. This can be time-consuming and prone to errors, and can also create barriers to the trust and transparency that are essential for the credibility of credentials.

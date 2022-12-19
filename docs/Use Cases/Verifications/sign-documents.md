@@ -2,7 +2,7 @@
 sidebar_position: 12
 ---
 
-#  📄 Sign Documents
+# Sign Documents
 
 ## Problem
 Digital signatures have become an increasingly important part of the way we do business and interact online. However, traditional digital signature systems can be slow, expensive, and vulnerable to fraud and forgery.

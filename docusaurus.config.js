@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'EAS',
+        title: 'Ethereum Attestation Service',
         logo: {
           alt: 'EAS Logo',
           src: 'img/eas-logo.png',

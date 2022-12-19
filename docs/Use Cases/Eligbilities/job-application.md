@@ -1,7 +1,7 @@
 ---
 sidebar_position: 14
 ---
-# 💼  Job Applications
+# Job Applications
 
 ## Problem
 The traditional job application process is often opaque and can be biased. Employers often rely on resumes, cover letters, and interviews to evaluate job candidates, which can be subjective and may not provide a complete picture of a candidate's skills and qualifications. This can make it difficult for job seekers to differentiate themselves and can lead to unfair hiring decisions.

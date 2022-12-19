@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-#  🎟️ Verified Ticketing
+# Verified Ticketing
 
 ## Problem
 Ticket scalping and fraud are major issues in the event ticketing industry. Scalpers often buy large quantities of tickets and resell them at inflated prices, while fraudulent tickets can be easily copied or counterfeited, leading to lost revenue and disappointed customers. Traditional methods of ticket verification, such as QR codes and barcodes, can be easily forged or copied, making it difficult to ensure the authenticity of a ticket.

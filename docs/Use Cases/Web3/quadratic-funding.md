@@ -1,7 +1,7 @@
 ---
 sidebar_position: 17
 ---
-# 💰 Quadratic Funding
+# Quadratic Funding
 
 ## Problem
 Quadratic funding is a system for allocating funds to public goods or projects based on the preferences of the individuals or organizations contributing to the funding pool. However, traditional quadratic funding systems can be difficult to administer and can be vulnerable to fraud or manipulation.
