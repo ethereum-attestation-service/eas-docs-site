@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Getting Started
+# Contracts
 Here, you'll find everything you need to get started with building on the EAS platform.
 
 ## Prerequisites
