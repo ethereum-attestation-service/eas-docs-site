@@ -2,41 +2,56 @@
 sidebar_position: 2
 ---
 
-# Attestations 
+# What are Attestations 
 
 :::info What are attestations?
-**Attestations** /ˌaˌteˈstāSH(ə)n; are any and all types of certifications, claims, verifications, evidence, declarations, and proof that something exists or is the case. 
+**Attestations** /ˌaˌteˈstāSH(ə)n; are statements or evidence of information made by anyone about anything.  
 :::
 
-Attestations are a type of proof or certification that something exists or is the case. They can be used to verify the identity, credentials, or other information of individuals, organizations, and other entities. This can be useful for a wide range of applications, such as proving ownership, verifying credit scores, or verifying the trustworthiness of an individual or entity.
+![Attestations Concept](./img/attestations-concept-2.png)
 
-Ethereum Attestation Service (EAS) is a protocol for registering, verifying, and revoking attestations on the Ethereum blockchain. EAS allows for interoperability and composability between different attestation protocols and solutions, enabling the attestation layer to grow and change over time. Whether you need to prove your identity, credentials, or other information, EAS allows you to do so in a flexible and simple way.
+Attestations are a digital records cryptographically signed that something exists or is the case. They can be made by anyone to attest to the identity, credentials, or other information of individuals, organizations, and other entities. This can be useful for a wide range of applications, such as proving ownership, verifying credit scores, or verifying the trustworthiness of an individual or entity.
 
-### 🙌 Attestations happen all around us.
-Attestations happen every time you need to prove your or someone else's:
-- `identity` (who they are), 
-- `credentials` (their skills & credibility), 
-- `ownership` (what they own), 
-- `credit score` (their financial status),
-- `vote` (who they trust to represent them), 
-- `nationality` (where they are from), 
-- `eligibility` (what they have access to),
-- `reputation` (how peope percieve them).
+The **value of an attestation** comes from the person or entity making the statement. If the statement is about something important, like whether someone has a good credit score, then the attestation is only valuable if it comes from a reliable source, like one of the credit score providers. If the attestation just comes from the person who wants a loan or lease, it's not as valuable.
 
-When you are attesting or being attested to, you are proving that you are who you say you are, that you own what you say you own, or that you have the skills you say you have. Here are a few examples of when you might experience attestations at play:
-- **like** a twitter post on the internet,
-- **review** a restaurant or product online, 
-- **use** your personal ID to prove who you are,
-- **prove** your ownership of your car or home,
-- **access** a building with a keycard,
-- **buy** tickets to your favorite concert or event,
-- **apply** for a job or a mortgage,
-- **vote** in your local community group or presidential election,
-- **verify** someone is trustworthy or not,
-- **claim** you have a set of skills.
-- and the list goes on...
+Ethereum Attestation Service (EAS) is a protocol for registering, verifying, and revoking attestations on the Ethereum blockchain.
 
-The value of the attestation comes from the person or entity making the statement. If the statement is about something important, like whether someone has a good credit score, then the attestation is only valuable if it comes from a reliable source, like one of the credit score providers. If the attestation just comes from the person who wants a loan or lease, it's not as valuable.
+### Why Attestations Matter
+Attestations are important because they provide a way to establish trust and credibility in the digital world. In the absence of physical presence or direct interaction, it can be difficult to know whether information is accurate or reliable. Attestations provide a third-party endorsement and cryptographically signed proof of the validity of a piece of information, making it easier for others to trust and rely on that information.
+
+### Comparison to DIDs, Verifiable Credentials, and Other Solutions
+There are a number of technologies and solutions that are related to or overlap with attestations, including Decentralized Identifiers (DIDs) and Verifiable Credentials. At their core, these are just types of attestations for a specific use case. Here is a brief comparison of these technologies:
+
+- **Decentralized Identifiers (DIDs):** DIDs are a type of digital identifier that are decentralized and self-sovereign, meaning they are not controlled by any single entity and can be owned and managed by the individual or organization that holds them. DIDs are often used in conjunction with attestations, as they provide a way to identify the issuer or subject of an attestation.
+
+- **Verifiable Credentials:** Verifiable Credentials are a type of digital credential that can be cryptographically verified as authentic. They are often used to represent educational or professional qualifications, as well as other types of identity information. Verifiable Credentials are built on top of DIDs and can be used in conjunction with attestations to provide a more robust and secure way of verifying credentials.
+
+- **Other Solutions:** There are a number of other technologies and solutions that are related to or overlap with attestations, including Self-Sovereign Identity (SSI) frameworks, Identity Hubs, and Identity Wallets. These solutions provide different approaches to managing and verifying identity information, and may be used in conjunction with attestations to provide additional security and functionality.
+
+### 🙌 Examples of Attestations
+
+Attestations happen all around us, every time we need to prove our or someone else's:
+- identity (who they are),
+- credentials (their skills & credibility),
+- ownership (what they own),
+- credit score (their financial status),
+- vote (who they trust to represent them),
+- nationality (where they are from),
+- eligibility (what they have access to),
+- reputation (how people perceive them).
+
+Here are a few examples of situations where you might experience attestations at play:
+- liking a Twitter post on the internet,
+- reviewing a restaurant or product online,
+- using your personal ID to prove who you are,
+- proving your ownership of your car or home,
+- accessing a building with a keycard,
+- buying tickets to your favorite concert or event,
+- applying for a job or a mortgage,
+- voting in your local community group or presidential election,
+- verifying someone is trustworthy or not,
+- claiming you have a set of skills.
+and the list goes on...
 
 ### ✅ Attestation use case examples:
 Take a look at our [**Use Cases Docs**](/docs/category/use-cases) for some inspiration on what EAS can solve for. 

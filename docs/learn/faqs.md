@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 7
 ---
 
 # FAQs
@@ -91,11 +91,6 @@ No. EAS does not pressupose any schema for the use case. This allows more freedo
 <summary>What is the global registry for attestations?</summary>
 The global registry for attestations is a decentralized database where anyone can register and share unique attestation schemas. This registry enables interoperability and composability between different attestation protocols and solutions, allowing the attestation layer to grow and evolve over time.
 </details>
-
-
-
-
-
 
 :::
 
