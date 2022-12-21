@@ -71,40 +71,27 @@ console.log(attestation);
 ### Creating attestations
 
 ``` javascript 
-// Creates an attestation
-const attestation = await eas.getAttestation({uuid:'0x5134f511e0533f997e569dac711952dde21daf14b316f3cce23835defc82c065'});
+// Initialize SchemaEncoder with the schema string
+const schemaEncoder = new SchemaEncoder("uint256 eventId, uint8 voteIndex");
+const encodedData = schemaEncoder.encodeData([1337, 2]);
 
-console.log(attestation);
-
-// Output
-{
-    uuid: '0x5134f511e0533f997e569dac711952dde21daf14b316f3cce23835defc82c065',
-    schema: '0x27d06e3659317e9a4f8154d1e849eb53d43d91fb4f219884d1684f86d797804a',
-    refUUID: '0x0000000000000000000000000000000000000000000000000000000000000000',
-    time: 1671219600,
-    expirationTime: 0,
-    revocationTime: 1671219636,
-    recipient: '0xFD50b031E778fAb33DfD2Fc3Ca66a1EeF0652165',
-    attester: '0x1e3de6aE412cA218FD2ae3379750388D414532dc',
-    revocable: true,
-    data: '0x0000000000000000000000000000000000000000000000000000000000000000'
-}
+const newAttestationUUID = await eas.attest({
+  recipient: '0xFD50b031E778fAb33DfD2Fc3Ca66a1EeF0652165',
+  // Unix timestamp of when attestation expires. (0 for no expiration)
+  expirationTime: 0,
+  revocable: true,
+  schema: "0xb16fa048b0d597f5a821747eba64efa4762ee5143e9a80600d0005386edfc995",
+  data: encodedData,
+});
 ```
 
-
+### Revoking attestations
 
 ``` javascript 
-import {EAS, Offchain, SchemaEncoder, SchemaRegistry} from "@ethereum-attestation-service/eas-sdk";
+const transaction = await eas.revoke({uuid: "0x0000000000000000000000000000000000000000000000000000000000000000"})
 
-const EASSchemaRegistryAddress = "0x6835877d62B51C66B07ECED9E6350D866E9D9a73";
-
-// Initializes the schemaRegisry with the address of the EAS Schema contract address
-const schemaRegistry = new SchemaRegistry(EASSchemaRegistryAddress);
-
-// Connects the 
-
-// Creates a new schema
-const schemaUUID = await Sche
+// Optional: Wait for transaction to be validated
+await transaction.wait();
 ```
 
 
