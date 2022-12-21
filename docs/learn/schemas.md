@@ -1,47 +1,30 @@
 ---
 sidebar_position: 4
 ---
-# Attestation Schemas
+# Schemas
 :::info Schemas are
 Predefined structures for creating and verifying attestations. It defines the data types, format, and composition of an attestation. EAS uses Solidity ABI types as acceptable fields for schemas.
 ::::
 Ethereum Attestation Service (EAS) enables anyone to create and register unique attestation schemas that can be used to verify and attest to the authenticity of information. These schemas are the building blocks of attestations, and they define the structure and rules for creating attestations.
 
+## Here's an example
+Here's an example of a schema that can be used to create an attestation for a tweet. You can see the unique identifier for the schema, the date and creator of the schema, the transaction record on Ethereum, and the schema structure. In this example, the schema accepts a single field: a string containing the content of the tweet.
 
-![#33 - Make A Statement](./img/attestation-record-v2.png)
+By using this schema to create an attestation, users can confidently verify that the attestation relates to a tweet. If you wanted to include additional details in the attestation, such as the tweet's ID or other information, you could simply create a new schema with the relevant fields for your use case. Over time, the most widely adopted schemas will likely become the standard.
 
-## What are Schemas?
-Think of schemas as blueprints for attestations. They provide a common format and structure for attestation data on and off-chain, making it easy to create and verify attestations for any use case.
+![#33 - Make A Statement](./img/tweet-something-schema.png)
 
 ## Why are Schemas important?
-Schemas are crucial for creating and using attestations on EAS because they provide a common format and structure for attestation data. This allows different attestations to be composed and verified in a trustless manner, enabling interoperability and composability between different attestation protocols and solutions.
+Schemas can be constructed in any way you want. Schemas are important because they provide a structure for creating and verifying attestations. Without a defined schema, it would be difficult to know what data to include in an attestation and how to verify its authenticity. By using a predefined schema, parties can easily understand and agree upon the format and structure of an attestation, enabling them to trust and rely on the information contained within it.
 
-In addition, schemas enable users to easily create and verify attestations for any use case, such as verifying a person's identity or proving ownership of an asset. This flexibility and simplicity make EAS a powerful tool for entrepreneurs and developers to build and use attestations for a wide range of applications.
+In addition, schemas allow for greater interoperability and composability between different attestation protocols and solutions. By using a common format and structure, attestations created with different schemas can be easily composed and verified together, enabling the creation of more complex and sophisticated attestation solutions.
 
-## Use Cases
-By using EAS, developers can create custom schemas and use them to create attestations for any purpose. This makes it possible to create attestation solutions that are tailored to specific use cases and communities.
+## Use existing schemas or create your own
+EAS allows anyone to create custom schemas for any use case, enabling the creation of attestation solutions that are tailored to specific needs and communities. 
 
-Here are a few examples of how schemas can be used:
-:::caution Remeber! The value of an attestation does not come from the schema. It comes from the Attestor using the schema.
-:::
-
-- **Verifying Identity**: A schema for verifying a person's identity might include fields for the person's name, date of birth, government ID number, and a photo. This schema could be used to create and verify attestations for identity verification, such as for access to secure buildings or online services.
-- **Proving Ownership**: A schema for proving ownership of an asset might include fields for the asset's description, serial number, owner's name, and a photo of the asset. This schema could be used to create and verify attestations for proving ownership of assets, such as for transferring ownership or proving insurance coverage.
-- **Verifying Credentials**: A schema for verifying credentials, such as a degree or certification, might include fields for the credential's name, issuing institution, date of issuance, and a photo of the credential. This schema could be used to create and verify attestations for verifying credentials, such as for job applications or professional licensing.
-
-Let's use Schema [#33 - Make A Statement](https://easscan.com/schema/view/0x62a336a890b6828afc5f3ae3f37d0acf3054d14d23d8de7a25ccf2068c203a7e) as an example. This schema allows anyone to add a statement that they can attest to. You could use this schema to attest to a statement you make or to one that someone else makes!
-
-
-![#33 - Make A Statement](./img/Schema-34-Sample.png)
-
-## A few example schemas on EAS
 The registry includes schemas that people have created. You can use these schemas to attest to different things, like a statement you make or a review you write about a restaurant. You can also create your own schemas to attest to whatever you want. The use-cases are endless. You can even compose schemas together like lego blocks to make more robust schemas. 
 
-- [#33 - Make A Statement](https://easscan.com/schema/view/0x62a336a890b6828afc5f3ae3f37d0acf3054d14d23d8de7a25ccf2068c203a7e) Allows anyone to add a statement that they can attest to. You could use this schema to attest to a statement you make or one that someone else makes!
-- [#34 - Tweet Something](https://easscan.com/schema/view/0x35a726ec7d0d25a966ead1ec068099879734083223c58b20f398ebc59602a983) Use this schema to attest to tweets you or someone else makes by passing the tweet content as a string.
-- [#35 - Review Restaurant](https://easscan.com/schema/view/0xae74d9b2a7c74cce610f452624591ebeb22fcd5663b991cc0033f0c4411c38c1) Write a review about a restaurant and rate it. This schema will allow anyone to attest to a review about a restaurant and a rating.
-- [#9 - Has Phone Number](https://easscan.com/schema/view/0x35a726ec7d0d25a966ead1ec068099879734083223c58b20f398ebc59602a983) This schema captures a true false if the user has a phone number and provides hash of the phone.
-
+Vist the registry of schemas at => [https://easscan.com/schemas](https://easscan.com/schemas).
 
 ## Getting started with Schemas
 Using schemas in EAS is easy and intuitive. Here's how to get started:

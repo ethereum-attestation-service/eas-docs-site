@@ -17,9 +17,35 @@ Speedrun your EAS understanding with a few common FAQs.
 :::info  FAQs
 <details>
 <summary> What is EAS?</summary>
-Ethereum Attestation Service (EAS) is free, open-source, and permissionless platform built on Ethereum that enables anyone to verify and create digital records known as attestations. Attestations verify the authenticity of information, such as a person's identity or credentials. EAS allows for interoperability and composability between different attestation protocols and solutions, enabling the attestation layer to grow and change over time.
+Ethereum Attestation Service (EAS) is a decentralized, open-source platform for creating and verifying attestations on Ethereum. Attestations are digital records that can be used to prove the authenticity of information. EAS enables anyone to create custom attestation schemas, which define the structure and rules for creating attestations and make attestations with them.
 
 </details>
+
+<details>
+<summary>How can I get started with EAS?</summary>
+To get started with EAS, you will need an Ethereum wallet and some Ether (ETH) to pay for gas fees. You can then visit the EAS website or SDK and follow the instructions for creating an attestation schema and making an attestation. You can also find more information and documentation on the EAS website, including tutorials and examples of how to use the protocol. 
+</details>
+
+<details>
+<summary>Is EAS a blockchain?</summary>
+No, EAS is not a blockchain. It is a decentralized platform that uses Ethereum to store and verify attestations. Ethereum is a blockchain that enables the creation of smart contracts and decentralized applications and EAS uses it.
+</details>
+
+<details>
+<summary>Is EAS free to use?</summary>
+EAS is a decentralized, open-source platform that is free to use for anyone in the Ethereum community. However, using EAS does require paying gas fees to interact with the Ethereum blockchain, which can vary based on network demand and other factors.
+</details>
+
+<details>
+<summary>Will EAS have it's own token?</summary>
+No. EAS has no plans to release it's own token. Our token is ETH. To use EAS you need ETH.
+</details>
+
+<details>
+<summary>Is EAS safe and secure to use?</summary>
+EAS is built on the Ethereum blockchain, which is a secure and decentralized platform. All attestations created using EAS can be stored on the Ethereum blockchain and are secured using cryptography and smart contracts. This makes it difficult for anyone to alter or forge attestations, ensuring the integrity and authenticity of the information they contain.
+</details>
+
 
 <details>
 <summary>What can I use EAS for?</summary>
@@ -110,9 +136,26 @@ Attestations are useful because they provide a way to verify the authenticity of
 
 Tip! Remember that the value of an attestation comes from the person making the attestation or verifing it. An attestation for your credit score that comes from your friend is not going to hold much weight. However, an attestation from a credit bureau will. 
 
-Ethereum Attestation Service (EAS) is a platform that allows anyone to create and use attestations. 
+</details>
+
+<details><summary>How do attestations work on Ethereum?</summary>
+
+Attestations on Ethereum are created and verified using smart contracts. These contracts define the rules for creating and verifying attestations, such as the data that must be included and the conditions that must be met for an attestation to be valid.
+
+To create an attestation on Ethereum, users must first create a schema that defines the structure and rules for the attestation. Once the schema is created, users can then create an attestation by providing the required data and signing the attestation with their Ethereum wallet.
+
+To verify an attestation, users can check the attestation against the schema and verify that the attestation data is valid and has been signed by a trusted source.
 
 </details>
+
+<details><summary>Where do Attestation's get their value from?</summary>
+
+One potential limitation to using attestations is that they rely on the integrity and trustworthiness of the Attestor, who is responsible for creating and signing the attestation. If an Attestor is not trustworthy, their attestations may not be reliable.
+
+Additionally, the value of an attestation depends on the context in which it is used. For example, an attestation that is reliable in one context may not be as reliable in another context. It is important to carefully consider the specific use case and the reliability of the Attestor when using attestations.
+
+</details>
+
 
 
 <details><summary>What are on-chain attestations?</summary>

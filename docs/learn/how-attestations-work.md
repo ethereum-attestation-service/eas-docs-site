@@ -3,32 +3,27 @@ sidebar_position: 3
 ---
 
 # How Attestations Work
-Attestations on Ethereum are statements or evidence of information made by anyone about anything, which can be registered, verified, and revoked using the Ethereum Attestation Service (EAS) protocol. Attestations can be used to verify the identity, credentials, or other information of individuals, organizations, and other entities, and are important for establishing trust and credibility in the digital world.
+EAS enables anyone to create, register, verify, and revoke attestations on the Ethereum blockchain or off-chain using two simple solidity contracts. 
+
+An attestation is a statement made by an Attestor (individual or entity), who attests to the authenticity of certain information. The Attestor creates an attestation using a predefined schema, which defines the structure and rules for creating the attestation. The attestation is then verified by one or more Verifiers, who can trust the authenticity of the information because it has been attested to by a trusted Attestor.
 
 ![Types of Attestations](./img/types-of-attestations.png)
 
+## Creating Attestations
+Attestations can be made using the SDK, using the contracts, or on the EASScan UI. To create an attestation, you will need to have an Ethereum wallet and some Ether to pay for the transaction fees on the Ethereum network. You will also need to know the UUID of the schema you want to use to create the attestation or create your own schema.
 
-Attestations on Ethereum can be created and validated using smart contracts. This allows for a decentralized and transparent process for verifying the authenticity of attestations. Here's a brief overview of the process:
+To create an attestation, an Attestor must first select a schema that defines the structure and rules for the attestation. The Attestor must then provide the required information and data for the attestation, using the format and structure defined by the schema following the Ethereum ABI types. You can create the attestation on/off-chain depending on your project goals and use case. 
 
-1. **Register a schema** on Ethereum using a smart contract (EAS). This schema defines the data fields and structure of the attested claims that will be made.
-2. Use the smart contract (EAS) to **create an attestation**, which includes the data fields and values defined in the schema. The attestation is signed with the Ethereum wallet of the user making the attestation.
-3. The attestation is stored on Ethereum, providing an immutable record of the attestation.
-4. Other users can verify the authenticity of the attestation using the smart contract and Ethereum.
+## Example
+- **Create or use a schema:** First, the user creates a schema for the type of attestation they want to make. For example, let's say the user wants to make a statement about something they believe in. The schema might include fields for the statement, the user's name, and the date.
 
-One of the main benefits of making attestations on Ethereum is the security and immutability of the blockchain. Because the attestation is stored on the blockchain, it is resistant to tampering and can be trusted as a reliable source of information. Additionally, the decentralized nature of Ethereum ensures that the attestation process is transparent and open, reducing the risk of fraud or bias.
+- **Make an attestation:** Next, the user fills out the fields in the schema with the information they want to attest to. For example, the user might fill out the statement field with "I believe in the power of positive thinking" and the name field with their own name.
+
+- **Sign the attestation:** Finally, the user signs the attestation with their Ethereum wallet to prove that they are the one making the attestation. The wallet will automatically add the user's Ethereum address and a timestamp to the attestation as well.
+
+- **Verify the attestation:** Others can then use the EAS API to verify the authenticity of the attestation by checking the signature and ensuring that it matches the user's Ethereum address. They can also view the schema and the attestation data to see the information that the user has attested to.
+
+- **Revoking the attestation:** If the original Attester no longer beleives in positive thinking, then they can revoke their attestation using EAS. This does NOT delete the attestation record but creates a status of the attestation as being revoked. This keeps the original authenticity of the attestation and opens up additional use cases like time-based crendentials, permissioned based access for subscriptions / events / communities, current status of roles in an organization/DAO, and more.
 
 
-## Making Attestations with EAS
-In order to make an attestation on Ethereum using EAS, you will need to follow these steps:
 
-1. **Define the data fields and structure** of your attestation by creating an `Attestation Schema` and registering it with the global schema registry. This schema will be used to define the data fields and structure of the attestation that you will be making.
-
-2. **Make an attestation** using the `attest` or `attestByDelegation` functions of the EAS contract. These functions allow you to create an attestation and include the data fields and values defined in the schema.
-
-3. **Sign the attestation** using the Ethereum wallet of the user who is making the attestation. This ensures the authenticity and integrity of the attestation.
-
-4. **Verifying Attestations** - To verify an attestation, you can use the verify function in the EAS contract. This function takes the UUID of the attestation and the address of the recipient as input and returns a boolean value indicating whether the attestation is valid. You can also use the `verifyByDelegation` function if the attestation was made by delegation. This function takes the `UUID` of the attestation, the address of the recipient, and the `EIP712` signature as input and returns a boolean value indicating whether the attestation is valid.
-
-5. **Revoking Attestations** - Attestations can be made revocable by setting the `revocable` flag to true when making the attestation. If an attestation is revocable, it can be revoked by the attester using the revoke function in the EAS contract. This function takes the `UUID` of the attestation as input and sets the revoked flag to true, invalidating the attestation. It's important to note that revoking an attestation does not delete the attestation from the Ethereum blockchain. It simply marks the attestation as revoked, which means it will no longer be considered valid when it is verified.
-
-Check out our [tutorials](/docs/category/tutorials) to learn more about how to use EAS.
