@@ -43,11 +43,13 @@ const provider = ethers.providers.getDefaultProvider(
 eas.connect(provider);
 ```
 
-### Viewing attestations
+### Viewing on-chain attestations
 
 ``` javascript 
 // Gets an on-chain attestation for the corresponding UUID
-const attestation = await  eas.getAttestation({uuid:'0x5134f511e0533f997e569dac711952dde21daf14b316f3cce23835defc82c065'});
+const attestation = await  eas.getAttestation({
+  uuid:'0x5134f511e0533f997e569dac711952dde21daf14b316f3cce23835defc82c065'
+});
 
 console.log(attestation);
 
@@ -68,7 +70,7 @@ console.log(attestation);
 
 
 
-### Creating attestations
+### Creating on-chain attestations
 
 ``` javascript 
 // Initialize SchemaEncoder with the schema string
@@ -85,10 +87,40 @@ const newAttestationUUID = await eas.attest({
 });
 ```
 
-### Revoking attestations
+### Creating off-chain attestations
 
 ``` javascript 
-const transaction = await eas.revoke({uuid: "0x0000000000000000000000000000000000000000000000000000000000000000"})
+export const EAS_CONFIG = {
+  address: EASContractAddress,
+  version: EASVersion,
+  chainId: CHAINID,
+};
+
+const offchain = new Offchain(EAS_CONFIG);
+
+// Initialize SchemaEncoder with the schema string
+const schemaEncoder = new SchemaEncoder("uint256 eventId, uint8 voteIndex");
+const encodedData = schemaEncoder.encodeData([1337, 2]);
+
+const newAttestationUUID = await offchain.signOffchainAttestation({
+  recipient: '0xFD50b031E778fAb33DfD2Fc3Ca66a1EeF0652165',
+  // Unix timestamp of when attestation expires. (0 for no expiration)
+  expirationTime: 0,
+  // Unix timestamp of current time
+  time: 1671219636,
+  nonce: 0,
+  schema: "0xb16fa048b0d597f5a821747eba64efa4762ee5143e9a80600d0005386edfc995",
+  data: encodedData,
+});
+```
+
+
+### Revoking on-chain attestations
+
+``` javascript 
+const transaction = await eas.revoke({
+  uuid: "0x0000000000000000000000000000000000000000000000000000000000000000"
+});
 
 // Optional: Wait for transaction to be validated
 await transaction.wait();

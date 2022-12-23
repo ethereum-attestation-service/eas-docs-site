@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Problem & Impact
-Tired of all the fraud and mistrust in the digital world? EAS was created to address several significant problems and have a positive impact on the Ethereum ecosystem and society. EAS allows anyone to register a schema about any topic and make attestations using that schema, providing a secure and transparent way for users to prove the authenticity of attestations and create an immutable record of information online.
+EAS was created to address several significant issues and have a positive impact on the Ethereum ecosystem and society. EAS allows anyone to register a schema about any topic and make attestations using that schema, providing a secure and transparent way for users to verify the authenticity of attestations and create an immutable record of information online. This can help combat fraud and mistrust in the digital world.
 
 ![Hooded Coder](./img/coders.png)
 
