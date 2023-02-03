@@ -32,20 +32,15 @@ This will install the EAS contracts and their dependencies, and make them availa
 We're making a few final changes and will be launching on Ethereum Mainnet in early 2023.
 :::
 
-### Goerli Testnet `v0.14`
+### Sepolia Testnet `v0.25`
 :::info EAS Deployment
-- **Contract:** [0x6e195B51493e56d59768f8a87230ADe73BD4FC86](https://goerli.etherscan.io/address/0x6e195B51493e56d59768f8a87230ADe73BD4FC86)
-- **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/goerli/EAS.json)
+- **Contract:** [0x25E36ebB051ae76c0D59E6c1dD0b29A5fc520061](https://sepolia.etherscan.io/address/0x25E36ebB051ae76c0D59E6c1dD0b29A5fc520061)
+- **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/EAS.json)
 :::
 
 :::info SchemaRegistry
-- **Contract:** [0xB6652C033728658e1413F36cce9cA7f7eEbd5872](https://goerli.etherscan.io/address/0xB6652C033728658e1413F36cce9cA7f7eEbd5872)
-- **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/goerli/SchemaRegistry.json)
-:::
-
-:::info EIP712VERIFIER
-- **Contract:** [0xC8B0998Cf1e0541a108C0901099F4a9Deb8F84B1](https://goerli.etherscan.io/address/0xC8B0998Cf1e0541a108C0901099F4a9Deb8F84B1)
-- **Deployment & ABI:** [EIP712Verifier.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/goerli/EIP712Verifier.json)
+- **Contract:** [0x4dd8b988B64A4052B5f142Af845AA49D2B2cD10D](https://sepolia.etherscan.io/address/0x4dd8b988B64A4052B5f142Af845AA49D2B2cD10D)
+- **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/SchemaRegistry.json)
 :::
 
 ## 🧪 Testing
@@ -72,11 +67,11 @@ This will automatically be skipped on an already deployed and configured deploym
 ### Test Coverage
 You can test new deployments (and the health of the network) against a mainnet fork via:
 
-**Latest Test Coverage Report (2022-10-18)**
-- 100% Statements 90/90
-- 100% Branches 50/50
-- 100% Functions 62/62
-- 100% Lines 136/136
+**Latest Test Coverage Report (2023-01-26)**
+100% Statements 207/207
+100% Branches 110/110
+100% Functions 74/74
+100% Lines 333/333
 
 ```bash
 ------------------------------|----------|----------|----------|----------|----------------|
@@ -86,7 +81,6 @@ File                          |  % Stmts | % Branch |  % Funcs |  % Lines |Uncov
   EAS.sol                     |      100 |      100 |      100 |      100 |                |
   EIP712Verifier.sol          |      100 |      100 |      100 |      100 |                |
   IEAS.sol                    |      100 |      100 |      100 |      100 |                |
-  IEIP712Verifier.sol         |      100 |      100 |      100 |      100 |                |
   ISchemaRegistry.sol         |      100 |      100 |      100 |      100 |                |
   SchemaRegistry.sol          |      100 |      100 |      100 |      100 |                |
   Types.sol                   |      100 |      100 |      100 |      100 |                |

@@ -28,14 +28,14 @@ Import and initialize the library
 import { EAS, Offchain, SchemaEncoder, SchemaRegistry } from "@ethereum-attestation-service/eas-sdk";
 import { ethers } from 'ethers';
 
-export const EASContractAddress = "0x4369bE21Ed9002Fd4507Df254CF249feF6F8E7E2"; // Goerli v0.19
+export const EASContractAddress = "0x25E36ebB051ae76c0D59E6c1dD0b29A5fc520061"; // Sepolia v0.25
 
 // Initialize the sdk with the address of the EAS Schema contract address
 const eas = new EAS(EASContractAddress);
 
 // Gets a default provider (in production use something else like infura/alchemy)
 const provider = ethers.providers.getDefaultProvider(
-  "goerli"
+  "sepolia"
 );
 
 // Connects an ethers style provider/signingProvider to perform read/write functions.
@@ -133,22 +133,22 @@ await transaction.wait();
 We're making a few final changes and will be launching on Ethereum Mainnet in early 2023.
 :::
 
-### Goerli Testnet `v0.14`
+### Sepolia Testnet `v0.25`
 
 :::info EAS Deployment
 
 - **Contract:
-  ** [0x6e195B51493e56d59768f8a87230ADe73BD4FC86](https://goerli.etherscan.io/address/0x6e195B51493e56d59768f8a87230ADe73BD4FC86)
+  ** [0x25E36ebB051ae76c0D59E6c1dD0b29A5fc520061](https://sepolia.etherscan.io/address/0x25E36ebB051ae76c0D59E6c1dD0b29A5fc520061)
 - **Deployment & ABI:
-  ** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/goerli/EAS.json)
+  ** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/EAS.json)
   :::
 
 :::info SchemaRegistry
 
 - **Contract:
-  ** [0xB6652C033728658e1413F36cce9cA7f7eEbd5872](https://goerli.etherscan.io/address/0xB6652C033728658e1413F36cce9cA7f7eEbd5872)
+  ** [0x4dd8b988B64A4052B5f142Af845AA49D2B2cD10D](https://sepolia.etherscan.io/address/0x4dd8b988B64A4052B5f142Af845AA49D2B2cD10D)
 - **Deployment & ABI:
-  ** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/goerli/SchemaRegistry.json)
+  ** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/SchemaRegistry.json)
   :::
 
 
