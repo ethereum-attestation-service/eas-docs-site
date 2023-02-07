@@ -47,9 +47,9 @@ eas.connect(provider);
 
 ``` javascript 
 // Gets an on-chain attestation for the corresponding UUID
-const attestation = await  eas.getAttestation({
-  uuid:'0x5134f511e0533f997e569dac711952dde21daf14b316f3cce23835defc82c065'
-});
+ const attestation = await eas.getAttestation(
+    "0x5134f511e0533f997e569dac711952dde21daf14b316f3cce23835defc82c065"
+ );
 
 console.log(attestation);
 
@@ -75,15 +75,21 @@ console.log(attestation);
 ``` javascript 
 // Initialize SchemaEncoder with the schema string
 const schemaEncoder = new SchemaEncoder("uint256 eventId, uint8 voteIndex");
-const encodedData = schemaEncoder.encodeData([1337, 2]);
+const encodedData = schemaEncoder.encodeData([
+  { name: "eventId", value: 1, type: "uint256" },
+  { name: "voteIndex", value: 1, type: "uint8" },
+]);
 
 const newAttestationUUID = await eas.attest({
-  recipient: '0xFD50b031E778fAb33DfD2Fc3Ca66a1EeF0652165',
-  // Unix timestamp of when attestation expires. (0 for no expiration)
-  expirationTime: 0,
-  revocable: true,
-  schema: "0xb16fa048b0d597f5a821747eba64efa4762ee5143e9a80600d0005386edfc995",
-  data: encodedData,
+  data: {
+    recipient: "0xFD50b031E778fAb33DfD2Fc3Ca66a1EeF0652165",
+    // Unix timestamp of when attestation expires. (0 for no expiration)
+    expirationTime: 0,
+    revocable: true,
+    data: encodedData,
+  },
+  schema:
+    "0xb16fa048b0d597f5a821747eba64efa4762ee5143e9a80600d0005386edfc995",
 });
 ```
 
