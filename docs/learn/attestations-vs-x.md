@@ -10,7 +10,7 @@ At their most basic level, attestations are statements made or pieces of evidenc
 
 ![Attestation Record](./img/the-eye-of-trust.png)
 
-### Common Terms
+### Common Terms When Compared to Verifiable Credentials
 - **Decentralized Identifiers (DIDs)** - Decentralized Identifiers (DIDs) are digital identifiers that are decentralized and self-sovereign. This means that they are not controlled by any single entity and can be owned and managed by the individual or organization that holds them. DIDs are often used in conjunction with attestations to provide a way to identify the issuer or subject of an attestation.
 - **Verifiable Credentials** - Verifiable Credentials are digital credentials that can be cryptographically verified as authentic. They are often used to represent educational or professional qualifications, as well as other types of identity information. Verifiable Credentials are built on top of DIDs and can be used in conjunction with or replaced by attestations to provide a more robust and secure way of verifying credentials.
 - **Claims** - Claims are statements made by an individual or organization that are meant to be proven or supported by evidence. Claims can be made about any topic and can be used in a variety of contexts, such as legal proceedings, marketing, or social media. Claims are a form of attestation, but they may not be cryptographically signed like an attestation on EAS.

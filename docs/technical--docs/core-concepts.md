@@ -18,7 +18,7 @@ An on-chain attestation is an attestation that is published on the blockchain fo
 Almost anything that can be done on-chain can be done off-chain, but you cant retain privacy well onchain.
 
 ## Off-chain Attestations
-An off-chain attestation is an attestation that is not stored in the blockchain. An off-chain attestation can be public or private. Off-chain attestations carry the entire attestation data and digital signature required to verify and validate the authenticity of itself. Off-chain uses: Ticketing, Drivers license, Passport, Vote, Tweets (messages)
+An off-chain attestation is an attestation that is not stored in the blockchain. An off-chain attestation can be public or private. Off-chain attestations carry the entire attestation data and digital signature required to verify and validate the authenticity of itself. Off-chain uses: Ticketing, Drivers license, Passport, Vote, Tweets (messages). You can also timestamp and revoke off-chain attestations on-chain giving them additional superpowers.
 
 ## Schemas
 Schemas are predefined structures for creating and verifying attestations. They define the data types, format, and composition of an attestation. EAS uses Solidity ABI types as acceptable fields for schemas. Schemas are important because they provide a common format and structure for attestation data, which allows different attestations to be composed and verified in a trustless manner. This enables interoperability and composability between different attestation protocols and solutions.

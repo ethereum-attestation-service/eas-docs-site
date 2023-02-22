@@ -20,8 +20,8 @@ Additionally, the use of EAS in job applications can enable new and innovative u
 ``` jsx
 string name;
 string position;
-bytes32 startDate;
-bytes32 endDate;
+unit64 startDate;
+unit64 endDate;
 string education;
 bytes32[] skills;
 ```
