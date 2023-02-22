@@ -50,7 +50,7 @@ Make sure you've connected your wallet to EAS.
 
 [//]: # (- `revocable`: A boolean value indicating whether the attested claims can be revoked by the attester.)
 
-[//]: # (- `refUUID`: The UUID of an existing attestation that this attestation is referencing. This can be used to create a)
+[//]: # (- `refUID`: The UID of an existing attestation that this attestation is referencing. This can be used to create a)
 
 [//]: # (  chain of attested claims.)
 
@@ -70,7 +70,7 @@ Make sure you've connected your wallet to EAS.
 [//]: # (#### 3. Use the `getAttestation` function of the EAS contract to retrieve the attested claims that you have made.)
 
 [//]: # ()
-[//]: # (This function takes the UUID of the attested claims as a parameter and returns a Attestation struct containing the)
+[//]: # (This function takes the UID of the attested claims as a parameter and returns a Attestation struct containing the)
 
 [//]: # (following fields:)
 
@@ -83,13 +83,13 @@ Make sure you've connected your wallet to EAS.
 
 [//]: # (- `revocable`: A boolean value indicating whether the attested claims can be revoked by the attester.)
 
-[//]: # (- `refUUID`: The UUID of the attestation that this attestation is referencing.)
+[//]: # (- `refUID`: The UID of the attestation that this attestation is referencing.)
 
 [//]: # (- `data`: The attested claims, encoded as a byte array using the EIP712 encoding format.)
 
 [//]: # (- `attester`: The address of the attester who made the attested claims.)
 
-[//]: # (- `uuid`: The UUID of the attested claims.)
+[//]: # (- `uid`: The UID of the attested claims.)
 
 [//]: # (- `revoked`: A boolean value indicating whether the attested claims have been revoked.)
 
@@ -100,7 +100,7 @@ Make sure you've connected your wallet to EAS.
 [//]: # (This function takes the following parameters:)
 
 [//]: # ()
-[//]: # (- `uuid`: The UUID of the attestation that you want to verify.)
+[//]: # (- `uid`: The UID of the attestation that you want to verify.)
 
 [//]: # (- `recipient`: The address of the user whose identity the attestation is about.)
 
@@ -110,7 +110,7 @@ Make sure you've connected your wallet to EAS.
 
 [//]: # (- `revocable`: A boolean value that indicates whether the attestation can be revoked by the attester.)
 
-[//]: # (- `refUUID`: A reference UUID for the attestation, which can be used to link the attestation to other related)
+[//]: # (- `refUID`: A reference UID for the attestation, which can be used to link the attestation to other related)
 
 [//]: # (  attestations.)
 

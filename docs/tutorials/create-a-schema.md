@@ -59,7 +59,7 @@ about [Solidity ABI types](https://docs.soliditylang.org/en/v0.8.16/abi-spec.htm
 
 [//]: # (6. Verify that your schema has been successfully registered by calling the `getSchema&#40;&#41;` function of the contract and)
 
-[//]: # (   passing in the `UUID` of your schema.)
+[//]: # (   passing in the `UID` of your schema.)
 
 [//]: # ()
 [//]: # (## Example)
@@ -114,7 +114,7 @@ about [Solidity ABI types](https://docs.soliditylang.org/en/v0.8.16/abi-spec.htm
 [//]: # ()
 [//]: # (// Register your schema with the SchemaRegistry contract)
 
-[//]: # (const digitalIdentitySchemaUuid = schemaRegistry.register&#40;)
+[//]: # (const digitalIdentitySchemaUid = schemaRegistry.register&#40;)
 
 [//]: # (  digitalIdentityAbi,  // The ABI for your schema)
 
@@ -125,14 +125,14 @@ about [Solidity ABI types](https://docs.soliditylang.org/en/v0.8.16/abi-spec.htm
 [//]: # (&#41;;)
 
 [//]: # ()
-[//]: # (// The `digitalIdentitySchemaUuid` variable will now contain the unique identifier for the registered schema)
+[//]: # (// The `digitalIdentitySchemaUid` variable will now contain the unique identifier for the registered schema)
 
 [//]: # (```)
 
 [//]: # ()
-[//]: # (The `register&#40;&#41;` function in the `SchemaRegistry.sol` contract will return a unique identifier &#40;`UUID`&#41; for the)
+[//]: # (The `register&#40;&#41;` function in the `SchemaRegistry.sol` contract will return a unique identifier &#40;`UID`&#41; for the)
 
-[//]: # (registered schema, which can be used to make attestations with that schema. The `schema UUID` can also be used to)
+[//]: # (registered schema, which can be used to make attestations with that schema. The `schema UID` can also be used to)
 
 [//]: # (retrieve the schema details from the contract.)
 

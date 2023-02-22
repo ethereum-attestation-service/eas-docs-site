@@ -46,7 +46,7 @@ eas.connect(provider);
 ### Viewing on-chain attestations
 
 ``` javascript 
-// Gets an on-chain attestation for the corresponding UUID
+// Gets an on-chain attestation for the corresponding UID
  const attestation = await eas.getAttestation(
     "0x5134f511e0533f997e569dac711952dde21daf14b316f3cce23835defc82c065"
  );
@@ -55,9 +55,9 @@ console.log(attestation);
 
 // Output
 {
-    uuid: '0x5134f511e0533f997e569dac711952dde21daf14b316f3cce23835defc82c065',
+    uid: '0x5134f511e0533f997e569dac711952dde21daf14b316f3cce23835defc82c065',
     schema: '0x27d06e3659317e9a4f8154d1e849eb53d43d91fb4f219884d1684f86d797804a',
-    refUUID: '0x0000000000000000000000000000000000000000000000000000000000000000',
+    refUID: '0x0000000000000000000000000000000000000000000000000000000000000000',
     time: 1671219600,
     expirationTime: 0,
     revocationTime: 1671219636,
@@ -80,7 +80,7 @@ const encodedData = schemaEncoder.encodeData([
   { name: "voteIndex", value: 1, type: "uint8" },
 ]);
 
-const newAttestationUUID = await eas.attest({
+const newAttestationUID = await eas.attest({
   data: {
     recipient: "0xFD50b031E778fAb33DfD2Fc3Ca66a1EeF0652165",
     // Unix timestamp of when attestation expires. (0 for no expiration)
@@ -111,7 +111,7 @@ const encodedData = schemaEncoder.encodeData([
   { name: "voteIndex", value: 1, type: "uint8" },
 ]);
 
-const newAttestationUUID = await offchain.signOffchainAttestation({
+const newAttestationUID = await offchain.signOffchainAttestation({
   recipient: '0xFD50b031E778fAb33DfD2Fc3Ca66a1EeF0652165',
   // Unix timestamp of when attestation expires. (0 for no expiration)
   expirationTime: 0,
@@ -128,7 +128,7 @@ const newAttestationUUID = await offchain.signOffchainAttestation({
 
 ``` javascript 
 const transaction = await eas.revoke({
-  uuid: "0x0000000000000000000000000000000000000000000000000000000000000000"
+  uid: "0x0000000000000000000000000000000000000000000000000000000000000000"
 });
 
 // Optional: Wait for transaction to be validated

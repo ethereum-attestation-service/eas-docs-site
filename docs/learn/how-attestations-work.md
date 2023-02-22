@@ -10,7 +10,7 @@ An attestation is a statement made by an Attestor (individual or entity), who at
 ![Types of Attestations](./img/types-of-attestations.png)
 
 ## Creating Attestations
-Attestations can be made using the SDK, using the contracts, or on the EASScan UI. To create an attestation, you will need to have an Ethereum wallet and some Ether to pay for the transaction fees on the Ethereum network. You will also need to know the UUID of the schema you want to use to create the attestation or create your own schema.
+Attestations can be made using the SDK, using the contracts, or on the EASScan UI. To create an attestation, you will need to have an Ethereum wallet and some Ether to pay for the transaction fees on the Ethereum network. You will also need to know the UID of the schema you want to use to create the attestation or create your own schema.
 
 To create an attestation, an Attestor must first select a schema that defines the structure and rules for the attestation. The Attestor must then provide the required information and data for the attestation, using the format and structure defined by the schema following the Ethereum ABI types. You can create the attestation on/off-chain depending on your project goals and use case. 
 

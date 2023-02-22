@@ -19,16 +19,16 @@ view attestations and schemas.
 ### Viewing Attestations
 
 You can view a list of the most recent attestations made on EAS by going to
-the [Attestations page](https://easscan.com/attestations). If you know the UUID of the attestation you want to view, you
-can go directly to the attestation page by typing the UUID into the search bar.
+the [Attestations page](https://easscan.com/attestations). If you know the UID of the attestation you want to view, you
+can go directly to the attestation page by typing the UID into the search bar.
 
 You can then view the details of the attestation, including the data that was attested to, the schema that was used, and
 the address of the attester.
 
 ### Viewing Schemas
 
-The EAS Scanner also allows you to view the schemas in the schema registry. To view a schema, you need to know the UUID
-or name of the schema, or use the EAS API to query for schemas. Once you have the UUID or name of the schema, you can
+The EAS Scanner also allows you to view the schemas in the schema registry. To view a schema, you need to know the UID
+or name of the schema, or use the EAS API to query for schemas. Once you have the UID or name of the schema, you can
 easily find and display details of the schema, including the fields and data types, as well as the attestations that
 have been made using that schema.
 

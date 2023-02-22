@@ -8,7 +8,7 @@ The Ethereum Attestation Service (EAS) is a decentralized and open-source platfo
 In this section, we will cover the key concepts and terms that are important to understand when using EAS.
 
 ## Attestations
-Attestations are digital records made by anyone about anything that certify the authenticity of information. They are created by an Attestor, who signs the attestation with their Ethereum wallet and adds it to the Ethereum blockchain. Attestations can be verified by anyone with access to the Ethereum blockchain and the attestation's unique UUID.
+Attestations are digital records made by anyone about anything that certify the authenticity of information. They are created by an Attestor, who signs the attestation with their Ethereum wallet and adds it to the Ethereum blockchain. Attestations can be verified by anyone with access to the Ethereum blockchain and the attestation's unique UID.
 
 Attestations are made up of two key components: the schema and the attestation data. The schema is a predefined structure for creating and verifying attestations. It defines the data types, format, and composition of an attestation. EAS uses Solidity ABI types as acceptable fields for schemas. The attestation data is the actual information that is being attested to. It must follow the structure defined in the schema in order to be considered a valid attestation.
 
@@ -27,7 +27,7 @@ Schemas are predefined structures for creating and verifying attestations. They 
 Attestors are individuals or organizations that create and sign attestations. They are responsible for adding the attestation to the Ethereum blockchain and making it available for verification. Attestors can be anyone with an Ethereum wallet, and they can create attestations for any purpose.
 
 ## Verifiers
-Verifiers are individuals or organizations that verify the authenticity of attestations. They can do this by looking up the attestation on the Ethereum blockchain and checking that it has been signed by a trusted Attestor. Verifiers can be anyone with access to the Ethereum blockchain and the attestation's UUID.
+Verifiers are individuals or organizations that verify the authenticity of attestations. They can do this by looking up the attestation on the Ethereum blockchain and checking that it has been signed by a trusted Attestor. Verifiers can be anyone with access to the Ethereum blockchain and the attestation's UID.
 
 ## Users
 Users are entities that use and rely on attestations to make decisions or take actions. They use the information provided in the attestation to verify the authenticity and integrity of the information being attested to, and they rely on the reputation and trustworthiness of the attestor as a form of backing for the attestation.
