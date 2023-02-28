@@ -28,7 +28,7 @@ Import and initialize the library
 import { EAS, Offchain, SchemaEncoder, SchemaRegistry } from "@ethereum-attestation-service/eas-sdk";
 import { ethers } from 'ethers';
 
-export const EASContractAddress = "0x25E36ebB051ae76c0D59E6c1dD0b29A5fc520061"; // Sepolia v0.25
+export const EASContractAddress = "0xC2679fBD37d54388Ce493F1DB75320D236e1815e"; // Sepolia v0.26
 
 // Initialize the sdk with the address of the EAS Schema contract address
 const eas = new EAS(EASContractAddress);
@@ -134,34 +134,6 @@ const transaction = await eas.revoke({
 // Optional: Wait for transaction to be validated
 await transaction.wait();
 ```
-
-
-## 🛳️ Deployments
-
-:::tip Mainnet Launch Q1-2023
-We're making a few final changes and will be launching on Ethereum Mainnet in early 2023.
-:::
-
-### Sepolia Testnet `v0.25`
-
-:::info EAS Deployment
-
-- **Contract:
-  ** [0x25E36ebB051ae76c0D59E6c1dD0b29A5fc520061](https://sepolia.etherscan.io/address/0x25E36ebB051ae76c0D59E6c1dD0b29A5fc520061)
-- **Deployment & ABI:
-  ** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/EAS.json)
-  :::
-
-:::info SchemaRegistry
-
-- **Contract:
-  ** [0x4dd8b988B64A4052B5f142Af845AA49D2B2cD10D](https://sepolia.etherscan.io/address/0x4dd8b988B64A4052B5f142Af845AA49D2B2cD10D)
-- **Deployment & ABI:
-  ** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/SchemaRegistry.json)
-  :::
-
-
-
 
 
 
