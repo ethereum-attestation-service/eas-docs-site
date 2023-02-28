@@ -54,5 +54,5 @@ registry.
 
 ### Tips
 
-:::tip You can also use the [API](https://easscan.com/) to query for attestations and schemas.
+:::tip We are actively working on a public API! Stay tuned!
 :::
