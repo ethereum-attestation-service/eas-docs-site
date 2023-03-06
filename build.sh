@@ -1,4 +1,4 @@
 #!/bin/bash
 
 yarn build
-rsync -avz --delete build/ root@easscan.com:/sites/eas-docs-site
+rsync -avz --delete build/ root@docs.easscan.org:/sites/eas-docs-site
