@@ -10,13 +10,13 @@ Here, you'll find everything you need to get started with integrating EAS into a
 
 To install the EAS contracts, run the following command within your project directory:
 
-``` bash 
+```bash 
 yarn add @ethereum-attestation-service/eas-sdk 
 ```
 
 OR
 
-``` bash 
+```bash 
 npm install @ethereum-attestation-service/eas-sdk 
 ```
 
@@ -24,7 +24,7 @@ npm install @ethereum-attestation-service/eas-sdk
 
 Import and initialize the library
 
-``` javascript 
+```javascript 
 import { EAS, Offchain, SchemaEncoder, SchemaRegistry } from "@ethereum-attestation-service/eas-sdk";
 import { ethers } from 'ethers';
 
@@ -45,7 +45,7 @@ eas.connect(provider);
 
 ### Viewing on-chain attestations
 
-``` javascript 
+```javascript 
 // Gets an on-chain attestation for the corresponding UID
  const attestation = await eas.getAttestation(
     "0x5134f511e0533f997e569dac711952dde21daf14b316f3cce23835defc82c065"
@@ -72,7 +72,7 @@ console.log(attestation);
 
 ### Creating on-chain attestations
 
-``` javascript 
+```javascript 
 // Initialize SchemaEncoder with the schema string
 const schemaEncoder = new SchemaEncoder("uint256 eventId, uint8 voteIndex");
 const encodedData = schemaEncoder.encodeData([
@@ -95,7 +95,7 @@ const newAttestationUID = await eas.attest({
 
 ### Creating off-chain attestations
 
-``` javascript 
+```javascript 
 export const EAS_CONFIG = {
   address: EASContractAddress,
   version: EASVersion,
@@ -126,9 +126,9 @@ const newAttestationUID = await offchain.signOffchainAttestation({
 
 ### Revoking on-chain attestations
 
-``` javascript 
+```javascript 
 const transaction = await eas.revoke({
-  uid: "0x0000000000000000000000000000000000000000000000000000000000000000"
+  uid: "0x6776de8122c352b4d671003e58ca112aedb99f34c629a1d1fe3b332504e2943a"
 });
 
 // Optional: Wait for transaction to be validated
@@ -161,8 +161,8 @@ import { EAS } from "@ethereum-attestation-service/eas-sdk";
 const eas = new EAS(EASContractAddress);
 eas.connect(provider);
 
-const data1 = ethers.utils.formatBytes32String('0x1234');
-const data2 = ethers.utils.formatBytes32String('0x4567');
+const data1 = ethers.utils.formatBytes32String('0x3e23b395b2bd2d37dd0f6e4148ac6b9e7ed22f2215107958f95cc1489e4e6289');
+const data2 = ethers.utils.formatBytes32String('0x6776de8122c352b4d671003e58ca112aedb99f34c629a1d1fe3b332504e2943a');
 
 const transaction = await eas.multiTimestamp([data1, data2]);
 
@@ -180,7 +180,7 @@ import { EAS } from "@ethereum-attestation-service/eas-sdk";
 const eas = new EAS(EASContractAddress);
 eas.connect(provider);
 
-const data = ethers.utils.formatBytes32String('0x1234');
+const data = ethers.utils.formatBytes32String('0x6776de8122c352b4d671003e58ca112aedb99f34c629a1d1fe3b332504e2943a');
 
 const transaction = await eas.revokeOffchain(data);
 
@@ -196,8 +196,8 @@ import { EAS } from "@ethereum-attestation-service/eas-sdk";
 const eas = new EAS(EASContractAddress);
 eas.connect(provider);
 
-const data1 = ethers.utils.formatBytes32String('0x1234');
-const data2 = ethers.utils.formatBytes32String('0x4567');
+const data1 = ethers.utils.formatBytes32String('0x6776de8122c352b4d671003e58ca112aedb99f34c629a1d1fe3b332504e2943a');
+const data2 = ethers.utils.formatBytes32String('0x3e23b395b2bd2d37dd0f6e4148ac6b9e7ed22f2215107958f95cc1489e4e6289');
 
 const transaction = await eas.multiRevokeOffchain([data1, data2]);
 
