@@ -32,6 +32,28 @@ This will install the EAS contracts and their dependencies, and make them availa
 We're making a few final changes and will be launching on Ethereum Mainnet in early 2023.
 :::
 
+### Ethereum `v0.26`
+:::info EAS Deployment
+- **Contract:** [0xA1207F3BBa224E2c9c3c6D5aF63D0eb1582Ce587](https://etherscan.io/address/0xA1207F3BBa224E2c9c3c6D5aF63D0eb1582Ce587)
+- **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/mainnet/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract:** [0xA7b39296258348C78294F95B872b282326A97BDF](https://arbiscan.io/address/0xA7b39296258348C78294F95B872b282326A97BDF)
+- **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/mainnet/SchemaRegistry.json)
+:::
+
+### Arbitrum One `v0.26`
+:::info EAS Deployment
+- **Contract:** [0xbD75f629A22Dc1ceD33dDA0b68c546A1c035c458](https://arbiscan.io/address/0xbD75f629A22Dc1ceD33dDA0b68c546A1c035c458)
+- **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-one/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract:** [0xA310da9c5B885E7fb3fbA9D66E9Ba6Df512b78eB](https://arbiscan.io/address/0x4dd8b988B64A4052B5f142Af845AA49D2B2cD10D)
+- **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-one/SchemaRegistry.json)
+:::
+
 ### Sepolia Testnet `v0.26`
 :::info EAS Deployment
 - **Contract:** [0xC2679fBD37d54388Ce493F1DB75320D236e1815e](https://sepolia.etherscan.io/address/0xC2679fBD37d54388Ce493F1DB75320D236e1815e)
@@ -41,17 +63,6 @@ We're making a few final changes and will be launching on Ethereum Mainnet in ea
 :::info SchemaRegistry
 - **Contract:** [0x0a7E2Ff54e76B8E6659aedc9103FB21c038050D0](https://sepolia.etherscan.io/address/0x0a7E2Ff54e76B8E6659aedc9103FB21c038050D0)
 - **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/SchemaRegistry.json)
-:::
-
-### Arbitrum One `v0.26`
-:::info EAS Deployment
-- **Contract:** [0xbD75f629A22Dc1ceD33dDA0b68c546A1c035c458](https://arbiscan.io/address/0xbD75f629A22Dc1ceD33dDA0b68c546A1c035c458)
-- **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/EAS.json)
-:::
-
-:::info SchemaRegistry
-- **Contract:** [0xA310da9c5B885E7fb3fbA9D66E9Ba6Df512b78eB](https://arbiscan.io/address/0x4dd8b988B64A4052B5f142Af845AA49D2B2cD10D)
-- **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-one/SchemaRegistry.json)
 :::
 
 

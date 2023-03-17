@@ -135,6 +135,74 @@ const transaction = await eas.revoke({
 await transaction.wait();
 ```
 
+### Creating timestamps
 
+To create a timestamp for a single piece of data, you can use the `timestamp` function provided by the EAS SDK. Here's an example:
+
+```javascript
+import { EAS } from "@ethereum-attestation-service/eas-sdk";
+
+const eas = new EAS(EASContractAddress);
+eas.connect(provider);
+
+const data = ethers.utils.formatBytes32String('0x1234');
+
+const transaction = await eas.timestamp(data);
+
+// Optional: Wait for transaction to be validated
+await transaction.wait();
+```
+
+To create timestamps for multiple pieces of data, you can use the `multiTimestamp` function:
+
+```javascript
+import { EAS } from "@ethereum-attestation-service/eas-sdk";
+
+const eas = new EAS(EASContractAddress);
+eas.connect(provider);
+
+const data1 = ethers.utils.formatBytes32String('0x1234');
+const data2 = ethers.utils.formatBytes32String('0x4567');
+
+const transaction = await eas.multiTimestamp([data1, data2]);
+
+// Optional: Wait for transaction to be validated
+await transaction.wait();
+```
+
+### Revoking off-chain attestations
+
+To revoke an off-chain attestation, you can use the `revokeOffchain` function provided by the EAS SDK. Here's an example:
+
+```javascript
+import { EAS } from "@ethereum-attestation-service/eas-sdk";
+
+const eas = new EAS(EASContractAddress);
+eas.connect(provider);
+
+const data = ethers.utils.formatBytes32String('0x1234');
+
+const transaction = await eas.revokeOffchain(data);
+
+// Optional: Wait for transaction to be validated
+await transaction.wait();
+```
+
+To revoke multiple off-chain attestations, you can use the `multiRevokeOffchain` function:
+
+```javascript
+import { EAS } from "@ethereum-attestation-service/eas-sdk";
+
+const eas = new EAS(EASContractAddress);
+eas.connect(provider);
+
+const data1 = ethers.utils.formatBytes32String('0x1234');
+const data2 = ethers.utils.formatBytes32String('0x4567');
+
+const transaction = await eas.multiRevokeOffchain([data1, data2]);
+
+// Optional: Wait for transaction to be validated
+await transaction.wait();
+```
 
 
