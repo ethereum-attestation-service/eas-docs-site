@@ -1,23 +1,20 @@
 ---
-sidebar_position: 1
+sidebar_position: 14
 ---
 
 # Land Registry 
 
 ## Problem
-:::caution Land registeries are antiquated
 Land ownership in many parts of the world are based on antiquated government systems. In some places, land records are even still stored on paper registries!
-::: 
 
-## Solution
-:::success EAS
-**EAS** can enable a global, standardized trust layer for governments and citizens that powers verifiable land ownership registries.
-:::
+## Opportunity
+EAS can enable a global, standardized trust layer for governments and citizens that powers verifiable land ownership registries. Using blockchain-based attestation services, governments can digitize land registries, providing a secure and efficient way to prove ownership of a plot of land. By using attestation services to verify land ownership and transfer, the process can be streamlined, reducing the risk of errors and fraud.
+
 
 ## Example schema 
-Using `EAS Schema #24`, governments can attest to the ownership of land. 
+Using EAS, governments can attest to the ownership of land. 
 
-The schema has `3` properties:
+The schema may have `3` properties:
 ```bash 
 bytes polygonArea, uint8 landType, uint24 expiry 
 ```
@@ -27,23 +24,16 @@ bytes polygonArea, uint8 landType, uint24 expiry
 
 
 ## Example attestation
-Here is an example attestation record: [0xc216a6f30c4767907769906e9cf73c71935032b2a7521c3b4407461724b69e22](https://easscan.com/attestation/view/0xc216a6f30c4767907769906e9cf73c71935032b2a7521c3b4407461724b69e22) attesting that an address `0x1234abd1238123781237babcdbf` owns some a land.
+Here is an example attestation record: [0x0f41ffcf00a7b8d3e3a1c934083fb7e6733d74190eb0668399aa81c3c68428f3](https://sepolia.easscan.org/attestation/view/0x0f41ffcf00a7b8d3e3a1c934083fb7e6733d74190eb0668399aa81c3c68428f3) attesting that an address `0xA9c1f68A8003209aAc228001c175ca688ef0E503` owns some a land.
 
 
-- `bytes polygonArea` 37.976090,23.735871 37.975832,23.737861 37.974523,23.737582 37.974775,23.735600  
+- `bytes polygonArea` [[4068886000,-7404463000],[4069003000,-7404721001],[4069101000,-7404669000],[4069065000,-7404429000],[4068976000,-7404326000],[4068872000,-7404360000]]
 (**4** GPS coordinates defining a rectangle)
 - `landType`: 1 (1 is for lease-hold)
-- `expiry`: 3245773289 (unix timestamp of the lease-hold expiry date)
+- `expiry`: 0 (unix timestamp of the lease-hold expiry date)
 
 
 If you plot this polygon on a map you’ll see the piece of land it encloses. And if you check the attestor address, you’ll see the Authority who attested to it.
-
-![Land Registry Sample](./img/land-registry-sample.jpg)
-
-## Example business ideas
-1. **LandChain** - a decentralized land registry service that uses EAS to securely store and verify land ownership and transfer information. This helps to prevent fraud, streamline the land registration process, and provide secure access to land ownership records.
-2. **SmartPlots** - a platform that uses EAS to verify and track the ownership, zoning, and development history of land parcels. This helps buyers, sellers, and regulators to make informed decisions about land transactions and development.
-3. **Propr** - Propr is a smart contract platform that uses EAS to create and verify attestations of land ownership, property titles, and other legal documents. With Propr, users can easily and securely create, manage, and transfer ownership of land and property on the Ethereum blockchain. Propr also offers a range of tools and services to help users manage their property, including property appraisals, legal advice, and insurance. Propr is a simple and secure way to manage property on the blockchain.
 
 
 ## Future composability
@@ -52,14 +42,14 @@ How can this evolve as EAS grows?
 How can this be composed with other attestations?
 :::
 
-### Land ownership in the future
+#### Land ownership in the future
 - Land and property can be bought and sold **ON-CHAIN**. 
 - Property and land can be tokenized as NFT’s and ownership details `attested` to. 
 - Governments can `attest` to the new owner of any land once the NFT is sold or transferrerd.  
 - A smart contract that handles the sale of the property NFT would need to meet all the `attestation` requirements that a government demands in order to be valid.   
 - Once the governemnt `attests` to the validity of the sale, Funds could be a released from the Buyer to Seller automatically, and a portion could be transfer taxes to the government. 
 
-### Improving the mortgage process
+#### Improving the mortgage process
 `Attesations` can also help buyers and lenders to create a more competitive and trasnsparent mortgage market. Let’s think of a future example where **Bob** wants to buy some land, but needs a mortgage.
 
 He can collect the following `attestations` from trusted providers which would be useful to help him buy the land title **ON-CHAIN**
