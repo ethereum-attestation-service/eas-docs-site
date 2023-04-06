@@ -1,7 +1,7 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 ---
-# Schemas
+# What are Schemas
 :::info Schemas are
 Predefined structures for creating and verifying attestations. It defines the data types, format, and composition of an attestation. EAS uses Solidity ABI types as acceptable fields for schemas.
 ::::

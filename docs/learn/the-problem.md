@@ -3,7 +3,11 @@ sidebar_position: 1
 ---
 
 # Problem & Impact
-EAS was created to address several significant issues and have a positive impact on the Ethereum ecosystem and society. EAS allows anyone to register a schema about any topic and make attestations using that schema, providing a secure and transparent way for users to verify the authenticity of attestations and create an immutable record of information online. This can help combat fraud and mistrust in the digital world.
+In today's digital world, fraud, mistrust, misrepresentation, and misuse are widespread issues that create fear and uncertainty in our interactions with each other. This lack of trust hinders the user experience for decentralized apps and pushes traditional web2 business models towards further centralization. EAS offers a solution to this problem by building trust in all digital interactions through attestations.
+
+EAS initially focused on solving the [digital identity](/docs/Use%20Cases/digital-identity) and reputation problem. However, we recognized the need for a generic ledger allowing any entity to attest about anything. This global base layer for attestations has the potential to address significant issues and make a positive impact on the Ethereum ecosystem and society. EAS enables anyone to register a schema about any topic and create attestations using that schema, providing a secure and transparent way to verify the authenticity of attestations and create an immutable record of information online, ultimately combating fraud and mistrust.
+
+EAS aims to establish greater interoperability with other identity and attestation builders passionate about fostering trust in Ethereum. We created a base layer and standard for making any type of attestation, recognizing that without a standardized and open platform for creating and verifying attestations, identity solutions and the attestation ecosystem will remain fragmented and incomplete.
 
 ![Hooded Coder](./img/coders.png)
 
@@ -34,5 +38,7 @@ EAS was created to address several significant issues and have a positive impact
 - **Increased collaboration and community involvement:** By providing a useful service and fostering greater collaboration and community involvement, EAS will help build stronger connections and relationships between Ethereum-based projects and organizations. This will benefit the entire Ethereum ecosystem by creating a more cohesive and collaborative community.
 
 
-
+## Explore a few of the use cases that can be solved with Attestations.
+- [Use Cases Overview](/docs/learn/use-cases-overview)
+- [Use Cases Page](/docs/category/use-cases)
 

@@ -1,11 +1,11 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # What are Attestations
 
 :::info What are attestations?
-**Attestations** /ˌaˌteˈstāSH(ə)n; are statements or evidence of information made by anyone about anything.  
+**Attestations** /ˌaˌteˈstāSH(ə)n; are digital records or evidence of information made by anyone about anything.  
 :::
 
 ![Attestations Concept](./img/attestations-concept-2.png)
@@ -21,31 +21,10 @@ loan or lease, it is not as credible.
 
 ### Why Attestations Matter
 
-Attestations are crucial because they offer a means of establishing trust and credibility in the digital realm. In the
+Attestations are crucial because they offer a means of establishing trust and credibility online. In the
 absence of face-to-face interaction or physical presence, it can be challenging to determine the accuracy or reliability
 of information. Attestations provide third-party validation and a cryptographically signed confirmation of the
 authenticity of a piece of information, making it easier for others to trust and depend on that information.
-
-### Comparison to DIDs, Verifiable Credentials, and Other Solutions
-
-There are a variety of technologies and solutions that are related to or overlap with attestations, including
-Decentralized Identifiers (DIDs) and Verifiable Credentials. Essentially, these are just different types of attestations
-for specific use cases. Here is a comparison of these technologies:
-
-- **Decentralized Identifiers (DIDs):** DIDs are a type of digital identifier that are decentralized and self-sovereign,
-  meaning they are not controlled by any single entity and can be owned and managed by the individual or organization
-  that holds them. DIDs are often used in conjunction with attestations, as they provide a way to identify the issuer or
-  subject of an attestation.
-
-- **Verifiable Credentials:** Verifiable Credentials are a type of digital credential that can be cryptographically
-  verified as authentic. They are often used to represent educational or professional qualifications, as well as other
-  types of identity information. Verifiable Credentials are essentially just a type of attestation that is used for some
-  specific purposes. A credential can be an attestation, but a attestation is not necessarily a credential.
-
-- **Other Solutions:** There are several other technologies and solutions that are related to or overlap with
-  attestations, including Self-Sovereign Identity (SSI) frameworks, Identity Hubs, and Identity Wallets. These solutions
-  provide different approaches to managing and verifying identity information and may be used in conjunction with
-  attestations to provide additional security and functionality.
 
 ### 🙌 Examples of Attestations
 
@@ -53,13 +32,16 @@ Attestations can be used in a wide range of situations to verify information abo
 examples of types of attestations include:
 
 - **Identity:** Verifying who someone is
+- **Reputation:** Demonstrating how people perceive someone
 - **Credentials:** Proving someone's skills and credibility
-- **Ownership:** Confirming ownership of a specific item
 - **Credit score:** Demonstrating someone's financial status
-- **Vote:** Showing who someone trusts to represent them
+- **Ownership:** Confirming ownership of a specific item
 - **Nationality:** Establishing where someone is from
 - **Eligibility:** Determining what someone has access to
-- **Reputation:** Demonstrating how people perceive someone
+- **Vote:** Showing who someone trusts to represent them
+- **Provenance:** Verifying the origin of goods in a supply chain
+- **Compliance:** Verifying that an entity is in compliance or followed procedures
+- **Authenticity:** Proving the authenticity of anything.
 
 Here are a few examples of situations where you might encounter attestations:
 
@@ -78,3 +60,18 @@ Here are a few examples of situations where you might encounter attestations:
 ### ✅ Attestation use case examples:
 
 Take a look at our [**Use Cases Docs**](/docs/category/use-cases) for some inspiration on what EAS can solve for. 
+
+### 🛠 How Attestations Work
+Attestations work by leveraging cryptographic signatures and public key infrastructure (PKI). When an individual, company, or organization creates an attestation, they sign it with their private key. This signature can then be verified by anyone with access to the corresponding public key, ensuring the authenticity of the attestation.
+
+EAS uses two simple smart contracts. One for registering a schema about any attestation topic, and the other for making attestations with that schema.
+
+### 🌉 Interoperability and Standardization
+Attestations can be made more powerful by establishing interoperability and standardization between different systems and platforms. By creating a common language for attestations and enabling seamless integration, we can further enhance trust and credibility in the digital world.
+
+EAS plays an important role in fostering this interoperability and standardization. It provides a base layer and open platform for creating and verifying attestations, allowing different identity solutions to work together seamlessly and enabling individuals to manage their identity in a decentralized and secure way.
+
+### 🚀 Get Started with Attestations
+Attestations have the power to revolutionize trust and credibility in the digital world. To get started with attestations, explore the EAS platform, educational resources, and documentation. Make use of the no-code schema builder, SDK, and other tools to create and verify attestations quickly and easily.
+
+Embrace the power of attestations and join us in building a more trustworthy and reliable digital world for everyone.
