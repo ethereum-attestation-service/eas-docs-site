@@ -16,6 +16,6 @@ There is an optional resolver contract . Elegantly simple. Limitless possibility
 - `SchemaRegistry.sol` For registering schemas. [Github](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/EAS.sol).
 - `SchemaResolver.sol` For an optional schema resolver for more complex use cases. [Github](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/resolver/SchemaResolver.sol).
 
-:::tip Explore the master contracts repository on github
-[https://github.com/ethereum-attestation-service/eas-contracts/tree/master/contracts](https://github.com/ethereum-attestation-service/eas-contracts/tree/master/contracts). 
+:::tip Explore the contract repository on github
+[https://github.com/ethereum-attestation-service/eas-contracts/](https://github.com/ethereum-attestation-service/eas-contracts/). 
 :::
