@@ -2,35 +2,9 @@
 sidebar_position: 1
 ---
 # Contracts
-Here, you'll find everything you need to get started with building on the EAS platform.
-
-## Prerequisites
-Before you start building with EAS, you'll need the following tools and resources:
-
-- A development environment with the [Ethereum](https://ethereum.org/developers/) and [Solidity](https://solidity.readthedocs.io/en/v0.8.0/) tools installed
-- Familiarity with [smart contract development](https://ethereum.org/developers/#smart-contract-development)
-- Access to an Ethereum testnet or mainnet for deploying your contracts
-- The latest version of the [EAS contracts](https://github.com/ethereum-attestation-service/eas-contracts)
-- Setting up your development environment
-
-To get started with EAS, you'll need to set up a development environment with the tools mentioned above. If you're new to Ethereum and smart contract development, we recommend following the [Ethereum Developer Guide](https://ethereum.org/developers/) to set up your development environment and learn the basics.
-
-Once you've set up your development environment, you can download the latest version of the EAS contracts from the [GitHub repository](https://github.com/ethereum-attestation-service/eas-contracts).
-
-## Installing the EAS contracts
-To install the EAS contracts, run the following command:
-
-``` bash 
-yarn install @ethereum-attestation-service/eas-contracts 
-```
-
-This will install the EAS contracts and their dependencies, and make them available for use in your project. The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
-
+Here, you'll find all the contracts currently deployed on the Ethereum ecosystem.
 
 ## 🛳️ Deployments
-:::tip Mainnet Launch Q1-2023
-We're making a few final changes and will be launching on Ethereum Mainnet in early 2023.
-:::
 
 ### Ethereum `v0.26`
 :::info EAS Deployment
@@ -38,7 +12,7 @@ We're making a few final changes and will be launching on Ethereum Mainnet in ea
 - **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/mainnet/EAS.json)
 :::
 
-:::info SchemaRegistry
+:::info Schema Registry
 - **Contract:** [0xA7b39296258348C78294F95B872b282326A97BDF](https://arbiscan.io/address/0xA7b39296258348C78294F95B872b282326A97BDF)
 - **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/mainnet/SchemaRegistry.json)
 :::
@@ -49,7 +23,7 @@ We're making a few final changes and will be launching on Ethereum Mainnet in ea
 - **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-one/EAS.json)
 :::
 
-:::info SchemaRegistry
+:::info Schema Registry
 - **Contract:** [0xA310da9c5B885E7fb3fbA9D66E9Ba6Df512b78eB](https://arbiscan.io/address/0x4dd8b988B64A4052B5f142Af845AA49D2B2cD10D)
 - **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-one/SchemaRegistry.json)
 :::
@@ -60,7 +34,7 @@ We're making a few final changes and will be launching on Ethereum Mainnet in ea
 - **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/EAS.json)
 :::
 
-:::info SchemaRegistry
+:::info Schema Registry
 - **Contract:** [0x0a7E2Ff54e76B8E6659aedc9103FB21c038050D0](https://sepolia.etherscan.io/address/0x0a7E2Ff54e76B8E6659aedc9103FB21c038050D0)
 - **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/SchemaRegistry.json)
 :::

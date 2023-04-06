@@ -4,7 +4,7 @@ sidebar_position: 0
 
 # Javascript Integration
 
-Here, you'll find everything you need to get started with integrating EAS into a Javacript/Typescript project.
+Here, you'll find everything you need to get started with integrating EAS into a Javascript/Typescript project.
 
 ## Installing the EAS SDK
 
