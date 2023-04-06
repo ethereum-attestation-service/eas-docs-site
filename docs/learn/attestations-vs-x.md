@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 6
 ---
 
-# Types of Attestations in Web3
+# Know the Differences
 Attestations, DIDs, verifiable credentials, claims, badges, and proofs are all terms that you may have heard used in the context of the Ethereum ecosystem. While these terms are related and often overlap in their meanings and uses, it can be helpful to understand the specific differences between them.
 
 ### Attestations

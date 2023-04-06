@@ -9,7 +9,7 @@ and schemas running on EAS. It allows developers and users to view and verify at
 Attestation
 Service (EAS) and the global schema registry.
 
-[https://easscan.com/](https://easscan.com/)
+[https://easscan.com/](https://easscan.org/)
 
 ## Using the EAS Scanner
 
@@ -19,7 +19,7 @@ view attestations and schemas.
 ### Viewing Attestations
 
 You can view a list of the most recent attestations made on EAS by going to
-the [Attestations page](https://easscan.com/attestations). If you know the UID of the attestation you want to view, you
+the [Attestations page](https://easscan.org/attestations). If you know the UID of the attestation you want to view, you
 can go directly to the attestation page by typing the UID into the search bar.
 
 You can then view the details of the attestation, including the data that was attested to, the schema that was used, and
@@ -42,17 +42,9 @@ registry.
 ![Easscan Website](/img/eas-scan.png)
 
 ### Use EAS Scan to:
-
-```
 - Search for attestation schemas 
 - Create new Schemas using the UI
 - Verify off-chain attestations
 - Create schemas
 - Make attestations
 - View attestation transaction data
-```
-
-### Tips
-
-:::tip We are actively working on a public API! Stay tuned!
-:::

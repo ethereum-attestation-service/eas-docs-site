@@ -7,7 +7,6 @@ Explore the most frequently asked questions about Ethereum Attestation Service. 
 
 :::tip Get in touch with us.
 - [Twitter](https://twitter.com/eas_eth)
-- [Telegram](https://twitter.com/eas_eth)
 
 :::
 
