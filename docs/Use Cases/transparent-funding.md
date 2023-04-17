@@ -41,3 +41,5 @@ bool isCompleted
 By using attestations to create more transparent and auditable funding mechanisms, it is possible to build a more accountable and efficient system for distributing public goods, grants, and hackathon funds. These attestations can also be used in combination with other Web3 technologies, such as decentralized identity systems and smart contracts, to create more sophisticated and automated funding mechanisms.
 
 For example, attestations could be used to verify the identity and reputation of voters in quadratic voting systems for hackathons. They could also be used to enable decentralized decision-making in funding mechanisms, with attestations of stake or reputation determining the weight of each voter's decision. Overall, attestations provide a powerful tool for creating more transparent and equitable funding mechanisms in Web3.
+
+
