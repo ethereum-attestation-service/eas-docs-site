@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 
 # Revoking Attestations 
-Attestations on the EAS can be revoked when they are no longer valid or accurate. This can be done both on-chain and off-chain. Revoking an attestation will mark it as invalid. This can be useful in situations where an attestation was made in error, or if the data it represents has changed or become outdated. 
+Attestations on EAS can be revoked when they are no longer valid or accurate. This can be done both on-chain and off-chain. Revoking an attestation will mark it as invalid. This can be useful in situations where an attestation was made in error, or if the data it represents has changed or become outdated. 
 
 ## Concept
 Revoking an attestation involves changing its state from "valid" to "revoked". This is achieved by updating the attestation's `revoked` field to `true`. It allows for more control and flexibility over the attestations' lifecycle. 
