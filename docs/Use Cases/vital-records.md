@@ -27,7 +27,6 @@ EAS also allows users to create [Private Data Attestations](/docs/tutorials/priv
 
 Attestations with `Zero Knowledge Proofs` are another path forward to explore. 
 
-
 ## Sample Schema
 ```bash jsx
 bytes32 birthCertificateID

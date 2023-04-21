@@ -99,23 +99,23 @@ const config = {
               },
               {
                 label: 'Learn',
-                to: '/docs/intro',
+                to: '/docs/category/learn',
               },
               {
-                label: 'Services',
-                to: '/docs/intro',
+                label: 'Getting Started',
+                to: '/docs/category/getting-started',
               },
               {
                 label: 'Tutorials',
-                to: '/docs/intro',
+                to: '/docs/category/tutorials',
               },
               {
                 label: 'Technical Docs',
-                to: '/docs/intro',
+                to: '/docs/category/technical-docs',
               },
               {
-                label: 'Innovation Hub',
-                to: '/docs/intro',
+                label: 'Use Cases',
+                to: '/docs/category/use-cases',
               },
             ],
           },
@@ -127,10 +127,6 @@ const config = {
                 href: 'https://twitter.com/eas_eth',
               },
               {
-                label: 'Telegram',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Github',
                 href: 'https://github.com/ethereum-attestation-service',
               },
@@ -140,8 +136,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Mirror Articles',
+                to: 'https://mirror.xyz/0xeee68aECeB4A9e9f328a46c39F50d83fA0239cDF',
               },
             ],
           },
