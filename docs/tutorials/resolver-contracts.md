@@ -3,7 +3,7 @@ sidebar_position: 6
 ---
 
 # Resolver Contracts
-A `Resolver Contract` acts as a hook for a Schema, ensuring that attestations conform to specific rules or logic before they can be completed. This feature allows you to introduce additional smart contract functionality to your schema, such as an allowlist of users that can create attestations or minting NFTs when specific conditions are met.
+A `Resolver Contract` acts as a hook for a Schema, ensuring that attestations conform to specific rules or any smart contract logic before they can be completed. This feature allows you to introduce additional smart contract functionality to your schema, such as an allowlist of users that can create attestations or minting NFTs when specific conditions are met.
 
 ## The Concept
 When creating a new Schema, an entity might want to enforce custom logic or rules that the Schema must follow. This can be achieved by adding a resolver contract at the schema level, which ensures that the schema adheres to the desired smart contract logic.
@@ -25,64 +25,11 @@ We've created a few resolver contract examples you can explore. These are meant 
 https://github.com/ethereum-attestation-service/eas-contracts/tree/master/contracts/resolver/examples
 :::
 
-### Attestation Resolver
-The `AttestationResolver.sol` contract checks if an attestation references an existing attestation in the EAS system. In other words, when a new attestation is created using this resolver, the contract verifies if the attestation is valid by checking if it attests to an existing attestation. 
 
-https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/resolver/examples/AttestationResolver.sol
-
-
-```jsx
-// SPDX-License-Identifier: MIT
-
-pragma solidity 0.8.19;
-
-import { SchemaResolver } from "../SchemaResolver.sol";
-
-import { IEAS, Attestation } from "../../IEAS.sol";
-
-/**
- * @title A sample schema resolver that checks whether an attestations attest to an existing attestation.
- */
-contract AttestationResolver is SchemaResolver {
-    error OutOfBounds();
-
-    constructor(IEAS eas) SchemaResolver(eas) {}
-
-    function onAttest(Attestation calldata attestation, uint256 /*value*/) internal view override returns (bool) {
-        return _eas.isAttestationValid(_toBytes32(attestation.data, 0));
-    }
-
-    function onRevoke(Attestation calldata /*attestation*/, uint256 /*value*/) internal pure override returns (bool) {
-        return true;
-    }
-
-    function toBytes32(bytes memory data, uint256 start) external pure returns (bytes32) {
-        return _toBytes32(data, start);
-    }
-
-    function _toBytes32(bytes memory data, uint256 start) private pure returns (bytes32) {
-        unchecked {
-            if (data.length < start + 32) {
-                revert OutOfBounds();
-            }
-        }
-
-        bytes32 tempBytes32;
-
-        // solhint-disable-next-line no-inline-assembly
-        assembly {
-            tempBytes32 := mload(add(add(data, 0x20), start))
-        }
-
-        return tempBytes32;
-    }
-}
-```
 ### Attester Resolver
 The `AttesterResolver.sol` resolvers purpose is to check if an attestation is created by a specific attester, which is set during the contract deployment. When a new attestation is submitted using this resolver, the contract verifies that the attestation comes from the specified attester before allowing it to proceed. 
 
 https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/resolver/examples/AttesterResolver.sol
-
 
 ```jsx
 // SPDX-License-Identifier: MIT
@@ -113,39 +60,6 @@ contract AttesterResolver is SchemaResolver {
 }
 ```
 
-### Data Resolver
-The `DataResolver.sol` resolver contract checks if the data in a new attestation is either **\x00** or **\x01**. When an attestation is made, the contract verifies if the attestation data consists of a single byte that is either equal to \x00 or \x01. If the data matches one of these conditions, the attestation is considered valid and allowed to proceed. 
-
-https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/resolver/examples/DataResolver.sol
-
-```jsx
-// SPDX-License-Identifier: MIT
-
-pragma solidity 0.8.19;
-
-import { SchemaResolver } from "../SchemaResolver.sol";
-
-import { IEAS, Attestation } from "../../IEAS.sol";
-
-/**
- * @title A sample schema resolver that checks whether an attestation data is either \x00 or \x01.
- */
-contract DataResolver is SchemaResolver {
-    bytes1 private constant DATA1 = "\x00";
-    bytes1 private constant DATA2 = "\x01";
-
-    constructor(IEAS eas) SchemaResolver(eas) {}
-
-    function onAttest(Attestation calldata attestation, uint256 /*value*/) internal pure override returns (bool) {
-        // Verifies that the data is either 0 or 1.
-        return attestation.data.length == 1 && (attestation.data[0] == DATA1 || attestation.data[0] == DATA2);
-    }
-
-    function onRevoke(Attestation calldata /*attestation*/, uint256 /*value*/) internal pure override returns (bool) {
-        return true;
-    }
-}
-```
 ### Expiration Time Resolver
 The `ExpirationTimeResolver.sol` resolver contract checks if the expiration time of a new attestation is later than a specific timestamp. When an attestation is made, the contract verifies if the attestation's expiration time is greater than or equal to the _validAfter timestamp specified during the contract deployment. If the expiration time meets this condition, the attestation is considered valid and allowed to proceed.
 
