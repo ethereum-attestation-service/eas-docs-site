@@ -23,7 +23,7 @@ This approach provides a simple and secure way to ensure the provenance of goods
 This schema assumes that the attestor is the manufacturers address. The `productID` can be a unique identifier for a specific product that includes all necessary information such as product name, manufacturer, and other relevant details. As the product is sold and moved throughout the supply chain there can be an immutable chain of record showing where the product originated and where it ended up. This would be verifiable through the chain of attestations made throughout the supplychain process.
 
 
-```bash jsx
+```jsx
 bytes32 productID
 bytes32 batchNumber
 string locationOfProduction

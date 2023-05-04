@@ -19,7 +19,7 @@ The insurance dApp can then use the attestation to trigger a payout to the polic
 
 ## Sample Schema
 
-```bash jsx
+```jsx
 uint32 flightNumber,
 uint64 departureTime,
 bytes32 airline,

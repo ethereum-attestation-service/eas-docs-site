@@ -19,7 +19,7 @@ If Alice decides to sell her ticket, she can transfer ownership to the new owner
 
 ## Sample Schema
 
-```bash jsx
+```jsx
 bytes32 eventID
 bytes32 ticketID
 ```

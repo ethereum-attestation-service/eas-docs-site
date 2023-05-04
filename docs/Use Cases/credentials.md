@@ -16,7 +16,7 @@ Attestations can be used to verify a wide range of information, such as identity
 A dev completes a certificate course in Advanced Solidity from a reputable school. The school issues an attestation to the dev's wallet, verifying that they have completed the course and have a deep understanding of Solidity. The attestation is recorded on-chain ensuring its immutability and authenticity. By having this attestation tied to their digital identity, the dev can easily share their verified credentials with potential employers or other parties without having to go through time-consuming and unreliable verification processes.
 
 ### Sample Schema
-```
+```jsx
 bytes32 courseID
 string courseName
 uint64 completionDate

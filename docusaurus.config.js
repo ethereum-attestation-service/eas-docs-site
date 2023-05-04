@@ -3,6 +3,8 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const vsDarkCodeTheme = require('prism-react-renderer/themes/vsDark');
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -145,8 +147,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Ethereum Attestation Service. Built by the Ethereum Community.`,
       },
       prism: {
-        theme: require('prism-react-renderer/themes/dracula'),
-        darkTheme: darkCodeTheme,
+        theme: lightCodeTheme,
+        darkTheme: vsDarkCodeTheme,
       },
     }),
 };

@@ -32,7 +32,7 @@ This sample schema for "Proof of Funds" includes only two fields: `requestedAmou
 
 This approach reduces the amount of sensitive financial information that needs to be shared, as only the requested amount and whether it can be covered are needed, increasing the overall privacy and security of the transaction.
 
-```bash jsx
+```jsx
 uint256 requestedAmount
 bool hasSufficientFunds
 ```

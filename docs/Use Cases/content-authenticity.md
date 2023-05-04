@@ -16,7 +16,7 @@ A media company wants to ensure that their articles are authentic and that their
 ## Sample Schema
 It includes two fields: `contentHash`, which is a hash of the content being attested to, and `urlOfContent`, which is the URL where the content can be found. This schema can be used as a basis for creating attestations that verify the authenticity of digital content, such as articles, videos, or images.
 
-```bash
+```jsx
 bytes32 contentHash,
 string urlOfContent
 ```

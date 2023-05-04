@@ -44,7 +44,7 @@ This is a sample schema for a digital identity card, similar to a driver's licen
 This schema should be made off-chain or with privacy preserving technologies.
 :::
 
-```bash jsx
+```jsx
 string name,
 uint64 dateOfBirth,
 bytes32 address,

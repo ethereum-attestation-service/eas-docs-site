@@ -18,7 +18,7 @@ When the carbon credits are sold on a decentralized marketplace, each credit can
 ## Sample Schema
 This is an example carbon credit being attested to. It would come from a carbon credit authority address and be issued to the beneficiary address of the carbon credit. It would include a value of the carbon credits issued, the date it was issued, and a hash of the evidence provided.
 
-```bash
+```jsx
 uint256 carbonCredits
 uint64 issuanceDate
 bytes32[] evidenceHash

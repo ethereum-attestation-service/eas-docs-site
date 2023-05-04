@@ -16,7 +16,7 @@ When Alice joins the DAO as a solidity engineer, the organization creates an imm
 The great thing about this system is that Alice has a permanent record of being a member of the DAO, while the organization can still maintain control over who has access to its resources. Revoking access could be necessary if someone is behaving badly, not contributing enough, or if their role changes in the organization.
 
 ## Sample Schema
-```bash jsx
+```jsx
 bytes32 roleID
 bytes32[] authorizations
 bytes32 memberID
