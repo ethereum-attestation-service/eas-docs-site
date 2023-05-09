@@ -6,7 +6,7 @@ Here, you'll find all the contracts currently deployed on the Ethereum ecosystem
 
 ## 🛳️ Deployments
 :::tip Mainnet Launch Q1-2023
-EAS is now officially live on Sepolia, Mainnet, and Arbitrum One. Optimism and Polygon are up next!
+EAS is now officially live on Sepolia, Mainnet, Arbitrum One, and Optimism Goerli. Optimism Bedrock and Polygon are up next!
 :::
 
 ### Ethereum `v0.26`
