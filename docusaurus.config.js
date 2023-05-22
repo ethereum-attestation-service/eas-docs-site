@@ -56,8 +56,11 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: "og:image", content: "https://easscan.org/eas-summary.png"}
+      ],
       navbar: {
         title: 'Ethereum Attestation Service',
         logo: {
