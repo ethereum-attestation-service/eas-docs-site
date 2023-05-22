@@ -21,7 +21,7 @@ This is an example schema. The attestor (DAO member) would make an attestation t
 
 To make the process even more efficient and scalable, we can use tuples to map the candidate ID and the number of votes they received. This will allow for easy vote counting and tallying. The schema would look like this:
 
-```bash
+```jsx
 uint64 votes
 bytes32 roleID
 ```

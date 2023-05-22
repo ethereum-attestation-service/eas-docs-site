@@ -21,7 +21,7 @@ Bob can also use attestations to verify Alice's identity further assess her risk
 With this schema, a borrower can make an attestation for their loan request, which would include the relevant loan details such as the loan ID, principal, interest rate, and payment due date. Once the loan has been issued, the borrower would make another attestation for each payment made on the loan, referencing the loan ID and including the payment amount and date. Lenders can then use these attestations to verify the borrower's payment history and assess their creditworthiness for future loans.
 
 
-```bash jsx
+```jsx
 //The Loan
 bytes32 loanID
 address borrower

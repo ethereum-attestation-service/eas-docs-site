@@ -5,8 +5,9 @@ sidebar_position: 1
 Here, you'll find all the contracts currently deployed on the Ethereum ecosystem.
 
 ## 🛳️ Deployments
-:::tip Mainnet Launch Q1-2023
-EAS is now officially live on Sepolia, Mainnet, and Arbitrum One. Optimism and Polygon are up next!
+:::tip We have deployed on the following chains:
+- Sepolia, Mainnet, Arbitrum One, and Optimism Goerli. 
+- Optimism Bedrock and Polygon are up next!
 :::
 
 ### Ethereum `v0.26`
@@ -16,7 +17,7 @@ EAS is now officially live on Sepolia, Mainnet, and Arbitrum One. Optimism and P
 :::
 
 :::info Schema Registry
-- **Contract:** [0xA7b39296258348C78294F95B872b282326A97BDF](https://arbiscan.io/address/0xA7b39296258348C78294F95B872b282326A97BDF)
+- **Contract:** [0xA7b39296258348C78294F95B872b282326A97BDF](https://etherscan.io/address/0xA7b39296258348C78294F95B872b282326A97BDF)
 - **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/mainnet/SchemaRegistry.json)
 :::
 
@@ -41,6 +42,18 @@ EAS is now officially live on Sepolia, Mainnet, and Arbitrum One. Optimism and P
 - **Contract:** [0x0a7E2Ff54e76B8E6659aedc9103FB21c038050D0](https://sepolia.etherscan.io/address/0x0a7E2Ff54e76B8E6659aedc9103FB21c038050D0)
 - **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/SchemaRegistry.json)
 :::
+
+### Optimism Testnet (Goerli) `v0.26`
+:::info EAS Deployment
+- **Contract:** [0x1a5650D0EcbCa349DD84bAFa85790E3e6955eb84](https://goerli-optimism.etherscan.io/address/0x1a5650d0ecbca349dd84bafa85790e3e6955eb84)
+- **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/EAS.json)
+:::
+
+:::info Schema Registry
+- **Contract:** [0x7b24C7f8AF365B4E308b6acb0A7dfc85d034Cb3f](https://goerli-optimism.etherscan.io/address/0x7b24c7f8af365b4e308b6acb0a7dfc85d034cb3f)
+- **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/SchemaRegistry.json)
+:::
+
 
 
 

@@ -20,7 +20,7 @@ John's partner can then verify the certificate and document hash to ensure that 
 ## Sample Schema
 The Digital Notarization schema consists of `documentHash` and `documentID`. The documentHash is a cryptographic hash of the notarized document, which is stored on the blockchain for secure verification. The documentID is a unique identifier associated with the notarized document. This schema provides an efficient and secure way to notarize documents, eliminating the need for physical presence and offering a decentralized alternative to traditional notarization services.
 
-```bash
+```jsx
 bytes32 documentHash
 bytes32 documentID
 ```

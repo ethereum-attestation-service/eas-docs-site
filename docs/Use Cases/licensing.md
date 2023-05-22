@@ -28,7 +28,7 @@ Once the licensing authority approves the application, the license would be issu
 ### Sample Schema
 This is an example schema that would include a few details about the business name, address, and tax ID. Further it would include a categorized list of license types and the date it was issued. Recall that each attestation always comes with a unique identifier (UID), revocation status, and expiration date if applicable.
 
-```
+```jsx
 string businessName
 string address
 string taxId

@@ -20,7 +20,7 @@ This attestation provides a decentralized source of truth for the market, ensuri
 ## Sample Schema
 In this schema, the marketID identifies the specific prediction market, while the outcomeID corresponds to the outcome being predicted, such as which team won the game. The outcomeValue indicates the actual outcome and is used to attest to the result of the real-world event.
 
-```bash jsx
+```jsx
 bytes32 marketID
 bytes32 outcomeID
 uint256 outcomeValue

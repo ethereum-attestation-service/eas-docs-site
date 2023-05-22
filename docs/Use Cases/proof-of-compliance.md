@@ -21,7 +21,7 @@ For added privacy and security, the final proof of compliance can be an on-chain
 
 ## Sample Schema
 
-```bash jsx
+```jsx
 bytes32 regulationId
 string standardName
 bytes32 stepId

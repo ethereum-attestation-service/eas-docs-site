@@ -28,7 +28,7 @@ Attestations with `Zero Knowledge Proofs` are another path forward to explore.
 
 ## Sample Schema
 
-```bash
+```jsx
 bytes32 patientID
 bytes32 diagnosis
 uint64 dateOfTreatment

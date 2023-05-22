@@ -34,7 +34,7 @@ Alice's reputation score can be used to help her find new clients, and potential
 
 
 ## Sample Schema
-```bash jsx
+```jsx
 string clientName
 uint8 workQuality 
 uint8 communicationSkills 

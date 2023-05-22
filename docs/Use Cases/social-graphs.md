@@ -26,7 +26,7 @@ Tweets can easily be added to a social graph network by using off-chain attestat
 All the schema would need for a decentralized social graph for "Twitter" would be a string for tweeting. Once the attestation (tweet) is made, then users could "retweet" it by simply referencing the attestation UID and republishing it. Any type of reaction comments like a 'like', would also just be a form of attestation. 
 
 ### Sample Schema
-```
+```jsx
 string tweet
 ```
 

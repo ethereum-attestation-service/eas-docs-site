@@ -3,6 +3,8 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const vsDarkCodeTheme = require('prism-react-renderer/themes/vsDark');
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -54,8 +56,11 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: "og:image", content: "https://easscan.org/eas-summary.png"}
+      ],
       navbar: {
         title: 'Ethereum Attestation Service',
         logo: {
@@ -99,23 +104,23 @@ const config = {
               },
               {
                 label: 'Learn',
-                to: '/docs/intro',
+                to: '/docs/category/learn',
               },
               {
-                label: 'Services',
-                to: '/docs/intro',
+                label: 'Getting Started',
+                to: '/docs/category/getting-started',
               },
               {
                 label: 'Tutorials',
-                to: '/docs/intro',
+                to: '/docs/category/tutorials',
               },
               {
                 label: 'Technical Docs',
-                to: '/docs/intro',
+                to: '/docs/category/technical-docs',
               },
               {
-                label: 'Innovation Hub',
-                to: '/docs/intro',
+                label: 'Use Cases',
+                to: '/docs/category/use-cases',
               },
             ],
           },
@@ -127,10 +132,6 @@ const config = {
                 href: 'https://twitter.com/eas_eth',
               },
               {
-                label: 'Telegram',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Github',
                 href: 'https://github.com/ethereum-attestation-service',
               },
@@ -140,8 +141,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Mirror Articles',
+                to: 'https://mirror.xyz/0xeee68aECeB4A9e9f328a46c39F50d83fA0239cDF',
               },
             ],
           },
@@ -149,8 +150,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Ethereum Attestation Service. Built by the Ethereum Community.`,
       },
       prism: {
-        theme: require('prism-react-renderer/themes/dracula'),
-        darkTheme: darkCodeTheme,
+        theme: lightCodeTheme,
+        darkTheme: vsDarkCodeTheme,
       },
     }),
 };

@@ -21,7 +21,7 @@ Let's say a grant program wants to use attestations to verify the eligibility an
 For instance, each project could submit attestations of their milestones achieved, with validators attesting to the completion of each milestone. The program could then distribute the funds based on these milestones, with attestations of funds received and milestones achieved serving as proof of progress and compliance. Audits could also be conducted using the attested records to ensure that the funds are being used appropriately.
 
 ### Sample Schema
-```
+```jsx
 //Grant Proposal Request
 string projectName
 string description
