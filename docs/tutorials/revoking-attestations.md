@@ -39,7 +39,6 @@ await transaction.wait();
 
 
 ### Revoking Off-Chain Attestations
-Revoking Off-Chain Attestations
 To revoke an off-chain attestation, you can use the `revokeOffchain` function provided by the EAS SDK. Here's an example:
 
 ```javascript
