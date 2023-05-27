@@ -6,7 +6,7 @@ Here, you'll find all the contracts currently deployed on the Ethereum ecosystem
 
 ## 🛳️ Deployments
 :::tip We have deployed on the following chains:
-- Sepolia, Mainnet, Arbitrum One, and Optimism Goerli. 
+- Sepolia, Mainnet, Arbitrum One, Optimism Goerli, Base Goerli. 
 - Optimism Bedrock and Polygon are up next!
 :::
 
@@ -43,9 +43,9 @@ Here, you'll find all the contracts currently deployed on the Ethereum ecosystem
 - **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/SchemaRegistry.json)
 :::
 
-### Optimism Testnet (Goerli) `v0.26`
+### Optimism Testnet (Goerli) `v0.27`
 :::info EAS Deployment
-- **Contract:** [0x1a5650D0EcbCa349DD84bAFa85790E3e6955eb84](https://goerli-optimism.etherscan.io/address/0x1a5650d0ecbca349dd84bafa85790e3e6955eb84)
+- **Contract:** [0xC2679fBD37d54388Ce493F1DB75320D236e1815e](https://goerli-optimism.etherscan.io/address/0xC2679fBD37d54388Ce493F1DB75320D236e1815e)
 - **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/EAS.json)
 :::
 
@@ -54,6 +54,16 @@ Here, you'll find all the contracts currently deployed on the Ethereum ecosystem
 - **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/SchemaRegistry.json)
 :::
 
+### Base (Goerli) `v0.27`
+:::info EAS Deployment
+- **Contract:** [0xAcfE09Fd03f7812F022FBf636700AdEA18Fd2A7A](https://goerli.basescan.org/address/0xAcfE09Fd03f7812F022FBf636700AdEA18Fd2A7A)
+- **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-goerli/EAS.json)
+:::
+
+:::info Schema Registry
+- **Contract:** [0x720c2bA66D19A725143FBf5fDC5b4ADA2742682E](https://goerli.basescan.org/address/0x720c2bA66D19A725143FBf5fDC5b4ADA2742682E)
+- **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-goerli/SchemaRegistry.json)
+:::
 
 
 
