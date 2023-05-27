@@ -39,7 +39,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ethereum-attestation-service/eas-docs-site',
+            'https://github.com/ethereum-attestation-service/eas-docs-site/blob/main/',
         },
         blog: {
           showReadingTime: true,
