@@ -45,7 +45,7 @@ Here, you'll find all the contracts currently deployed on the Ethereum ecosystem
 
 ### Optimism Testnet (Goerli) `v0.27`
 :::info EAS Deployment
-- **Contract:** [0xC2679fBD37d54388Ce493F1DB75320D236e1815e](https://goerli-optimism.etherscan.io/address/0xC2679fBD37d54388Ce493F1DB75320D236e1815e)
+- **Contract:** [0x1a5650d0ecbca349dd84bafa85790e3e6955eb84](https://goerli-optimism.etherscan.io/address/0x1a5650d0ecbca349dd84bafa85790e3e6955eb84)
 - **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/EAS.json)
 :::
 
