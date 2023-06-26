@@ -36,8 +36,8 @@ EAS is a decentralized, open-source platform that is free to use for anyone in t
 </details>
 
 <details>
-<summary>Will EAS have it's own token?</summary>
-No. EAS has no plans to release it's own token. Our token is ETH. To use EAS you need ETH.
+<summary>Will EAS have its own token?</summary>
+No. EAS has no plans to release its own token. Our token is ETH. To use EAS you need ETH.
 </details>
 
 <details>
@@ -94,7 +94,7 @@ EAS is not owned by a centralized business or team. It is an open-source project
 
  <details>
  <summary>How is EAS different from existing DIDs, verifiable credentials, and claim protocols?</summary>
-EAS is permissionless and composable, and does not pressupose anything. 
+EAS is permissionless and composable, and does not presuppose anything. 
 Existing DIDs, verifiable credentials, and claim protocols are attestations built for specific use cases and communities. EAS serves as the base registry for these attestation providers to help make the ecosystem more composable and interoperable.
 
 - EAS does not define which schemas are best for a specific use case.
@@ -108,7 +108,7 @@ Existing DIDs, verifiable credentials, and claim protocols are attestations buil
 
 <details>
 <summary>Does EAS have pre-defined schemas?</summary>
-No. EAS does not pressupose any schema for the use case. This allows more freedom from the community to create the RIGHT schemas for the RIGHT users overtime.
+No. EAS does not presuppose any schema for the use case. This allows more freedom from the community to create the RIGHT schemas for the RIGHT users over time.
 
 </details>
 
@@ -133,7 +133,7 @@ For example, if you need to prove that you have a certain degree or certificatio
 
 Attestations are useful because they provide a way to verify the authenticity of information in a trustless manner. This means that you don't need to rely on a centralized authority to verify the information, which can be useful in situations where it's difficult or impossible to do so.
 
-Tip! Remember that the value of an attestation comes from the person making the attestation or verifing it. An attestation for your credit score that comes from your friend is not going to hold much weight. However, an attestation from a credit bureau will. 
+Tip! Remember that the value of an attestation comes from the person making the attestation or verifying it. An attestation for your credit score that comes from your friend is not going to hold much weight. However, an attestation from a credit bureau will. 
 
 </details>
 
@@ -159,9 +159,9 @@ Additionally, the value of an attestation depends on the context in which it is 
 
 <details><summary>What are on-chain attestations?</summary>
 
-An on-chain attestation is an attestation that is published on the blockchain for the world to see. Because of this it’s timestamp can be guaranteed and any smart contract on the blockchain can easily reference and verify the attestation. Use cases: Oracles, reputation, KYC validation for DeFi with securities, supply chain, etc.
+An on-chain attestation is an attestation that is published on the blockchain for the world to see. Because of this its timestamp can be guaranteed and any smart contract on the blockchain can easily reference and verify the attestation. Use cases: Oracles, reputation, KYC validation for DeFi with securities, supply chain, etc.
 
-Almost anything that can be done on-chain can be done off-chain, but you cant retain privacy well onchain.
+Almost anything that can be done on-chain can be done off-chain, but you can't retain privacy well onchain.
 
 </details>
 
