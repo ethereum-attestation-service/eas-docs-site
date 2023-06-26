@@ -9,7 +9,7 @@ EAS runs primarily on two simple smart contracts.
 - One to register an attestation schema, and 
 - another to make attestations on Schemas. 
 
-There is an optional resolver contract . Elegantly simple. Limitless possibility.
+There is an optional resolver contract. Elegantly simple. Limitless possibility.
 
 **Primary Contracts**
 - `EAS.sol` For making attestations. [Github](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/EAS.sol). 
