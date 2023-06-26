@@ -19,6 +19,6 @@ Finally, EAS will also contribute to the community by providing educational reso
 
 
 ## Why this matters
-EAS distinguishes itself from other solutions for on-chain and off-chain attestations due to its simplicity, decentralization, focus on composability, and commitment to being a public good. As an open-source, permissionless, and tokenless solution, EAS is easily integrable and flexible for a wide range of applications. EAS is not controled by a centralized authority or tokenized for growth. To use EAS all you need to do is use the contracts and pay gas fees with ETH.
+EAS distinguishes itself from other solutions for on-chain and off-chain attestations due to its simplicity, decentralization, focus on composability, and commitment to being a public good. As an open-source, permissionless, and tokenless solution, EAS is easily integrable and flexible for a wide range of applications. EAS is not controlled by a centralized authority or tokenized for growth. To use EAS all you need to do is use the contracts and pay gas fees with ETH.
 
 Being a primitive base layer for on-chain and off-chain attestations provides a common framework for building more advanced applications. This makes it a valuable infrastructure project for the Ethereum ecosystem, enabling the creation of a variety of trust and integrity solutions on top of it.
