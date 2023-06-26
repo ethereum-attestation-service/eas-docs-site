@@ -24,7 +24,7 @@ EAS allows anyone to create custom schemas for any use case, enabling the creati
 
 The registry includes schemas that people have created. You can use these schemas to attest to different things, like a statement you make or a review you write about a restaurant. You can also create your own schemas to attest to whatever you want. The use-cases are endless. You can even compose schemas together like lego blocks to make more robust schemas. 
 
-Vist the registry of schemas at => [https://easscan.com/schemas](https://easscan.com/schemas).
+Visit the registry of schemas at => [https://easscan.com/schemas](https://easscan.com/schemas).
 
 ## Getting started with Schemas
 Using schemas in EAS is easy and intuitive. Here's how to get started:
