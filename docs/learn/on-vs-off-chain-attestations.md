@@ -36,7 +36,7 @@ Off-chain attestations are not stored directly on the blockchain, but they still
 
 Off-chain attestations offer more privacy and flexibility as they are not stored on a blockchain, which can be useful for sensitive or personal information that needs to be kept private. However, this also means that they do not require consensus from the ETH network, which can result in a lower level of security. This can make it more difficult to establish trust and credibility, as there is less assurance that the attestation has been thoroughly reviewed and agreed upon by a decentralized network.
 
-The timestamp of off-chain attestations cannot be guaranteed in the same way as on-chain attestations. However, off-chain attestations can be easily timestamped on-chain. This is possible by timestamping the off-chain UID on-chain giving it an verfiable timestamp proving that the attestation was not made after a period in time. 
+The timestamp of off-chain attestations cannot be guaranteed in the same way as on-chain attestations. However, off-chain attestations can be easily timestamped on-chain. This is possible by timestamping the off-chain UID on-chain giving it a verfiable timestamp proving that the attestation was not made after a period in time. 
 
 ## Comparing Costs
 One of the key factors to consider when choosing between on-chain and off-chain attestations is the cost associated with each approach. On-chain attestations require Ethereum gas fees for storing the data on the blockchain. These fees can vary depending on the network congestion and the size of the data being stored. Storing large amounts of data on-chain can become expensive, making off-chain attestations more cost-effective in certain scenarios.
