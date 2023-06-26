@@ -23,7 +23,7 @@ The gas cost is then used in conjunction with the current base fee to estimate t
 Finally, you can also include an optional tip (priority fee) to incentivize validators to prioritize your transaction. The **total transaction fee** would then be the sum of the estimated base fee and the tip. 
 
 :::info Did you know gwei are also called Shannons?
-Shannon, is a unit of information named after Claude Shannon, an american mathematician and cryptographer known as the “the father of information theory”. It’s an alternative name for gwei to honor Shannon’s contributions to the field of information theory. 1 shannon = 1 gwei. 
+Shannon, is a unit of information named after Claude Shannon, an american mathematician and cryptographer known as “the father of information theory”. It’s an alternative name for gwei to honor Shannon’s contributions to the field of information theory. 1 shannon = 1 gwei. 
 :::
 
 ## Choosing the ABI Types for your Schema
@@ -91,7 +91,7 @@ When you’re processing a ton of transactions, small increases in bytes can add
 6. **Use packed arrays to save gas:** If you have multiple values of the same type, consider using an `array` (e.g., `uint8[]` or `uint16[]`). Packed arrays store elements consecutively, without padding, reducing gas costs.
 7. **Use bool instead of integers for binary values:** When storing binary values (true or false), use the `bool` type instead of integers. This can save space and reduce gas costs.
 8. **Optimize for off-chain data storage when possible:** If your schema includes large data sets or elements that don't require on-chain verification, consider storing the data off-chain and only storing a reference (e.g., a `bytes32` hash) on-chain. This can significantly reduce the gas costs associated with your schema.
-9. **Use a modular design to your schema:** Consider what is the absolutely minimum required in my schema and determine if it might be better to break down your schema into individual parts that reference each other. If the schema field wont be use each time the attestation is made, it's a good sign that it should be broken down into modular parts that are composed together  using the `refUID` field when needed. 
+9. **Use a modular design to your schema:** Consider what is the absolute minimum required in my schema and determine if it might be better to break down your schema into individual parts that reference each other. If the schema field won't be used each time the attestation is made, it's a good sign that it should be broken down into modular parts that are composed together  using the `refUID` field when needed. 
 10. **Avoid redundant data:** Double check your schema to see if you have any redundant fields. For example, you might add an `address` field for the schema and be using it as a recipient of the attestation. This is redundant because every attestation has an optional recipient field that can be used.
 
 ## Ready to get started?
