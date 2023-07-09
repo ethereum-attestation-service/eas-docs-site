@@ -13,9 +13,9 @@ Attestations are digital records made by anyone about anything that certify the 
 Attestations are made up of two key components: the schema and the attestation data. The schema is a predefined structure for creating and verifying attestations. It defines the data types, format, and composition of an attestation. EAS uses Solidity ABI types as acceptable fields for schemas. The attestation data is the actual information that is being attested to. It must follow the structure defined in the schema in order to be considered a valid attestation.
 
 ## On-chain Attestations
-An on-chain attestation is an attestation that is published on the blockchain for the world to see. Because of this it’s timestamp can be guaranteed and any smart contract on the blockchain can easily reference and verify the attestation. Use cases: Oracles, reputation, KYC validation for DeFi with securities, supply chain, etc.
+An on-chain attestation is an attestation that is published on the blockchain for the world to see. Because of this its timestamp can be guaranteed and any smart contract on the blockchain can easily reference and verify the attestation. Use cases: Oracles, reputation, KYC validation for DeFi with securities, supply chain, etc.
 
-Almost anything that can be done on-chain can be done off-chain, but you cant retain privacy well onchain.
+Almost anything that can be done on-chain can be done off-chain, but you can't retain privacy well onchain.
 
 ## Off-chain Attestations
 An off-chain attestation is an attestation that is not stored in the blockchain. An off-chain attestation can be public or private. Off-chain attestations carry the entire attestation data and digital signature required to verify and validate the authenticity of itself. Off-chain uses: Ticketing, Drivers license, Passport, Vote, Tweets (messages). You can also timestamp and revoke off-chain attestations on-chain giving them additional superpowers.

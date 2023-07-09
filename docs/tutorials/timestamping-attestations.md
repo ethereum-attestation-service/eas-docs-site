@@ -6,14 +6,14 @@ sidebar_position: 5
 Add a verifiable timestamp to your off-chain attestations using the EAS SDK or Easscan UI.
 
 ## Concept
-Off-chain attestations do not have the same verifiability and guarantees of an on-chain timestamp. When an attestation is made off-chain it still retains the authenticity of the signature and has the entire attestation data, however, because it is made off-chain, it's timestamp cannot be guaranteed. Anyone could theoretically say that the attestation was made at a particular point in time when it really was not. There would be no way to prove it. 
+Off-chain attestations do not have the same verifiability and guarantees as an on-chain timestamp. When an attestation is made off-chain it still retains the authenticity of the signature and has the entire attestation data, however, because it is made off-chain, its timestamp cannot be guaranteed. Anyone could theoretically say that the attestation was made at a particular point in time when it really was not. There would be no way to prove it. 
 
 One of the main advantages of a blockchain is that you have a verifiable timestamp when the transaction occurs. This gives the attestation proof of existence when it occurred. Off-chain attestations do not natively have this.
 
 To address this issue, we built a function in the `EAS SDK` that allows you to **timestamp off-chain attestation UIDs on-chain**. When you timestamp the UID on-chain, you are attesting to the off-chain UID on-chain.
 
 :::tip Remember
-The attestation UID is a hash of then entire attestation. By timestamping the UID, you are timestamping the hash of the attestation.
+The attestation UID is a hash of the entire attestation. By timestamping the UID, you are timestamping the hash of the attestation.
 :::
 
 ## Main Benefits
