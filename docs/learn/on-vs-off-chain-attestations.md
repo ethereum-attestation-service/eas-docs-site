@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 
 # On-Chain vs Off-Chain
-Attestations can be made on-chain or off-chain. **On-chain attestations** are stored directly on the Ethereum, while **off-chain attestations** are stored outside of the blockchain, often in a decentralized storage solution like IPFS or just in the browser as a URL hash. Almost anything that can be done on-chain can be done off-chain. Let's explore the differences:
+Attestations can be made on-chain or off-chain. **On-chain attestations** are stored directly on Ethereum, while **off-chain attestations** are stored outside of the blockchain, often in a decentralized storage solution like IPFS or just in the browser as a URL hash. Almost anything that can be done on-chain can be done off-chain. Let's explore the differences:
 
  ![On vs Off-Chain](./img/on-off-v1.png)
 
