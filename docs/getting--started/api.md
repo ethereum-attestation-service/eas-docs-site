@@ -4,9 +4,15 @@ sidebar_position: 2
 
 # GraphQL API
 
-Welcome to the Easscan GraphQL API documentation! This API allows you to access various attestation and schema data and perform queries using the GraphQL endpoint located at:
+Welcome to the Easscan GraphQL API documentation! This API allows you to access various attestation and schema data and perform queries using the GraphQL endpoints located at:
 
-[https://easscan.org/graphql](https://easscan.org/graphql)
+| Chain  | GraphQL endpoint |
+| ------------- | ------------- |
+| Ethereum | [https://easscan.org/graphql](https://easscan.org/graphql)  |
+| Arbitrum | [https://arbitrum.easscan.org/graphql](https://arbitrum.easscan.org/graphql)  |
+| Sepolia | [https://sepolia.easscan.org/graphql](https://sepolia.easscan.org/graphql)  |
+| Optimism-Goerli | [https://optimism-goerli.easscan.org/graphql](https://optimism-goerli.easscan.org/graphql)  |
+| Base-Goerli | [https://base-goerli.easscan.org/graphql](https://base-goerli.easscan.org/graphql) |
 
 ## Introduction
 
