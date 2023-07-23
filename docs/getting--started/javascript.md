@@ -263,6 +263,27 @@ const transaction = await eas.multiRevokeOffchain([data1, data2]);
 await transaction.wait();
 ```
 
+### Verify an Off-chain Attestation
+
+To verify an off-chain attestation, you can use the `verifyOffchainAttestationSignature` function provided by the EAS SDK. Here's an example:
+
+```javascript
+import { OFFCHAIN_ATTESTATION_VERSION, Offchain, PartialTypedDataConfig } from '@ethereum-attestation-service/eas-sdk';
+// import your off chain attestation file
+import attestation from './schema-2-attestation-1690060000.eas.txt';
+
+const EAS_CONFIG: PartialTypedDataConfig = {
+  address: attestation.sig.domain.verifyingContract,
+  version: attestation.sig.domain.version,
+  chainId: attestation.sig.domain.chainId,
+};
+const offchain = new Offchain(EAS_CONFIG, OFFCHAIN_ATTESTATION_VERSION);
+const isValidAttestation = offchain.verifyOffchainAttestationSignature(
+  attestation.signer,
+  attestation.sig,
+);
+```
+
 ### Registering a Schema
 
 To register a new schema, you can use the `register` function provided by the EAS SDK. This function takes an object with the following properties:
