@@ -32,6 +32,17 @@ Here, you'll find all the contracts currently deployed on the Ethereum ecosystem
 - **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-one/SchemaRegistry.json)
 :::
 
+### Optimism `v1.0.1`
+:::info EAS Deployment
+- **Contract:** [0x4200000000000000000000000000000000000021](https://optimistic.etherscan.io/address/0x4200000000000000000000000000000000000021)
+- **Deployment & ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism/EAS.json)
+:::
+
+:::info Schema Registry
+- **Contract:** [0x4200000000000000000000000000000000000020](https://optimistic.etherscan.io/address/0x4200000000000000000000000000000000000020)
+- **Deployment & ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism/SchemaRegistry.json)
+:::
+
 ### Sepolia Testnet `v0.26`
 :::info EAS Deployment
 - **Contract:** [0xC2679fBD37d54388Ce493F1DB75320D236e1815e](https://sepolia.etherscan.io/address/0xC2679fBD37d54388Ce493F1DB75320D236e1815e)
