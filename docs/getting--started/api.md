@@ -6,13 +6,14 @@ sidebar_position: 2
 
 Welcome to the Easscan GraphQL API documentation! This API allows you to access various attestation and schema data and perform queries using the GraphQL endpoints located at:
 
-| Chain  | GraphQL endpoint |
-| ------------- | ------------- |
-| Ethereum | [https://easscan.org/graphql](https://easscan.org/graphql)  |
-| Arbitrum | [https://arbitrum.easscan.org/graphql](https://arbitrum.easscan.org/graphql)  |
-| Sepolia | [https://sepolia.easscan.org/graphql](https://sepolia.easscan.org/graphql)  |
-| Optimism-Goerli | [https://optimism-goerli.easscan.org/graphql](https://optimism-goerli.easscan.org/graphql)  |
-| Base-Goerli | [https://base-goerli.easscan.org/graphql](https://base-goerli.easscan.org/graphql) |
+| Chain  | GraphQL endpoint                                                                                   |
+| ------------ |----------------------------------------------------------------------------------------------------|
+| Ethereum | [https://easscan.org/graphql](https://easscan.org/graphql)                                         |
+| Arbitrum | [https://arbitrum.easscan.org/graphql](https://arbitrum.easscan.org/graphql)                       |
+| Sepolia | [https://sepolia.easscan.org/graphql](https://sepolia.easscan.org/graphql)                         |
+| Optimism | [https://optimism.easscan.org/graphql](https://optimism.easscan.org/graphql)                |
+| Optimism-Goerli | [https://optimism-goerli-bedrock.easscan.org/graphql](https://optimism-goerli-bedrock.easscan.org/graphql) |
+| Base-Goerli | [https://base-goerli.easscan.org/graphql](https://base-goerli.easscan.org/graphql)                 |
 
 ## Introduction
 
