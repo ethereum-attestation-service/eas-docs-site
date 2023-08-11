@@ -6,6 +6,8 @@ sidebar_position: 0
 
 Here, you'll find everything you need to get started with integrating EAS into a Javascript/Typescript project.
 
+For the latest updated SDK documentation, please visit the [SDK Github repo](https://github.com/ethereum-attestation-service/eas-sdk)
+
 ## Installing the EAS SDK
 
 To install the EAS contracts, run the following command within your project directory:
@@ -130,7 +132,7 @@ const tx = await eas.attest({
   data: {
     recipient: "0xFD50b031E778fAb33DfD2Fc3Ca66a1EeF0652165",
     expirationTime: 0,
-    revocable: true,
+    revocable: true, // Be aware that if your schema is not revocable, this MUST be false
     data: encodedData,
   },
 });
@@ -165,7 +167,7 @@ const offchainAttestation = await offchain.signOffchainAttestation({
   expirationTime: 0,
   // Unix timestamp of current time
   time: 1671219636,
-  revocable: true,
+  revocable: true, // Be aware that if your schema is not revocable, this MUST be false
   version: 1,
   nonce: 0,
   schema: "0xb16fa048b0d597f5a821747eba64efa4762ee5143e9a80600d0005386edfc995",

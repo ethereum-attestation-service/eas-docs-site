@@ -1,16 +1,14 @@
 ---
 title: Integrating eas-sdk with wagmi library
-sidebar_label: Using EAS with Wagmi
+sidebar_label: Using SDK with wagmi
 ---
 
-
-## Using eas-sdk with wagmi library
 
 Since `wagmi` now no longer uses `ethers` and instead uses a new library called `viem`, users need to convert the `viem` style `publicClient` and `walletClient` to `ethers` style `provider` and `signer` to use the `eas-sdk`.
 
 ### Using useSigner and useProvider Hooks
 
-The two hooks, `useSigner` and `useProvider`, make this conversion easy for you. You don't need to install a whole separate library to do this conversion.
+The two hooks, `useSigner` and `useProvider`, make this conversion easy for you. You don't need to install a whole separate library to do this conversion, simply add [these](https://gist.github.com/slavik0329/2e5b6fc31cb745b65d3d37f7cf1d7b36) hooks to your project.
 
 #### **useSigner Hook**
 
