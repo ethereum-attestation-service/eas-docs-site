@@ -269,9 +269,10 @@ To verify an off-chain attestation, you can use the `verifyOffchainAttestationSi
 
 ```javascript
 import { OFFCHAIN_ATTESTATION_VERSION, Offchain, PartialTypedDataConfig } from '@ethereum-attestation-service/eas-sdk';
-// import your off chain attestation file
-import attestation from './schema-2-attestation-1690060000.eas.txt';
 
+const attestation = {
+  // your offchain attestation
+};
 const EAS_CONFIG: PartialTypedDataConfig = {
   address: attestation.sig.domain.verifyingContract,
   version: attestation.sig.domain.version,
