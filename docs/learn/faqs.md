@@ -157,11 +157,11 @@ Additionally, the value of an attestation depends on the context in which it is 
 
 
 
-<details><summary>What are on-chain attestations?</summary>
+<details><summary>What are onchain attestations?</summary>
 
-An on-chain attestation is an attestation that is published on the blockchain for the world to see. Because of this its timestamp can be guaranteed and any smart contract on the blockchain can easily reference and verify the attestation. Use cases: Oracles, reputation, KYC validation for DeFi with securities, supply chain, etc.
+An onchain attestation is an attestation that is published on the blockchain for the world to see. Because of this its timestamp can be guaranteed and any smart contract on the blockchain can easily reference and verify the attestation. Use cases: Oracles, reputation, KYC validation for DeFi with securities, supply chain, etc.
 
-Almost anything that can be done on-chain can be done off-chain, but you can't retain privacy well onchain.
+Almost anything that can be done onchain can be done off-chain, but you can't retain privacy well onchain.
 
 </details>
 
