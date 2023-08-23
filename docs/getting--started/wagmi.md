@@ -1,6 +1,6 @@
 ---
 title: Integrating eas-sdk with wagmi library
-sidebar_label: Using SDK with wagmi
+sidebar_label: Using SDK with viem/wagmi
 ---
 
 
