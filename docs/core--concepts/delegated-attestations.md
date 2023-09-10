@@ -1,9 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 9
 ---
 
-# Delegated Attestations
-
+# Delegating
 Delegated Attestations enable an entity to sign an attestation while allowing another entity to cover the transaction
 fee.
 

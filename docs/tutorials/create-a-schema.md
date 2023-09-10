@@ -27,7 +27,22 @@ about [Solidity ABI types](https://docs.soliditylang.org/en/v0.8.16/abi-spec.htm
 
 
 # The Schema Record
-EAS uses Ethereum smart contracts to register and verify attestations. Each schema registered on EAS has a record that can be viewed on EASScan [https://easscan.com/schemas](https://easscan.com/schemas). 
+EAS uses Ethereum smart contracts to register and verify attestations. Each schema registered on EAS has a record that can be viewed on EASSCAN for the chain you're building on. Here' are a few quick links:
+
+## The Schema Record
+
+EAS uses Ethereum smart contracts to register and verify attestations. Each schema registered on EAS has a record that can be viewed on EASSCAN for the chain you're building on.
+
+| Chain            | EASSCAN Link                                              |
+|------------------|-----------------------------------------------------------|
+| **Mainnet**      | [View Schemas](https://easscan.org/schemas)               |
+| **Optimism**     | [View Schemas](https://optimism.easscan.org/schemas)      |
+| **Base**         | [View Schemas](https://base.easscan.org/schemas)          |
+| **Arbitrum**     | [View Schemas](https://arbitrum.easscan.org/schemas)      |
+| **Sepolia**      | [View Schemas](https://sepolia.easscan.org/schemas)       |
+| **Optimism Goerli** | [View Schemas](https://optimism-goerli.easscan.org/schemas) |
+| **Base Goerli**  | [View Schemas](https://base-goerli.easscan.org/schemas)   |
+
 
 ## Understanding the EAS schema record
 Learn how to read a schema record and understand if it's the proper structure for your use case.
@@ -51,9 +66,35 @@ Use the no-code schema builder on any easscan explorer site, such as [https://ea
 ![No Code Schema Builder](./img/no-code-schema.png)
 
 ### Use the SDK
-Easily make schemas directly with the SDK.
+To register a new schema, you can use the register function provided by the [**EAS SDK**](https://github.com/ethereum-attestation-service/eas-sdk#registering-a-schema). This function takes an object with the following properties:
 
+- **schema:** The schema string that defines the structure of the data to be attested.
+- **resolverAddress:** The Ethereum address of the resolver responsible for managing the schema.
+- **revocable:** A boolean value indicating whether attestations created with this schema can be revoked.
 
+Here's an example of how to register a new schema:
+```javascript
+import { SchemaRegistry } from "@ethereum-attestation-service/eas-sdk";
+import { ethers } from 'ethers';
+
+const schemaRegistryContractAddress = "0xYourSchemaRegistryContractAddress";
+const schemaRegistry = new SchemaRegistry(schemaRegistryContractAddress);
+
+schemaRegistry.connect(signer);
+
+const schema = "uint256 eventId, uint8 voteIndex";
+const resolverAddress = "0x0a7E2Ff54e76B8E6659aedc9103FB21c038050D0"; // Sepolia 0.26
+const revocable = true;
+
+const transaction = await schemaRegistry.register({
+  schema,
+  resolverAddress,
+  revocable,
+});
+
+// Optional: Wait for transaction to be validated
+await transaction.wait();
+```
 
 ## Learn about the Schema Contract 📄
 Schemas are registered through the `SchemaRegistry.sol` contract. [Explore the entire contract on GitHub.](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/SchemaRegistry.sol)

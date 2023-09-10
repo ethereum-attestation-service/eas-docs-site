@@ -1,8 +1,8 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 ---
 
-# Gas Efficient Schemas
+# Making Gas Efficient Schemas
 In this tutorial, we'll explore how to create gas-efficient schemas using Ethereum ABI types. We'll dive into the various Ethereum ABI types, their estimated sizes in bytes, and their associated gas costs. Plus, we'll provide guidance on when to use specific types for different use cases, complete with examples.
 
 Think of this tutorial as a refresher if you're already familiar with these concepts. If not, you're in the right place. We’re eager to teach you everything there is to know about gas and crafting efficient schemas on EAS.

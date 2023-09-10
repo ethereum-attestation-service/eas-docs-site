@@ -1,0 +1,8 @@
+{
+  "label": "The Explorer",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "Understand how to use the easscan explorer."
+  }
+}
