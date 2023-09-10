@@ -13,9 +13,9 @@ Before diving in, it's crucial to grasp the concept of attestations. Attestation
 Attestations are not tokens or NFTs. They're simply digital signatures on structured data.
 :::
 
-📖 Read More: **[Learn Why EAS Exists]**
+📖 **Read More:** [**Learn Why EAS Exists**](/docs/purpose/eas-purpose.md)
 
-📖 Read More: **[What Are Attestations?]**
+📖 **Read More:** [**What Are Attestations**](/docs/core--concepts/attestations.md)
 
 
 ### 2. How EAS Works
@@ -26,12 +26,12 @@ EAS is elegantly simple. It runs on two smart contracts.
 
 ![Schema & Attestation](./img/schema-attestation-graphic.png)
 
-📖 Read More: **[Get the Core Concepts Down]**
+📖 **Read More:**[**Get the Core Concepts Down**](/docs/category/core-concepts)
 
 ### 2. Get Inspired
 Discover the myriad of use cases and applications made possible by EAS. From content verification to reputation systems, the possibilities are endless.
 
-🔗 Explore: **See what's possible**
+🔗 **Explore:** [**See what's possible**](/docs/category/ideas-to-build)
 
 ![Use Cases](./img/use-case-examples.png)
 
