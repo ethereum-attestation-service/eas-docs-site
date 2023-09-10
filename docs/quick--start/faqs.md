@@ -97,6 +97,11 @@ False attestations can be challenged or disregarded. The value of an attestation
 </details>
 
 <details>
+<summary>What's the difference between a 'credential' and an 'attestation'?</summary>
+A credential is just an attestation from one entity attesting to certain attributes or events about someone else or something. Attestations are more generalized and can be much more than an credential, whereas credentials are not good for all use cases that attestations can solve for. 
+</details>
+
+<details>
 <summary>Are attestations tokens or NFTs?</summary>
 No, attestations differ from tokens or NFTs. They are digital signatures on structured data, signifying a claim or verification. 
 </details>
