@@ -14,10 +14,10 @@ Worse still, past infrastructure **attempts have been encumbered by centralizati
 ## Growth Pyramid
 EAS is designed to be that foundational infrastructure for the attestation ecosystem. Neutral, open, and built for the community, without presupposing too much or building too high in the stack.
 
-![Attestation Ecosystem Pyramid](./img/ecosystem-pryamid.png)
+![Attestation Ecosystem Pyramid](./img/attestation-pyramid-v1.png)
 
 ## The Attestation Growth Loop
-At the heart of the Attestation Ecosystem is the Ethereum Attestation Service (EAS). It's the foundational infrastructure that sets a powerful virtuous cycle into motion:
+At the heart of the Attestation Ecosystem is the Ethereum Attestation Service (EAS). It's the foundational infrastructure that sets a powerful growth cycle into motion:
 
 - **Infrastructure:** EAS provides a robust and neutral infrastructure. This foundational layer ensures that every attestation, regardless of its origin or purpose, speaks the same technical language.
 - **Coordination:** With a standardized infrastructure in place, stakeholders come together to coordinate around schemas and improvements to the infrastructure. They discuss, deliberate, and decide on the best practices, ensuring that the ecosystem evolves cohesively.
