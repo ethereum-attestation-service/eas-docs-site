@@ -10,7 +10,7 @@ Please note that you can also import and use the addresses directly in your code
 ## 🛳️ Deployments
 :::tip We have deployed on the following chains:
 - **Testnets**: Sepolia, Base Goerli, Optimism Goerli, Arbitrum Goerli, Linea Goerli
-- **Mainnets**: Ethereum Mainnet, Arbitrum, Optimism
+- **Mainnets**: Ethereum Mainnet, Arbitrum, Optimism, Base, Linea
 :::
 
 ## Mainnets
@@ -45,6 +45,19 @@ Version `v1.0.1`:
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism/SchemaRegistry.json)
 :::
 
+### Base
+Version `v1.0.1`:
+
+:::info EAS
+- **Contract Address:** [0x4200000000000000000000000000000000000021](https://basescan.org/address/0x4200000000000000000000000000000000000021)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism/SchemaRegistry.json)
+:::
+
+:::info SchemaRegistry
+- **Contract Address:** [0x4200000000000000000000000000000000000020](https://basescan.org/address/0x4200000000000000000000000000000000000020)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-one/SchemaRegistry.json)
+:::
+
 
 ### Arbitrum One
 Version `v0.26`:
@@ -57,6 +70,19 @@ Version `v0.26`:
 :::info SchemaRegistry
 - **Contract Address:** [0xA310da9c5B885E7fb3fbA9D66E9Ba6Df512b78eB](https://arbiscan.io/address/0xA310da9c5B885E7fb3fbA9D66E9Ba6Df512b78eB)
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-one/SchemaRegistry.json)
+:::
+
+### Linea
+Version `v1.2.0`:
+
+:::info EAS
+- **Contract Address:** [0xaEF4103A04090071165F78D45D83A0C0782c2B2a](https://lineascan.build/address/0xaEF4103A04090071165F78D45D83A0C0782c2B2a)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/linea/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://lineascan.build/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/linea/SchemaRegistry.json)
 :::
 
 
@@ -91,7 +117,7 @@ Version `v1.0.1`:
 
 
 
-Base Goerli
+### Base Goerli
 Version `v0.27`:
 
 :::info EAS
@@ -119,16 +145,16 @@ Version `v1.1.0`:
 :::
 
 
-Linea Goerli
+### Linea Goerli
 Version `v1.2.0`:
 
 :::info EAS
-- **Contract Address:** [0x4200000000000000000000000000000000000021](https://goerli.lineascan.build/address/0x4200000000000000000000000000000000000021)
+- **Contract Address:** [0xaEF4103A04090071165F78D45D83A0C0782c2B2a](https://goerli.lineascan.build/address/0xaEF4103A04090071165F78D45D83A0C0782c2B2a)
 - **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/linea-goerli/EAS.json)
 :::
 
 :::info SchemaRegistry
-- **Contract Address:** [0x4200000000000000000000000000000000000020](https://goerli.lineascan.build/address/0x4200000000000000000000000000000000000020)
+- **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://goerli.lineascan.build/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797)
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/linea-goerli/SchemaRegistry.json)
 :::
 
