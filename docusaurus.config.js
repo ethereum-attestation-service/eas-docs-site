@@ -69,13 +69,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'welcome',
-            position: 'left',
-            label: 'Docs',
-          },
-          {to: '/docs/category/use-cases', label: 'Use Cases', position: 'left'},
-          {
             href: 'https://easscan.com/',
             label: 'EAS Explorer',
             position: 'right',
@@ -117,10 +110,6 @@ const config = {
               {
                 label: 'Technical Docs',
                 to: '/docs/category/technical-docs',
-              },
-              {
-                label: 'Use Cases',
-                to: '/docs/category/use-cases',
               },
             ],
           },
