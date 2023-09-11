@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# P2P Attestations
+# Offchain Attestations
 Offchain attestations offer a unique blend of privacy, efficiency, and flexibility. This tutorial will guide you through the process of creating peer-to-peer (P2P) offchain attestations using EASSCAN.org, and how to leverage them for various use cases.
 
 ## Creating an Offchain Attestation
