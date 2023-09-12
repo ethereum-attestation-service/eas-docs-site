@@ -13,7 +13,7 @@ EAS is a standard and base layer where any entity can make attestations about an
 
 Explore the docs to learn more. We're excited to see what you'll build with EAS, and we can't wait to see how you'll use attestations to create a more trustful and transparent world. 
 
-Learn more about why EAS was built.
+**Read More:** [**Why We Built EAS**](/docs/purpose/eas-purpose.md)
 
 ## Why Attestations Matter
 :::info
@@ -42,7 +42,7 @@ It's a new primitive. While tokens represent a type of digital asset, EAS attest
 ### 🧠 Think beyond identity.
 The identity ecosystem is extremely fragmented and a key reason why EAS was built, however, its flexibility lends itself to build trust beyond identity. EAS allows for a wide range of possibilities for entrepreneurs and developers to build applications that make use of attestations. Some examples of what can be built with EAS include identity verification systems, reputation networks, supply chain solutions, voting & governance systems, and more. We're excited to see what you'll build with EAS and how you'll use attestations to create a more trustful and transparent world.
 
-Check out this [**ever-growing list of use cases**](/docs/category/use-cases) that can be built with EAS. 
+Get inspired with a few [**thought starters!**](/docs/idea--zone/thought-starters.md). 
 
 ## Start Building
 We're excited to see what you build with EAS. Let's get started!
