@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
-# Resolver Contracts
+# Using Resolver Contracts
 A `Resolver Contract` acts as a hook for a Schema, ensuring that attestations conform to specific rules or any smart contract logic before they can be completed. This feature allows you to introduce additional smart contract functionality to your schema, such as an allowlist of users that can create attestations or minting NFTs when specific conditions are met.
 
 ## The Concept
