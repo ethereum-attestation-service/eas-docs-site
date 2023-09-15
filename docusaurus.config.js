@@ -8,6 +8,7 @@ const vsDarkCodeTheme = require('prism-react-renderer/themes/vsDark');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
   title: 'Ethereum Attestation Service',
   tagline: 'Ethereum Attestation Service is the global base layer for on/offchain generic attestations.',
   url: 'https://attest.sh',
