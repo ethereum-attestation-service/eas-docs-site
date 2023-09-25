@@ -60,3 +60,10 @@ Navigating the world of attestations might seem complex, but it boils down to un
 
 In short, think about how your data will be used. If it's crucial for smart contracts, onchain might be the way. If it's about privacy and controlled sharing, offchain could be your answer. And sometimes, a blend of both might be the perfect solution. The power to choose is yours.
 
+## Verifiable Data Ledger - a Third Option
+
+Some projects may require the scalability and cost efficiencies that coincide with off-chain attestations in addition to the added security and ease-of-verifiability benefits tied to on-chain transactions. Especially when dealing with a high volume of attestations (or relevant data more generally) at scale, engineering teams often find themselves unnecessarily giving up qualities like global consensus, immutability, and transparency in favor of faster performance and lower cost.
+
+There are, however, additional storage options designed to maximize on both scalability and decentralization, offering a less binary solution suitable for many use-cases, including off-chain attestations. For example, options like the Ceramic Network offer data-streaming and querying capabilities familiar to developers who have worked with Kafka, GraphQL, and relational databases, but built on a fully decentralized and open-source framework built on IPFS content addressing with "roll-up" publishing transactions directly on the Ethereum blockchain. *Learn how to store and retrieve off-chain attestations on Ceramic using ComposeDB in [this tutorial](../tutorials/ceramic-storage).*
+
+It's important for teams to consider the trade-offs between on-chain, off-chain, and non-conforming solutions like Verifiable Data Ledgers, and make the design choices best suited for their unique goals and use-cases. 
