@@ -65,23 +65,35 @@ and more.
 
 To install the EAS contracts, run the following command within your project directory
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+```mdx-code-block
 <Tabs>
   <TabItem value="yarn" label="yarn" default>
-    ```bash
-    yarn add @ethereum-attestation-service/eas-sdk
 ```
+
+```bash
+yarn add @ethereum-attestation-service/eas-sdk
+```
+```mdx-code-block
   </TabItem>
   <TabItem value="npm" label="npm">
-    ```bash
+```
+```bash
 npm install @ethereum-attestation-service/eas-sdk
 ```
+```mdx-code-block
   </TabItem>
   <TabItem value="pnpm" label="pnpm">
-    ```bash 
+```
+```bash 
 pnpm add @ethereum-attestation-service/eas-sdk
 ```
+```mdx-code-block
   </TabItem>
 </Tabs>
+```
 
 📖 Read More: [The SDK Docs](/docs/developer-tools.md/eas-sdk.md)
 
