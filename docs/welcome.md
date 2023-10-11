@@ -28,7 +28,7 @@ We believe that by creating a free and open-source platform for attestations, we
 
 ## Key Things to Know About EAS
 ### ✨ The architecture is elegantly simple.
-EAS runs on [two simple smart contracts](/docs/technical--docs/contracts): one for **registering attestation Schemas** and another for **attesting with them**. Schemas can be registered for any use case, and attestations can be made onchain or offchain. You can also add a resolver contract to the Schema for advanced use cases, such as onchain verification of attestation data and attaching payments to attestations.
+EAS runs on [two simple smart contracts](https://docs.attest.sh/docs/core--concepts/how-eas-works): one for **registering attestation Schemas** and another for **attesting with them**. Schemas can be registered for any use case, and attestations can be made onchain or offchain. You can also add a resolver contract to the Schema for advanced use cases, such as onchain verification of attestation data and attaching payments to attestations.
 
 ### 🔓 We don't pressupose anything.
 EAS doesn't box you in with presumptions. Instead, it offers a base layer that's adaptable to myriad applications and does not make assumptions about how it will be used or the appropriate schema structure for a particular use case. It is designed to be a foundation that can be used to build more specific and complex systems on top of it and can be tailored to fit the needs of different users. This primitive layer will enable the freedom to create and reinforce the right schemas and attestations for the right use cases for the right users over time.
