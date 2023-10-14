@@ -63,15 +63,15 @@ Creating an attestation is a straightforward process, but it's underpinned by ro
 
 4. **Verification:** Post creation, anyone can verify the attestation if made available to them. They can check the digital signature against the issuer's public key, ensuring the attestation's authenticity.
 
-5. **Lifecycle Management:** Over time, the status of an attestation might change. While it can't be edited due it is immutability, it can be revoked if the information is no longer valid. This revocation is also stored, ensuring a clear history of the attestation's lifecycle.
+5. **Lifecycle Management:** Over time, the status of an attestation might change. While it can't be edited due to its immutability, it can be revoked if the information is no longer valid. This revocation is also stored, ensuring a clear history of the attestation's lifecycle.
 
 6. **Referencing & Building:** One of EAS's powerful features is the ability to reference other attestations. This allows for the creation of a web of interconnected attestations, each adding context and depth to the others.
 
 ## Tools to Start Building
 To dive deeper into the world of attestations and begin crafting your own, explore the EAS platform. We offer a range of tools and resources, from a no-code schema builder to SDKs, that make the process intuitive and efficient. Join the EAS community and be a part of the movement in digital trust and verification.
 
-- [**SDK**](/docs/developer-tools.md/eas-sdk.md)
-- [**GraphQL API**](/docs/developer-tools.md/api.md)
+- [**SDK**](/docs/developer-tools/eas-sdk.md)
+- [**GraphQL API**](/docs/developer-tools/api.md)
 - [**Tutorials**](/docs/category/tutorials)
 
 
