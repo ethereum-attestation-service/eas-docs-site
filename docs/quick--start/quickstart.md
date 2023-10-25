@@ -26,7 +26,7 @@ EAS is elegantly simple. It runs on two smart contracts.
 
 ![Schema & Attestation](./img/schema-attestation-graphic.png)
 
-📖 **Read More:**[**Get the Core Concepts Down**](/docs/category/core-concepts)
+📖 **Read More:** [**Get the Core Concepts Down**](/docs/category/core-concepts)
 
 ### 2. Get Inspired
 Discover the myriad of use cases and applications made possible by EAS. From content verification to reputation systems, the possibilities are endless.
@@ -47,12 +47,12 @@ EAS is transparent and community-driven. Dive into our open-source repositories 
 - **[Indexing Service](https://github.com/ethereum-attestation-service/eas-indexing-service):** See how we index attestation data.
 - **[Ponder Graph](https://github.com/ethereum-attestation-service/eas-ponder-graph):** See events that happen from attestation data.
 - **[Docs Site](https://github.com/ethereum-attestation-service/eas-docs-site):** Contribute to the docs site of EAS.
-- **[Contract Example](https://github.com/ethereum-attestation-service/eas-contracts-example):** An example project using the EAS contracts
-- **[Met IRL](https://github.com/ethereum-attestation-service/met-irl):** A sample dapp to see how to use EAS
+- **[Contract Example](https://github.com/ethereum-attestation-service/eas-contracts-example):** An example project using the EAS contracts.
+- **[Met IRL](https://github.com/ethereum-attestation-service/met-irl):** A sample dapp to see how to use EAS.
 
 
 ### SDK
-Our [**Software Development Kit (SDK)**](/docs/developer-tools.md/eas-sdk.md) provides devs with tools and libraries to seamlessly integrate EAS into their projects. Use the SDK to easily:
+Our [**Software Development Kit (SDK)**](docs/developer-tools/eas-sdk) provides devs with tools and libraries to seamlessly integrate EAS into their projects. Use the SDK to easily:
 - [**Get an attestation**](https://github.com/ethereum-attestation-service/eas-sdk#getting-an-attestation)
 - [**Create Onchain Attestations**](https://github.com/ethereum-attestation-service/eas-sdk#creating-on-chain-attestations)
 - [**Create Offchain Attestations**](https://github.com/ethereum-attestation-service/eas-sdk#creating-off-chain-attestations)
@@ -65,21 +65,29 @@ and more.
 
 To install the EAS contracts, run the following command within your project directory
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 <Tabs>
-  <TabItem value="yarn" label="yarn" default>
-    ```bash
-    yarn add @ethereum-attestation-service/eas-sdk
-```
+  <TabItem value="yarn" label="Yarn" default>
+
+  ```bash
+  yarn add @ethereum-attestation-service/eas-sdk
+  ```
   </TabItem>
   <TabItem value="npm" label="npm">
-    ```bash
-npm install @ethereum-attestation-service/eas-sdk
-```
+
+  ```bash
+  npm install @ethereum-attestation-service/eas-sdk
+  ```
+
   </TabItem>
   <TabItem value="pnpm" label="pnpm">
-    ```bash 
-pnpm add @ethereum-attestation-service/eas-sdk
-```
+
+  ```bash
+  pnpm add @ethereum-attestation-service/eas-sdk
+  ```
+
   </TabItem>
 </Tabs>
 
