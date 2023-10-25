@@ -5,7 +5,7 @@ sidebar_position: 1
 # EAS SDK
 Here, you'll find everything you need to get started with integrating EAS into a **Javascript/Typescript** project. 
 
-You can also reference our SDK directly in the [SDK Github repo](https://github.com/ethereum-attestation-service/eas-sdk)
+You can also reference our SDK directly in the [**SDK Github repo**](https://github.com/ethereum-attestation-service/eas-sdk).
 
 ## Installing the EAS SDK
 
