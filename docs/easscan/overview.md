@@ -3,14 +3,14 @@ sidebar_position: 1
 ---
 
 # Easscan Overview
-Welcome to the definitive guide for [EASSCAN.org](https://easscan.org), the premier explorer for the Attestation Ecosystem. Easscan.org is like the *"etherscan for attestation"*. It's your central hub and way for you to explore, discover, make, and verify schemas and attestations. 
+Welcome to the definitive guide for [EASSCAN.org](https://easscan.org), the explorer for the Attestation Ecosystem. Easscan.org is like the *"etherscan for attestation"*. It's your central hub and way for you to explore, discover, make, and verify schemas and attestations. 
 
 ![Easscan.org](./img/explorer-landing.png)
 
 As a public good, our intention is to be as accessible to non-technical developers as we are to technical builders. Enjoy an experience that exceptional compared to traditional explorers and let us know ways you'd like to see it improved!
 
 :::info It's not an end-user tool
-While we aim for the best DevEx, the easscan.org site is not intended to be an end user site for consuming attestation data. We encourage all builders to create amazing experiences on top of the attestation data for your own use cases.
+While we aim for the best DevEx, the easscan.org site is not intended to be an end user site for consuming or issuing attestation data. We encourage all builders to create amazing experiences on top of the attestation contracts for your own use cases.
 :::
 
 ## Available Chains
