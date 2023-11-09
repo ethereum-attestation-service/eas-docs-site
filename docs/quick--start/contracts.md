@@ -172,7 +172,7 @@ Version `v1.0.1`:
 :::
 
 :::info SchemaRegistry
-- **Contract Address:** [0x4200000000000000000000000000000000000020)](https://goerli.basescan.org/address/0x4200000000000000000000000000000000000020)
+- **Contract Address:** [0x4200000000000000000000000000000000000020](https://goerli.basescan.org/address/0x4200000000000000000000000000000000000020)
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-goerli/SchemaRegistry.json)
 :::
 
