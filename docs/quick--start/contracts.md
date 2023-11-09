@@ -9,7 +9,7 @@ Please note that you can also import and use the addresses directly in your code
 
 ## 🛳️ Deployments
 :::tip We have deployed on the following chains:
-- **Testnets**: Sepolia, Base Goerli, Optimism Goerli, Arbitrum Goerli, Linea Goerli
+- **Testnets**: Sepolia, Base Goerli, Optimism Goerli, Arbitrum Goerli, Linea Goerli, Polygon Mumbai
 - **Mainnets**: Ethereum Mainnet, Arbitrum, Optimism, Base, Linea
 :::
 
@@ -45,6 +45,18 @@ Version `v1.0.1`:
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism/SchemaRegistry.json)
 :::
 
+Version `v1.2.1`:
+
+:::info EIP712Proxy
+- **Contract Address:** [0xE132c2E90274B44FfD8090b58399D04ddc060AE1](https://optimistic.etherscan.io/address/0xE132c2E90274B44FfD8090b58399D04ddc060AE1)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract Address:** [0x6dd0CB3C3711c8B5d03b3790e5339Bbc2Bbcf934](https://optimistic.etherscan.io/address/0x6dd0CB3C3711c8B5d03b3790e5339Bbc2Bbcf934)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism/Indexer.json)
+:::
+
 ### Base
 Version `v1.0.1`:
 
@@ -58,6 +70,17 @@ Version `v1.0.1`:
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-one/SchemaRegistry.json)
 :::
 
+Version `v1.2.0`:
+
+:::info EIP712Proxy
+- **Contract Address:** [0xF095fE4b23958b08D38e52d5d5674bBF0C03cbF6](https://basescan.org/address/0xF095fE4b23958b08D38e52d5d5674bBF0C03cbF6)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract Address:** [0x37AC6006646f2e687B7fB379F549Dc7634dF5b84](https://basescan.org/address/0x37AC6006646f2e687B7fB379F549Dc7634dF5b84)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base/Indexer.json)
+:::
 
 ### Arbitrum One
 Version `v0.26`:
@@ -101,6 +124,18 @@ Version `v0.26`:
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/SchemaRegistry.json)
 :::
 
+Version `v1.2.0`:
+
+:::info EIP712Proxy
+- **Contract Address:** [0x9C9d17bEE150E4eCDf3b99baFA62c08Cb30E82BC](https://sepolia.etherscan.io/address/0x9C9d17bEE150E4eCDf3b99baFA62c08Cb30E82BC)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract Address:** [0xaEF4103A04090071165F78D45D83A0C0782c2B2a](https://sepolia.etherscan.io/address/0xaEF4103A04090071165F78D45D83A0C0782c2B2a)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/Indexer.json)
+:::
+
 
 ### Optimism Goerli
 Version `v1.0.1`:
@@ -115,19 +150,42 @@ Version `v1.0.1`:
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/SchemaRegistry.json)
 :::
 
+Version `v1.2.0`:
+
+:::info EIP712Proxy
+- **Contract Address:** [0x88D1bd62AC014424b987CE5ABf311BD7749e426B](https://goerli-optimism.etherscan.io/address/0x88D1bd62AC014424b987CE5ABf311BD7749e426B)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract Address:** [0xa42428D1bf904d762adD02b27ADac26d53643782](https://goerli-optimism.etherscan.io/address/0xa42428D1bf904d762adD02b27ADac26d53643782)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/Indexer.json)
+:::
 
 
 ### Base Goerli
-Version `v0.27`:
+Version `v1.0.1`:
 
 :::info EAS
-- **Contract Address:** [0xAcfE09Fd03f7812F022FBf636700AdEA18Fd2A7A](https://goerli.basescan.org/address/0xAcfE09Fd03f7812F022FBf636700AdEA18Fd2A7A)
+- **Contract Address:** [0x4200000000000000000000000000000000000021](https://goerli.basescan.org/address/0x4200000000000000000000000000000000000021)
 - **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-goerli/EAS.json)
 :::
 
 :::info SchemaRegistry
-- **Contract Address:** [0x720c2bA66D19A725143FBf5fDC5b4ADA2742682E](https://goerli.basescan.org/address/0x720c2bA66D19A725143FBf5fDC5b4ADA2742682E)
+- **Contract Address:** [0x4200000000000000000000000000000000000020)](https://goerli.basescan.org/address/0x4200000000000000000000000000000000000020)
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-goerli/SchemaRegistry.json)
+:::
+
+Version `v1.2.0`:
+
+:::info EIP712Proxy
+- **Contract Address:** [0x37AC6006646f2e687B7fB379F549Dc7634dF5b84](https://goerli.basescan.org/address/0x37AC6006646f2e687B7fB379F549Dc7634dF5b84)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-goerli/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract Address:** [0xE0893F47009776D6aEC3De8455Cb0ed325Eea74a](https://goerli.basescan.org/address/0xE0893F47009776D6aEC3De8455Cb0ed325Eea74a)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-goerli/Indexer.json)
 :::
 
 
@@ -143,6 +201,27 @@ Version `v1.1.0`:
 - **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://github.com/goerli.arbiscan.io/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797)
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-goerli/SchemaRegistry.json)
 :::
+
+### Polygon Mumbai
+Version `v1.1.0`:
+
+:::info EAS
+- **Contract Address:** [0xaEF4103A04090071165F78D45D83A0C0782c2B2a](https://mumbai.polygonscan.com/address/0xaEF4103A04090071165F78D45D83A0C0782c2B2a)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon-mumbai/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://mumbai.polygonscan.com/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon-mumbai/SchemaRegistry.json)
+:::
+
+
+
+
+
+
+
+
 
 
 ### Linea Goerli
@@ -173,11 +252,11 @@ You can run the full test suite via:
 pnpm test
 ```
 ### Test Coverage
-Latest Test Coverage Report (2023-08-31)
-- 100% Statements 313/313
-- 100% Branches 160/160
-- 100% Functions 105/105
-- 100% Lines 450/450
+Latest Test Coverage Report (2023-10-31)
+- 100% Statements 350/350
+- 100% Branches 172/172
+- 100% Functions 120/120
+- 100% Lines 491/491
 
 | File                              | % Stmts | % Branch | % Funcs | % Lines | Uncovered Lines |
 |-----------------------------------|---------|----------|---------|---------|-----------------|
@@ -186,6 +265,7 @@ Latest Test Coverage Report (2023-08-31)
 |   EAS.sol                         | 100     | 100      | 100     | 100     |                 |
 |   IEAS.sol                        | 100     | 100      | 100     | 100     |                 |
 |   ISchemaRegistry.sol             | 100     | 100      | 100     | 100     |                 |
+|   Indexer.sol                     | 100     | 100      | 100     | 100     |                 |
 |   SchemaRegistry.sol              | 100     | 100      | 100     | 100     |                 |
 |   Semver.sol                      | 100     | 100      | 100     | 100     |                 |
 | contracts/eip1271/                | 100     | 100      | 100     | 100     |                 |
