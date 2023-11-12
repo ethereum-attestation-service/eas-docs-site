@@ -134,97 +134,50 @@ All the smart contract interactions you'd want to find when making an attestatio
 
 #### Example Code Snippet for Making an Attestation
 ```javascript
-  /// @dev Attests to a specific schema.
-    /// @param schemaUID The unique identifier of the schema to attest to.
-    /// @param data The arguments of the attestation requests.
-    /// @param attester The attesting account.
-    /// @param availableValue The total available ETH amount that can be sent to the resolver.
-    /// @param last Whether this is the last attestations/revocations set.
-    /// @return The UID of the new attestations and the total sent ETH amount.
-    function _attest(
-        bytes32 schemaUID,
-        AttestationRequestData[] memory data,
-        address attester,
-        uint256 availableValue,
-        bool last
-    ) private returns (AttestationsResult memory) {
-        uint256 length = data.length;
+pragma solidity 0.8.21;
 
-        AttestationsResult memory res;
-        res.uids = new bytes32[](length);
+import { IEAS, AttestationRequest, AttestationRequestData } from "@ethereum-attestation-service/eas-contracts/contracts/IEAS.sol";
+import { NO_EXPIRATION_TIME, EMPTY_UID } from "@ethereum-attestation-service/eas-contracts/contracts/Common.sol";
 
-        // Ensure that we aren't attempting to attest to a non-existing schema.
-        SchemaRecord memory schemaRecord = _schemaRegistry.getSchema(schemaUID);
-        if (schemaRecord.uid == EMPTY_UID) {
-            revert InvalidSchema();
+/// @title ExampleAttester
+/// @notice Ethereum Attestation Service - Example
+contract ExampleAttester {
+    error InvalidEAS();
+
+    // The address of the global EAS contract.
+    IEAS private immutable _eas;
+
+    /// @notice Creates a new ExampleAttester instance.
+    /// @param eas The address of the global EAS contract.
+    constructor(IEAS eas) {
+        if (address(eas) == address(0)) {
+            revert InvalidEAS();
         }
 
-        Attestation[] memory attestations = new Attestation[](length);
-        uint256[] memory values = new uint256[](length);
-
-        for (uint256 i = 0; i < length; i = uncheckedInc(i)) {
-            AttestationRequestData memory request = data[i];
-
-            // Ensure that either no expiration time was set or that it was set in the future.
-            if (request.expirationTime != NO_EXPIRATION_TIME && request.expirationTime <= _time()) {
-                revert InvalidExpirationTime();
-            }
-
-            // Ensure that we aren't trying to make a revocable attestation for a non-revocable schema.
-            if (!schemaRecord.revocable && request.revocable) {
-                revert Irrevocable();
-            }
-
-            Attestation memory attestation = Attestation({
-                uid: EMPTY_UID,
-                schema: schemaUID,
-                refUID: request.refUID,
-                time: _time(),
-                expirationTime: request.expirationTime,
-                revocationTime: 0,
-                recipient: request.recipient,
-                attester: attester,
-                revocable: request.revocable,
-                data: request.data
-            });
-
-            // Look for the first non-existing UID (and use a bump seed/nonce in the rare case of a conflict).
-            bytes32 uid;
-            uint32 bump = 0;
-            while (true) {
-                uid = _getUID(attestation, bump);
-                if (_db[uid].uid == EMPTY_UID) {
-                    break;
-                }
-
-                unchecked {
-                    ++bump;
-                }
-            }
-            attestation.uid = uid;
-
-            _db[uid] = attestation;
-
-            if (request.refUID != EMPTY_UID) {
-                // Ensure that we aren't trying to attest to a non-existing referenced UID.
-                if (!isAttestationValid(request.refUID)) {
-                    revert NotFound();
-                }
-            }
-
-            attestations[i] = attestation;
-            values[i] = request.value;
-
-            res.uids[i] = uid;
-
-            emit Attested(request.recipient, attester, uid, schemaUID);
-        }
-
-        res.usedValue = _resolveAttestations(schemaRecord, attestations, values, false, availableValue, last);
-
-        return res;
+        _eas = eas;
     }
 
+    /// @notice Attests to a schema that receives a uint256 parameter.
+    /// @param schema The schema UID to attest to.
+    /// @param input The uint256 value to pass to to the resolver.
+    /// @return The UID of the new attestation.
+    function attestUint(bytes32 schema, uint256 input) external returns (bytes32) {
+        return
+            _eas.attest(
+            AttestationRequest({
+                schema: schema,
+                data: AttestationRequestData({
+                recipient: address(0), // No recipient
+                expirationTime: NO_EXPIRATION_TIME, // No expiration time
+                revocable: true,
+                refUID: EMPTY_UID, // No references UI
+                data: abi.encode(input), // Encode a single uint256 as a parameter to the schema
+                value: 0 // No value/ETH
+            })
+            })
+        );
+    }
+}
 ```
 
 
