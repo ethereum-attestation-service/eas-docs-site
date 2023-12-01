@@ -9,7 +9,7 @@ Please note that you can also import and use the addresses directly in your code
 
 ## 🛳️ Deployments
 :::tip We have deployed on the following chains:
-- **Testnets**: Sepolia, Base Goerli, Optimism Goerli, Arbitrum Goerli, Linea Goerli, Polygon Mumbai
+- **Testnets**: Sepolia, Base Goerli, Optimism Goerli, Arbitrum Goerli, Linea Goerli, Polygon Mumbai, Scroll Sepolia
 - **Mainnets**: Ethereum Mainnet, Arbitrum, Optimism, Base, Linea
 :::
 
@@ -202,6 +202,7 @@ Version `v1.1.0`:
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-goerli/SchemaRegistry.json)
 :::
 
+
 ### Polygon Mumbai
 Version `v1.1.0`:
 
@@ -216,14 +217,6 @@ Version `v1.1.0`:
 :::
 
 
-
-
-
-
-
-
-
-
 ### Linea Goerli
 Version `v1.2.0`:
 
@@ -236,6 +229,31 @@ Version `v1.2.0`:
 - **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://goerli.lineascan.build/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797)
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/linea-goerli/SchemaRegistry.json)
 :::
+
+
+### Scroll Sepolia
+Version `1.3.0`:
+
+:::info EAS
+  - **Contract Address:** [0xaEF4103A04090071165F78D45D83A0C0782c2B2a](https://sepolia.scrollscan.com/address/0xaEF4103A04090071165F78D45D83A0C0782c2B2a)
+  - **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll-sepolia/EAS.json)
+:::
+
+:::info SchemaRegistry
+  - **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://sepolia.scrollscan.com/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797)
+  - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll-sepolia/SchemaRegistry.json)
+:::
+
+:::info EIP712Proxy
+  - **Contract Address:** [0xB3574f76b1720E61FdA98702c7016674CD6Eaa7b](https://sepolia.scrollscan.com/address/0xB3574f76b1720E61FdA98702c7016674CD6Eaa7b)
+  - **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll-sepolia/EIP712Proxy.json)
+:::
+
+info:: Indexer
+  - **Contract Address:** [0x7C2cb1eDC328491da52de2a0afc44D3B0Ae7ee17](https://sepolia.scrollscan.com/address/0x7C2cb1eDC328491da52de2a0afc44D3B0Ae7ee17)
+  - **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll-sepolia/Indexer.json)
+:::
+
 
 ## Installation
 ```bash
