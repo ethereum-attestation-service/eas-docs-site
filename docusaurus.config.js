@@ -122,7 +122,7 @@ const config = {
                 href: 'https://twitter.com/eas_eth',
               },
               {
-                label: 'Github',
+                label: 'GitHub',
                 href: 'https://github.com/ethereum-attestation-service',
               },
             ],
