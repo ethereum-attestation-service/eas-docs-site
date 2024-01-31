@@ -37,7 +37,7 @@ Attestation memory newAttestation = Attestation({
 });
 ```
 ### Referencing Multiple Attestations
-If you need to reference multiple attestations **in a single attestation**, you can use a schema that has an `address` field as an `array` that accepts bytes32 data. This field can be used to accept an array of the UIDs of the previous attestations you want to reference.
+If you need to reference multiple attestations **in a single attestation**, you can use a schema that has an `bytes32` field as an `array`. This field can be used to accept an array of the UIDs of the previous attestations you want to reference.
 
 Now, to reference multiple attestations, you can pass an array of UIDs as the value in the new attestation.
 
