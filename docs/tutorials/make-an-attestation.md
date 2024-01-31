@@ -33,23 +33,23 @@ Each attestation record has the following fields:
 - `refUID` - An attestation that this attestation is referencing (if any).
 - `data`- The ABI encoded data for the attestation.
 
-### Example OnChain Attestation Record
-This is an example on-chain attestation record for "Making a Statement". The header contains information such as the UID, who made the attestation (attestor), recipient (if provided), the revocation status, and if the attestation is set to expire.
-![On-Chain Attestation Example](./img/onchain-attestation-example.png)
+### Example Onchain Attestation Record
+This is an example onchain attestation record for "Making a Statement". The header contains information such as the UID, who made the attestation (attestor), recipient (if provided), the revocation status, and if the attestation is set to expire.
+![onchain Attestation Example](./img/onchain-attestation-example.png)
 
-### Example Private OffChain Attestation Record
-This is an example off-chain attestation record for "Making a Statement". The difference between the on-chain record and this off-chain attestation is that this attestation is public. The server doesn't even know about it. You can easily share this attestation URL with others who can then decode the attestation data, publish it to IPFS, and more. If this attestation were to be published or pinned to IPFS, the status icon will change to "public".
+### Example Private Offchain Attestation Record
+This is an example offchain attestation record for "Making a Statement". The difference between the onchain record and this offchain attestation is that this attestation is private. The server doesn't even know about it. You can easily share this attestation URL with others who can then decode the attestation data, publish it to IPFS, and more. If this attestation were to be published or pinned to IPFS, the status icon will change to "public".
 
-![Off-Chain Attestation Example](./img/offchain-attestation-example.png)
+![Offchain Attestation Example](./img/offchain-attestation-example.png)
 
-You can access this example private off-chain attestation by going to this:
-- [Example Private Off-Chain Attestation.](https://easscan.org/offchain/url/#attestation=eNqlkjmOHDEMAP%2FSccPgIV7hzM7OJwwHOqgHGDbg55vdcOB8FQiQVCyKlL4f8I30OPE84M8DCezNz2cnap80Y%2FLUl%2FS38gtyoDh9pLgdFzxajq5Tkq21ib7bWNwX9NGlIUqDKYvXTsk1TBQ4uu5ypu0RPW%2BJZtpCFevOezWMPjWURMxpOM4WkoFpHlvSIn3LIN3IXWAtgOMkuzyZqd4%2FP%2FLZHpGxmbw3nRzv4kr9AOKYr%2FedtK6ZNDPHZq5MwzjRBGNCw6ohBjfTtQx8dlYeVcTC5X3lXB5Nb8kWHz4IKbdJps9l6cuBJ9sETiihBwjQqhIikxpS74lNdPZ9l19tVwcHA4oT7o1fP3%2FnpYcvDfpaOFR7m7qGMcG%2F%2BfoaYFQrVbSmUntba9BSLhbr3fLirF2nVr%2Fi5qKorDaBVCuLKsYud8ULClUEF3H58v8bHCf8%2BAtyp6Fo)
+You can access this example private offchain attestation by going to this:
+- [Example Private offchain Attestation.](https://easscan.org/offchain/url/#attestation=eNqlkjmOHDEMAP%2FSccPgIV7hzM7OJwwHOqgHGDbg55vdcOB8FQiQVCyKlL4f8I30OPE84M8DCezNz2cnap80Y%2FLUl%2FS38gtyoDh9pLgdFzxajq5Tkq21ib7bWNwX9NGlIUqDKYvXTsk1TBQ4uu5ypu0RPW%2BJZtpCFevOezWMPjWURMxpOM4WkoFpHlvSIn3LIN3IXWAtgOMkuzyZqd4%2FP%2FLZHpGxmbw3nRzv4kr9AOKYr%2FedtK6ZNDPHZq5MwzjRBGNCw6ohBjfTtQx8dlYeVcTC5X3lXB5Nb8kWHz4IKbdJps9l6cuBJ9sETiihBwjQqhIikxpS74lNdPZ9l19tVwcHA4oT7o1fP3%2FnpYcvDfpaOFR7m7qGMcG%2F%2BfoaYFQrVbSmUntba9BSLhbr3fLirF2nVr%2Fi5qKorDaBVCuLKsYud8ULClUEF3H58v8bHCf8%2BAtyp6Fo)
 
 ## Make an Attestation Guide
 ### EAS SDK
-Make sure you've successfully initialized the SDK in your project. You can [**learn more about the SDK here**](/docs/developer-tools.md/eas-sdk.md) if you have not done this step yet.
+Make sure you've successfully initialized the SDK in your project. You can [**learn more about the SDK here**](/docs/developer-tools/eas-sdk.md) if you have not done this step yet.
 
-The `attest` function allows you to create an on-chain attestation for a specific schema. This function takes an object with the following properties:
+The `attest` function allows you to create an onchain attestation for a specific schema. This function takes an object with the following properties:
 - **schema:** The UID of the schema for which the attestation is being created.
 - **data:** An object containing the following properties:
 - **recipient:** The Ethereum address of the recipient of the attestation.
