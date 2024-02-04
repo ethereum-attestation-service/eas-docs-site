@@ -4,7 +4,6 @@ sidebar_position: 2
 
 # EAS Contracts
 
-Deployments
 Please note that you can also import and use the addresses directly in your code using the @ethereum-attestation-service/eas-contracts/deployments deployment artifacts corresponding to your desired network.
 
 ## 🛳️ Deployments
