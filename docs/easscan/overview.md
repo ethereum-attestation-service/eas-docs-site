@@ -20,10 +20,18 @@ While we aim for the best DevEx, the easscan.org site is not intended to be an e
 | **Mainnets**   | Ethereum             | [https://easscan.org](https://easscan.org)             |
 |                | Optimism            | [https://optimism.easscan.org](https://optimism.easscan.org)   |
 |                | Base                | [https://base.easscan.org](https://base.easscan.org)         |
-|                | Arbitrum            | [https://arbitrum.easscan.org](https://arbitrum.easscan.org)   |
+|                | Arbitrum One           | [https://arbitrum.easscan.org](https://arbitrum.easscan.org)   |
+|                | Arbitrum Nova            | [https://arbitrum-nova.easscan.org](https://arbitrum-nova.easscan.org)   |
+|                | Polygon          | [https://polygon.easscan.org](https://arbitrum-nova.easscan.org)   |
+|                | Scroll          | [https://scroll.easscan.org](https://scroll.easscan.org)   |
+|                | Linea          | [https://linea.easscan.org](https://linea.easscan.org)   |
 | **Testnets**   | Sepolia             | [https://sepolia.easscan.org](https://sepolia.easscan.org)     |
-|                | Optimism Goerli     | [https://arbitrum.easscan.org](https://arbitrum.easscan.org)   |
+|                | Optimism Sepolia     | [https://optimism-sepolia.easscan.org/](https://optimism-sepolia.easscan.org)   |
+|                | Optimism Goerli     | [https://optimism-goerli.easscan.org/](https://optimism-goerli.easscan.org)   |
+|                | Base Sepolia         | [https://base-sepolia.easscan.org](https://base-sepolia.easscan.org) |
 |                | Base Goerli         | [https://base-goerli.easscan.org](https://base-goerli.easscan.org) |
+|                | Polygon Mumbai         | [https://polygon-mumbai.easscan.org/](https://polygon-mumbai.easscan.org/) |
+|                | Scroll Sepolia         | [https://scroll-sepolia.easscan.org/](https://scroll-sepolia.easscan.org/) |
 
 
 ## What You Can Do

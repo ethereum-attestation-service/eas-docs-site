@@ -95,6 +95,77 @@ Version `v0.26`:
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-one/SchemaRegistry.json)
 :::
 
+### Arbitrum Nova
+Version `v1.3.0`:
+
+:::info EAS
+- **Contract Address:** [0x6d3dC0Fe5351087E3Af3bDe8eB3F7350ed894fc3](https://nova.arbiscan.io/address/0x6d3dC0Fe5351087E3Af3bDe8eB3F7350ed894fc3)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-nova/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract Address:** [0x49563d0DA8DF38ef2eBF9C1167270334D72cE0AE](https://nova.arbiscan.io/address/0x49563d0DA8DF38ef2eBF9C1167270334D72cE0AE)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-nova/SchemaRegistry.json)
+:::
+
+:::info EIP712Proxy
+- **Contract Address:** [0xEbf2DeeD690F8A68b8248d6a12231ee70ED2154A](https://nova.arbiscan.io/address/0xEbf2DeeD690F8A68b8248d6a12231ee70ED2154A)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-nova/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract Address:** [0x7182Be5e84aFEe9Dc29C69D081F8A0FA834d6CB8](https://nova.arbiscan.io/address/0x7182Be5e84aFEe9Dc29C69D081F8A0FA834d6CB8)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-nova/Indexer.json)
+:::
+
+### Polygon
+Version `v1.3.0`:
+
+:::info EAS
+- **Contract Address:** [0x5E634ef5355f45A855d02D66eCD687b1502AF790](https://polygonscan.com/address/0x5E634ef5355f45A855d02D66eCD687b1502AF790)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract Address:** [0x7876EEF51A891E737AF8ba5A5E0f0Fd29073D5a7](https://polygonscan.com/address/0x7876EEF51A891E737AF8ba5A5E0f0Fd29073D5a7)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon/SchemaRegistry.json)
+:::
+
+:::info EIP712Proxy
+- **Contract Address:** [0x4be71865917C7907ccA531270181D9B7dD4f2733](https://polygonscan.com/address/0x4be71865917C7907ccA531270181D9B7dD4f2733)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract Address:** [0x12d0f50Eb2d67b14293bdDA2C248358f3dfE5308](https://polygonscan.com/address/0x12d0f50Eb2d67b14293bdDA2C248358f3dfE5308)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon/Indexer.json)
+:::
+
+
+### Scroll
+Version `v1.3.0`:
+
+:::info EAS
+- **Contract Address:** [0xC47300428b6AD2c7D03BB76D05A176058b47E6B0](https://scrollscan.com/address/0xC47300428b6AD2c7D03BB76D05A176058b47E6B0)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract Address:** [0xD2CDF46556543316e7D34e8eDc4624e2bB95e3B6](https://scrollscan.com/address/0xD2CDF46556543316e7D34e8eDc4624e2bB95e3B6)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll/SchemaRegistry.json)
+:::
+
+:::info EIP712Proxy
+- **Contract Address:** [0x77b7DA1c40762Cd8AFfE2069b575328EfD4D9801](https://scrollscan.com/address/0x77b7DA1c40762Cd8AFfE2069b575328EfD4D9801)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract Address:** [0x8314bc1B2f7F286cb4f0323FE7119C0F99D4A083](https://scrollscan.com/address/0x8314bc1B2f7F286cb4f0323FE7119C0F99D4A083)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll/Indexer.json)
+:::
+
+
 ### Linea
 Version `v1.2.0`:
 
@@ -136,6 +207,32 @@ Version `v1.2.0`:
 - **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/sepolia/Indexer.json)
 :::
 
+### Optimism Sepolia
+Version `v1.0.2`:
+
+:::info EAS
+- **Contract Address:** [0x4200000000000000000000000000000000000021()(https://sepolia-optimism.etherscan.io/address/0x4200000000000000000000000000000000000021)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-sepolia/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract Address:** [0x4200000000000000000000000000000000000020](https://sepolia-optimism.etherscan.io/address/0x4200000000000000000000000000000000000020)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-sepolia/SchemaRegistry.json)
+:::
+
+Version `v1.3.0`:
+
+:::info EIP712Proxy
+- **Contract Address:** [0x37AC6006646f2e687B7fB379F549Dc7634dF5b84](https://sepolia-optimism.etherscan.io/address/0x37AC6006646f2e687B7fB379F549Dc7634dF5b84)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-sepolia/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract Address:** [0x97e6822A36E38D4d93C0c810CC2be1C6Fd492b64](https://sepolia-optimism.etherscan.io/address/0x97e6822A36E38D4d93C0c810CC2be1C6Fd492b64)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-sepolia/Indexer.json)
+:::
+
+
 
 ### Optimism Goerli
 Version `v1.0.1`:
@@ -160,6 +257,31 @@ Version `v1.2.0`:
 :::info Indexer
 - **Contract Address:** [0xa42428D1bf904d762adD02b27ADac26d53643782](https://goerli-optimism.etherscan.io/address/0xa42428D1bf904d762adD02b27ADac26d53643782)
 - **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/Indexer.json)
+:::
+
+### Base Sepolia
+Version `v1.2.0`:
+
+:::info EAS
+- **Contract Address:** [0x4200000000000000000000000000000000000021](https://sepolia.basescan.org/address/0x4200000000000000000000000000000000000021)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-sepolia/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract Address:** [0x4200000000000000000000000000000000000020](https://sepolia.basescan.org/address/0x4200000000000000000000000000000000000020)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-sepolia/SchemaRegistry.json)
+:::
+
+Version `v1.3.0`:
+
+:::info EIP712Proxy
+- **Contract Address:** [0xAd64A04c20dDBbA7cBb0EcAe4823095B4adA5c57](https://sepolia.basescan.org/address/0xAd64A04c20dDBbA7cBb0EcAe4823095B4adA5c57)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-sepolia/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract Address:** [0x2C7BCE69D5Ee84EF73CC9286416F68E60F9A61b3](https://sepolia.basescan.org/address/0x2C7BCE69D5Ee84EF73CC9286416F68E60F9A61b3)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-sepolia/Indexer.json)
 :::
 
 
@@ -215,6 +337,42 @@ Version `v1.1.0`:
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon-mumbai/SchemaRegistry.json)
 :::
 
+### Linea Goerli
+Version `v1.2.0`:
+
+:::info EAS
+- **Contract Address:** [0xaEF4103A04090071165F78D45D83A0C0782c2B2a](https://goerli.lineascan.build/address/0xaEF4103A04090071165F78D45D83A0C0782c2B2a)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/linea-goerli/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://goerli.lineascan.build/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/linea-goerli/SchemaRegistry.json)
+:::
+
+
+### Scroll Sepolia
+Version `v1.3.0`:
+
+:::info EAS
+- **Contract Address:** [0xaEF4103A04090071165F78D45D83A0C0782c2B2a](https://sepolia.scrollscan.com/address/0xaEF4103A04090071165F78D45D83A0C0782c2B2a)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll-sepolia/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://sepolia.scrollscan.com/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf777977)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll-sepolia/SchemaRegistry.json)
+:::
+
+:::info EIP712Proxy
+- **Contract:** [0xB3574f76b1720E61FdA98702c7016674CD6Eaa7b](https://sepolia.scrollscan.com/address/0xB3574f76b1720E61FdA98702c7016674CD6Eaa7b)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll-sepolia/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract:** [0x7C2cb1eDC328491da52de2a0afc44D3B0Ae7ee17](https://sepolia.scrollscan.com/address/0x7C2cb1eDC328491da52de2a0afc44D3B0Ae7ee17)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll-sepolia/EIP712Proxy.json)
+:::
 
 
 
