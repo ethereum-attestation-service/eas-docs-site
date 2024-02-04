@@ -70,7 +70,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://easscan.com/',
+            href: 'https://easscan.org/',
             label: 'EAS Explorer',
             position: 'right',
           },
@@ -98,19 +98,19 @@ const config = {
               },
               {
                 label: 'Learn',
-                to: '/docs/category/learn',
+                to: '/docs/category/core-concepts',
               },
               {
                 label: 'Getting Started',
-                to: '/docs/category/getting-started',
+                to: '/docs/quick--start/quickstart',
               },
               {
                 label: 'Tutorials',
                 to: '/docs/category/tutorials',
               },
               {
-                label: 'Technical Docs',
-                to: '/docs/category/technical-docs',
+                label: 'Developer Tools',
+                to: '/docs/category/developer-tools',
               },
             ],
           },
@@ -124,6 +124,10 @@ const config = {
               {
                 label: 'Github',
                 href: 'https://github.com/ethereum-attestation-service',
+              },
+              {
+                label: 'Warpcast',
+                href: 'https://warpcast.com/~/channel/eas',
               },
             ],
           },
