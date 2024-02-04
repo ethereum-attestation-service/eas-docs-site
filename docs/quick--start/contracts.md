@@ -9,8 +9,8 @@ Please note that you can also import and use the addresses directly in your code
 
 ## 🛳️ Deployments
 :::tip We have deployed on the following chains:
-- **Testnets**: Sepolia, Base Goerli, Optimism Goerli, Arbitrum Goerli, Linea Goerli, Polygon Mumbai
-- **Mainnets**: Ethereum Mainnet, Arbitrum, Optimism, Base, Linea
+- **Mainnets**: Ethereum Mainnet, Optimism, Base, Arbitrum One, Arbitrum Nova, Linea, Polygon, Scroll
+- **Testnets**: Sepolia, Optimism Sepolia, Optimism Goerli, Base Sepolia, Base Goerli, Polygon Mumbai, Linea Goerli, Scroll Sepolia
 :::
 
 ## Mainnets
