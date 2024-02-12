@@ -19,7 +19,7 @@ To attest to just the source URL of where your context is located, like "schema.
 
 1. **Use the "Schema Context" schema** on any chain. Here's an example on Sepolia: [https://sepolia.easscan.org/schema/view/0xcc6c9b07bfccd15c8f313d23bf4389fb75629a620c5fa669c898bf1e023f2508](https://sepolia.easscan.org/schema/view/0xcc6c9b07bfccd15c8f313d23bf4389fb75629a620c5fa669c898bf1e023f2508)
 2. **Reference the Schema UID:** Start by referencing the UID of the schema you're working with.
-3. **Add the URL:** In this case, you'd add "https://schema.org/Person" as the URL.
+3. **Add the URL:** In this case, you'd add "[https://schema.org/Person](https://schema.org/Person)" as the URL.
 4. **Attest:** Make your attestation, linking the schema UID with the context URL.
 
 By doing this, you're essentially saying, "The data in this schema aligns with the standards defined at this URL." This provides a clear, universal reference point for understanding the data in your schema.
