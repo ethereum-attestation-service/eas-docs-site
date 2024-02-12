@@ -38,7 +38,7 @@ EAS provides a simple container on the easscan.org site to facilitate this proce
 ## Example Flow
 Here's an example batch timestamp flow on Sepolia.
 
-1. First we go to the [Tools] page on Easscan. Scroll to the bottom and we'll see the `Offchain multi-timestamp` container. This allows you to paste attestation UIDs on seperate lines.
+1. First we go to the [Tools] page on Easscan. Scroll to the bottom and we'll see the `Offchain multi-timestamp` container. This allows you to paste attestation UIDs on separate lines.
 
 ![Timestamp Container](./img/offchain-timestamp-container.png)
 
