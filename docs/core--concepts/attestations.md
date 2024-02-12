@@ -70,8 +70,8 @@ Creating an attestation is a straightforward process, but it's underpinned by ro
 ## Tools to Start Building
 To dive deeper into the world of attestations and begin crafting your own, explore the EAS platform. We offer a range of tools and resources, from a no-code schema builder to SDKs, that make the process intuitive and efficient. Join the EAS community and be a part of the movement in digital trust and verification.
 
-- [**SDK**](/docs/developer-tools.md/eas-sdk.md)
-- [**GraphQL API**](/docs/developer-tools.md/api.md)
+- [**SDK**](/docs/developer-tools/eas-sdk.md)
+- [**GraphQL API**](/docs/developer-tools/api.md)
 - [**Tutorials**](/docs/category/tutorials)
 
 
