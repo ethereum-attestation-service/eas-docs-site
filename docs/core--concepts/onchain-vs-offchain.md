@@ -42,7 +42,7 @@ Attestations can be made either onchain or offchain. While **onchain attestation
 - **Timestamp Offchain Onchain:** Timestamp the UID of the offchain attestation onchain to give it a verifiable proof of existence.
 
 ## Privacy Considerations
-It's important for builder's to consider what data needs to go onchain or should live offchain. A common misconception with onchain attestations is that they do not have privacy features. There are several ways to keep onchain attestation data more private. 
+It's important for builders to consider what data needs to go onchain or should live offchain. A common misconception with onchain attestations is that they do not have privacy features. There are several ways to keep onchain attestation data more private. 
 
 - **Offchain:** Generally preferable for confidentiality as no data is publicly visible unless explicitly stored in places like IPFS.
 - **Private Data Attestations:** An innovative solution to attest nearly an infinite amount of private data by attesting its [merkle root onchain](/docs/tutorials/private-data-attestations.md).

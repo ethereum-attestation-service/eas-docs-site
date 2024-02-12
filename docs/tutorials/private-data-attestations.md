@@ -8,7 +8,7 @@ Discover the power of "Private Data Attestations" using `Merkle Trees`. This is 
 ### What are private data attestations?
 Private Data Attestations leverage Merkle Trees' unique capabilities to selectively disclose specific data fields without compromising overall privacy. This innovative feature allows users to create attestations with a single "private data" field, which contains the hash of a Merkle tree root. As a result, **users can securely store and share particular parts of their attested data** while preserving their privacy.
 
-Attestors can now selectively disclose parts of their attestations without revealing the entire attestation data. This allows for greater control over the information being shared, while still providing the necessary proof or verification for specific use cases. It is beneficial for use cases that require sensitive information to be withheld while still verifying crucial aspects or data.
+Attestors can now selectively disclose parts of their attestations without revealing the entire attestation data. This allows for greater control over the information being shared, while still providing the necessary proof or verification for specific use cases. It is beneficial for use cases that require sensitive information to be withheld while still verifying crucial aspects of data.
 
 **A quick example of how it works:**
 1. The user or entity **submits data for selective disclosure** on the privateData schema.

@@ -31,7 +31,7 @@ struct SchemaRecord {
     string schema; // Custom specification of the schema (e.g., an ABI).
 }
 ```
-Before you rush to create a new schema, it's worth checking the schemas already registered on the [Explorer](./category/the-explorer). The community often contributes schemas, making it a rich resource. If you find one that fits your needs, great! If not, you can design a new one.
+Before you rush to create a new schema, it's worth checking the schemas already registered on the [Explorer](https://easscan.org/schemas). The community often contributes schemas, making it a rich resource. If you find one that fits your needs, great! If not, you can design a new one.
 
 🎓 **Tutorial**: [**Make a Schema**](/docs/tutorials/create-a-schema.md)
 

@@ -256,7 +256,7 @@ Since the off-chain attestation protocol is being constantly evolved and improve
 Please note that using the `getOffchainUID` function for the previous legacy version, requires passing `{ version: 0 }` explicitly.
 
 ### Revoking Onchain Attestations
-Revoking an attestation can only happen from the issuer address. You can learn more about [**Revocation**](/docs/tutorials/revoking-attestations.md) in the docs.
+Revoking an attestation can only happen from the issuer's address. You can learn more about [**Revocation**](/docs/tutorials/revoking-attestations.md) in the docs.
 
 ```javascript
 const transaction = await eas.revoke({

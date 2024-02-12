@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 
 # Hash Any File
-You can find a simple way to quickly generate a hash of any file in the [**Tools**](hhttps://sepolia.easscan.org/tools) section of the easscan.org website. Hashing a file doesn't upload or store the file anywhere, it simply generates a unique bytes32 hash of the document using SHA256. 
+You can find a simple way to quickly generate a hash of any file in the [**Tools**](https://easscan.org/tools) section of the easscan.org website. Hashing a file doesn't upload or store the file anywhere, it simply generates a unique bytes32 hash of the document using SHA256. 
 
 You can hash any local file:
 - A software release

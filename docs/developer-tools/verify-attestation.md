@@ -12,7 +12,7 @@ For this example, we'll use a completely offchain attestation made on Sepolia. T
 
 ![Offchain Attestation](./img/Sample-offchain-attestation.png)
 
-If you have the raw data of the attestation in a file, you can upload the attestation and it will verify that it is a valid signature. If the the data is a valid attestation, the easscan web app will decode the attestation and display it for you.
+If you have the raw data of the attestation in a file, you can upload the attestation and it will verify that it is a valid signature. If the data is a valid attestation, the easscan web app will decode the attestation and display it for you.
 
 ![Offchain Attestation](./img/verify-offchain-box.png)
 

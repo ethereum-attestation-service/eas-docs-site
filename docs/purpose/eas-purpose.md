@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Why We Exist
 
-EAS is a infrastructure public good for making attestations onchain or offchain about anything. It's the base layer for attesting. Seems abstract right? That's because it is. It might not be obvious why this is valuable, so it's helpful to learn why we built EAS.
+EAS is an infrastructure public good for making attestations onchain or offchain about anything. It's the base layer for attesting. Seems abstract right? That's because it is. It might not be obvious why this is valuable, so it's helpful to learn why we built EAS.
 
 ## It's helpful to know the origin.
 ### We all expect more from decentralization.

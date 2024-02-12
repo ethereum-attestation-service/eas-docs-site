@@ -16,7 +16,7 @@ Consider a world where every digital interaction is tinged with doubt. Is this p
 - **Resilient:** Systems built on neutrality are robust against manipulation, ensuring reliability.
 
 ## EAS Embodies Credible Neutrality
-EAS provides a platform that doesn't play favorites. Every attestation, every interaction, is treated with the same level of impartiality. The code has been refactored so many times to not pressupose how it will be used or who will use it, giving everyone a fair shot to build amazing things on top of it.
+EAS provides a platform that doesn't play favorites. Every attestation, every interaction, is treated with the same level of impartiality. The code has been refactored so many times to not presuppose how it will be used or who will use it, giving everyone a fair shot to build amazing things on top of it.
 
 Credible Neutrality is a core strength required in becoming a standard. Anyone can copy open-source code, but it's the community's trust in its neutrality that makes it unique and irreplaceable.
 

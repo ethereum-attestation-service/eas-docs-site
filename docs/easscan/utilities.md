@@ -56,7 +56,7 @@ Offchain attestations do not have a verifiable timestamp. If you want to timesta
 ![Offchain Timestamp UIDs](./img/offchain-timestamp-uids-container.png)
 
 ### Land Registry
-This was a fun project we built to show how different UIs can be extended on the schema record. For example, this schema takes an an array of polygon points and allows you to attest to the parcel of land. This obviously would be an important attestation if it came from a land registrar. Once attested, you can see how the attestation data is displayed in a unique way.
+This was a fun project we built to show how different UIs can be extended on the schema record. For example, this schema takes an array of polygon points and allows you to attest to the parcel of land. This obviously would be an important attestation if it came from a land registrar. Once attested, you can see how the attestation data is displayed in a unique way.
 
 Here's an example of the Capitol Building in Colorado, USA.
 
