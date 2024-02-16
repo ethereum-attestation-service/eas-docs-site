@@ -22,7 +22,7 @@ For more information on how Ceramic works, visit [How it Works](https://ceramic.
 
 ### ComposeDB
 
-ComposeDB is a graph database built on Ceramic that offers further composability and ease-of-querying to developers. ComposeDB comes with native support for GraphQL, and also automatically splits read/write load for additional performance. When running a Ceramic node with ComposeDB, developers can define their own [data models](https://composedb.js.org/docs/0.5.x/create-your-composite) using GraphQL, or choose to begin indexing on existing data models already defined by the community, or both! 
+ComposeDB is a graph database built on Ceramic that offers further composability and ease-of-querying to developers. ComposeDB comes with native support for GraphQL, and also automatically splits read/write load for additional performance. When running a Ceramic node with ComposeDB, developers can define their own [data models](https://developers.ceramic.network/docs/composedb/create-your-composite) using GraphQL, or choose to begin indexing on existing data models already defined by the community, or both! 
 
 For the purpose of this tutorial, we will be using Ceramic with ComposeDB to illustrate how developers can generate, store, and query off-chain attestations.
 
@@ -67,13 +67,13 @@ In order to support the `getAddressForENS` resolver method (outlined [here](http
 
 Finally, since this tutorial assumes that the engineering team overseeing their Ceramic storage will be the controller of all attestation instances, a static 64-character alphanumeric seed phrase is needed for `AUTHOR_KEY` (for example, a dummy one here: "dfabafa4149279e29d326b5f3eedd64c0faddc69ff089f2381f81249e5369842").
 
-(For more information on controlling Accounts and Documents, visit [ComposeDB Concepts](https://composedb.js.org/docs/0.5.x/core-concepts)).
+(For more information on controlling Accounts and Documents, visit [ComposeDB Concepts](https://developers.ceramic.network/docs/composedb/core-concepts)).
 
 ### Generate Your Local Node Configuration
 
 This tutorial shows developers how to run a local node with which they will deploy model definitions and publish/read transactions to the network.
 
-In order to do this, a [server configuration](https://composedb.js.org/docs/0.5.x/guides/composedb-server/server-configurations) will have to be defined, as well as corresponding Ceramic node admin credentials.
+In order to do this, a [server configuration](https://developers.ceramic.network/docs/composedb/guides/composedb-server/server-configurations) will have to be defined, as well as corresponding Ceramic node admin credentials.
 
 We've done most of this work for you using [this script](https://github.com/ceramicstudio/ceramic-eas/blob/main/scripts/commands.mjs) we've provided. 
 
@@ -85,7 +85,7 @@ npm run generate
 
 If you explore your `composedb.config.json` and `admin_seed.txt` files, you will now see a defined JSON ComposeDB server configuration and Ceramic admin seed, respectively.
 
-For more information on server configurations, visit [Server Configurations](https://composedb.js.org/docs/0.5.x/guides/composedb-server/server-configurations) in the ComposeDB docs.
+For more information on server configurations, visit [Server Configurations](https://developers.ceramic.network/docs/composedb/guides/composedb-server/server-configurations) in the ComposeDB docs.
 
 ### Observe Your Schema Definitions
 
@@ -233,7 +233,7 @@ This flow is tied to React lifecycle events outlined in /pages/connections.tsx. 
 
 Notice how the GraphQL `attestationIndex` call queries the attestationIndex using a filter for where the attester or recipient is the account. This is because we want to pull both into our frontend and allow the user to confirm any MetIRL attestations pointed to them. It's important to note that you can only use filters and ordering queries on fields you've created indexes on (see /composites/attestation.graphql on lines 5 and 6).
 
-For more on creating indices, visit the [Schemas](https://composedb.js.org/docs/0.5.x/guides/data-modeling/schemas#directives-for-creating-indices) page in the ComposeDB docs.
+For more on creating indices, visit the [Schemas](https://developers.ceramic.network/docs/composedb/guides/data-modeling/schemas#directives-for-creating-indices) page in the ComposeDB docs.
 
 ### Confirming Attestations
 
@@ -267,11 +267,11 @@ Navigate to the "Verify" page (/verify) and open the /pages/verify.tsx and /comp
 
 While this tutorial was intentionally built for storing off-chain attestations using EAS, there are other patterns and examples developers will find useful to learn more about building on Ceramic.
 
-- To migrate from local development to running ComposeDB in the cloud, visit [Running in the Cloud](https://composedb.js.org/docs/0.5.x/guides/composedb-server/running-in-the-cloud).
-- To move from Ceramic Testnet to Mainnet, visit [Access Ceramic Mainnet](https://composedb.js.org/docs/0.5.x/guides/composedb-server/access-mainnet).
+- To migrate from local development to running ComposeDB in the cloud, visit [Running in the Cloud](https://developers.ceramic.network/docs/composedb/guides/composedb-server/running-in-the-cloud).
+- To move from Ceramic Testnet to Mainnet, visit [Access Ceramic Mainnet](https://developers.ceramic.network/docs/composedb/guides/composedb-server/access-mainnet).
 - To see how to authorize users using the `did:pkh` method and allow them to create their own documents on ComposeDB, visit this [Social App ComposeDB Starter](https://github.com/ceramicstudio/EthDenver2023Demo).
 - To allow users to encrypt and decrypt data on ComposeDB, visit this [Blog Article](https://blog.ceramic.network/tutorial-encrypted-data-on-composedb/).
-- Use the [ComposeDB API Sandbox](https://composedb.js.org/sandbox) to test example queries on a real dataset
+- Use the [ComposeDB API Sandbox](https://developers.ceramic.network/docs/composedb/sandbox) to test example queries on a real dataset
 
 ### Looking for Support from the Ceramic Team?
 
