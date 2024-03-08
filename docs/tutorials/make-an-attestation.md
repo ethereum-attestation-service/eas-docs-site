@@ -49,14 +49,14 @@ You can access this example private offchain attestation by going to this:
 ### EAS SDK
 Make sure you've successfully initialized the SDK in your project. You can [**learn more about the SDK here**](/docs/developer-tools/eas-sdk.md) if you have not done this step yet.
 
-The `attest` function allows you to create an onchain attestation for a specific schema. This function takes an object with the following properties:
+The `attest` function allows you to create an onchain attestation for a specific schema. This function takes an object(`AttestationRequest`) with the following properties:
 - **schema:** The UID of the schema for which the attestation is being created.
-- **data:** An object containing the following properties:
-- **recipient:** The Ethereum address of the recipient of the attestation.
-- **expirationTime:** A Unix timestamp representing the expiration time of the attestation. Use 0 for no expiration.
-- **revocable:** A boolean indicating whether the attestation is revocable or not.
-- **refUID:** (Optional) The UID of a referenced attestation. Use ZERO_BYTES32 if there is no reference.
-- **data:** The encoded data for the attestation, which should be generated using the SchemaEncoder class.
+- **data:** An object(`AttestationRequestData`) containing the following properties:
+  - **recipient:** The Ethereum address of the recipient of the attestation.
+  - **expirationTime:** A Unix timestamp representing the expiration time of the attestation. Use 0 for no expiration.
+  - **revocable:** A boolean indicating whether the attestation is revocable or not.
+  - **refUID:** (Optional) The UID of a referenced attestation. Use ZERO_BYTES32 if there is no reference.
+  - **data:** The encoded data for the attestation, which should be generated using the SchemaEncoder class.
 
 The function returns a Promise that resolves to the UID of the newly created attestation.
 
