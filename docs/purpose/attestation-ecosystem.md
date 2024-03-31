@@ -9,7 +9,7 @@ Picture a vibrant city, alive with energy, where every street, bridge, and alley
 
 In the attestation ecosystem, we've long felt **the absence of such a foundational infrastructure**. Efforts to establish trust, verify identities, and ensure authenticity have often been siloed, leading to a fragmented landscape. Many have tried to build solutions, but they've often started at the top or **building one layer too high**. This approach, while well-intentioned, has only added to the fragmentation, creating a patchwork of solutions that don't always speak the same language.
 
-Worse still, past infrastructure **attempts have been encumbered by centralization, permissioned systems, and biases that pressupose too much**. Such systems, while offering a semblance of structure, are inherently flawed. They limit growth, deter widespread adoption, and, most critically, place too much power in the hands of a few at the expense of others.
+Worse still, past infrastructure **attempts have been encumbered by centralization, permissioned systems, and biases that presuppose too much**. Such systems, while offering a semblance of structure, are inherently flawed. They limit growth, deter widespread adoption, and, most critically, place too much power in the hands of a few at the expense of others.
 
 ## Growth Pyramid
 EAS is designed to be that foundational infrastructure for the attestation ecosystem. Neutral, open, and built for the community, without presupposing too much or building too high in the stack.
