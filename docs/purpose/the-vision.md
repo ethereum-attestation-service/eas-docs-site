@@ -7,7 +7,7 @@ Attestations can be used for so much. This is both a benefit and a challenge. If
 
 ## A Trustful Tomorrow
 
-What does it feel like to trust today? Imagine you're at a your favorite city market. You recognize a few faces, shake hands with local vendors, and exchange stories with neighbors. There's a sense of community, a shared trust. You know who grows the best tomatoes, who bakes the freshest bread. It's all based on experience, recommendations, and genuine interactions relative to you. That's our real-world trust.
+What does it feel like to trust today? Imagine you're at your favorite city market. You recognize a few faces, shake hands with local vendors, and exchange stories with neighbors. There's a sense of community, a shared trust. You know who grows the best tomatoes, who bakes the freshest bread. It's all based on experience, recommendations, and genuine interactions relative to you. That's our real-world trust.
 
 Now, think about our online world. It's like stepping into a massive global market. Faces are hidden behind screens, and every interaction feels like a gamble. Can you trust that online review? Is that seller genuine? Today, it's like navigating a maze without a map. That's our digital trust challenge.
 
@@ -17,7 +17,7 @@ With attestations, we're not just adding a digital signature. We're giving every
 
 And here's where Ethereum and EAS come into play. They're not just building a digital infrastructure; they're crafting the very pathways of this new trust. It's like laying down roads in our digital market, making it easier for everyone to find their way, to recognize genuine merchants from the fleeting ones.
 
-But, like every market, it's the community that truly defines it. And that's where you come in. To build this vision, to make our digital interactions as genuine as our real-world ones, we need you. Whether you're a developer, a content creator, or just someone who believes in a trustworthy digital future, your voice, your trust, your interaction matters.
+But, like every market, it's the community that truly defines it. And that's where you come in. To build this vision, to make our digital interactions as genuine as our real-world ones, we need you. Whether you're a developer, a content creator, or just someone who believes in a trustworthy digital future, your voice, your trust, your interaction matter.
 
 So, let's come together. Let's make our online world a place where trust is built on genuine interactions, where every individual has the power to decide their trust. Let's make our digital market as familiar, as trustworthy, as our local one.
 
