@@ -45,7 +45,7 @@ Here's an offchain attestation example we made on Sepolia. It's using the `Make 
 ![Offchain Example](./img/p2p-attestation.png)
 
 ### URL
-Here is the URL of the offchain attestation. The attestation data is compeltely encoded in the URI hash of the URL so it can be passed peer-to-peer.
+Here is the URL of the offchain attestation. The attestation data is completely encoded in the URI hash of the URL so it can be passed peer-to-peer.
 
 [**https://sepolia.easscan.org/offchain/url/#attestation=eNqlUUuuEzAMvEvXFfLf8fK1pZdALBzHOQACieOTvgd7pOfFKLYzE4%2Fz7QJfyC5XRFQ9cL3A7zuZx7492JcKj3FvCX7i4%2BbKBA9iaxyofXldVhZYDgGW7TZnokbgzOFaMWHLFhaOJdtVdlAt7%2FbCnIqLCN5FzKsHlgDUtL08o2UvBnfIrnFkapn0ngtnt5DgKqHWDmDIqMuVxkunu23k13vf5C06NtNIseJ4KqzB%2Bw2Iox7Pj0cVa9JYa3QqpzNrjME8cFAOW8hVxcmZmIJnBI9Mt6Y6PY8P%2BxwWc4Jb1p4RlFtlKZJLaQ0bJlhHXaQxsxZM3Hq8DciCQbRfImf7FsLGbnSF98LPH7%2F6JQ%2BfCoJP8o%2BZYyH8fPtfxOMfbNsr%2BPTO5K%2BNEDiYmjrRcrF98F9%2BOC6nps4Hz%2Fkw9uHg%2F0x3OfvA738AgcWhrQ%3D%3D**](https://sepolia.easscan.org/offchain/url/#attestation=eNqlUUuuEzAMvEvXFfLf8fK1pZdALBzHOQACieOTvgd7pOfFKLYzE4%2Fz7QJfyC5XRFQ9cL3A7zuZx7492JcKj3FvCX7i4%2BbKBA9iaxyofXldVhZYDgGW7TZnokbgzOFaMWHLFhaOJdtVdlAt7%2FbCnIqLCN5FzKsHlgDUtL08o2UvBnfIrnFkapn0ngtnt5DgKqHWDmDIqMuVxkunu23k13vf5C06NtNIseJ4KqzB%2Bw2Iox7Pj0cVa9JYa3QqpzNrjME8cFAOW8hVxcmZmIJnBI9Mt6Y6PY8P%2BxwWc4Jb1p4RlFtlKZJLaQ0bJlhHXaQxsxZM3Hq8DciCQbRfImf7FsLGbnSF98LPH7%2F6JQ%2BfCoJP8o%2BZYyH8fPtfxOMfbNsr%2BPTO5K%2BNEDiYmjrRcrF98F9%2BOC6nps4Hz%2Fkw9uHg%2F0x3OfvA738AgcWhrQ%3D%3D)
 
