@@ -6,7 +6,7 @@ sidebar_position: 1
 The Attestation Ecosystem is quickly becoming the next frontier for builders and innovators. But where do you start? How should you be thinking about your products and where attestations fit in? How do you help others with the power of attestations? This quick guide will help ideate and brainstrom the themes, trigger words, and ways to start innovating with attestations.
 
 ## Trigger Words
-When you're thinking about your own use cases, think about these following `trigger words`. They're usually a good indication that an attestation would be valuable here.
+When you're thinking about your own use cases, think about the following `trigger words`. They're usually a good indication that an attestation would be valuable here.
 - **Verifying:** Confirming the authenticity of a product or the accuracy of information.
 - **Vouching:** Endorsing someone's skills, experience, or character.
 - **Voting:** Recording preferences or decisions in elections or community polls.
