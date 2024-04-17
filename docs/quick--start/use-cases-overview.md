@@ -7,7 +7,7 @@ Attestations can greatly enhance trust in various interactions across a range of
 
 :::tip Tip 
 Looking for more detail? 
-Checkout our [Use Cases Page](/docs/category/use-cases).
+Checkout our [Use Cases Page](/docs/category/example-use-cases).
 :::
 
 Explore this list to help inspire you. 

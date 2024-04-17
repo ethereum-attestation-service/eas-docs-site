@@ -3,7 +3,7 @@ sidebar_position: 12
 ---
 
 # Schema Context
-`Context`provides meaning and clarity, ensuring that data is understood and utilized correctly. With the introduction of "Schema Context" in the Attestation Ecosystem, you can now set a predefined context to your schema, ensuring that it aligns with universal standards and is easily interpretable by various systems and platforms.
+`Context` provides meaning and clarity, ensuring that data is understood and utilized correctly. With the introduction of "Schema Context" in the Attestation Ecosystem, you can now set a predefined context to your schema, ensuring that it aligns with universal standards and is easily interpretable by various systems and platforms.
 
 The beauty of "Schema Context" is its flexibility. While we support the widely recognized **schema.org** standards, you're not limited to them. You can set any URL where your schema might be standardized, providing a universal way to define the schema data.
 

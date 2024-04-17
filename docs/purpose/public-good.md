@@ -39,8 +39,8 @@ Any small contribution whether it's calling out something to update on a docs pa
 
 #### Grants & Donations
 Many teams start public goods by bootstrapping funds and their time or by receiving donations, while noble, these funding sources are often not sustainable long-term. One step up are grants tailored for public goods. Grant programs are plentiful in the Ethereum Ecosystem with projects like:
-- Funding Platforms ([Gitcoin](https://grants.gitcoin.co/), [Giveth](https://giveth.io/), [The Giving Block](https://thegivingblock.com/), [Endaoment](https://endaoment.org/) et.al)
-- Ecosystem Grants ([Ethereum Foundation](https://ethereum.org/en/foundation/), [OP](https://community.optimism.io/docs/governance/get-a-grant/), [Arbitrum](https://arbitrum.foundation/grants?address=0xeee68aECeB4A9e9f328a46c39F50d83fA0239cDF), et.al).
+- Funding Platforms ([Gitcoin](https://grants.gitcoin.co/), [Giveth](https://giveth.io/), [The Giving Block](https://thegivingblock.com/), [Endaoment](https://endaoment.org/), et al.)
+- Ecosystem Grants ([Ethereum Foundation](https://ethereum.org/en/foundation/), [OP](https://community.optimism.io/docs/governance/get-a-grant/), [Arbitrum](https://arbitrum.foundation/grants?address=0xeee68aECeB4A9e9f328a46c39F50d83fA0239cDF), et al.)
 
 #### Retroactive Funding
 Ecosystems like Optimism have been championing [Retroactive Public Goods Funding](https://app.optimism.io/retropgf). The core idea behind retroactive funding is that it's easier to determine the impact of an innovation after it's made its impact. Thus, many teams like Optimism will fund Public Goods for the impact they make on their own ecosystem. As the impact is made, their ecosystem hits new growth goals or revenue targets and then allocates that benefit back to the team or innovation that helped them get there. Then these teams continue building into a virtuous cycle of innovation and growth.

@@ -26,7 +26,7 @@ Attestations can be made either onchain or offchain. While **onchain attestation
 | **Security**                    | Secured by blockchain consensus                           | Secured by cryptographic signatures                         |
 | **Scalability & Performance**   | Requires onchain transactions to process                  | Faster processing times; can lead to better scalability     |
 | **Timestamping**                | Inherent timestamping by the blockchain                   | The UID of the attestation can be timestamped onchain for verifiability |
-| **Lifecycle Management**        | Revocations stored onchain                                | Revocations require need separate management                  |
+| **Lifecycle Management**        | Revocations stored onchain                                | Revocations require separate management                     |
 
 
 ## Best Practices
@@ -45,7 +45,7 @@ Attestations can be made either onchain or offchain. While **onchain attestation
 It's important for builders to consider what data needs to go onchain or should live offchain. A common misconception with onchain attestations is that they do not have privacy features. There are several ways to keep onchain attestation data more private. 
 
 - **Offchain:** Generally preferable for confidentiality as no data is publicly visible unless explicitly stored in places like IPFS.
-- **Private Data Attestations:** An innovative solution to attest nearly an infinite amount of private data by attesting its [merkle root onchain](/docs/tutorials/private-data-attestations.md).
+- **Private Data Attestations:** An innovative solution to attest nearly an infinite amount of private data by attesting its [Merkle root onchain](/docs/tutorials/private-data-attestations.md).
 - **Onchain Adaptations:** Rather than placing the entire data on why something was true, one could attest to results, such as a true/false field of the verification. 
 - **Leverage ZKP:** Generate a zero-knowledge proof from the attestation data to keep information private and trustworthy. 
 - **Bottom Line:** Prioritize privacy. Whether you're storing a verification process or the verification result, sensitive data management is paramount.
@@ -56,7 +56,7 @@ Navigating the world of attestations might seem complex, but it boils down to un
 
 - **Authenticity is a Given:** Both onchain and offchain attestations offer the authenticity of a digital signature. No matter where it's stored, if the data changes, the signature won't verify.
 - **Smart Contract Interaction:** If your project requires smart contracts to frequently access or verify attestation data, onchain is your best bet. It ensures that the data is always available on the Ethereum blockchain for smart contracts to interact with.
-- **Privacy Matters:** If you're handling sensitive data or want to control who sees what and when, offchain offers more flexibility. Store data privately and share it selectively. But remember, onchain isn't out of the race for privacy. With techniques like private data attestations, you can store a merkle root onchain and then selectively disclose specific parts of your data when needed.
+- **Privacy Matters:** If you're handling sensitive data or want to control who sees what and when, offchain offers more flexibility. Store data privately and share it selectively. But remember, onchain isn't out of the race for privacy. With techniques like private data attestations, you can store a Merkle root onchain and then selectively disclose specific parts of your data when needed.
 
 In short, think about how your data will be used. If it's crucial for smart contracts, onchain might be the way. If it's about privacy and controlled sharing, offchain could be your answer. And sometimes, a blend of both might be the perfect solution. The power to choose is yours.
 

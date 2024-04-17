@@ -28,7 +28,7 @@ The `useProvider` hook gets the `publicClient` and returns a provider compatible
 Usage:
 
 ```typescript
-const signer = useProvider();
+const provider = useProvider();
 ```
 
 ### Code Implementation

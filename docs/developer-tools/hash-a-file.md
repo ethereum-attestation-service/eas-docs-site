@@ -12,7 +12,7 @@ You can hash any local file:
 - Images
 - Any type of file
 
-## Understanding How Hash's Work
+## Understanding How Hashes Work
 A hash function like `SHA256` takes an input (or 'message') and returns a fixed-size string of bytes. The output, typically a 'digest', is unique to each unique input. Even a minor change, like a single letter or single pixel of the file changes, it will produce a vastly different output, this is also known as the `avalanche effect`. This makes hashing a powerful tool for verifying data integrity. 
 
 SHA-256, which stands for Secure Hash Algorithm 256-bit, is one of the cryptographic hash functions in the SHA-2 family. It's widely used in the world of cryptography and is integral to the functioning of modern technologies, including blockchain systems.

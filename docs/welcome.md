@@ -48,7 +48,7 @@ Get inspired with a few [**thought starters!**](/docs/idea--zone/thought-starter
 We're excited to see what you build with EAS. Let's get started!
 
 1. Read the documentation to [**learn more about attestations**](https://docs.attest.sh/docs/category/core-concepts) and how to use EAS.
-2. [**Install the SDK**](https://docs.attest.sh/docs/developer-tools/eas-sdk) to easily integrate into a Javascript/Typescript project 
+2. [**Install the SDK**](https://docs.attest.sh/docs/developer-tools/eas-sdk) to easily integrate into a JavaScript/TypeScript project.
 3. Create your own [**indexer**](https://github.com/ethereum-attestation-service/eas-indexing-service) for easily indexing attestation data.
 4. Query your attestations with the [**GraphQL API**](/docs/developer-tools/api) using the EAS smart contracts or UI.
 5. Use the EAS to [**create and verify attestations**](https://easscan.com/attestations) for any purpose.

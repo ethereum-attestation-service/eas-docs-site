@@ -88,7 +88,7 @@ No. Attestations are immutable to maintain their trustworthiness. If modificatio
 
 <details>
 <summary>How do you keep attestations private?</summary>
-EAS offers the flexibility of public and private attestations. Depending on the use case, data can be encrypted, kept off-chain, or selectively disclosed using "Private Data Attestations" and merkle trees.
+EAS offers the flexibility of public and private attestations. Depending on the use case, data can be encrypted, kept off-chain, or selectively disclosed using "Private Data Attestations" and Merkle trees.
 </details>
 
 <details>
@@ -157,7 +157,7 @@ Each attestation has the following struct:
 
 <details>
 <summary>How do we coordinate around the right schemas?</summary>
-EAS does not presuppose the right schemas for a use case. It's up to the community to coordinate and decide which schemas to use for a particular use case. To help foster this discussion, we have created a dedicated EAS forum at https://forum.easscan.org
+EAS does not presuppose the right schemas for a use case. It's up to the community to coordinate and decide which schemas to use for a particular use case. To help foster this discussion, we have created a dedicated EAS forum at https://forum.attest.sh.
 </details>
 
 

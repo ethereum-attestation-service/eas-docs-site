@@ -9,7 +9,7 @@ Obtaining a copy of a birth certificate can be a long and inefficient process. O
 In addition, paper-based records can be prone to fraud and errors, leading to long-term risks and challenges for individuals and governments alike. Moreover, paper-based systems are not privacy-preserving, and sensitive information such as the mother's maiden name, home address, and social security number can be exposed.
 
 ## Opportunity
-Attestations, together with privacy-preserving technologies like zk or merkle trees, can provide a secure and efficient solution for vital records, such as birth certificates. By recording birth certificates on Ethereum, individuals can easily access and share their official documents in a matter of minutes, rather than weeks, while keeping their sensitive information private.
+Attestations, together with privacy-preserving technologies like zk or Merkle trees, can provide a secure and efficient solution for vital records, such as birth certificates. By recording birth certificates on Ethereum, individuals can easily access and share their official documents in a matter of minutes, rather than weeks, while keeping their sensitive information private.
 
 Attestation-based vital records also reduce the risk of fraud and errors, as the immutability of blockchain ensures that records cannot be tampered with or altered.
 
@@ -23,7 +23,7 @@ With attestations and privacy-preserving technologies, the parent can access the
 :::
 EAS does not presuppose which privacy-preserving technology is best for any use case. However, the privacy of individuals must be a top priority. 
 
-EAS also allows users to create [Private Data Attestations](/docs/tutorials/private-data-attestations). `Private Data Attestations` take advantage of Merkle Trees' unique capabilities to selectively disclose specific data fields without compromising overall privacy. This innovative feature allows users to create attestations with a single "private data" field, which contains the hash of a Merkle tree root. As a result, users can securely store and share particular parts of their attested data while preserving their privacy.
+EAS also allows users to create [Private Data Attestations](/docs/tutorials/private-data-attestations). `Private Data Attestations` take advantage of Merkle trees' unique capabilities to selectively disclose specific data fields without compromising overall privacy. This innovative feature allows users to create attestations with a single "private data" field, which contains the hash of a Merkle tree root. As a result, users can securely store and share particular parts of their attested data while preserving their privacy.
 
 Attestations with `Zero Knowledge Proofs` are another path forward to explore. 
 

@@ -23,7 +23,7 @@ Easily hash any file and attest to it. There are two schemas you can use for thi
     ![Ethereum Whitepaper](./img/ethereum-whitepaper-hash-verified.png)
 
 ### Private Data Attestations
-Attest to the merkle root of a bunch of private data. This can be useful for attesting to an `allowlist` of users, selective information or private info. The `merkle root` is attested to onchain and then you can selectively share each of the individual merkle tree leaves, effectively selectively disclosing the information, and allowing others to verify that that piece of data was indeed a part of the merkle tree. The value comes from the entity that attested to the private data merkle root, and then allowing others to verify the data.
+Attest to the Merkle root of a bunch of private data. This can be useful for attesting to an `allowlist` of users, selective information or private info. The `Merkle root` is attested to onchain and then you can selectively share each of the individual Merkle tree leaves, effectively selectively disclosing the information, and allowing others to verify that that piece of data was indeed a part of the Merkle tree. The value comes from the entity that attested to the private data Merkle root, and then allowing others to verify the data.
 
 **Tutorial:** [Private Data Attestations](/docs/tutorials/private-data-attestations.md)
 
@@ -49,7 +49,7 @@ Upload any offchain attestation raw data into this tool so you can easily see if
 ![Verify Offchain Attestation Container](./img/verify-offchain.png)
 
 ### Timestamping Offchain Attestations
-Offchain attestations do not have a verifiable timestamp. If you want to timestamp multiple `UID`s of the offchain attestation, it will generate a merkle root and timestamp just that root. Then you can verify any of the individual UIDs.
+Offchain attestations do not have a verifiable timestamp. If you want to timestamp multiple `UID`s of the offchain attestation, it will generate a Merkle root and timestamp just that root. Then you can verify any of the individual UIDs.
 
 **Tutorial:** [Timestamping Offchain](/docs/developer-tools/verify-timestamp)
 

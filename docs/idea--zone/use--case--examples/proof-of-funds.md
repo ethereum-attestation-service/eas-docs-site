@@ -8,7 +8,7 @@ sidebar_position: 9
 In the world of finance, proving funding can be a time-consuming and invasive process. Financial institutions often require a significant amount of documentation to verify that an individual or entity has sufficient funds for a transaction. The process can be challenging for individuals and businesses, as it often requires sharing sensitive financial information that could be at risk of exposure.
 
 ## Opportunity
-Proof of funds attestations can provide a secure and efficient way to verify the funding status of an individual or entity without requiring the disclosure of sensitive information. By using private data attestations with Merkle Trees, users can selectively disclose specific data fields, such as the current cash balance or credit score, while keeping other information private. This allows for a more tailored approach to information sharing, reducing the risk of fraud or errors and streamlining the verification process.
+Proof of funds attestations can provide a secure and efficient way to verify the funding status of an individual or entity without requiring the disclosure of sensitive information. By using private data attestations with Merkle trees, users can selectively disclose specific data fields, such as the current cash balance or credit score, while keeping other information private. This allows for a more tailored approach to information sharing, reducing the risk of fraud or errors and streamlining the verification process.
 
 ## Example
 Alice wants to make a cash offer on a new home, but first, she must prove that she has sufficient Proof of Funds to pay for it.

@@ -33,7 +33,7 @@ The privacy of individuals must be a top priority. For example, instead of a gov
 
 Similarly, for a KYC compliance, the KYC service would only need to attest to a true/false flag that shows that the address successfully passed their KYC compliance process. It wouldn't need to store any information beyond that.
 
-EAS also allows users to create [Private Data Attestations](/docs/tutorials/private-data-attestations). `Private Data Attestations` take advantage of Merkle Trees' unique capabilities to selectively disclose specific data fields without compromising overall privacy. This innovative feature allows users to create attestations with a single "private data" field, which contains the hash of a Merkle tree root. As a result, users can securely store and share particular parts of their attested data while preserving their privacy.
+EAS also allows users to create [Private Data Attestations](/docs/tutorials/private-data-attestations). `Private Data Attestations` take advantage of Merkle trees' unique capabilities to selectively disclose specific data fields without compromising overall privacy. This innovative feature allows users to create attestations with a single "private data" field, which contains the hash of a Merkle tree root. As a result, users can securely store and share particular parts of their attested data while preserving their privacy.
 
 Attestations with `Zero Knowledge Proofs` are another path forward to explore. 
 
