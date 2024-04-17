@@ -39,7 +39,7 @@ await transaction.wait();
 ```
 
 ### Batch Timestamp
-EAS also allows people to batch timestamp UIDs in one transaction using a Merkle Tree. EAS will generate a merkle tree root comprising of all the off-chain attestation UIDs that are now being timestamped. The on-chain transaction only includes a single hash of all the attestation UIDs, saving a ton of gas. After the merkle root is attested to, each UID inherits the timestamp and can be independently verified against the merkle tree root hash.
+EAS also allows people to batch timestamp UIDs in one transaction using a Merkle tree. EAS will generate a Merkle tree root comprising of all the off-chain attestation UIDs that are now being timestamped. The on-chain transaction only includes a single hash of all the attestation UIDs, saving a ton of gas. After the Merkle root is attested to, each UID inherits the timestamp and can be independently verified against the Merkle tree root hash.
 
 To timestamp multiple off-chain attestation UIDs in a single transaction, you can use the multiTimestamp function:
 

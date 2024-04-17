@@ -15,9 +15,9 @@ The blockchain's defining feature of immutability is a double-edged sword. While
 Below are a few concepts to consider when building with privacy in mind.
 
 ### Private Data Attestations
-Private Data Attestations are a way to attest to nearly an infinite amount of arbitrary data, generate a merkle tree of that data, and then only attest to the merkle root onchain or offchain. The data can then be provided to specific individuals and allow them to selectively disclose or verify the data against the merkle root. 
+Private Data Attestations are a way to attest to nearly an infinite amount of arbitrary data, generate a Merkle tree of that data, and then only attest to the Merkle root onchain or offchain. The data can then be provided to specific individuals and allow them to selectively disclose or verify the data against the Merkle root. 
 
-For example, a university could attest to a student's entire transcript by creating a merkle tree of the courses and grades, and then only attesting to the root onchain. The student can then provide specific courses to employers without revealing their entire transcript.
+For example, a university could attest to a student's entire transcript by creating a Merkle tree of the courses and grades, and then only attesting to the root onchain. The student can then provide specific courses to employers without revealing their entire transcript.
 
 **📘 Read More:** [**Private Data Attestations**](/docs/tutorials/private-data-attestations.md)
 

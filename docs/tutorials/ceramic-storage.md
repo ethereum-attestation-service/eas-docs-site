@@ -16,7 +16,7 @@ The Ceramic Protocol is built on decentralized event streams, where user account
 
 ### Ceramic as a Data Ledger
 
-Finally, it's important to note that Ceramic can be viewed as a "Data Ledger" middleground-of-sorts between on-chain activity and the off-chain realm. All Ceramic events are periodically rolled into a merkle tree and the root is published to the Ethereum blockchain, preserving consensus on the global ordering of Ceramic transactions.
+Finally, it's important to note that Ceramic can be viewed as a "Data Ledger" middleground-of-sorts between on-chain activity and the off-chain realm. All Ceramic events are periodically rolled into a Merkle tree and the root is published to the Ethereum blockchain, preserving consensus on the global ordering of Ceramic transactions.
 
 For more information on how Ceramic works, visit [How it Works](https://ceramic.network/how-it-works).
 
