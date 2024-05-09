@@ -16,6 +16,7 @@ EAS offers a GraphQL API that allows developers to query data in a flexible and 
 | Arbitrum | [https://arbitrum.easscan.org/graphql](https://arbitrum.easscan.org/graphql)                       |
 | Optimism | [https://optimism.easscan.org/graphql](https://optimism.easscan.org/graphql)                |
 | Linea | [https://linea.easscan.org/graphql](https://linea.easscan.org/graphql)                |
+| Arbitrum Nova | [https://arbitrum-nova.easscan.org/graphql](https://arbitrum-nova.easscan.org/graphql)                |
 | Sepolia | [https://sepolia.easscan.org/graphql](https://sepolia.easscan.org/graphql)                         |
 | Optimism-Goerli | [https://optimism-goerli-bedrock.easscan.org/graphql](https://optimism-goerli-bedrock.easscan.org/graphql) |
 | Base-Goerli | [https://base-goerli.easscan.org/graphql](https://base-goerli.easscan.org/graphql)                 |
