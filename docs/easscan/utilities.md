@@ -63,7 +63,7 @@ Here's an example of the Capitol Building in Colorado, USA.
 ![Land Registry Example](./img/land-registry-example.png)
 
 ### Devfolios Quadratic Voting System
-Kudos to the [**Devfolio**](https://devfolio.co/discover) team! They built a unique `Quadratic Voting System` for their hackathon. It allowed the community to cast their votes on the projects they believe deserve the prize pool. Each attestation was a record of the users votes to ensure transparency. 
+Kudos to the [**Devfolio**](https://devfolio.co/discover) team! They built a unique `Quadratic Voting System` for their hackathon. It allowed the community to cast their votes on the projects they believe deserve the prize pool. Each attestation was a record of the user's votes to ensure transparency. 
 
 **Read More:**:[**Introooducing Quadratic Voting:**](https://devfolio.co/blog/introooducing-quadratic-voting-on-devfolio/)
 

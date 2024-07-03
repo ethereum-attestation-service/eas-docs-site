@@ -39,7 +39,7 @@ Always encrypt sensitive data, even if it's offchain. When attesting to encrypte
 
 
 ### Zero Knowledge Proofs (ZKPs)
-ZKPs allow one party to prove to another that a statement is true without revealing any specific information about the statement itself. It's a powerful tool for privacy-preserving attestations. For example, you can generate an attestation onchain or offchain and then allow the recipient or issuer of the attestation generate an ZKP from the attestation data. Which then can be selectively shared to those who need to know without disclosing the addresses or data involved.
+ZKPs allow one party to prove to another that a statement is true without revealing any specific information about the statement itself. It's a powerful tool for privacy-preserving attestations. For example, you can generate an attestation onchain or offchain and then allow the recipient or issuer of the attestation generate a ZKP from the attestation data. Which then can be selectively shared with those who need to know without disclosing the addresses or data involved.
 
 
 

@@ -10,7 +10,7 @@ Attestations can be made either onchain or offchain. While **onchain attestation
 ## What are Onchain and Offchain Attestations?
 - **Onchain Attestations:** These are attestations that are stored directly on the Ethereum blockchain. They are immutable and benefit from the security and decentralization of the blockchain. They are great when attestations need to be read by smart contracts or you need guaranteed availability.
 
-- **Offchain Attestations:** These attestations are stored off the Ethereum blockchain, typically in a database or another storage mechanism. They are linked to the blockchain through cryptographic signatures but do not reside on it. Offchain attestations are great when you want to hold the attestation privately and shared on a need to know basis.
+- **Offchain Attestations:** These attestations are stored off the Ethereum blockchain, typically in a database or another storage mechanism. They are linked to the blockchain through cryptographic signatures but do not reside on it. Offchain attestations are great when you want to hold the attestation privately and shared it on a need to know basis.
 
 ## Onchain vs Offchain: At a Glance
 | Feature/Aspect                  | Onchain Attestations                                      | Offchain Attestations                                       |
