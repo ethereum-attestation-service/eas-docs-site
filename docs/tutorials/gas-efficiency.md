@@ -95,7 +95,7 @@ When you’re processing a ton of transactions, small increases in bytes can add
 10. **Avoid redundant data:** Double check your schema to see if you have any redundant fields. For example, you might add an `address` field for the schema and be using it as a recipient of the attestation. This is redundant because every attestation has an optional recipient field that can be used.
 
 ## Ready to get started?
-- Easily start making schemas using our [**SDK**](/docs/getting--started/javascript)
+- Easily start making schemas using our [**SDK**](/docs/developer-tools/eas-sdk)
 - Use our no-code schema builder on any of the explorer sites like [**https://sepolia.easscan.org/schema/create**](https://sepolia.easscan.org/schema/create)
 
 ## Still need some help?
