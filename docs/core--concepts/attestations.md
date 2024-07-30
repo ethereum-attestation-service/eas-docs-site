@@ -5,7 +5,7 @@ sidebar_position: 2
 # Attestations
 
 :::info What are attestations?
-**Attestations** /ˌaˌteˈstāSH(ə)n; are digital records that serve as evidence or confirmation of information made by an entity about anything. 
+**Attestations** /ˌaˌteˈstāSH(ə)n; are structured pieces of information signed by an entity about something. 
 :::
 
 At its core, an attestation is a digital signature on structured data. Think of it as a digital stamp of approval or verification. It's a way for one entity (the attester) to make a claim about another entity or about some data. This claim is then cryptographically signed to ensure its authenticity and immutability. With EAS, attestations can be made onchain or offchain.

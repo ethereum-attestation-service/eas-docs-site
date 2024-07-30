@@ -3,15 +3,15 @@ sidebar_position: 10
 ---
 
 # Credible Neutrality
-In an era where biases and hidden agendas often skew digital platforms, the principle of "Credible Neutrality" stands as a testament to genuine fairness and trustworthiness. It's not just a lofty ideal; it's a foundational requirement for systems that aim to earn unwavering trust.
+In an era where biases and hidden agendas often skew digital platforms, the principle of "Credible Neutrality" stands as a testament to genuine fairness and trustworthiness. It's a foundational requirement for systems that aim to earn unwavering trust.
 
 ## What is Credible Neutrality?
-`Credible Neutrality` is the commitment of a system to operate without favoring any participant, agenda, or outcome. It's a promise that the platform's operations are transparent, unbiased, and free from external influences.
+`Credible Neutrality` is the commitment of a system to operate without favoring any participant, agenda, or outcome. It's a promise that the platform's operations are transparent, unbiased, and free from external influences. Email is a great example and mental model of a protocol that is credibly neutral. You know that email won't be captured by some for-profit entity. Anyone can build on it and use it for their own purposes.
 
 ## Why It Matters
 Consider a world where every digital interaction is tinged with doubt. Is this person real? Is this platform suppressing certain voices? What happens if I click this link? Credible Neutrality makes things a bit more:
 
-- **Trustful:** Users can confidently interact with systems, knowing there are no hidden agendas.
+- **Trustful:** Users can confidently interact with systems, knowing there are no hidden agendas or rent extraction.
 - **Fair:** A neutral platform ensures everyone has an equal opportunity, fostering genuine innovation.
 - **Resilient:** Systems built on neutrality are robust against manipulation, ensuring reliability.
 

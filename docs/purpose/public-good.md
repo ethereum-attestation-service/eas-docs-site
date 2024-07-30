@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Impact Over Profit
+# A Public Good Protocol
 Public goods are foundational in driving innovation, collaboration, and trust within ecosystems like Ethereum. EAS, with its decentralized, open-source, and tokenless design for attestations, embodies this principle, offering a universally beneficial service.
 
 ![Eth Public Good](./img/Ethereum-center-of-trust.png)
@@ -13,6 +13,12 @@ EAS stands out due to its commitment to being a public good. Its open-source, pe
 For a foundational layer addressing the very nuanced and personal facets of trust online, financial motivations or centralized control are counterproductive. While for-profit solutions excel in niche areas, they can't serve as primitive infrastructure due to inherent biases. Public goods focus on value creation over value extraction. 
 
 EAS, as a public good, offers the base layer that's credibly neutral. While numerous businesses can thrive atop EAS, its primary role is to catalyze innovation, ensuring equitable opportunities for all.
+
+## Mental Model: Email as a Public Good
+When you send an email today, do you think about if the recipient uses gmail, outlook, or even AOL? No. You click send and the protocol communicates the email to the intended recipient. Application developers can create spam filters and other efforts to improve the user experience, but the role of email is to structure the information. Email is permissionless. It doesn't force anyone to register the types of emails you want to send people before being able to do so. This is an example of a public good protocol. Now let's imagine if email wasn't a public good and we had to send $X every time we "emailed". The industry would fragment. We'd have "f-mail", "d-mail", and other protocols competing on price and structure. Now anyone creating Microsoft Outlook, Gmail, or other applications on top of "email" would have to integrate other standards. 
+
+EAS aims to be the universal language in how entities "attest" about anything. It's how the attestation data is structured and communicated. It's role is not to determine if the attestation is valuable (just like email doesn't judge how good or bad an email's content is), it's role is to coordinate how attestations are made in an elegant and efficient way.
+
 
 ## Understanding Public Goods
 Public goods are universally accessible resources. They're available to all, and one's usage doesn't diminish their availability for others. Imagine a public park: open for all, irrespective of individual contributions to its upkeep.

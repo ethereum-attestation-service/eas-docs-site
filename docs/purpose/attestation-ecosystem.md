@@ -7,7 +7,7 @@ sidebar_position: 3
 :::
 Picture a vibrant city, alive with energy, where every street, bridge, and alleyway pulses with activity. What's the secret to its rhythm? It's the infrastructure that invisibly weaves and binds everything together, allowing everyone in it to thrive.
 
-In the attestation ecosystem, we've long felt **the absence of such a foundational infrastructure**. Efforts to establish trust, verify identities, and ensure authenticity have often been siloed, leading to a fragmented landscape. Many have tried to build solutions, but they've often started at the top or **building one layer too high**. This approach, while well-intentioned, has only added to the fragmentation, creating a patchwork of solutions that don't always speak the same language.
+In the attestation ecosystem, we've long felt **the absence of such a foundational infrastructure**. Efforts to establish trust, verify identities, and ensure authenticity have often been siloed, leading to a fragmented landscape. Many have tried to build solutions, but they've often started at the top or **building one layer too high**. This approach, while well-intentioned, has only added to the fragmentation, creating a patchwork of for-profit solutions that don't always speak the same language.
 
 Worse still, past infrastructure **attempts have been encumbered by centralization, permissioned systems, and biases that presuppose too much**. Such systems, while offering a semblance of structure, are inherently flawed. They limit growth, deter widespread adoption, and, most critically, place too much power in the hands of a few at the expense of others.
 
