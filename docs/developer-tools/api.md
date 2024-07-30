@@ -10,11 +10,17 @@ Welcome to the Easscan GraphQL API documentation! This API allows you to access 
 | Ethereum | [https://easscan.org/graphql](https://easscan.org/graphql)                                                          |
 | Ethereum (Sepolia) | [https://sepolia.easscan.org/graphql](https://sepolia.easscan.org/graphql)                                |
 | Arbitrum | [https://arbitrum.easscan.org/graphql](https://arbitrum.easscan.org/graphql)                                        |
+| Arbitrum Nova | [https://arbitrum-nova.easscan.org/graphql](https://arbitrum-nova.easscan.org/graphql)                                        |
 | Base | [https://base.easscan.org/graphql](https://base.easscan.org/graphql)                                                    |
 | Base (Sepolia) | [https://base-sepolia.easscan.org/graphql](https://base-sepolia.easscan.org/graphql)                             |
-| Linea | [https://linea.easscan.org/graphql](https://linea.easscan.org/graphql)                                                 |
 | Optimism | [https://optimism.easscan.org/graphql](https://optimism.easscan.org/graphql)                                        |
 | Optimism (Sepolia) | [https://optimism-sepolia-bedrock.easscan.org/graphql](https://optimism-sepolia-bedrock.easscan.org/graphql) |
+| Scroll | [https://scroll.easscan.org/graphql](https://scroll.easscan.org/graphql)          
+| Polygon | [https://polygon.easscan.org/graphql](https://polygon.easscan.org/graphql)                                        |
+| Linea | [https://linea.easscan.org/graphql](https://linea.easscan.org/graphql)                                                 |
+| Celo | [https://celo.easscan.org/graphql](https://celo.easscan.org/graphql)                                        |
+
+
 
 ## Introduction
 

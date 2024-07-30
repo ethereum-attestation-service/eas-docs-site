@@ -8,8 +8,8 @@ Please note that you can also import and use the addresses directly in your code
 
 ## 🛳️ Deployments
 :::tip We have deployed on the following chains:
-- **Mainnets**: Ethereum Mainnet, Optimism, Base, Arbitrum One, Arbitrum Nova, Linea, Polygon, Scroll
-- **Testnets**: Sepolia, Optimism Sepolia, Optimism Goerli, Base Sepolia, Base Goerli, Polygon Mumbai, Linea Goerli, Scroll Sepolia
+- **Mainnets**: Ethereum Mainnet, Optimism, Base, Arbitrum One, Arbitrum Nova, Scroll, Linea, Polygon, Blast, Celo
+- **Testnets**: Sepolia, Optimism Sepolia, Optimism Goerli, Base Sepolia, Base Goerli, Polygon Amoy, Linea Goerli, Scroll Sepolia
 :::
 
 ## Mainnets
@@ -162,6 +162,43 @@ Version `v1.3.0`:
 :::info Indexer
 - **Contract Address:** [0x8314bc1B2f7F286cb4f0323FE7119C0F99D4A083](https://scrollscan.com/address/0x8314bc1B2f7F286cb4f0323FE7119C0F99D4A083)
 - **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll/Indexer.json)
+:::
+
+### Celo
+Version `v1.3.0`:
+
+:::info EAS
+- **Contract Address:** [0x72E1d8ccf5299fb36fEfD8CC4394B8ef7e98Af92](https://celoscan.io/address/0x72E1d8ccf5299fb36fEfD8CC4394B8ef7e98Af92)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/celo/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract Address:** [0x5ece93bE4BDCF293Ed61FA78698B594F2135AF34](https://celoscan.io/address/0x5ece93bE4BDCF293Ed61FA78698B594F2135AF34)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/celo/SchemaRegistry.json)
+:::
+
+:::info EIP712Proxy
+- **Contract Address:** [0x6792B6AE17c6416016b943585e957a29bc452806](https://celoscan.io/address/0x6792B6AE17c6416016b943585e957a29bc452806)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/celo/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract Address:** [0x76591b332d0F099E89FA335fC827D44C47705D2f](https://scrollscan.com/address/0x8314bc1B2f7F286cb4f0323FE7119C0F99D4A083)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/celo/Indexer.json)
+:::
+
+
+### Blast
+Version `v1.3.0`:
+
+:::info EAS
+- **Contract Address:** [0x4200000000000000000000000000000000000021](https://blastscan.io/address/0x4200000000000000000000000000000000000021)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/blast/EAS.json)
+:::
+
+:::info SchemaRegistry
+- **Contract Address:** [0x5ece93bE4BDCF293Ed61FA78698B594F2135AF34](https://blastscan.io/address/0x4200000000000000000000000000000000000020)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/blast/SchemaRegistry.json)
 :::
 
 
@@ -323,18 +360,30 @@ Version `v1.1.0`:
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-goerli/SchemaRegistry.json)
 :::
 
-### Polygon Mumbai
-Version `v1.1.0`:
+### Polygon Amoy
+Version `v1.3.0`:
 
 :::info EAS
-- **Contract Address:** [0xaEF4103A04090071165F78D45D83A0C0782c2B2a](https://mumbai.polygonscan.com/address/0xaEF4103A04090071165F78D45D83A0C0782c2B2a)
-- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon-mumbai/EAS.json)
+- **Contract Address:** [0xb101275a60d8bfb14529C421899aD7CA1Ae5B5Fc](https://amoy.polygonscan.com/address/0xb101275a60d8bfb14529C421899aD7CA1Ae5B5Fc)
+- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon-amoy/EAS.json)
 :::
 
 :::info SchemaRegistry
-- **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://mumbai.polygonscan.com/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797)
-- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon-mumbai/SchemaRegistry.json)
+- **Contract Address:** [0x23c5701A1BDa89C61d181BD79E5203c730708AE7](https://amoy.polygonscan.com/address/0x23c5701A1BDa89C61d181BD79E5203c730708AE7)
+- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon-amoy/SchemaRegistry.json)
 :::
+
+:::info EIP712Proxy
+- **Contract Address:** [0xA0ec8a80a0b8496B9Cf6Ee703bC16ABdC9F4cf2e](https://amoy.polygonscan.com/address/0xA0ec8a80a0b8496B9Cf6Ee703bC16ABdC9F4cf2e)
+- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon-amoy/EIP712Proxy.json)
+:::
+
+:::info Indexer
+- **Contract Address:** [0x9F07c0B0E52C36D78Ac8ABfC543c77f83888ac64](https://amoy.polygonscan.com/address/0x9F07c0B0E52C36D78Ac8ABfC543c77f83888ac64)
+- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon-amoy/Indexer.json)
+:::
+
+
 
 ### Linea Goerli
 Version `v1.2.0`:
