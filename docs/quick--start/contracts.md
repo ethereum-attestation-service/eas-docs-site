@@ -9,7 +9,7 @@ Please note that you can also import and use the addresses directly in your code
 ## 🛳️ Deployments
 :::tip We have deployed on the following chains:
 - **Mainnets**: Ethereum Mainnet, Optimism, Base, Arbitrum One, Arbitrum Nova, Linea, Polygon, Scroll
-- **Testnets**: Sepolia, Optimism Sepolia, Optimism Goerli, Base Sepolia, Base Goerli, Polygon Mumbai, Linea Goerli, Scroll Sepolia
+- **Testnets**: Sepolia, Optimism Sepolia, Base Sepolia, Polygon Mumbai, Scroll Sepolia
 :::
 
 ## Mainnets
@@ -233,30 +233,6 @@ Version `v1.3.0`:
 
 
 
-### Optimism Goerli
-Version `v1.0.1`:
-
-:::info EAS
-- **Contract Address:** [0x4200000000000000000000000000000000000021](https://goerli-optimism.etherscan.io/address/0x4200000000000000000000000000000000000021)
-- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/EAS.json)
-:::
-
-:::info SchemaRegistry
-- **Contract Address:** [0x4200000000000000000000000000000000000020](https://goerli-optimism.etherscan.io/address/0x4200000000000000000000000000000000000020)
-- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/SchemaRegistry.json)
-:::
-
-Version `v1.2.0`:
-
-:::info EIP712Proxy
-- **Contract Address:** [0x88D1bd62AC014424b987CE5ABf311BD7749e426B](https://goerli-optimism.etherscan.io/address/0x88D1bd62AC014424b987CE5ABf311BD7749e426B)
-- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/EIP712Proxy.json)
-:::
-
-:::info Indexer
-- **Contract Address:** [0xa42428D1bf904d762adD02b27ADac26d53643782](https://goerli-optimism.etherscan.io/address/0xa42428D1bf904d762adD02b27ADac26d53643782)
-- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/optimism-goerli/Indexer.json)
-:::
 
 ### Base Sepolia
 Version `v1.2.0`:
@@ -284,45 +260,6 @@ Version `v1.3.0`:
 :::
 
 
-### Base Goerli
-Version `v1.0.1`:
-
-:::info EAS
-- **Contract Address:** [0x4200000000000000000000000000000000000021](https://goerli.basescan.org/address/0x4200000000000000000000000000000000000021)
-- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-goerli/EAS.json)
-:::
-
-:::info SchemaRegistry
-- **Contract Address:** [0x4200000000000000000000000000000000000020](https://goerli.basescan.org/address/0x4200000000000000000000000000000000000020)
-- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-goerli/SchemaRegistry.json)
-:::
-
-Version `v1.2.0`:
-
-:::info EIP712Proxy
-- **Contract Address:** [0x37AC6006646f2e687B7fB379F549Dc7634dF5b84](https://goerli.basescan.org/address/0x37AC6006646f2e687B7fB379F549Dc7634dF5b84)
-- **Deployment and ABI:** [EIP712Proxy.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-goerli/EIP712Proxy.json)
-:::
-
-:::info Indexer
-- **Contract Address:** [0xE0893F47009776D6aEC3De8455Cb0ed325Eea74a](https://goerli.basescan.org/address/0xE0893F47009776D6aEC3De8455Cb0ed325Eea74a)
-- **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/base-goerli/Indexer.json)
-:::
-
-
-### Arbitrum Goerli
-Version `v1.1.0`:
-
-:::info EAS
-- **Contract Address:** [0xaEF4103A04090071165F78D45D83A0C0782c2B2a](https://github.com/goerli.arbiscan.io/address/0xaEF4103A04090071165F78D45D83A0C0782c2B2a)
-- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-goerli/EAS.json)
-:::
-
-:::info SchemaRegistry
-- **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://github.com/goerli.arbiscan.io/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797)
-- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/arbitrum-goerli/SchemaRegistry.json)
-:::
-
 ### Polygon Mumbai
 Version `v1.1.0`:
 
@@ -334,19 +271,6 @@ Version `v1.1.0`:
 :::info SchemaRegistry
 - **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://mumbai.polygonscan.com/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797)
 - **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/polygon-mumbai/SchemaRegistry.json)
-:::
-
-### Linea Goerli
-Version `v1.2.0`:
-
-:::info EAS
-- **Contract Address:** [0xaEF4103A04090071165F78D45D83A0C0782c2B2a](https://goerli.lineascan.build/address/0xaEF4103A04090071165F78D45D83A0C0782c2B2a)
-- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/linea-goerli/EAS.json)
-:::
-
-:::info SchemaRegistry
-- **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://goerli.lineascan.build/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797)
-- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/linea-goerli/SchemaRegistry.json)
 :::
 
 
@@ -371,27 +295,6 @@ Version `v1.3.0`:
 :::info Indexer
 - **Contract:** [0x7C2cb1eDC328491da52de2a0afc44D3B0Ae7ee17](https://sepolia.scrollscan.com/address/0x7C2cb1eDC328491da52de2a0afc44D3B0Ae7ee17)
 - **Deployment and ABI:** [Indexer.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/scroll-sepolia/EIP712Proxy.json)
-:::
-
-
-
-
-
-
-
-
-
-### Linea Goerli
-Version `v1.2.0`:
-
-:::info EAS
-- **Contract Address:** [0xaEF4103A04090071165F78D45D83A0C0782c2B2a](https://goerli.lineascan.build/address/0xaEF4103A04090071165F78D45D83A0C0782c2B2a)
-- **Deployment and ABI:** [EAS.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/linea-goerli/EAS.json)
-:::
-
-:::info SchemaRegistry
-- **Contract Address:** [0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797](https://goerli.lineascan.build/address/0x55D26f9ae0203EF95494AE4C170eD35f4Cf77797)
-- **Deployment and ABI:** [SchemaRegistry.json](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/deployments/linea-goerli/SchemaRegistry.json)
 :::
 
 ## Installation
