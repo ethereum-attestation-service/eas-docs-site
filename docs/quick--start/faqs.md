@@ -98,7 +98,7 @@ False attestations can be challenged or disregarded. The value of an attestation
 
 <details>
 <summary>What's the difference between a 'credential' and an 'attestation'?</summary>
-A credential is just an attestation from one entity attesting to certain attributes or events about someone else or something. Attestations are more generalized and can be much more than an credential, whereas credentials are not good for all use cases that attestations can solve for. 
+A credential is just an attestation from one entity attesting to certain attributes or events about someone else or something. Attestations are more generalized and can be much more than a credential, whereas credentials are not good for all use cases that attestations can solve for. 
 </details>
 
 <details>
@@ -108,7 +108,7 @@ No, attestations differ from tokens or NFTs. They are digital signatures on stru
 
 <details>
 <summary>Can attestations be revoked?</summary>
-Yes. EAS allows the issuer of the attestation to revoke the onchain or offchain attestation. This changes the state of the attestation to "revoked". It does not delete the attestation. The schema can also define if attestations made with that schema are revocable. This allows builders to also create an irrevocable attestations. 
+Yes. EAS allows the issuer of the attestation to revoke the onchain or offchain attestation. This changes the state of the attestation to "revoked". It does not delete the attestation. The schema can also define if attestations made with that schema are revocable. This allows builders to also create an irrevocable attestation. 
 </details>
 
 <details>
@@ -156,8 +156,8 @@ Each attestation has the following struct:
 </details>
 
 <details>
-<summary>How do we coordinate around the the right schemas?</summary>
-EAS does not pressupose the right schemas for a use case. It's up to the community to coordinate and decide which schemas to use for a particular use case. To help foster this discussion, we have created a dedicated EAS forum at https://forum.easscan.org
+<summary>How do we coordinate around the right schemas?</summary>
+EAS does not presuppose the right schemas for a use case. It's up to the community to coordinate and decide which schemas to use for a particular use case. To help foster this discussion, we have created a dedicated EAS forum at https://forum.easscan.org
 </details>
 
 

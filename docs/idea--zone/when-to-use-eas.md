@@ -6,13 +6,13 @@ sidebar_position: 3
 Attestations help us build more trustful interactions online. They can be used as credentials, forms of verifications, proof of something happening or not happening, ensure the integrity or authenticity of something, and much more. But when is the right time to use attestations via EAS?
 
 ## Existing Alternatives
-As builders, I'm sure you've seen the surge in using NFTs and Soulbound Tokens (SBTs) for various types of attestations. Whether its a credential being issued for access into a community or skill being achieved or other. These are simply just entities saying something about something or someone. But are NFTs and SBTs the best tools for the job? Or are we just defaulting to what we have available? What if there was something better?
+As builders, I'm sure you've seen the surge in using NFTs and Soulbound Tokens (SBTs) for various types of attestations. Whether it's a credential being issued for access into a community or skill being achieved or other. These are simply just entities saying something about something or someone. But are NFTs and SBTs the best tools for the job? Or are we just defaulting to what we have available? What if there was something better?
 
 :::warning Avoid the trap
 "When you have a hammer, everything looks like a nail." - Abraham Maslow
 :::
 
-NFTs revolutionized digital assets, but they falter when used as credentials due to their transferability and lack of interoperability. Enter SBTs, an upgrade with non-transferability and revocability. But even SBTs lack a universal standard. Each SBT is a unique contract with no consistent data structure, making integration a developer's nightmare. Let's stop trying to upgrade the "hammer" when you actually need a new tool all together.
+NFTs revolutionized digital assets, but they falter when used as credentials due to their transferability and lack of interoperability. Enter SBTs, an upgrade with non-transferability and revocability. But even SBTs lack a universal standard. Each SBT is a unique contract with no consistent data structure, making integration a developer's nightmare. Let's stop trying to upgrade the "hammer" when you actually need a new tool altogether.
 
 :::tip Challenge your thinking
 Is an NFT or an SBT the best solution, or is an attestation more apt?

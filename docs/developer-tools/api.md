@@ -11,10 +11,10 @@ Welcome to the Easscan GraphQL API documentation! This API allows you to access 
 | Ethereum (Sepolia) | [https://sepolia.easscan.org/graphql](https://sepolia.easscan.org/graphql)                                |
 | Arbitrum | [https://arbitrum.easscan.org/graphql](https://arbitrum.easscan.org/graphql)                                        |
 | Base | [https://base.easscan.org/graphql](https://base.easscan.org/graphql)                                                    |
-| Base (Goerli) | [https://base-goerli.easscan.org/graphql](https://base-goerli.easscan.org/graphql)                             |
+| Base (Sepolia) | [https://base-sepolia.easscan.org/graphql](https://base-sepolia.easscan.org/graphql)                             |
 | Linea | [https://linea.easscan.org/graphql](https://linea.easscan.org/graphql)                                                 |
 | Optimism | [https://optimism.easscan.org/graphql](https://optimism.easscan.org/graphql)                                        |
-| Optimism (Goerli) | [https://optimism-goerli-bedrock.easscan.org/graphql](https://optimism-goerli-bedrock.easscan.org/graphql) |
+| Optimism (Sepolia) | [https://optimism-sepolia-bedrock.easscan.org/graphql](https://optimism-sepolia-bedrock.easscan.org/graphql) |
 
 ## Introduction
 

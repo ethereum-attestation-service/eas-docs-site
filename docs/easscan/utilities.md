@@ -23,7 +23,7 @@ Easily hash any file and attest to it. There are two schemas you can use for thi
     ![Ethereum Whitepaper](./img/ethereum-whitepaper-hash-verified.png)
 
 ### Private Data Attestations
-Attest to the merkle root of a bunch of private data. This can be useful for attesting to an `allowlist` of users, selective information or private info. The `merkle root` is attested to onchain and then you can selectively share each of the individual merkle tree leaves, effectively selectively disclosing the information, and allowing others to verify that that piece of data was in deed a part of the merkle tree. The value comes from the entity that attested to the private data merkle root, and then allowing others to verify the data.
+Attest to the merkle root of a bunch of private data. This can be useful for attesting to an `allowlist` of users, selective information or private info. The `merkle root` is attested to onchain and then you can selectively share each of the individual merkle tree leaves, effectively selectively disclosing the information, and allowing others to verify that that piece of data was indeed a part of the merkle tree. The value comes from the entity that attested to the private data merkle root, and then allowing others to verify the data.
 
 **Tutorial:** [Private Data Attestations](/docs/tutorials/private-data-attestations.md)
 

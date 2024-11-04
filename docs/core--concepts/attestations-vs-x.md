@@ -16,7 +16,7 @@ At their essence, attestations are cryptographically signed statements or pieces
 - **Decentralized Identifiers (DIDs):** These are unique digital identifiers. While essential, they're just a part of the identity puzzle. Your Ethereum wallet address, for instance, is a DID, but it's not your entire identity.
 - **Claims:** These are statements awaiting validation and often don't have the authenticity of a digital signature.
 - **Proofs:** Mathematical validations confirming the authenticity of a request or claim.
-- **Badges:** Digital symbols or emblems. They're attestations of achievements or affiliations. While popular, badges have inherent risks of transferrability and no standardization contributing to more fragmentation. 
+- **Badges:** Digital symbols or emblems. They're attestations of achievements or affiliations. While popular, badges have inherent risks of transferability and no standardization contributing to more fragmentation. 
 
 ## Attestations: Beyond Just Identity
 Attestations are versatile. While they can vouch for identity facets, their utility extends beyond. They can represent events, validate claims, and more. Their composability allows for nuanced use cases, like linking identity attributes with event participation. 
