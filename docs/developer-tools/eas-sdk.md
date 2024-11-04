@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # EAS SDK
-Here, you'll find everything you need to get started with integrating EAS into a **Javascript/Typescript** project. 
+Here, you'll find everything you need to get started with integrating EAS into a **Javascript/Typescript** project.
 
 You can also reference our SDK directly in the [**SDK Github repo**](https://github.com/ethereum-attestation-service/eas-sdk).
 
@@ -278,9 +278,9 @@ import { EAS } from "@ethereum-attestation-service/eas-sdk";
 const eas = new EAS(EASContractAddress);
 eas.connect(provider);
 
-const data = ethers.utils.formatBytes32String('0x6776de8122c352b4d671003e58ca112aedb99f34c629a1d1fe3b332504e2943a');
+const attestationUid = '0x6776de8122c352b4d671003e58ca112aedb99f34c629a1d1fe3b332504e2943a';
 
-const transaction = await eas.revokeOffchain(data);
+const transaction = await eas.revokeOffchain(attestationUid);
 
 // Optional: Wait for transaction to be validated
 await transaction.wait();
@@ -294,10 +294,12 @@ import { EAS } from "@ethereum-attestation-service/eas-sdk";
 const eas = new EAS(EASContractAddress);
 eas.connect(provider);
 
-const data1 = ethers.utils.formatBytes32String('0x6776de8122c352b4d671003e58ca112aedb99f34c629a1d1fe3b332504e2943a');
-const data2 = ethers.utils.formatBytes32String('0x3e23b395b2bd2d37dd0f6e4148ac6b9e7ed22f2215107958f95cc1489e4e6289');
+const attestationUids = [
+  '0x6776de8122c352b4d671003e58ca112aedb99f34c629a1d1fe3b332504e2943a',
+  '0x3e23b395b2bd2d37dd0f6e4148ac6b9e7ed22f2215107958f95cc1489e4e6289',
+];
 
-const transaction = await eas.multiRevokeOffchain([data1, data2]);
+const transaction = await eas.multiRevokeOffchain(attestationUids);
 
 // Optional: Wait for transaction to be validated
 await transaction.wait();
