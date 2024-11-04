@@ -27,9 +27,7 @@ While we aim for the best DevEx, the easscan.org site is not intended to be an e
 |                | Linea          | [https://linea.easscan.org](https://linea.easscan.org)   |
 | **Testnets**   | Sepolia             | [https://sepolia.easscan.org](https://sepolia.easscan.org)     |
 |                | Optimism Sepolia     | [https://optimism-sepolia.easscan.org/](https://optimism-sepolia.easscan.org)   |
-|                | Optimism Goerli     | [https://optimism-goerli.easscan.org/](https://optimism-goerli.easscan.org)   |
 |                | Base Sepolia         | [https://base-sepolia.easscan.org](https://base-sepolia.easscan.org) |
-|                | Base Goerli         | [https://base-goerli.easscan.org](https://base-goerli.easscan.org) |
 |                | Polygon Mumbai         | [https://polygon-mumbai.easscan.org/](https://polygon-mumbai.easscan.org/) |
 |                | Scroll Sepolia         | [https://scroll-sepolia.easscan.org/](https://scroll-sepolia.easscan.org/) |
 

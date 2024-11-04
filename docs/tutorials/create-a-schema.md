@@ -40,8 +40,9 @@ EAS uses Ethereum smart contracts to register and verify attestations. Each sche
 | **Base**         | [View Schemas](https://base.easscan.org/schemas)          |
 | **Arbitrum**     | [View Schemas](https://arbitrum.easscan.org/schemas)      |
 | **Sepolia**      | [View Schemas](https://sepolia.easscan.org/schemas)       |
-| **Optimism Goerli** | [View Schemas](https://optimism-goerli.easscan.org/schemas) |
-| **Base Goerli**  | [View Schemas](https://base-goerli.easscan.org/schemas)   |
+| **Optimism Sepolia** | [View Schemas](https://optimism-sepolia.easscan.org/schemas) |
+| **Base Sepolia**  | [View Schemas](https://base-sepolia.easscan.org/schemas)   |
+| **Scroll Sepolia**  | [View Schemas](https://scroll-sepolia.easscan.org/schemas)   |
 
 
 ## Understanding the EAS schema record

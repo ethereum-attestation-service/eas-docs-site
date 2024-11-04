@@ -116,8 +116,9 @@ Navigate the world of attestations with our dedicated explorer. It's like Ethers
 
 **Testnets**
 - [https://sepolia.easscan.org](https://sepolia.easscan.org)
-- [https://optimism-goerli.easscan.org](https://optimism-goerli.easscan.org)
-- [https://base-goerli.easscan.org](https://base-goerli.easscan.org)
+- [https://optimism-sepolia.easscan.org/](https://optimism-sepolia.easscan.org/)
+- [https://base-sepolia.easscan.org/](https://base-sepolia.easscan.org/)
+- [https://scroll-sepolia.easscan.org/](https://scroll-sepolia.easscan.org/)
 
 **Mainnet**
 - [https://easscan.org/](https://easscan.org/)
@@ -125,6 +126,9 @@ Navigate the world of attestations with our dedicated explorer. It's like Ethers
 **Layer 2's**
 - [https://arbitrum.easscan.org/](https://arbitrum.easscan.org/)
 - [https://optimism.easscan.org/](https://optimism.easscan.org/)
+- [https://base.easscan.org/](https://base.easscan.org/)
+- [https://base.easscan.org/](https://base.easscan.org/)
+- [https://scroll.easscan.org/](https://scroll.easscan.org/)
 
 ![Explorer Example](./img/explorer-example.png)
 
