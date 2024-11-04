@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+# EAS SDK
+
 ## Table of Contents
 
 - [Installing the EAS SDK](#installing-the-eas-sdk)
