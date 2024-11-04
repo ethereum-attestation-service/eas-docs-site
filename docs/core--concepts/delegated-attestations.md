@@ -21,8 +21,67 @@ different entities, allowing for various use cases. It's particularly useful whe
 
 ## How they work
 
-In the [**EAS GitHub Repository**](https://github.com/ethereum-attestation-service/eas-contracts), you'll find code
-snippets from the contracts used to implement delegated attestations.
+In the [**EAS SDK**](https://github.com/ethereum-attestation-service/eas-sdk?tab=readme-ov-file#example-creating-delegated-onchain-attestations), you'll find code examples of how to create and revoke delegated attestations.
+
+```jsx
+//Example: Creating Delegated Onchain Attestations 
+
+import { EAS, SchemaEncoder } from '@ethereum-attestation-service/eas-sdk';
+
+const eas = new EAS(EASContractAddress);
+
+// Use a different account to send and pay for the attestation.
+eas.connect(sender);
+
+const delegated = await eas.getDelegated();
+
+// Initialize SchemaEncoder with the schema string
+// Note these values are sample values and should be filled with actual values
+// Code samples can be found when viewing each schema on easscan.org
+const schemaEncoder = new SchemaEncoder('uint256 eventId, uint8 voteIndex');
+const encodedData = schemaEncoder.encodeData([
+  { name: 'eventId', value: 1, type: 'uint256' },
+  { name: 'voteIndex', value: 1, type: 'uint8' }
+]);
+
+const signer = new ethers.Wallet(privateKey, provider);
+
+// Please note that if nonce isn't provided explicitly, we will try retrieving it onchain.
+const response = await delegated.signDelegatedAttestation(
+  {
+    schema: '0xb16fa048b0d597f5a821747eba64efa4762ee5143e9a80600d0005386edfc995',
+    recipient: '0xFD50b031E778fAb33DfD2Fc3Ca66a1EeF0652165',
+    expirationTime: 0n, // Unix timestamp of when attestation expires (0 for no expiration)
+    revocable: true,
+    refUID: '0x0000000000000000000000000000000000000000000000000000000000000000',
+    data: encodedData,
+    deadline: 0n, // Unix timestamp of when signature expires (0 for no expiration)
+    value: 0n
+  },
+  signer
+);
+
+const transaction = await eas.attestByDelegation({
+  schema: '0xb16fa048b0d597f5a821747eba64efa4762ee5143e9a80600d0005386edfc995',
+  data: {
+    recipient: '0xFD50b031E778fAb33DfD2Fc3Ca66a1EeF0652165',
+    expirationTime: 0n, // Unix timestamp of when attestation expires (0 for no expiration),
+    revocable: true,
+    refUID: '0x0000000000000000000000000000000000000000000000000000000000000000',
+    data: encodedData
+  },
+  signature: response.signature,
+  attester: await signer.getAddress(),
+  deadline: 0n // Unix timestamp of when signature expires (0 for no expiration)
+});
+
+const newAttestationUID = await transaction.wait();
+
+console.log('New attestation UID:', newAttestationUID);
+
+console.log('Transaction receipt:', transaction.receipt);
+
+```
 
 ## Supercharged Delegated Attestations with Proxy Contracts
 

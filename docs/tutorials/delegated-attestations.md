@@ -22,8 +22,12 @@ different entities, allowing for various use cases. It's particularly useful whe
 
 ## How they work
 
-In the [**EAS GitHub Repository**](https://github.com/ethereum-attestation-service/eas-contracts), you'll find code
-snippets from the contracts used to implement delegated attestations.
+In the [**EAS GitHub Repository - SDK **](https://github.com/ethereum-attestation-service/eas-sdk?tab=readme-ov-file#creating-delegated-onchain-attestations), you'll find code
+snippets used to implement delegated attestations. 
+- [**Creating Delegated Onchain Attestations**](https://github.com/ethereum-attestation-service/eas-sdk?tab=readme-ov-file#creating-delegated-onchain-attestations)
+- [**Example: Creating Delegated Onchain Attestations**](https://github.com/ethereum-attestation-service/eas-sdk?tab=readme-ov-file#example-creating-delegated-onchain-attestations)
+- [**Revoking Delegated Onchain Attestations**](https://github.com/ethereum-attestation-service/eas-sdk?tab=readme-ov-file#revoking-delegated-onchain-attestations)
+- [**Example: Revoking Delegated Onchain Attestations**](https://github.com/ethereum-attestation-service/eas-sdk?tab=readme-ov-file#example-revoking-delegated-onchain-attestations)
 
 ## Supercharged Delegated Attestations with Proxy Contracts
 
