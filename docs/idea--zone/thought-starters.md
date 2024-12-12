@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
----
+.---
 
 # Thought Starters
 The Attestation Ecosystem is quickly becoming the next frontier for builders and innovators. But where do you start? How should you be thinking about your products and where attestations fit in? How do you help others with the power of attestations? This quick guide will help ideate and brainstrom the themes, trigger words, and ways to start innovating with attestations.
