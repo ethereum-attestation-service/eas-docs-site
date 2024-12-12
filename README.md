@@ -1,6 +1,6 @@
 # Ethereum Attestation Sevice Docs
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus 2](http(https://docusaurus.io/s://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
