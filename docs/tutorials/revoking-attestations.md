@@ -27,13 +27,15 @@ To revoke an on-chain attestation, you can use the revoke function provided by t
 
 ```javascript
 const transaction = await eas.revoke({
-  uid: "0x6776de8122c352b4d671003e58ca112aedb99f34c629a1d1fe3b332504e2943a"
+  schema: '0x85500e806cf1e74844d51a20a6d893fe1ed6f6b0738b50e43d774827d08eca61',
+  data: { uid: '0x6776de8122c352b4d671003e58ca112aedb99f34c629a1d1fe3b332504e2943a' }
 });
 
 // Optional: Wait for transaction to be validated
 await transaction.wait();
 
 ```
+- The `schema` parameter represents the unique identifier of the schema you want to revoke.
 - The `uid` parameter represents the unique identifier of the attestation you want to revoke. 
 - The `revoke` function returns a transaction hash that you can use to check the status of the transaction.
 
