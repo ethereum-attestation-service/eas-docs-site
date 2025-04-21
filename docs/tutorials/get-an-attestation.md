@@ -7,40 +7,31 @@ sidebar_position: 3
 EAS provides multiple methods to fetch attestation and schema data. Depending on your use case and technical proficiency, you can choose the method that best suits your needs.
 
 ## 1. GraphQL API
+
 EAS offers a GraphQL API that allows developers to query data in a flexible and efficient manner. With GraphQL, you can request specific fields you need, and get a predictable result.
 
-### Available Endpoints:
-| Chain  | GraphQL endpoint                                                                                   |
-| ------------ |----------------------------------------------------------------------------------------------------|
-| Ethereum | [https://easscan.org/graphql](https://easscan.org/graphql)                                         |
-| Arbitrum | [https://arbitrum.easscan.org/graphql](https://arbitrum.easscan.org/graphql)                       |
-| Optimism | [https://optimism.easscan.org/graphql](https://optimism.easscan.org/graphql)                |
-| Linea | [https://linea.easscan.org/graphql](https://linea.easscan.org/graphql)                |
-| Arbitrum Nova | [https://arbitrum-nova.easscan.org/graphql](https://arbitrum-nova.easscan.org/graphql)                |
-| Sepolia | [https://sepolia.easscan.org/graphql](https://sepolia.easscan.org/graphql)                         |
-| Optimism-Sepolia | [https://optimism-sepolia.easscan.org/graphql](https://optimism-sepolia.easscan.org/graphql) |
-| Base-Sepolia | [https://base-sepolia.easscan.org/graphql](https://base-sepolia.easscan.org/graphql)                 |
-| Scroll-Sepolia | [https://scroll-sepolia.easscan.org/graphql](https://scroll-sepolia.easscan.org/graphql)                 |
-
-
-**Read More:** [**EAS GraphQL API**](#)
+For detailed information about the GraphQL API, including available endpoints, example queries, and access to the GraphQL playground, please refer to our comprehensive [**GraphQL API documentation**](/docs/developer-tools/api).
 
 ## 2. Using the EAS SDK
+
 The EAS SDK simplifies the process of fetching data from EAS. It provides easy-to-use functions to interact with EAS data.
 
 ### Get an Attestation
+
 The `getAttestation` function allows you to retrieve an onchain attestation for a given `UID`. This function returns an attestation object containing information about the attestation, such as the schema, recipient, attester, and more.
 
 Explore this code [**directly on GitHub**](https://github.com/ethereum-attestation-service/eas-sdk#getting-an-attestation).
 
 #### Usage
+
 ```javascript
 import { EAS } from "@ethereum-attestation-service/eas-sdk";
 
 const eas = new EAS(EASContractAddress);
 eas.connect(provider);
 
-const uid = "0xff08bbf3d3e6e0992fc70ab9b9370416be59e87897c3d42b20549901d2cccc3e";
+const uid =
+  "0xff08bbf3d3e6e0992fc70ab9b9370416be59e87897c3d42b20549901d2cccc3e";
 
 const attestation = await eas.getAttestation(uid);
 
@@ -48,7 +39,9 @@ console.log(attestation);
 ```
 
 #### Output
+
 The `getAttestation` function returns an attestation object with the following properties:
+
 - **uid:** The unique identifier of the attestation.
 - **schema:** The schema identifier associated with the attestation.
 - **refUID:** The reference UID of the attestation, if any.
@@ -61,6 +54,7 @@ The `getAttestation` function returns an attestation object with the following p
 - **data:** The attestation data in bytes format.
 
 #### Example Output
+
 ```javascript
 {
     uid: '0x5134f511e0533f997e569dac711952dde21daf14b316f3cce23835defc82c065',
@@ -76,9 +70,10 @@ The `getAttestation` function returns an attestation object with the following p
 }
 ```
 
-
 ### Get a Schema
+
 To retrieve the schema information for a specific schema `UID`, you can use the `getSchema` function provided by [**the EAS SDK**](https://github.com/ethereum-attestation-service/eas-sdk#getting-schema-information). Here's an example:
+
 ```javascript
 import { SchemaRegistry } from "@ethereum-attestation-service/eas-sdk";
 
@@ -100,11 +95,13 @@ console.log(schemaRecord);
   revocable: true
 }
 ```
+
 In the output, you will receive an object containing the schema UID, the schema string, the resolver address, and a boolean indicating whether the schema is revocable or not.
 
 ## Directly Interacting with the Contracts
 
 ### EAS.Sol
+
 You can interact directly with the [EAS.sol contract](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/EAS.sol#L377C1-L380C6) using the `getAttestation` function to get the attestation data.
 
 ```javascript
@@ -115,7 +112,9 @@ You can interact directly with the [EAS.sol contract](https://github.com/ethereu
 ```
 
 ### SchemaRegistry.sol
-If you want to get a Schema by it's `UID`, you can use the `getSchema` function in the [SchemaRegistry.sol](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/SchemaRegistry.sol#L44C1-L47C6) contract. 
+
+If you want to get a Schema by it's `UID`, you can use the `getSchema` function in the [SchemaRegistry.sol](https://github.com/ethereum-attestation-service/eas-contracts/blob/master/contracts/SchemaRegistry.sol#L44C1-L47C6) contract.
+
 ```javascript
     /// @inheritdoc ISchemaRegistry
     function getSchema(bytes32 uid) external view returns (SchemaRecord memory) {
@@ -124,7 +123,9 @@ If you want to get a Schema by it's `UID`, you can use the `getSchema` function 
 ```
 
 ## Wrapping Up
+
 EAS provides a comprehensive suite of tools and methods to fetch data, catering to both novice users and seasoned developers. Whether you're integrating EAS into your application or simply exploring its capabilities, these methods ensure you have the flexibility and power to access the data you need. As the digital landscape evolves, EAS continues to offer robust solutions to meet the diverse needs of its users.
 
 ## Need more support?
+
 Feel free to jump into our [**Telegram Channel**](https://t.me/+EcynOr0iFu03MTYx) for dev support. Or send us a direct message on [**Twitter(x)**](https://twitter.com/eas_eth).
