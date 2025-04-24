@@ -14,7 +14,7 @@ Attestations are the building blocks of building trust online. Think of an attes
 But for this system to work seamlessly, we need a standardized way to structure this data. This is where schemas come into play.
 
 ## Schemas give structure to the attestation
-Think of a schema as a blueprint or template. It defines the structure and format of the data you want to attest to. For example if you want to attest to someone you trust, all you'd need is a true false field for "isTrusted". Or if you wanted to a vote, you might have a "eventName" and a "location" and "startTime" and "endTime". It's the builder's choice to determine the right schema for their particular use case.
+Think of a schema as a blueprint or template. It defines the structure and format of the data you want to attest to. For example if you want to attest to someone you trust, all you'd need is a true false field for "isTrusted". Or if you wanted to vote, you might have a "eventName" and a "location" and "startTime" and "endTime". It's the builder's choice to determine the right schema for their particular use case.
 
 Here's the general flow of how a schema is registered:
 1. The schema's structure is defined (e.g., what fields it will have and the data types).

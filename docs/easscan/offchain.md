@@ -18,7 +18,7 @@ Creating an offchain attestation requires only a digital signature from your wal
 ## Sharing Your Offchain Attestation
 With your offchain attestation created, you can:
 
-- **Download the Data:** Save the attestation data for future reference or sharing. Store it in your own servers.
+- **Download the Data:** Save the attestation data for future reference or sharing. Store it on your own servers.
 - **Download the QR Image:** A scannable QR code containing the attestation data, including the signature.
 - **Share the Link**: Share the URL link of your attestation and share it peer-to-peer.
 

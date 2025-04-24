@@ -645,7 +645,7 @@ const transaction = await schemaRegistry.register({
   revocable,
 });
 
-// Optional: Wait for transaction to be validated
+// Optional: Wait for the transaction to be validated
 await transaction.wait();
 ```
 
