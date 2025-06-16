@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Quickstart (15min)
 
-> Special thanks to the [**ZK Attestify**](https://github.com/Shivannsh/ZKAttestify-Sp1-verifier) team.
+> Special thanks to the [**ZK Attestify**](https://github.com/Shivannsh/ZKAttestify-Sp1-verifier) team for contributing this tooling.
 
 Let's go from zero to a **working ZK attestation** in 15 minutes. You'll build a privacy-preserving flow that proves a user's age is over 18 using:
 - An offchain EAS attestation

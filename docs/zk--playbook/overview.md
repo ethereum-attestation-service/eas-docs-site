@@ -21,9 +21,10 @@ Here's what you'll find inside:
 
 Our goal? **Help you build faster**. And help ZK + attestations feel like something you can actually use, not just read about.
 
+> This playbook is created as a result of a zk research grant and support from the **Ethereum Foundation**.
 
 ### What We're Solving For
-This playbook is part of a zk research grant from the Ethereum Foundation. The question behind the research is simple but still unsolved:
+The question behind the research is simple but still unsolved:
 
 > **"What's the best way to generate zero-knowledge proofs from attestations?"**
 
