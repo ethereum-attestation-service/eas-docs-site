@@ -3,21 +3,21 @@ sidebar_position: 1
 ---
 
 # Overview
-Interested in zk+attestations? This playbook is for you. 
+Interested in **zk+attestations**? This playbook is for *you*. 
 
 ----
 ## Welcome
-![Overview ZK + Attestations](./img/zkpgate.png)
+![Overview ZK + Attestations](./img/offchainzkpflow-example.png)
 
-If you're reading this, you're early. Not just early to a tool, but early to a new pattern of building on Ethereum. Being early means you're building on the frontier before tooling is ready, and sketching paths where maps don't exist. 
+If you're reading this, **you're early**. Not just early to a tool, but early to a new pattern of building on Ethereum. Being early means you're building on the frontier before tooling is ready, and sketching paths where **maps don't exist**. 
 
 This playbook is our first edition of clearing that path for **zk + attestations**. It's written for people building the future and want to make an impact on Ethereum.
 
 Here's what you'll find inside:
-- A quick breakdown of how ZK proofs and attestations actually work together
-- A 15-minute quickstart you can run locally
-- Real-world design flows and reusable patterns
-- Practical advice for builders and product thinkers shipping privacy-first apps
+- A quick breakdown of **how ZK proofs and attestations actually work** together
+- A **15-minute quickstart** you can run locally
+- **Real-world design flows** and reusable patterns
+- **Practical advice** for builders and product thinkers shipping privacy-first apps
 
 Our goal? **Help you build faster**. And help ZK + attestations feel like something you can actually use, not just read about.
 
