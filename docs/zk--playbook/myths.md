@@ -9,6 +9,9 @@ ZK and attestations are new tools in the Ethereum builder's stack. And like any 
 
 Let’s clear a few up.
 
+![Myths](./img/zkpmyths.png)
+
+
 ---
 
 ## Myth 1: “ZK proofs are too slow to be practical.”

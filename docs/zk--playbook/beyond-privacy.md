@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 8
 ---
 
 # Beyond Privacy
@@ -12,13 +12,16 @@ Think of proofs as zip files for trust: stuff a pile of signatures, checks, or e
 
 Let’s unpack how to do that.
 
+![ZK Train](./img/zktrain.png)
+
+
 
 ## 1. Reframe how you think about ZK
 *A mental gear-shift before you code.*
 
 | Old reflex                                              | New reflex                                                                  |
 | ------------------------------------------------------- | --------------------------------------------------------------------------- |
-| “I need ZK so users can keep their birth date private.” | “I need ZK so **10 000 birth-date checks cost the price of one**.”          |
+| “I need ZK so users can keep their birth date private.” | “I need ZK so 10k birthdate checks cost the price of one.”          |
 | “Proofs belong on the edge (client ↔ server).”          | “Proofs are also a great *compression codec* between chains and contracts.” |
 | “Attestations = gas-heavy storage.”                     | “Attestations = **hashes + proofs**; state stays tiny.”                     |
 

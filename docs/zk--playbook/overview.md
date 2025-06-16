@@ -7,30 +7,32 @@ Interested in zk+attestations? This playbook is for you.
 
 ----
 ## Welcome
-If you’re reading this, you’re early. Not just early to a tool, but early to a new pattern of building on Ethereum. Being early means you're building on the frontier before tooling is ready, and sketching paths where maps don't exist. 
+![Overview ZK + Attestations](./img/zkpgate.png)
+
+If you're reading this, you're early. Not just early to a tool, but early to a new pattern of building on Ethereum. Being early means you're building on the frontier before tooling is ready, and sketching paths where maps don't exist. 
 
 This playbook is our first edition of clearing that path for **zk + attestations**. It's written for people building the future and want to make an impact on Ethereum.
 
-Here’s what you’ll find inside:
+Here's what you'll find inside:
 - A quick breakdown of how ZK proofs and attestations actually work together
 - A 15-minute quickstart you can run locally
 - Real-world design flows and reusable patterns
 - Practical advice for builders and product thinkers shipping privacy-first apps
 
-Our goal? Help you build faster. And help ZK + attestations feel like something you can actually use, not just read about.
+Our goal? **Help you build faster**. And help ZK + attestations feel like something you can actually use, not just read about.
 
 
 ### What We're Solving For
-This playbook is part of a Zero-Knowledge research grant from the Ethereum Foundation. The question behind it is simple but still unsolved:
+This playbook is part of a zk research grant from the Ethereum Foundation. The question behind the research is simple but still unsolved:
 
-> **“What’s the best way to generate zero-knowledge proofs from attestations?”**
+> **"What's the best way to generate zero-knowledge proofs from attestations?"**
 
-Ethereum is the world’s programmable trust layer. But even if we solved scaling and fees overnight, most apps still can’t *prove things without revealing everything*. We lack a privacy-preserving UX built on *trustable data*. 
+Ethereum is the world's programmable trust layer. But even if we solved scaling and fees overnight, most apps still can't *prove things without revealing everything*. We lack a privacy-preserving UX built on *trustable data*. 
 
-That’s where **zk + attestations** come in.
+That's where **zk + attestations** come in.
 
 ### ZK + Attestations = Superpower.
-When you combine attestations (structured, signed data) with zero-knowledge proofs (privacy-preserving computation / scalability), you unlock a new design space:
+When you combine attestations (structured, signed data) with zkps (privacy-preserving computation / scalability), you unlock a new design space:
 
 > **Provable claims, made privately.**
 
@@ -44,27 +46,27 @@ If we get this right, we can build things like:
 
 ### But the dev experience is broken.
 Right now, building ZK attestations means you're dealing with:
-- Fragmented tooling and libraries with complex jargon
-- ZK and attestations feel like two separate universes
-- There's no simple way to generate a proof from an arbitrary attestation  
-- Performance and security gotchas show up late in prod, or worse, in audits  
+- Fragmented tooling and libraries with confusing language
+- ZK and attestations that are two separate universes
+- No simple way to generate a proof from an arbitrary attestation  
+- Performance and security issues show up late in prod or audits  
 
-It’s **hard as hell**, and it’s slowing everyone down.
+The reality is it's **hard**, and it's slowing everyone down and the progress towards impactful use cases.
 
 
 ---
 
 ## What This Playbook Covers
 
-This is not a whitepaper. It’s a **playbook** for builders. We’ll walk you through:
+This is not a whitepaper. It's a **playbook** for builders. We'll walk you through:
 
-- **The core mental model**—why ZK + attestations is a trust layer with privacy
-- **A 15-minute quickstart**—prove “age > 18” with a working demo
-- **Common pitfalls**—and how to dodge them before they cost you
-- **Reusable patterns**—battle-tested flows for apps, agents, and infra
+- **The core mental model**—why ZK + attestations is a powerful combo
+- **A 15-minute quickstart**—prove "age > 18" with a working demo using SP1
+- **Common challenges**—and how to avoid them before they cost you time or privacy risks
+- **Reusable patterns**—battle-tested flows for apps and infra
 - **Real tooling**—plus a 3–6 month roadmap you can plug into today
 
-Whether you’re privacy-pilling your next app, building identity flows, or just exploring zkVMs and offchain attestations, you’ll find something actionable here.
+Whether you're privacy-pilling your next app, building identity flows, or just exploring zkVMs and offchain attestations, you'll find something actionable here.
 
 ---
 
@@ -78,16 +80,16 @@ Whether you’re privacy-pilling your next app, building identity flows, or just
 
 ## Get Involved
 
-We’re building this playbook out in the open. It’s part tutorial, part invitation.
+We're building this playbook out in the open. It's part tutorial, part invitation.
 
 - Found a bug or idea? [Open an issue or PR](https://github.com/ethereum-attestation-service).  
-- Want to share your example or tool? Let’s feature it in the next edition.  
+- Want to share your example or tool? Let's feature it.  
 - Running a hackathon? Use this as your privacy toolkit.  
 
-The EAS ecosystem is bigger than any one team—we want this to grow with the community.
+The EAS ecosystem is bigger than any one team and we want this to grow with the community.
 
 ---
 
-## Let’s Build
+## Let's Build
 
 The primitives are here. It's still day one.

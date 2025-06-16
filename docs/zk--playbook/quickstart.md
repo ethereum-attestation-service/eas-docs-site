@@ -1,16 +1,19 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 # Quickstart (15min)
 
 > Special thanks to the [**ZK Attestify**](https://github.com/Shivannsh/ZKAttestify-Sp1-verifier) team.
 
-Let’s go from zero to a working **ZK attestation demo** in 15 minutes. You’ll build a privacy-preserving flow that proves a user's age is over 18 using:
+Let's go from zero to a **working ZK attestation** in 15 minutes. You'll build a privacy-preserving flow that proves a user's age is over 18 using:
 - An offchain EAS attestation
 - A zero-knowledge proof using Succicnts SP1
 - In-browser verification (WASM)
 - And optionally, onchain verification via EAS + Solidity
+
+> *ZK Attestify Video Demo:*
+> <iframe src="https://drive.google.com/file/d/17Ytg7iomjCYivI3lktPrU3ODakBanPg3/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ---
 
@@ -30,7 +33,7 @@ You can swap in your own schema later. This flow is fully **modular**. With a fe
 
 > *Example GitHub repo* [ZK Attestify Toolkit](https://github.com/Shivannsh/ZKAttestify-Sp1-verifier)
 
-> *Video Demo here - [ZKAttestify|Toolkit](https://drive.google.com/file/d/17Ytg7iomjCYivI3lktPrU3ODakBanPg3/view)*
+
 
 ---
 
@@ -52,7 +55,7 @@ cd ZKAttestify-Sp1-verifier
 ```
 
 ## Step By Step Guide
-You’ll run these 3 core steps:
+You'll run these 3 core steps:
 
 1. Compile the verifier (WASM)
 2. Generate ZK proofs (Groth16 + Plonk)
@@ -126,7 +129,7 @@ All files and paths are available in the [ZKAttestify GitHub](https://github.com
 ## Signature Verification (EIP-712)
 The toolkit uses EIP-712 to verify the signature on each offchain attestation. The SP1 program ensures:
 - The signer matches the attester
-- The attestation hasn’t been tampered with
+- The attestation hasn't been tampered with
 - Domain-specific separation is preserved
 
 This is what makes your ZK proof verifiably tied to a real EAS attestation.
@@ -136,10 +139,14 @@ This is what makes your ZK proof verifiably tied to a real EAS attestation.
 - Only Groth16 and Plonk are supported today
 - Circuit logic must be hand-tuned for each use case
 
-You can improve performance by using Succinct’s prover network or pre-generating common proofs.
+You can improve performance by using Succinct's prover network or pre-generating common proofs.
+
+```note
+Using the Succicnt prover is faster, but you trade off some security/privacy as you have to provide the inputs to their network. 
+```
 
 ## Want to Customize?
-Here’s what to tweak:
+Here's what to tweak:
 - In `dob-program/src/main.rs` – change the logic (e.g., `degree == "CS"`)
 - In `dob-script/input.json` – change attestation data and schema
 - In `WASM_verifier/` – verify any proof with the same structure
@@ -156,4 +163,4 @@ You now have:
 - A working proof, verified in JS—and optionally onchain
 
 ### **Next up:** 
-Let’s clear up the biggest myths and misconceptions that stop builders from using ZK and attestations together.
+Let's clear up the biggest myths and misconceptions that stop builders from using ZK and attestations together.

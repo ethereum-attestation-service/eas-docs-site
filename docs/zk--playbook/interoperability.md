@@ -5,7 +5,10 @@ sidebar_position: 8
 # Interoperability
 *Quick guidance on how to make your zk attestations interoperable with different formats.*
 
+![Interop Cafe](./img/interop-cafe.png)
 
+
+----
 
 ## Different Attestation Formats
 *Choosing the right credential format & making it travel across chains.*
@@ -17,6 +20,7 @@ sidebar_position: 8
 | **W3C Verifiable Credential (VC)**                | **Web2 Focused**.  Wallet UX, JSON-LD schemas, selective-disclosure BBS+/CL proofs. | Onchain contracts can’t parse it directly—need wrapper proof or mirror.                                |
 | **JWT**                                           | You already have Web2 infra (OAuth, APIs) and just need a short-lived token.                                | No schema semantics; no built-in selective disclosure.  Can be re-issued into EAS for onchain use. |
 
+----
 ## How to Make Them Play Together
 | **Need**                                   | **What to do with EAS**                                                                                                                                       | **Helpful for**                                                             |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |

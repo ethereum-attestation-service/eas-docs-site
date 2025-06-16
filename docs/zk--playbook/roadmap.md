@@ -1,13 +1,15 @@
 ---
 sidebar_position: 10
 ---
-
 # Contribute
 *The playbook is just phase 1. What we still need and how you can help build it.*
 
 The zk + attestation stack is real. You can ship private, provable, composable facts using tools like EAS and zkVMs. But here’s the honest truth: it’s still way too hard for most builders.
 
 If you felt the friction in this playbook, good. That’s the opportunity. We’re inviting you to help us fix it.
+
+![Wish List](./img/ideaboard.png)
+
 
 -----
 ## The Wishlist: What Needs to Exist
@@ -17,7 +19,7 @@ Here’s the concrete tooling we want to see—some of which we’re already pro
 Imagine this: you land on easscan.org, pick any attestation (onchain or offchain) and with one click, generate a ZK proof about it using any condition you define.
 
 No custom hand written circuits. No dev setup. Just:
-1.  "Generate ZK proof from this attestation" →
+1.  Generate ZK proof from this attestation →
 2.  Choose condition (e.g., X > Y, Z == N, etc) →
 3.  Proof created, ready to verify onchain or offchain.
 

@@ -7,6 +7,8 @@ sidebar_position: 6
 
 Here are a few design patterns that have emerged as reliable, reusable, and modular. Most of these have been proven in the wild or are one deploy away from being production-ready.
 
+![Design Patterns](./img/designpatterns.png)
+
 ---
 
 ## 1. Merkle Membership Proofs (Anonymous Attestations)

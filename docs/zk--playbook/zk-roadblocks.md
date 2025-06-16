@@ -7,6 +7,8 @@ If building with ZK + attestations was easy, every app would be using them by no
 
 But most developers hit the same roadblocks. This page lays out the common sticking points so you know you're not alone, and more importantly, where this playbook will help unblock you.
 
+![ZK Attestation DevEx Challenges](./img/devexchallenges.png)
+
 ---
 
 ## Mental Overhead: ZK ≠ Normal Dev Work
