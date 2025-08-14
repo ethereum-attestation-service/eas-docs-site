@@ -14,7 +14,7 @@ Welcome to the Easscan GraphQL API documentation! This API allows you to access 
 | Base | [https://base.easscan.org/graphql](https://base.easscan.org/graphql)                                                    |
 | Base (Sepolia) | [https://base-sepolia.easscan.org/graphql](https://base-sepolia.easscan.org/graphql)                             |
 | Optimism | [https://optimism.easscan.org/graphql](https://optimism.easscan.org/graphql)                                        |
-| Optimism (Sepolia) | [https://optimism-sepolia-bedrock.easscan.org/graphql](https://optimism-sepolia-bedrock.easscan.org/graphql) |
+| Optimism (Sepolia) | [https://optimism-sepolia.easscan.org/graphql](https://optimism-sepolia.easscan.org/graphql) |
 | Scroll | [https://scroll.easscan.org/graphql](https://scroll.easscan.org/graphql)          
 | Polygon | [https://polygon.easscan.org/graphql](https://polygon.easscan.org/graphql)                                        |
 | Linea | [https://linea.easscan.org/graphql](https://linea.easscan.org/graphql)                                                 |
