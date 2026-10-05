@@ -84,6 +84,7 @@ We need more zkApps. Especially ones that use attestations. Until then, here's a
 | **[Anon Aadhaar](https://anon-aadhaar.pse.dev)**                 | Identity / KYC  | Private Aadhaar‑based residency proof                 | Circom + Groth16                   |
 | **[World ID](https://whitepaper.worldcoin.org)**                 | Identity / KYC  | Orb‑verified proof‑of‑personhood                      | Custom Circom (Semaphore‑inspired) |
 | **[Holonym](https://human.tech)**                                | Identity / KYC  | Re‑usable zkKYC "Human Keys"                          | Noir + Halo2 + Circom              |
+| **[ZKProofport](https://github.com/zkproofport/proofport-app)** | Identity / KYC | Mobile proving for attestation-based credentials with EVM verification | Noir + UltraHonk + mopro (iOS / Android) |
 | **[Icebreaker](https://www.icebreaker.xyz)**                     | Identity / KYC  | Open professional network with user-controlled identity | Circom + EAS                       |
 | **[zkPass](https://zkpass.org)**                                 | Identity / KYC  | zkTLS proofs of Web2 identity & assets                | zkTLS + MPC                        |
 | **[Reclaim Protocol](https://reclaimprotocol.org)**              | Identity / KYC  | Automated verification of employment, income & academic records | zkTLS + MPC                        |
@@ -98,6 +99,8 @@ We need more zkApps. Especially ones that use attestations. Until then, here's a
 | **[VEIL](https://veil.cash)**                                    | Payments / DeFi | Privacy pools for verified users (Base L2)            | Circom                             |
 | **[TLSNotary](https://tlsnotary.org)**                           | Web2 Data       | Verifiable proofs of any HTTPS response               | Custom zkTLS (STARK‑style) + MPC   |
 | **[zkEmail](https://zk.email)**                                  | Web2 Data       | Prove you received / signed an email                  | Circom + Noir + SP1                |
+
+ZKProofport's [Verified Account](https://demo.zkproofport.app/?tab=kyc) and [Verified Country](https://demo.zkproofport.app/?tab=country) demos use [Coinbase Verifications on Base](https://github.com/coinbase/verifications) and send proof requests to the ZKProofport mobile app for on-device proving. The corresponding EAS schemas are [Verified Account](https://base.easscan.org/schema/view/0xf8b05c79f090979bf4a80270aba232dff11a10d9ca55c4f88de95317970f0de9) and [Verified Country](https://base.easscan.org/schema/view/0x1801901fabd0e6189356b4fb52bb0ab855276d84f7ec140839fbd1f6801ca065). The [Noir circuits and EVM verifiers](https://github.com/zkproofport/circuits) currently implement these Coinbase attestation flows.
 
 ---
 
